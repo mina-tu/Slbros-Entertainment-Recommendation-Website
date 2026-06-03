@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>品牌規範 · Brand Guidelines</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://cdn.jsdelivr.net/npm/chiron-hei-hk-webfont@2.6.9/index.css" rel="stylesheet">
+  <style>
+    /* ════════════════════════════════════════════════════════
+       單一來源 Design Tokens — 與 render.html 對齊
+       這是全站的品牌真實來源。新頁面一律引用這些變數，
+       不要硬寫色碼 / 字級 / 間距。
+       ════════════════════════════════════════════════════════ */
+    :root {
+      /* ── Brand · Primary (純色，無漸層) ── */
+      --color-primary-900: #3A0661;
+      --color-primary-700: #43269A;   /* 主色 base */
+      --color-primary-500: #7656D7;
+      --color-primary-300: #9FC9FF;
+      --color-primary:     #43269A;   /* 別名，等同 primary-700 */
+
+      /* ── Brand · Secondary (Accent Lime) ── */
+      --color-secondary-500: #DEF243;
+      --color-secondary-600: #C8D636;
+      --color-secondary-400: #E8FB5E;
+
+      /* ── Semantic ── */
+      --color-success: #A4F467;
+      --color-warning: #F0DB66;
+      --color-error:   #E94242;
+
+      /* ── Neutral scale ── */
+      --color-neutral-50:  #FFFFFF;
+      --color-neutral-100: #E1E2E4;
+      --color-neutral-200: #AAABAC;
+      --color-neutral-300: #909192;
+      --color-neutral-400: #5E5E5F;
+      --color-neutral-500: #474747;
+      --color-neutral-600: #303030;
+      --color-neutral-700: #1B1C1C;
+      --color-white: #FFFFFF;
+
+      /* ── Dark Surfaces (新暗色主題表面) ── */
+      --color-bg:         #0F1115;   /* 頁面底 */
+      --color-surface:    #161922;   /* 卡片表面 */
+      --color-surface-2:  #1E2230;   /* 凸起 / 靜音面板 */
+      --color-band:       #121723;   /* 深色帶 */
+      --color-border-subtle: #222633;
+      --color-border:     #2E3444;
+      --color-text-muted:     #8F98AC;
+      --color-text-secondary: #A9B1C2;
+      --color-text-body:      #C3CAD8;
+      --color-text-bright:    #F4F7FF;
+      --color-grad-purple: linear-gradient(150deg,#1A1740 0%,#43269A 52%,#7656D7 100%);
+
+      /* ── Typography ── */
+      --font-family: 'Chiron Hei HK', sans-serif;
+      --font-weight-regular: 400;
+      --font-weight-bold: 700;
+
+      /* ── Spacing scale (4pt base) ── */
+      --space-1: 4px;  --space-2: 8px;  --space-3: 12px; --space-4: 16px;
+      --space-5: 20px; --space-6: 24px; --space-8: 32px; --space-12: 48px;
+
+      /* ── Radius（直角設計系統）──
+         卡片 / 按鈕 / 輸入框一律 0；僅膠囊標籤、圓形按鈕與頭像用 full */
+      --radius-none: 0; --radius-sm: 0; --radius-md: 0; --radius-lg: 0; --radius-full: 999px;
+
+      /* ── Elevation ── */
+      --shadow-sm: 0 1px 2px rgba(27,28,28,0.06);
+      --shadow-md: 0 4px 12px rgba(27,28,28,0.10);
+      --shadow-lg: 0 12px 32px rgba(58,6,97,0.18);
+      --shadow-focus: 0 0 0 3px rgba(118,86,215,0.35);
+
+      /* ── Button tokens (同 render.html) ── */
+      --btn-radius: var(--radius-md); --btn-border-width: 1px; --btn-gap: 8px;
+      --btn-transition: all 0.15s ease-in-out;
+      --btn-sm-height:32px; --btn-sm-px:12px; --btn-sm-py:6px; --btn-sm-font-size:12px; --btn-sm-line-height:16px;
+      --btn-md-height:40px; --btn-md-px:20px; --btn-md-py:10px; --btn-md-font-size:14px; --btn-md-line-height:20px;
+      --btn-lg-height:48px; --btn-lg-px:24px; --btn-lg-py:12px; --btn-lg-font-size:16px; --btn-lg-line-height:24px;
+      --btn-primary-bg:#43269A; --btn-primary-text:#fff;
+      --btn-primary-hover-bg:#5534B0;
+      --btn-primary-active-bg:#3A0661;
+      --btn-secondary-bg:#DEF243; --btn-secondary-text:#1B1C1C; --btn-secondary-border:#DEF243;
+      --btn-secondary-hover-bg:#E8FB5E; --btn-secondary-active-bg:#C8D636;
+      --btn-outline-bg:transparent; --btn-outline-text:#FFFFFF;
+      --btn-outline-hover-bg:rgba(118,86,215,.15); --btn-outline-active-bg:rgba(118,86,215,.25);
+      --btn-ghost-text:#9FC9FF; --btn-ghost-hover-bg:rgba(118,86,215,.12);
+      --btn-neutral-bg:#161922; --btn-neutral-text:#fff; --btn-neutral-border:#2E3444; --btn-neutral-hover-bg:#1E2230;
+      --btn-disabled-bg:#222633; --btn-disabled-text:#5E6678; --btn-disabled-border:#222633;
+    }
+
+    /* ════════ reset ════════ */
+    *,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
+    html { scroll-behavior:smooth; }
+    body {
+      font-family:var(--font-family); color:#C3CAD8;
+      background:#0F1115; line-height:1.6; -webkit-font-smoothing:antialiased;
+    }
+
+    /* ════════ shell ════════ */
+    .wrap { max-width:1080px; margin:0 auto; padding:0 var(--space-12); }
+    .cover {
+      background:var(--color-primary-700); color:#fff;
+      padding:var(--space-12) 0 64px;
+    }
+    .cover .wrap { padding-top:64px; padding-bottom:0; }
+    .eyebrow {
+      font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:3px;
+      color:var(--color-secondary-500); margin-bottom:var(--space-4);
+    }
+    .cover h1 { font-size:48px; font-weight:700; letter-spacing:-1px; line-height:1.1; margin-bottom:var(--space-5); }
+    .cover p { font-size:16px; max-width:620px; color:rgba(255,255,255,0.85); }
+    .cover .meta { margin-top:var(--space-8); font-size:13px; color:rgba(255,255,255,0.65); }
+
+    /* ════════ section ════════ */
+    section { padding:64px 0; border-bottom:1px solid #222633; }
+    .section-title {
+      font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:2.5px;
+      color:var(--color-primary-700); margin-bottom:var(--space-2);
+    }
+    .section-lead { font-size:24px; font-weight:700; letter-spacing:-0.5px; margin-bottom:var(--space-2); }
+    .section-desc { font-size:14px; color:#A9B1C2; max-width:640px; margin-bottom:var(--space-8); }
+
+    /* ════════ color ════════ */
+    .swatch-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:var(--space-4); }
+    .swatch { border-radius:var(--radius-md); overflow:hidden; box-shadow:var(--shadow-sm); border:1px solid #2E3444; background:#161922; }
+    .swatch .chip { height:88px; }
+    .swatch .body { padding:var(--space-3); }
+    .swatch .name { font-size:13px; font-weight:700; color:#D9DEEA; }
+    .swatch .hex { font-size:11px; color:#A9B1C2; font-family:'SF Mono','Fira Code',monospace; text-transform:uppercase; }
+    .swatch .tok { display:block; font-size:10px; color:#8F98AC; font-family:'SF Mono','Fira Code',monospace; margin-top:2px; }
+    .grad-banner { height:120px; border-radius:var(--radius-lg); background:var(--color-primary-700); display:flex; align-items:flex-end; padding:var(--space-4); color:#fff; box-shadow:var(--shadow-lg); margin-bottom:var(--space-6); }
+    .grad-banner code { font-family:'SF Mono','Fira Code',monospace; font-size:12px; background:rgba(0,0,0,0.2); padding:4px 8px; border-radius:6px; }
+
+    /* ════════ type ════════ */
+    .type-row { display:flex; align-items:baseline; gap:var(--space-6); padding:var(--space-4) 0; border-bottom:1px solid #222633; }
+    .type-row:last-child { border-bottom:none; }
+    .type-meta { width:200px; flex-shrink:0; font-size:11px; color:#A9B1C2; font-family:'SF Mono','Fira Code',monospace; }
+    .type-sample { flex:1; }
+
+    /* ════════ tokens table (spacing/radius) ════════ */
+    .tk { display:flex; align-items:center; gap:var(--space-4); margin-bottom:var(--space-3); }
+    .tk .bar { background:var(--color-primary-300); height:24px; border-radius:4px; }
+    .tk .lbl { font-size:12px; font-family:'SF Mono','Fira Code',monospace; color:#A9B1C2; }
+    .radius-grid { display:flex; gap:var(--space-6); flex-wrap:wrap; }
+    .radius-card { width:120px; }
+    .radius-card .box { height:80px; background:var(--color-primary-700); margin-bottom:var(--space-2); }
+    .radius-card .lbl { font-size:11px; font-family:'SF Mono','Fira Code',monospace; color:#A9B1C2; }
+    .shadow-grid { display:flex; gap:var(--space-6); flex-wrap:wrap; }
+    .shadow-card { width:160px; height:100px; background:#161922; border:1px solid #2E3444; border-radius:var(--radius-md); display:flex; align-items:center; justify-content:center; font-size:11px; font-family:'SF Mono','Fira Code',monospace; color:#A9B1C2; }
+
+    /* ════════ button (from render.html) ════════ */
+    .btn {
+      --_bg:var(--btn-primary-bg); --_text:var(--btn-primary-text); --_shadow:none;
+      display:inline-flex; align-items:center; justify-content:center; gap:var(--btn-gap);
+      white-space:nowrap; cursor:pointer; user-select:none; text-decoration:none;
+      height:var(--btn-md-height); padding:var(--btn-md-py) var(--btn-md-px);
+      font-size:var(--btn-md-font-size); line-height:var(--btn-md-line-height);
+      font-family:var(--font-family); font-weight:400; text-align:center;
+      background:var(--_bg); color:var(--_text);
+      border:var(--btn-border-width) solid transparent;
+      border-radius:var(--btn-radius); box-shadow:var(--_shadow);
+      transition:var(--btn-transition); appearance:none; outline:none;
+    }
+    .btn-primary   { --_bg:var(--btn-primary-bg); --_text:var(--btn-primary-text); border:none; }
+    .btn-secondary { --_bg:var(--btn-secondary-bg); --_text:var(--btn-secondary-text); border-color:var(--btn-secondary-border); }
+    .btn-outline   { --_bg:var(--btn-outline-bg); --_text:var(--btn-outline-text); border:none; box-shadow:inset 0 0 0 1.5px #7656D7; }
+    .btn-ghost     { --_bg:transparent; --_text:var(--btn-ghost-text); border:none; }
+    .btn-neutral   { --_bg:var(--btn-neutral-bg); --_text:var(--btn-neutral-text); border-color:var(--btn-neutral-border); }
+    .btn-sm { height:var(--btn-sm-height); padding:var(--btn-sm-py) var(--btn-sm-px); font-size:var(--btn-sm-font-size); line-height:var(--btn-sm-line-height); }
+    .btn-lg { height:var(--btn-lg-height); padding:var(--btn-lg-py) var(--btn-lg-px); font-size:var(--btn-lg-font-size); line-height:var(--btn-lg-line-height); }
+    .btn-primary:hover   { --_bg:var(--btn-primary-hover-bg); }
+    .btn-secondary:hover { --_bg:var(--btn-secondary-hover-bg); }
+    .btn-outline:hover   { --_bg:var(--btn-outline-hover-bg); }
+    .btn-ghost:hover     { --_bg:var(--btn-ghost-hover-bg); }
+    .btn-neutral:hover   { --_bg:var(--btn-neutral-hover-bg); }
+
+    /* ════════ do / don't ════════ */
+    .guide-grid { display:grid; grid-template-columns:1fr 1fr; gap:var(--space-6); }
+    .guide-card { border-radius:var(--radius-md); padding:var(--space-5); border:1px solid #2E3444; background:#161922; }
+    .guide-card .tag { display:inline-flex; align-items:center; gap:6px; font-size:12px; font-weight:700; margin-bottom:var(--space-3); }
+    .guide-card.do .tag { color:#A4F467; }
+    .guide-card.dont .tag { color:var(--color-error); }
+    .guide-card ul { list-style:none; }
+    .guide-card li { font-size:13px; color:#C3CAD8; padding:var(--space-2) 0; padding-left:var(--space-5); position:relative; }
+    .guide-card li::before { position:absolute; left:0; top:var(--space-2); }
+    .guide-card.do li::before { content:'✓'; color:#A4F467; font-weight:700; }
+    .guide-card.dont li::before { content:'✕'; color:var(--color-error); font-weight:700; }
+
+    .btn-cluster { display:flex; gap:var(--space-3); flex-wrap:wrap; align-items:center; margin-bottom:var(--space-4); }
+
+    @media (max-width:720px) {
+      .wrap { padding:0 var(--space-5); }
+      .cover h1 { font-size:34px; }
+      .guide-grid { grid-template-columns:1fr; }
+      .type-row { flex-direction:column; gap:var(--space-2); }
+      .type-meta { width:auto; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ═══════════ Cover ═══════════ -->
+  <header class="cover">
+    <div class="wrap">
+      <div class="eyebrow">Brand Guidelines · 品牌規範</div>
+      <h1>娛樂城推薦平台<br>視覺識別規範</h1>
+      <p>這是全站視覺的單一真實來源。所有頁面、元件與行銷素材的顏色、字體、間距與圓角，皆引用本文件定義的 design tokens，確保品牌一致、可維護、可擴充。</p>
+      <div class="meta">版本 1.0 · 字體 Chiron Hei HK · 基準 4pt 間距系統</div>
+    </div>
+  </header>
+
+  <!-- ═══════════ Brand essence ═══════════ -->
+  <section><div class="wrap">
+    <div class="section-title">01 · Brand Essence</div>
+    <div class="section-lead">品牌精神</div>
+    <p class="section-desc">
+      專業、可信、帶有娛樂活力。深紫傳達權威與評測的公正性；萊姆綠帶來年輕、行動、贏的能量。
+      整體語氣是「值得信賴的內行人推薦」——資訊清楚、視覺俐落、不浮誇。
+    </p>
+    <div class="btn-cluster">
+      <span style="font-size:13px;color:#A9B1C2">關鍵詞：</span>
+      <button class="btn btn-outline btn-sm">專業評測</button>
+      <button class="btn btn-outline btn-sm">公正可信</button>
+      <button class="btn btn-outline btn-sm">娛樂活力</button>
+      <button class="btn btn-outline btn-sm">清楚易讀</button>
+    </div>
+  </div></section>
+
+  <!-- ═══════════ Color ═══════════ -->
+  <section><div class="wrap">
+    <div class="section-title">02 · Color</div>
+    <div class="section-lead">色彩系統</div>
+    <p class="section-desc">主色為純色 <strong>#43269A</strong>，用於 Hero、主要 CTA 與重點；萊姆綠為強調色，僅用於「立即加入 / 行動」等高轉換按鈕，少量點綴避免廉價感；中性灰負責文字與分隔。</p>
+
+    <div class="grad-banner">
+      <code>--color-primary-700 · #43269A（主色，純色）</code>
+    </div>
+
+    <div style="font-size:12px;font-weight:700;color:#A9B1C2;text-transform:uppercase;letter-spacing:1px;margin:var(--space-6) 0 var(--space-4)">Primary</div>
+    <div class="swatch-grid">
+      <div class="swatch"><div class="chip" style="background:#3A0661"></div><div class="body"><div class="name">Primary 900</div><div class="hex">#3A0661</div><span class="tok">--color-primary-900</span></div></div>
+      <div class="swatch"><div class="chip" style="background:#43269A"></div><div class="body"><div class="name">Primary 700</div><div class="hex">#43269A</div><span class="tok">--color-primary-700</span></div></div>
+      <div class="swatch"><div class="chip" style="background:#7656D7"></div><div class="body"><div class="name">Primary 500</div><div class="hex">#7656D7</div><span class="tok">--color-primary-500</span></div></div>
+      <div class="swatch"><div class="chip" style="background:#9FC9FF"></div><div class="body"><div class="name">Primary 300</div><div class="hex">#9FC9FF</div><span class="tok">--color-primary-300</span></div></div>
+    </div>
+
+    <div style="font-size:12px;font-weight:700;color:#A9B1C2;text-transform:uppercase;letter-spacing:1px;margin:var(--space-8) 0 var(--space-4)">Secondary · Accent</div>
+    <div class="swatch-grid">
+      <div class="swatch"><div class="chip" style="background:#E8FB5E"></div><div class="body"><div class="name">Secondary 400</div><div class="hex">#E8FB5E</div><span class="tok">--color-secondary-400</span></div></div>
+      <div class="swatch"><div class="chip" style="background:#DEF243"></div><div class="body"><div class="name">Secondary 500</div><div class="hex">#DEF243</div><span class="tok">--color-secondary-500</span></div></div>
+      <div class="swatch"><div class="chip" style="background:#C8D636"></div><div class="body"><div class="name">Secondary 600</div><div class="hex">#C8D636</div><span class="tok">--color-secondary-600</span></div></div>
+    </div>
+
+    <div style="font-size:12px;font-weight:700;color:#A9B1C2;text-transform:uppercase;letter-spacing:1px;margin:var(--space-8) 0 var(--space-4)">Semantic</div>
+    <div class="swatch-grid">
+      <div class="swatch"><div class="chip" style="background:#A4F467"></div><div class="body"><div class="name">Success</div><div class="hex">#A4F467</div><span class="tok">--color-success</span></div></div>
+      <div class="swatch"><div class="chip" style="background:#F0DB66"></div><div class="body"><div class="name">Warning</div><div class="hex">#F0DB66</div><span class="tok">--color-warning</span></div></div>
+      <div class="swatch"><div class="chip" style="background:#E94242"></div><div class="body"><div class="name">Error</div><div class="hex">#E94242</div><span class="tok">--color-error</span></div></div>
+    </div>
+
+    <div style="font-size:12px;font-weight:700;color:#A9B1C2;text-transform:uppercase;letter-spacing:1px;margin:var(--space-8) 0 var(--space-4)">Neutral</div>
+    <div class="swatch-grid">
+      <div class="swatch"><div class="chip" style="background:#FFFFFF;border-bottom:1px solid #E1E2E4"></div><div class="body"><div class="name">Neutral 50</div><div class="hex">#FFFFFF</div><span class="tok">--color-neutral-50</span></div></div>
+      <div class="swatch"><div class="chip" style="background:#E1E2E4"></div><div class="body"><div class="name">Neutral 100</div><div class="hex">#E1E2E4</div><span class="tok">--color-neutral-100</span></div></div>
+      <div class="swatch"><div class="chip" style="background:#AAABAC"></div><div class="body"><div class="name">Neutral 200</div><div class="hex">#AAABAC</div><span class="tok">--color-neutral-200</span></div></div>
+      <div class="swatch"><div class="chip" style="background:#909192"></div><div class="body"><div class="name">Neutral 300</div><div class="hex">#909192</div><span class="tok">--color-neutral-300</span></div></div>
+      <div class="swatch"><div class="chip" style="background:#5E5E5F"></div><div class="body"><div class="name">Neutral 400</div><div class="hex">#5E5E5F</div><span class="tok">--color-neutral-400</span></div></div>
+      <div class="swatch"><div class="chip" style="background:#474747"></div><div class="body"><div class="name">Neutral 500</div><div class="hex">#474747</div><span class="tok">--color-neutral-500</span></div></div>
+      <div class="swatch"><div class="chip" style="background:#303030"></div><div class="body"><div class="name">Neutral 600</div><div class="hex">#303030</div><span class="tok">--color-neutral-600</span></div></div>
+      <div class="swatch"><div class="chip" style="background:#1B1C1C"></div><div class="body"><div class="name">Neutral 700</div><div class="hex">#1B1C1C</div><span class="tok">--color-neutral-700</span></div></div>
+    </div>
+
+    <div style="font-size:12px;font-weight:700;color:#A9B1C2;text-transform:uppercase;letter-spacing:1px;margin:var(--space-8) 0 var(--space-4)">Dark Surfaces · 暗色表面</div>
+    <p class="section-desc" style="margin-bottom:var(--space-4)">全站採深色主題：頁面底 <strong>#0F1115</strong>，卡片 <strong>#161922</strong>，凸起面板 <strong>#1E2230</strong>，分隔線 <strong>#2E3444</strong>。新元件的表面與邊框一律取用這些 token。</p>
+    <div class="swatch-grid">
+      <div class="swatch"><div class="chip" style="background:#0F1115;border-bottom:1px solid #2E3444"></div><div class="body"><div class="name">Background</div><div class="hex">#0F1115</div><span class="tok">--color-bg</span></div></div>
+      <div class="swatch"><div class="chip" style="background:#161922"></div><div class="body"><div class="name">Surface</div><div class="hex">#161922</div><span class="tok">--color-surface</span></div></div>
+      <div class="swatch"><div class="chip" style="background:#1E2230"></div><div class="body"><div class="name">Surface 2</div><div class="hex">#1E2230</div><span class="tok">--color-surface-2</span></div></div>
+      <div class="swatch"><div class="chip" style="background:#121723"></div><div class="body"><div class="name">Band</div><div class="hex">#121723</div><span class="tok">--color-band</span></div></div>
+      <div class="swatch"><div class="chip" style="background:#222633"></div><div class="body"><div class="name">Border Subtle</div><div class="hex">#222633</div><span class="tok">--color-border-subtle</span></div></div>
+      <div class="swatch"><div class="chip" style="background:#2E3444"></div><div class="body"><div class="name">Border</div><div class="hex">#2E3444</div><span class="tok">--color-border</span></div></div>
+    </div>
+
+    <div style="font-size:12px;font-weight:700;color:#A9B1C2;text-transform:uppercase;letter-spacing:1px;margin:var(--space-8) 0 var(--space-4)">Brand Gradient · 漸層卡片</div>
+    <div class="swatch-grid">
+      <div class="swatch" style="grid-column:span 2"><div class="chip" style="background:linear-gradient(150deg,#1A1740 0%,#43269A 52%,#7656D7 100%)"></div><div class="body"><div class="name">Brand Gradient</div><div class="hex">150° · #1A1740 → #43269A → #7656D7</div><span class="tok">--color-grad-purple</span></div></div>
+    </div>
+  </div></section>
+
+  <!-- ═══════════ Typography ═══════════ -->
+  <section><div class="wrap">
+    <div class="section-title">03 · Typography</div>
+    <div class="section-lead">字體系統</div>
+    <p class="section-desc">全站統一使用 <strong>Chiron Hei HK</strong>（粉圓黑體，繁中友善），fallback 為 sans-serif。標題用 700、內文用 400。字級遵循以下固定階梯，請勿臨時插入非標準字級。</p>
+
+    <div class="type-row">
+      <div class="type-meta">Display · 48 / 700 / -1px</div>
+      <div class="type-sample" style="font-size:48px;font-weight:700;letter-spacing:-1px;line-height:1.1">娛樂城推薦</div>
+    </div>
+    <div class="type-row">
+      <div class="type-meta">H1 · 32 / 700 / -0.5px</div>
+      <div class="type-sample" style="font-size:32px;font-weight:700;letter-spacing:-0.5px">今日熱門排行</div>
+    </div>
+    <div class="type-row">
+      <div class="type-meta">H2 · 24 / 700</div>
+      <div class="type-sample" style="font-size:24px;font-weight:700">為什麼參考我們的評測？</div>
+    </div>
+    <div class="type-row">
+      <div class="type-meta">Body · 16 / 400</div>
+      <div class="type-sample" style="font-size:16px">我們以公正、透明的標準評估每一間娛樂城，提供你值得信賴的推薦。</div>
+    </div>
+    <div class="type-row">
+      <div class="type-meta">Body S · 14 / 400</div>
+      <div class="type-sample" style="font-size:14px">支援多元支付、24 小時客服、出金穩定為主要評估指標。</div>
+    </div>
+    <div class="type-row">
+      <div class="type-meta">Caption · 11 / 700 / 2.5px / UPPER</div>
+      <div class="type-sample" style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:2.5px;color:var(--color-primary-700)">SECTION LABEL</div>
+    </div>
+  </div></section>
+
+  <!-- ═══════════ Spacing / Radius / Elevation ═══════════ -->
+  <section><div class="wrap">
+    <div class="section-title">04 · Layout Tokens</div>
+    <div class="section-lead">間距 · 圓角 · 陰影</div>
+    <p class="section-desc">間距以 4pt 為基準遞增，所有 padding / margin / gap 一律取用這些刻度。圓角採直角設計：卡片、按鈕、輸入框一律 0；僅膠囊標籤、圓形按鈕與頭像使用 full。</p>
+
+    <div style="font-size:12px;font-weight:700;color:#A9B1C2;text-transform:uppercase;letter-spacing:1px;margin-bottom:var(--space-4)">Spacing</div>
+    <div class="tk"><div class="bar" style="width:4px"></div><span class="lbl">--space-1 · 4px</span></div>
+    <div class="tk"><div class="bar" style="width:8px"></div><span class="lbl">--space-2 · 8px</span></div>
+    <div class="tk"><div class="bar" style="width:12px"></div><span class="lbl">--space-3 · 12px</span></div>
+    <div class="tk"><div class="bar" style="width:16px"></div><span class="lbl">--space-4 · 16px</span></div>
+    <div class="tk"><div class="bar" style="width:20px"></div><span class="lbl">--space-5 · 20px</span></div>
+    <div class="tk"><div class="bar" style="width:24px"></div><span class="lbl">--space-6 · 24px</span></div>
+    <div class="tk"><div class="bar" style="width:32px"></div><span class="lbl">--space-8 · 32px</span></div>
+    <div class="tk"><div class="bar" style="width:48px"></div><span class="lbl">--space-12 · 48px</span></div>
+
+    <div style="font-size:12px;font-weight:700;color:#A9B1C2;text-transform:uppercase;letter-spacing:1px;margin:var(--space-8) 0 var(--space-4)">Radius · 直角設計</div>
+    <div class="radius-grid">
+      <div class="radius-card"><div class="box" style="border-radius:0"></div><div class="lbl">--radius-none · 0<br>卡片 / 按鈕 / 輸入框</div></div>
+      <div class="radius-card"><div class="box" style="border-radius:999px;height:48px"></div><div class="lbl">--radius-full · 999px<br>膠囊標籤 / 圓形</div></div>
+    </div>
+
+    <div style="font-size:12px;font-weight:700;color:#A9B1C2;text-transform:uppercase;letter-spacing:1px;margin:var(--space-8) 0 var(--space-4)">Elevation</div>
+    <div class="shadow-grid">
+      <div class="shadow-card" style="box-shadow:var(--shadow-sm)">--shadow-sm</div>
+      <div class="shadow-card" style="box-shadow:var(--shadow-md)">--shadow-md</div>
+      <div class="shadow-card" style="box-shadow:var(--shadow-lg)">--shadow-lg</div>
+      <div class="shadow-card" style="box-shadow:var(--shadow-focus)">--shadow-focus</div>
+    </div>
+  </div></section>
+
+  <!-- ═══════════ Buttons ═══════════ -->
+  <section><div class="wrap">
+    <div class="section-title">05 · Components</div>
+    <div class="section-lead">按鈕</div>
+    <p class="section-desc">按鈕完整規格詳見 <code style="font-family:'SF Mono',monospace;font-size:12px;background:#1E2230;color:#9FC9FF;padding:2px 6px;border-radius:4px">render.html</code>。階層原則：每個區塊最多一個 Primary；萊姆綠 Secondary 只給最高轉換動作；Outline / Ghost 為次要與輔助。</p>
+
+    <div class="btn-cluster">
+      <button class="btn btn-primary">查看娛樂城排行</button>
+      <button class="btn btn-secondary">立即加入</button>
+      <button class="btn btn-outline">了解評測標準</button>
+      <button class="btn btn-ghost">更多資訊 →</button>
+      <button class="btn btn-neutral">查看完整排行榜</button>
+    </div>
+    <div class="btn-cluster">
+      <button class="btn btn-primary btn-sm">Small</button>
+      <button class="btn btn-primary">Medium</button>
+      <button class="btn btn-primary btn-lg">Large</button>
+    </div>
+  </div></section>
+
+  <!-- ═══════════ Do / Don't ═══════════ -->
+  <section style="border-bottom:none"><div class="wrap">
+    <div class="section-title">06 · Usage</div>
+    <div class="section-lead">一致性守則</div>
+    <p class="section-desc">維持品牌統一的關鍵，是永遠引用 token，不要硬寫數值。</p>
+    <div class="guide-grid">
+      <div class="guide-card do">
+        <div class="tag">DO · 建議</div>
+        <ul>
+          <li>顏色、字級、間距一律用 <code style="font-size:11px">var(--token)</code></li>
+          <li>主色 #43269A 只用於 Hero 與主要 CTA</li>
+          <li>萊姆綠保留給「立即加入」這類最高轉換動作</li>
+          <li>每個區塊只放一個 Primary 按鈕</li>
+          <li>新元件先看 render.html 有沒有現成樣式</li>
+        </ul>
+      </div>
+      <div class="guide-card dont">
+        <div class="tag">DON'T · 避免</div>
+        <ul>
+          <li>硬寫色碼如 <code style="font-size:11px">#7656D7</code> 取代 token</li>
+          <li>用非階梯字級（如 15px、19px）</li>
+          <li>大面積鋪滿萊姆綠造成廉價感</li>
+          <li>同一畫面塞多個 Primary 互搶焦點</li>
+          <li>臨時引入新字體或新圓角值</li>
+        </ul>
+      </div>
+    </div>
+  </div></section>
+
+</body>
+</html>

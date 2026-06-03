@@ -1,0 +1,208 @@
+/* ============================================================
+  Button Component
+  Imports: ../../tokens/tokens.css
+
+  Variants: primary / CTA (#DEF243 lime) | secondary (#DEF243) |
+         outline (#7656D7 border) | ghost | neutral (#1B1C1C)
+  Sizes:    sm | md | lg
+  States:   hover | focus | active | disabled | loading
+  Note:     直角風格 - radius 由 --btn-radius (=var(--radius-md)=0) 控制
+         重點 CTA 一律綠色 -> primary 變體採 DS lime
+  ============================================================ */
+
+@import '../../tokens/tokens.css';
+
+/* ── Base ──────────────────────────────────────────────── */
+
+.btn {
+  --_bg: var(--btn-primary-bg);
+  --_text: var(--btn-primary-text);
+  --_border: var(--btn-primary-border);
+  --_shadow: none;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--btn-gap);
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  text-decoration: none;
+
+  height: var(--btn-md-height);
+  padding: var(--btn-md-py) var(--btn-md-px);
+  font-size: var(--btn-md-font-size);
+  line-height: var(--btn-md-line-height);
+
+  font-family: var(--font-family);
+  font-weight: 400;
+  text-align: center;
+
+  background: var(--_bg);
+  color: var(--_text);
+  border: var(--btn-border-width) solid var(--_border);
+  border-radius: var(--btn-radius);
+  box-shadow: var(--_shadow);
+  transition: var(--btn-transition);
+
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+/* ── Variants ──────────────────────────────────────────── */
+
+.btn-primary {
+  --_bg: var(--btn-primary-bg); /* #DEF243 lime - 重點 CTA */
+  --_text: var(--btn-primary-text); /* #1B1C1C dark on lime */
+  --_border: var(--btn-primary-border); /* lime */
+}
+
+.btn-secondary {
+  --_bg: var(--btn-secondary-bg); /* #DEF243 */
+  --_text: var(--btn-secondary-text); /* #1B1C1C */
+  --_border: var(--btn-secondary-border);
+}
+
+.btn-outline {
+  --_bg: var(--btn-outline-bg); /* white */
+  --_text: var(--btn-outline-text); /* #43269A */
+  --_border: transparent;
+  border: none;
+  box-shadow: inset 0 0 0 1.5px var(--color-primary-500); /* #7656D7 用 box-shadow 代替 border，避免影響漸層 */
+}
+
+.btn-ghost {
+  --_bg: var(--btn-ghost-bg); /* transparent */
+  --_text: var(--btn-ghost-text); /* #43269A */
+  --_border: transparent;
+  border: none;
+}
+
+.btn-neutral {
+  --_bg: var(--btn-neutral-bg); /* #1B1C1C */
+  --_text: var(--btn-neutral-text); /* white */
+  --_border: var(--btn-neutral-border); /* #303030 */
+}
+
+/* ── Sizes ─────────────────────────────────────────────── */
+
+.btn-sm {
+  height: var(--btn-sm-height);
+  padding: var(--btn-sm-py) var(--btn-sm-px);
+  font-size: var(--btn-sm-font-size);
+  line-height: var(--btn-sm-line-height);
+}
+
+.btn-lg {
+  height: var(--btn-lg-height);
+  padding: var(--btn-lg-py) var(--btn-lg-px);
+  font-size: var(--btn-lg-font-size);
+  line-height: var(--btn-lg-line-height);
+}
+
+.btn-block {
+  width: 100%;
+}
+
+/* ── Hover States ──────────────────────────────────────── */
+
+.btn-primary:hover,
+.btn-primary.is-hover {
+  --_bg: var(--btn-primary-hover-bg);
+}
+
+.btn-secondary:hover,
+.btn-secondary.is-hover {
+  --_bg: var(--btn-secondary-hover-bg);
+}
+
+.btn-outline:hover,
+.btn-outline.is-hover {
+  --_bg: var(--btn-outline-hover-bg);
+}
+
+.btn-ghost:hover,
+.btn-ghost.is-hover {
+  --_bg: var(--btn-ghost-hover-bg);
+}
+
+.btn-neutral:hover,
+.btn-neutral.is-hover {
+  --_bg: var(--btn-neutral-hover-bg);
+}
+
+/* ── Active States ─────────────────────────────────────── */
+
+.btn-primary:active,
+.btn-primary.is-active {
+  --_bg: var(--btn-primary-active-bg);
+}
+
+.btn-secondary:active,
+.btn-secondary.is-active {
+  --_bg: var(--btn-secondary-active-bg);
+}
+
+.btn-outline:active,
+.btn-outline.is-active {
+  --_bg: var(--btn-outline-active-bg);
+}
+
+.btn-ghost:active,
+.btn-ghost.is-active {
+  --_bg: var(--btn-ghost-active-bg);
+}
+
+/* ── Focus ─────────────────────────────────────────────── */
+
+.btn:focus-visible,
+.btn.is-focus {
+  box-shadow: var(--shadow-focus);
+  outline: none;
+}
+
+/* outline variant: combine inset border + focus ring */
+.btn-outline:focus-visible,
+.btn-outline.is-focus {
+  box-shadow: inset 0 0 0 1.5px var(--color-primary-500), var(--shadow-focus);
+}
+
+/* ── Disabled ──────────────────────────────────────────── */
+
+.btn:disabled,
+.btn.is-disabled {
+  --_bg: var(--btn-disabled-bg);
+  --_text: var(--btn-disabled-text);
+  --_border: var(--btn-disabled-border);
+  cursor: not-allowed;
+  pointer-events: none;
+  box-shadow: none;
+}
+
+/* ── Loading ───────────────────────────────────────────── */
+
+.btn.is-loading {
+  position: relative;
+  color: transparent;
+  pointer-events: none;
+}
+
+.btn.is-loading::after {
+  content: '';
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  border: 2px solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: btn-spin 0.6s linear infinite;
+  color: var(--_text);
+}
+
+@keyframes btn-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

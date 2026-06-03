@@ -1,0 +1,1580 @@
+﻿<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>晴天娛樂城推薦網</title>
+  <link href="https://cdn.jsdelivr.net/npm/chiron-hei-hk-webfont@2.6.9/index.css" rel="stylesheet">
+  <style>
+    :root {
+      /* DS Primary */
+      --pri-700:#43269A;--pri-500:#7656D7;--pri-300:#9FC9FF;--pri-200:#B5A8F0;
+      /* DS Secondary */
+      --sec:#DEF243;
+      /* DS Deep Purple */
+      --purple-900:#3A0661;
+      /* DS Neutral Scale */
+        --n50:#161922;--n100:#222633;--n150:#2E3444;--n200:#8F98AC;--n300:#A9B1C2;--n400:#C3CAD8;--n500:#D9DEEA;--n600:#E8ECF5;--n700:#F4F7FF;--n800:#FFFFFF;
+      /* Semantic */
+      --surface-muted:#1E2230;
+      --ff:'Chiron Hei HK',sans-serif;
+      --r-sm:0;--r-md:0;--r-lg:0;--r-xl:0;--r-full:999px;
+      /* ── Type Scale (unified) ── */
+      --fs-hero:clamp(32px,4.5vw,50px);--fs-h2:clamp(26px,3.2vw,34px);--fs-h3:20px;--fs-lead:18px;--fs-body:16px;--fs-sm:14px;--fs-xs:12px;
+      --lh-tight:1.2;--lh-heading:1.3;--lh-body:1.7;
+      /* ── Motion / Elevation (unified) ── */
+      --ease:cubic-bezier(.4,0,.2,1);--dur:.25s;--lift:-4px;
+      --shadow-card:0 24px 60px -18px rgba(0,0,0,.6);--shadow-card-sm:0 18px 40px -16px rgba(0,0,0,.5);
+      /* ── Gradient cards (dark) ── */
+      --grad-purple:linear-gradient(150deg,#1A1740 0%,#43269A 52%,#7656D7 100%);
+      --grad-bloom:radial-gradient(125% 130% at 50% 118%,#7656D7 0%,#43269A 42%,#16153C 100%);
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{background:#0F1115;color:var(--n500);font-family:var(--ff);-webkit-font-smoothing:antialiased;min-width:320px}
+    a{color:inherit;text-decoration:none}img,svg{display:block}button,summary{font:inherit}
+    .shell{width:min(calc(100% - 40px),1240px);margin:0 auto}
+    main section + section{margin-top:5vw}
+    main + footer{margin-top:6vw}
+
+    /* ═══ DS Button System ═══════════════ */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      white-space: nowrap;
+      cursor: pointer;
+      user-select: none;
+      text-decoration: none;
+      font-family: var(--ff);
+      height: 40px;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 22px;
+      border-radius: 0;
+      border: none;
+      transition: background .15s;
+      outline: none;
+      appearance: none;
+      background: var(--sec);
+      color: #1B1C1C;
+    }
+
+    .btn:hover {
+      background: #E8FB5E;
+    }
+
+    .btn:active {
+      background: #C8D636;
+    }
+
+    .btn-secondary {
+      background: var(--sec);
+      color: #1B1C1C;
+      font-weight: 500;
+      border: 1px solid var(--sec);
+    }
+
+    .btn-secondary:hover {
+      background: #E8FB5E;
+    }
+
+    .btn-secondary:active {
+      background: #C8D636;
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: #fff;
+      border: none;
+      box-shadow: inset 0 0 0 1.5px var(--pri-500);
+    }
+
+    .btn-outline:hover {
+      background: rgba(118,86,215,.18);
+    }
+
+    .btn-outline:active {
+      background: rgba(118,86,215,.28);
+    }
+
+    .hero .btn-outline {
+      background: rgba(58,6,97,.55);
+      color: #fff;
+      box-shadow: inset 0 0 0 1.5px #fff;
+    }
+
+    .hero .btn-outline:hover {
+      background: rgba(58,6,97,.75);
+    }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--pri-300);
+      border: none;
+    }
+
+    .btn-ghost:hover {
+      background: rgba(118,86,215,.14);
+    }
+
+    .btn-neutral {
+      background: var(--n50);
+      color: #fff;
+      border: 1px solid var(--n150);
+    }
+
+    .btn-neutral:hover {
+      background: var(--surface-muted);
+    }
+
+    .btn-casino {
+      background: #43269A;
+      color: #fff;
+      border: 1px solid#B5A8F0;
+    }
+
+    .btn-casino:hover {
+      background: #DEF243;
+      color: #1B1C1C;
+      font-weight: 700;
+      border-color: #DEF243;
+    }
+
+    .hero .btn-neutral {
+      background: #DEF243;
+      color: #1B1C1C;
+      border: 1px solid #DEF243;
+    }
+
+    .hero .btn-neutral:hover {
+      background: #E8FB5E;
+    }
+
+    .vip-panel .btn-neutral {
+      background: rgba(255,255,255,.25);
+      color: #fff;
+      border: 1px solid rgba(255,255,255,.4);
+    }
+
+    .vip-panel .btn-neutral:hover {
+      background: rgba(255,255,255,.35);
+    }
+
+    .btn-sm {
+      height: 32px;
+      padding: 6px 12px;
+      font-size: 14px;
+      line-height: 18px;
+    }
+
+    .btn-lg {
+      height: 48px;
+      padding: 12px 24px;
+      font-size: 18px;
+      line-height: 26px;
+    }
+
+    .btn-block {
+      width: 100%;
+    }
+
+    .btn-arrow {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: var(--pri-700);
+      border: none;
+      color: #fff;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all .2s;
+      flex-shrink: 0;
+    }
+
+    .btn-arrow:hover {
+      background: var(--pri-500);
+      transform: scale(1.05);
+    }
+
+    .btn-arrow svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    /* ═══ Header — pill nav ═══════════════ */
+    .hdr {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: transparent;
+      backdrop-filter: none;
+      -webkit-backdrop-filter: none;
+      border-bottom: 1px solid rgba(255,255,255,.14);
+      transition: background-color .25s ease,backdrop-filter .25s ease,-webkit-backdrop-filter .25s ease,box-shadow .25s ease,border-color .25s ease;
+    }
+
+    .hdr.is-solid {
+      background: rgba(15,17,21,.86);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-bottom-color: rgba(255,255,255,.10);
+    }
+    .hdr.is-solid .brand{color:var(--n700)}
+    .hdr.is-solid .hdr-search{color:var(--n700)}
+    .hdr.is-solid .hdr-search:hover{color:var(--sec)}
+    .hdr-in {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 68px;
+    }
+
+    .brand {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: -.04em;
+    }
+
+    .pill-nav {
+      display: flex;
+      align-items: center;
+      background: transparent;
+      border: none;
+      border-radius: 0;
+      padding: 0;
+      gap: 4px;
+    }
+
+    .pill-nav a {
+      position: relative;
+      padding: 10px 16px;
+      border-radius: 0;
+      font-size: 15px;
+      font-weight: 500;
+      color: rgba(255,255,255,.82);
+      transition: color .15s;
+    }
+
+    .pill-nav a::after {
+      content: '';
+      position: absolute;
+      left: 16px;
+      right: 16px;
+      bottom: 4px;
+      height: 2px;
+      background: var(--sec);
+      transform: scaleX(0);
+      transform-origin: center;
+      transition: transform .2s ease;
+    }
+
+    .pill-nav a:hover,
+    .pill-nav a.active {
+      background: transparent;
+      color: #fff;
+    }
+
+    .pill-nav a:hover::after,
+    .pill-nav a.active::after {
+      transform: scaleX(1);
+    }
+    /* ═══ 優惠活動 下拉選單 ═══════════════ */
+    .nav-dd {
+      position: relative;
+      display: flex;
+    }
+
+    .nav-dd-trigger {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .nav-dd-caret {
+      width: 11px;
+      height: 11px;
+      flex-shrink: 0;
+      transition: transform .2s;
+    }
+
+    .nav-dd:hover .nav-dd-caret,
+    .nav-dd:focus-within .nav-dd-caret {
+      transform: rotate(180deg);
+    }
+
+    .nav-dd-menu {
+      position: absolute;
+      top: calc(100% + 12px);
+      left: 50%;
+      transform: translateX(-50%) translateY(6px);
+      min-width: 184px;
+      background: var(--n50);
+      border: 1px solid var(--n150);
+      box-shadow: 0 18px 40px -12px rgba(15,6,28,.22);
+      padding: 6px;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transition: opacity .18s ease,transform .18s ease;
+      z-index: 60;
+    }
+
+    .nav-dd-menu::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: -12px;
+      height: 12px;
+    }
+
+    .nav-dd:hover .nav-dd-menu,
+    .nav-dd:focus-within .nav-dd-menu {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+      transform: translateX(-50%) translateY(0);
+    }
+
+    .nav-dd-menu a {
+      padding: 10px 16px;
+      border-radius: 0;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--n500);
+      white-space: nowrap;
+      transition: background .15s,color .15s;
+    }
+
+    .nav-dd-menu a:hover {
+      background: var(--surface-muted);
+      color: var(--pri-200);
+    }
+
+    .nav-dd-menu .nav-dd-all {
+      margin-top: 5px;
+      padding-top: 11px;
+      border-top: 1px solid var(--n150);
+      color: var(--pri-200);
+      font-weight: 700;
+    }
+
+    .hdr-search {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      color: #fff;
+      transition: color .15s;
+    }
+
+    .hdr-search:hover {
+      color: rgba(255,255,255,.8);
+    }
+
+    .hdr-search svg {
+      width: 18px;
+      height: 18px;
+    }
+
+    .hdr-icons {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .mob-menu {
+      display: none;
+      background: 0 0;
+      border: none;
+      cursor: pointer;
+      color: var(--n500);
+      padding: 4px;
+    }
+
+    .mob-menu svg {
+      width: 22px;
+      height: 22px;
+    }
+
+    /* ═══ Hero — 2-col with glass VIP ═════ */
+    .hero {
+      height: 700px;
+      padding: 0;
+      margin-top: -68px;
+      padding-top: 68px;
+      display: flex;
+      align-items: center;
+      background: linear-gradient(180deg,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.171)),url('image/index/BANNER.png') center/cover no-repeat;
+      position: relative;
+    }
+
+    .hero-wrap {
+      background: transparent;
+      border-radius: 0;
+      overflow: visible;
+      position: relative;
+      padding: 0 56px;
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 40px;
+      align-items: start;
+    }
+
+    .hero-copy h1 {
+      font-size: clamp(32px,4.5vw,48px);
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.1;
+      letter-spacing: -.05em;
+      margin-bottom: 20px;
+    }
+
+    .hero-copy > p {
+      color: #fff;
+      font-size: 16px;
+      line-height: 1.7;
+      max-width: 500px;
+    }
+
+    .hero-act {
+      display: flex;
+      gap: 12px;
+      margin-top: 28px;
+      flex-wrap: wrap;
+    }
+
+    .hero-act .btn {
+      font-weight: 500;
+    }
+ 
+    /* VIP — frosted glass */
+    .vip-panel {
+      background: linear-gradient(160deg,rgba(58,6,97,.38),rgba(67,38,154,.28)),rgba(255,255,255,.12);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      border: 1px solid rgba(255,255,255,.3);
+      border-radius: var(--r-lg);
+      padding: 28px;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      box-shadow: 0 4px 24px rgba(0,0,0,.2);
+    }
+
+    .vip-panel h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .vip-panel > div > p {
+      font-size: 14px;
+      color: #fff;
+      line-height: 1.62;
+    }
+
+    .vip-feat {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .vip-feat li {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 16px;
+      color: #fff;
+    }
+
+    .vip-feat svg {
+      width: 15px;
+      height: 15px;
+      color: #DEF243;
+      flex-shrink: 0;
+    }
+
+    .vip-note {
+      font-size: 13px;
+      color: rgba(255,255,255,.6);
+      text-align: center;
+    }
+
+    /* ═══ Copy section — large editorial text ═══ */
+    .copy-sec{padding:80px 0;text-align:center}
+    .copy-sec h2{font-size:clamp(18px,2.2vw,24px);font-weight:700;color:#B5A8F0;line-height:1.6;max-width:780px;margin:0 auto 24px;letter-spacing:-.02em}
+    .copy-paras{max-width:720px;margin:0 auto;display:grid;gap:16px;text-align:left}
+    .copy-paras p{color:var(--n400);font-size:16px;line-height:1.7}
+
+    /* ═══ Casino Cards ════════════════════ */
+    .sec-pad {
+      padding: 48px 0;
+    }
+
+    .sec-head {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+
+    .sec-head h2 {
+      font-size: var(--fs-h2);
+      font-weight: 700;
+      color: var(--n800);
+      line-height: var(--lh-heading);
+      letter-spacing: -.04em;
+    }
+
+    .sec-lead {
+      color: var(--n500);
+      font-size: var(--fs-lead);
+      font-weight: 400;
+      margin-top: 6px;
+    }
+
+    .c-grid {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 16px;
+    }
+
+    .c-card {
+      border-radius: 0;
+      overflow: hidden;
+      background: var(--n50);
+      border: 1px solid var(--n150);
+      transition: transform var(--dur) var(--ease),box-shadow var(--dur) var(--ease);
+    }
+
+    .c-card:hover {
+      transform: translateY(var(--lift));
+      box-shadow: var(--shadow-card);
+    }
+
+    .c-img {
+      height: 170px;
+      background: var(--grad-purple);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .c-img::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='40' cy='40' r='38' stroke='white' stroke-width='.4' fill='none' opacity='.06'/%3E%3C/svg%3E") center/80px repeat;
+      pointer-events: none;
+    }
+
+    .c-img.has-photo {
+      background: var(--n50);
+    }
+
+    .c-img.has-photo .c-photo {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+      z-index: 0;
+    }
+
+    .c-img.has-photo::before {
+      display: none;
+    }
+
+    .c-name {
+      color: #fff;
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: -.03em;
+      line-height: 1.2;
+    }
+
+    .c-pill {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      z-index: 1;
+      background: var(--sec);
+      color: #43269A;
+      font-size: 12px;
+      font-weight: 900;
+      padding: 5px 12px;
+      border-radius: var(--r-full);
+      letter-spacing: .02em;
+    }
+
+    .c-body {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .c-desc {
+      font-size: 15px;
+      line-height: 1.6;
+      color: var(--n400);
+    }
+
+    .c-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .c-tag {
+      font-size: 13px;
+      padding: 4px 12px;
+      border-radius: var(--r-full);
+      background: var(--surface-muted);
+      color: var(--pri-200);
+      border: 1px solid rgba(118,86,215,.15);
+    }
+
+    .c-foot {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: auto;
+      padding-top: 10px;
+    }
+
+    .c-sl {
+      font-size: 12px;
+      color: var(--n300);
+    }
+
+    .c-stars {
+      display: flex;
+      gap: 2px;
+      color: #9FC9FF;
+      margin-top: 3px;
+    }
+
+    .c-stars svg {
+      width: 13px;
+      height: 13px;
+    }
+
+    .c-num {
+      font-size: 17px;
+      font-weight: 900;
+      color: #9FC9FF;
+      margin-left: 6px;
+    }
+
+    .c-num small {
+      font-weight: 400;
+      color: inherit;
+      font-size: 13px;
+    }
+
+    /* ═══ Category — numbered bento ═══════ */
+    .cat-grid {
+      display: grid;
+      grid-template-columns: repeat(5,1fr);
+      gap: 14px;
+    }
+
+    .cat-card {
+      padding: 32px 24px;
+      border-radius: 0;
+      background: var(--grad-bloom);
+      border: 1px solid rgba(255,255,255,.08);
+      transition: transform var(--dur) var(--ease),box-shadow var(--dur) var(--ease);
+      position: relative;
+      text-align: center;
+    }
+
+    .cat-card:hover {
+      transform: translateY(var(--lift));
+      box-shadow: var(--shadow-card-sm);
+    }
+
+    .cat-num {
+      display: none;
+    }
+
+    .cat-ic {
+      width: min(180px,100%);
+      height: min(180px,100%);
+      border-radius: var(--r-md);
+      background: transparent;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--pri-500);
+      margin: 0 auto 24px;
+      flex-shrink: 0;
+      font-size: 28px;
+    }
+
+    .cat-ic svg {
+      width: 56px;
+      height: 56px;
+    }
+
+    .cat-ic img {
+      width: 56px;
+      height: 56px;
+      object-fit: contain;
+    }
+
+    .cat-ic.has-image {
+      background: transparent;
+      overflow: hidden;
+    }
+
+    .cat-ic.has-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      transform: scale(1.2);
+    }
+
+    .cat-card h3 {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--n700);
+      margin-bottom: 10px;
+      text-decoration: none;
+      letter-spacing: -.02em;
+    }
+
+    .cat-card p {
+      font-size: 14px;
+      line-height: 1.7;
+      color: var(--n400);
+    }
+
+    /* ═══ Ranking — dark banner ═══════════ */
+    .rank-sec {
+      background: #43269A;
+      border-radius: var(--r-xl);
+      padding: 48px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .rank-sec::before {
+      content: '';
+      position: absolute;
+      top: -100px;
+      right: -40px;
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      background: radial-gradient(circle,rgba(118,86,215,.12),transparent 60%);
+      pointer-events: none;
+    }
+
+    .rk-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 28px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .rk-head h2 {
+      color: #fff;
+      font-size: calc(28px + 2pt);
+      font-weight: 700;
+      letter-spacing: -.04em;
+    }
+
+    .rk-head p {
+      color: #fff;
+      font-size: calc(14px + 2pt);
+      margin-top: 4px;
+    }
+
+    .rk-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .rk-item {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 16px 20px;
+      background: rgba(255,255,255,.04);
+      border: 1px solid rgba(255,255,255,.06);
+      border-radius: var(--r-md);
+      transition: background .15s;
+    }
+
+    .rk-item:hover {
+      background: rgba(255,255,255,.08);
+    }
+
+    .rk-n {
+      font-size: calc(20px + 4pt);
+      font-weight: 900;
+      color: #fff;
+      min-width: 36px;
+    }
+
+    .rk-info {
+      flex: 1;
+    }
+
+    .rk-name {
+      color: #fff;
+      font-size: calc(15px + 4pt);
+      font-weight: 700;
+    }
+
+    .rk-type {
+      color: #fff;
+      font-size: calc(11px + 4pt);
+      margin-top: 2px;
+    }
+
+    .rk-pl {
+      color: #fff;
+      font-size: calc(12px + 4pt);
+    }
+
+    .rk-open {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      border: none;
+      background: #DEF243;
+      color: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all .15s;
+    }
+
+    .rk-open:hover {
+      background: #E8FB5E;
+    }
+
+    .rk-open svg {
+      width: 12px;
+      height: 12px;
+    }
+    /* mobile */
+    .rk-mob {
+      display: none;
+      flex-direction: column;
+      gap: 8px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .rk-card {
+      background: rgba(255,255,255,.04);
+      border: 1px solid rgba(255,255,255,.06);
+      border-radius: 0;
+      padding: 14px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .rk-card-top {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .rk-card-n {
+      font-size: calc(17px + 4pt);
+      font-weight: 900;
+      color: #fff;
+      min-width: 30px;
+    }
+
+    .rk-card-info {
+      flex: 1;
+    }
+
+    .rk-card-name {
+      color: #fff;
+      font-size: calc(14px + 4pt);
+      font-weight: 700;
+    }
+
+    .rk-card-type {
+      color: #fff;
+      font-size: calc(11px + 4pt);
+    }
+
+    .rk-card-bot {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 8px;
+      border-top: 1px solid rgba(255,255,255,.08);
+    }
+
+    .rk-card-ml,
+    .rk-card-mv {
+      color: #fff;
+      font-size: calc(12px + 4pt);
+    }
+
+    .rk-tbl {
+      display: table;
+    }
+
+    /* ═══ Features — editorial cards ══════ */
+    .feat-grid {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 16px;
+    }
+
+    .feat-card {
+      padding: 20px;
+      border-radius: 0;
+      background: var(--n50);
+      border: 1px solid var(--n150);
+      transition: transform var(--dur) var(--ease),box-shadow var(--dur) var(--ease);
+      position: relative;
+      text-align: left;
+    }
+
+    .feat-card:hover {
+      transform: translateY(var(--lift));
+      box-shadow: var(--shadow-card);
+    }
+
+    .feat-ic {
+      width: 130px;
+      height: 130px;
+      border-radius: var(--r-lg);
+      background: transparent;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 12px;
+    }
+
+    .feat-ic img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .feat-card h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--n700);
+      margin-bottom: 4px;
+    }
+
+    .feat-card > p {
+      font-size: var(--fs-sm);
+      line-height: 1.55;
+      color: var(--n300);
+      margin-bottom: 14px;
+      text-align: left;
+    }
+
+    .feat-tags {
+      list-style: none;
+      display: grid;
+      gap: 8px;
+      text-align: left;
+      justify-items: start;
+    }
+
+    .feat-tags li {
+      position: relative;
+      padding-left: 14px;
+      font-size: 14px;
+      color: var(--n300);
+    }
+
+    .feat-tags li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 6px;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: var(--n300);
+    }
+
+    .feat-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 16px;
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--n700);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    /* ═══ FAQ ═════════════════════════════ */
+    .faq-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .faq-item {
+      border-radius: var(--r-lg);
+      background: #5534B0;
+      border: calc(1px + 2pt) solid #5534B0;
+      overflow: hidden;
+      transition: border-color .2s;
+    }
+
+    .faq-item:hover,
+    .faq-item[open] {
+      border-color: #DEF243;
+    }
+
+    .faq-item summary {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 18px 24px;
+      cursor: pointer;
+      list-style: none;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .faq-item summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .faq-item summary::after {
+      content: '+';
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: #DEF243;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      color: #000;
+      flex-shrink: 0;
+      transition: all .2s;
+    }
+
+    .faq-item[open] summary::after {
+      content: '−';
+      background: #DEF243;
+      color: #000;
+    }
+
+    .faq-item p {
+      padding: 0 24px 20px;
+      font-size: 15px;
+      line-height: 1.7;
+      color: #fff;
+    }
+
+    /* ═══ Footer — dark ═══════════════════ */
+    .ft {
+      background: #0B0C11;
+      border-radius: 0;
+      margin-top: 6vw;
+      padding: 52px 0 36px;
+      color: #fff;
+      border-top: 1px solid var(--n150);
+    }
+
+    .ft-inner {
+      display: grid;
+      gap: 36px;
+    }
+
+    .ft-brand h2 {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .ft-brand p {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.6;
+      max-width: none;
+      white-space: nowrap;
+    }
+
+    .ft-links {
+      display: grid;
+      grid-template-columns: repeat(6,1fr);
+      gap: 20px;
+      padding-top: 32px;
+      border-top: 1px solid rgba(255,255,255,.08);
+    }
+
+    .ft-col h3 {
+      font-size: var(--fs-xs);
+      font-weight: 700;
+      color: var(--n400);
+      margin-bottom: 14px;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+    }
+
+    .ft-col ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .ft-col a {
+      color: var(--n400);
+      font-size: 14px;
+      opacity: 1;
+      transition: opacity .15s,color .15s;
+    }
+
+    .ft-col a:hover {
+      opacity: 1;
+      color: var(--sec);
+    }
+
+    .ft-bot {
+      padding-top: 28px;
+      border-top: 1px solid rgba(255,255,255,.08);
+      color: var(--n400);
+      font-size: 13px;
+      text-align: center;
+    }
+
+    /* ═══ Responsive ═════════════════════ */
+    @media(max-width:1100px) {
+      .cat-grid {
+        grid-template-columns: repeat(3,1fr);
+      }
+
+      .ft-links {
+        grid-template-columns: repeat(3,1fr);
+      }
+
+      .vip-float {
+        position: static;
+        width: 100%;
+        margin-top: 20px;
+      }
+    }
+    @media(max-width:900px){
+      .hdr{
+        background: rgba(15,17,21,.86);
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
+        box-shadow: 0 1px 0 rgba(255,255,255,.08);
+      }
+
+      .hdr .brand,
+      .hdr .hdr-search{
+        color: var(--n700);
+      }
+
+      .hdr .hdr-search:hover{
+        color: var(--sec);
+      }
+    }
+    @media(max-width:860px){
+      .pill-nav {
+        display: none;
+      }
+
+      .mob-menu {
+        display: block;
+      }
+
+      .hero {
+        height: auto;
+        min-height: 100vh;
+        align-items: flex-end;
+        padding-top: 96px;
+        padding-bottom: 48px;
+        background-image: linear-gradient(180deg,rgba(26,6,48,0) 0%,rgba(26,6,48,.35) 45%,rgba(12,4,24,.78) 100%),url('image/index/BANNER_phone.png');
+        background-position: center center;
+      }
+
+      .hero-copy h1 {
+        text-shadow: 0 2px 12px rgba(0,0,0,.55);
+      }
+
+      .hero-copy > p {
+        text-shadow: 0 1px 8px rgba(0,0,0,.5);
+      }
+
+      .hero-wrap {
+        grid-template-columns: 1fr;
+        padding: 0 24px;
+      }
+
+      .hero-copy {
+        text-align: center;
+      }
+
+      .hero-copy > p {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .hero-act {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .vip-panel {
+        padding: 20px;
+        gap: 14px;
+      }
+
+      .vip-panel h2 {
+        font-size: 16px;
+      }
+
+      .vip-panel > div > p {
+        font-size: 13px;
+      }
+
+      .vip-feat {
+        gap: 8px;
+      }
+
+      .vip-feat li {
+        font-size: 14px;
+      }
+
+      .vip-note {
+        font-size: 12px;
+      }
+
+      .copy-sec {
+        padding: 48px 0;
+      }
+
+      .c-grid,
+      .feat-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .cat-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+      }
+
+      .cat-card {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding: 18px 16px;
+        text-align: left;
+        border-radius: 18px;
+        background: var(--n50);
+        border: 1px solid var(--n150);
+      }
+
+      .cat-num {
+        display: none;
+      }
+
+      .cat-ic {
+        margin: 0;
+        flex: 0 0 68px;
+        width: 68px;
+        height: 68px;
+        border-radius: 16px;
+        background: rgba(255,255,255,.06);
+      }
+
+      .cat-card h3 {
+        margin-bottom: 6px;
+        font-size: 20px;
+      }
+
+      .cat-card p {
+        margin: 0;
+        font-size: 16px;
+        line-height: 1.55;
+      }
+
+      .rank-sec {
+        padding: 28px;
+        border-radius: var(--r-lg);
+      }
+
+      .rk-tbl {
+        display: none;
+      }
+
+      .rk-mob {
+        display: flex;
+      }
+
+      .rk-head {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+      }
+
+      .sec-head {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .ft-links {
+        grid-template-columns: 1fr;
+      }
+
+      .ft-col ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 4px 16px;
+      }
+
+      .ft-brand p {
+        white-space: normal;
+      }
+
+      .cat-ic.has-image {
+        width: 68px;
+        height: 68px;
+      }
+
+      .cat-ic.has-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        transform: none;
+        padding: 10px;
+      }
+
+      .faq-item summary {
+        padding: 16px 18px;
+      }
+
+      .faq-item p {
+        padding: 0 18px 18px;
+      }
+    }
+    .rk-tbl {
+      width: 100%;
+      border-collapse: collapse;
+      position: relative;
+      z-index: 1;
+    }
+
+    .rk-tbl th,
+    .rk-tbl td {
+      padding: 14px 0;
+      border-bottom: 1px solid rgba(255,255,255,.06);
+      text-align: left;
+    }
+
+    .rk-tbl th {
+      color: #9FC9FF;
+      font-size: calc(11px + 4pt);
+      font-weight: 400;
+    }
+
+    .rk-tbl td {
+      color: #fff;
+      font-size: calc(13px + 4pt);
+    }
+
+    .rk-tbl tbody tr:last-child td {
+      border-bottom: 0;
+    }
+
+    .rk-rank {
+      width: 60px;
+      font-weight: 900;
+      font-size: calc(16px + 4pt);
+      color: #fff;
+    }
+
+    .rank-sec .btn-sm {
+      font-size: calc(12px + 4pt);
+      line-height: calc(16px + 4pt);
+    }
+
+    .rk-game {
+      color: #fff !important;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+
+  <site-navbar page="index"></site-navbar>
+
+  <main id="top">
+
+    <!-- 1. Hero + VIP -->
+    <section class="hero">
+      <div class="shell">
+        <div class="hero-wrap">
+          <div class="hero-copy">
+            <h1>晴天娛樂城推薦網</h1>
+            <p>晴天兄弟整理熱門線上娛樂城推薦名單，從平台安全性、出入金效率、遊戲種類與優惠條款進行比較，協助玩家快速了解 Stake、Rainbet、Shuffle 等平台差異</p>
+            <div class="hero-act">
+              <a class="btn btn-neutral" href="#ranking">查看娛樂城排行</a>
+              <a class="btn btn-outline" href="#criteria">了解評測標準</a>
+            </div>
+          </div>
+          <aside class="vip-panel" id="vip">
+            <div>
+              <h2>VIP 會員中心</h2>
+              <p>想了解 Stake 最新註冊流程與會員方案？聯繫專屬客服，即可取得平台註冊協助、優惠條款說明與 VIP 權益諮詢</p>
+            </div>
+            <ul class="vip-feat">
+              <li><svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="1.4"/><path d="M6.8 10.1L9 12.3L13.4 7.9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>新會員註冊協助</li>
+              <li><svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="1.4"/><path d="M6.8 10.1L9 12.3L13.4 7.9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>專屬優惠方案說明</li>
+              <li><svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="1.4"/><path d="M6.8 10.1L9 12.3L13.4 7.9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>VIP 權益資格諮詢</li>
+            </ul>
+            <a class="btn btn-neutral btn-block" href="#faq">聯繫客服領取方案</a>
+            <p class="vip-note">* 僅提供資訊諮詢，非代理服務</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. 說明區塊 -->
+    <section class="copy-sec" id="criteria">
+      <div class="shell">
+        <h2>為什麼需要參考 晴天兄弟 娛樂城推薦？</h2>
+        <div class="copy-paras">
+          <p>線上娛樂城選擇越來越多，從 Stake、Rainbet 到 Shuffle，不同平台在安全性、遊戲種類、出入金效率、優惠條款與客服品質上都有明顯差異。對玩家來說，單看廣告或首存優惠，很難判斷哪一間娛樂城真正適合自己</p>
+          <p>晴天兄弟 建立娛樂城排行與線上娛樂城推薦機制，會從平台背景、遊戲體驗、優惠透明度、提款流程、帳戶安全與玩家使用情境進行整理，協助你快速比較各大平台的優勢與注意事項</p>
+          <p>本頁提供的不是單純品牌清單，而是一份給新手與進階玩家參考的線上娛樂城評測指南。你可以透過推薦排行了解 Stake、Rainbet、Shuffle 等熱門平台的差異，避開不透明條款，並依照自己的遊玩需求選擇更合適的娛樂城平台</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. 娛樂城推薦卡片 -->
+    <section class="sec-pad" id="promotions">
+      <div class="shell">
+        <div class="sec-head"><div><h2>娛樂城推薦</h2><p class="sec-lead">以下為 晴天兄弟 精選推薦的線上娛樂城平台，依評測綜合分數排列</p></div><a class="btn btn-neutral btn-casino" href="online-casino-recommendation.html">娛樂城推薦</a></div>
+        <div class="c-grid">
+          <article class="c-card"><div class="c-img has-photo"><img class="c-photo" src="image/shared/stake.png" alt="Stake"><span class="c-pill">綜合推薦</span></div><div class="c-body"><div class="c-name">Stake</div><p class="c-desc">全球知名加密貨幣娛樂城，遊戲種類豐富、出入金快速，適合進階玩家作為主要平台使用</p><div class="c-tags"><span class="c-tag">出入金快速</span><span class="c-tag">遊戲種類多</span><span class="c-tag">原創遊戲</span></div><div class="c-foot"><div><div class="c-sl">綜合評分</div><div style="display:flex;align-items:center"><div class="c-stars"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg></div><span class="c-num">4.8 <small>/ 5</small></span></div></div><a class="btn-arrow" href="#faq" aria-label="查看詳情"><svg viewBox="0 0 24 24" fill="none"><path d="M7 17L17 7M17 7H9M17 7V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></div></article>
+          <article class="c-card"><div class="c-img has-photo"><img class="c-photo" src="image/shared/rainbet.png" alt="Rainbet"><span class="c-pill">活動豐富</span></div><div class="c-body"><div class="c-name">Rainbet</div><p class="c-desc">活躍的社群互動與競賽活動，優惠條款相對透明，適合喜歡參與娛樂城活動的玩家</p><div class="c-tags"><span class="c-tag">活動頻繁</span><span class="c-tag">社群互動</span><span class="c-tag">條款透明</span></div><div class="c-foot"><div><div class="c-sl">綜合評分</div><div style="display:flex;align-items:center"><div class="c-stars"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg></div><span class="c-num">4.5 <small>/ 5</small></span></div></div><a class="btn-arrow" href="#faq" aria-label="查看詳情"><svg viewBox="0 0 24 24" fill="none"><path d="M7 17L17 7M17 7H9M17 7V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></div></article>
+          <article class="c-card"><div class="c-img has-photo"><img class="c-photo" src="image/shared/Shuffle.png" alt="Shuffle"><span class="c-pill">新興平台</span></div><div class="c-body"><div class="c-name">Shuffle</div><p class="c-desc">新興線上娛樂城，介面現代化、功能持續更新，適合想體驗新平台的探索型玩家</p><div class="c-tags"><span class="c-tag">介面現代</span><span class="c-tag">持續更新</span><span class="c-tag">新手友善</span></div><div class="c-foot"><div><div class="c-sl">綜合評分</div><div style="display:flex;align-items:center"><div class="c-stars"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg></div><span class="c-num">4.5 <small>/ 5</small></span></div></div><a class="btn-arrow" href="#faq" aria-label="查看詳情"><svg viewBox="0 0 24 24" fill="none"><path d="M7 17L17 7M17 7H9M17 7V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. 熱門遊戲分類 — numbered bento -->
+    <section class="sec-pad" id="games">
+      <div class="shell">
+        <div class="sec-head"><div><h2>熱門遊戲分類</h2><p class="sec-lead">依遊戲類型快速找到對應玩法與熱門平台資訊</p></div></div>
+        <div class="cat-grid">
+          <article class="cat-card"><div class="cat-num">1</div><div class="cat-ic has-image"><img src="image/index/Slot machines.png?v=2" alt="老虎機"></div><div><h3>老虎機</h3><p>收錄各大平台老虎機遊戲，比較機率、RTP 與主題豐富度</p></div></article>
+          <article class="cat-card"><div class="cat-num">2</div><div class="cat-ic has-image"><img src="image/index/live entertainment.png" alt="真人娛樂"></div><div><h3>真人娛樂</h3><p>真人荷官直播遊戲，包含百家樂、輪盤、二十一點等經典牌局</p></div></article>
+          <article class="cat-card"><div class="cat-num">3</div><div class="cat-ic has-image"><img src="image/index/sports games.png" alt="體育投注"></div><div><h3>體育投注</h3><p>足球、籃球、電競等多種體育賽事即時投注選項比較</p></div></article>
+          <article class="cat-card"><div class="cat-num">4</div><div class="cat-ic has-image"><img src="image/index/table games.png" alt="桌上遊戲"></div><div><h3>桌上遊戲</h3><p>策略型牌桌遊戲，適合偏好技巧與機率並重的玩家族群</p></div></article>
+          <article class="cat-card"><div class="cat-num">5</div><div class="cat-ic has-image"><img src="image/index/original game.png" alt="原創遊戲"></div><div><h3>原創遊戲</h3><p>平台自製特色遊戲，通常具備更高的 RTP 與更低的邊際</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. 排行榜 -->
+    <section class="sec-pad" id="ranking">
+      <div class="shell">
+        <div class="rank-sec">
+          <div class="rk-head"><div><h2>今日排行榜</h2><p>為你整理最熱門的遊戲排行榜資訊</p></div><a class="btn btn-secondary btn-sm" href="#promotions">查看完整排行榜</a></div>
+          <table class="rk-tbl"><thead><tr><th class="rk-rank">排名</th><th>遊戲名稱</th><th>活躍人數</th><th>遊戲類型</th><th>立即遊玩</th></tr></thead><tbody>
+            <tr><td class="rk-rank">01</td><td class="rk-game">Gate of Olympus</td><td>12,483 Players</td><td>老虎機</td><td><a class="rk-open" href="#faq" aria-label="立即遊玩"><svg viewBox="0 0 20 20" fill="none"><path d="M7 13L13 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M8 7H13V12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></td></tr>
+            <tr><td class="rk-rank">02</td><td class="rk-game">Crazy Time</td><td>8,937 Players</td><td>真人遊戲</td><td><a class="rk-open" href="#faq" aria-label="立即遊玩"><svg viewBox="0 0 20 20" fill="none"><path d="M7 13L13 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M8 7H13V12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></td></tr>
+            <tr><td class="rk-rank">03</td><td class="rk-game">Sweet Bonanza</td><td>7,120 Players</td><td>老虎機</td><td><a class="rk-open" href="#faq" aria-label="立即遊玩"><svg viewBox="0 0 20 20" fill="none"><path d="M7 13L13 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M8 7H13V12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></td></tr>
+            <tr><td class="rk-rank">04</td><td class="rk-game">Mines Original</td><td>5,102 Players</td><td>原創遊戲</td><td><a class="rk-open" href="#faq" aria-label="立即遊玩"><svg viewBox="0 0 20 20" fill="none"><path d="M7 13L13 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M8 7H13V12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></td></tr>
+            <tr><td class="rk-rank">05</td><td class="rk-game">Lightning Roulette</td><td>4,388 Players</td><td>真人遊戲</td><td><a class="rk-open" href="#faq" aria-label="立即遊玩"><svg viewBox="0 0 20 20" fill="none"><path d="M7 13L13 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M8 7H13V12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></td></tr>
+          </tbody></table>
+          <div class="rk-mob">
+            <div class="rk-card"><div class="rk-card-top"><div class="rk-card-n">01</div><div class="rk-card-info"><div class="rk-card-name">Gate of Olympus</div><div class="rk-card-type">老虎機</div></div></div><div class="rk-card-bot"><span class="rk-card-ml">遊玩人數</span><span class="rk-card-mv">12,483 Players</span></div></div>
+            <div class="rk-card"><div class="rk-card-top"><div class="rk-card-n">02</div><div class="rk-card-info"><div class="rk-card-name">Crazy Time</div><div class="rk-card-type">真人遊戲</div></div></div><div class="rk-card-bot"><span class="rk-card-ml">遊玩人數</span><span class="rk-card-mv">8,937 Players</span></div></div>
+            <div class="rk-card"><div class="rk-card-top"><div class="rk-card-n">03</div><div class="rk-card-info"><div class="rk-card-name">Sweet Bonanza</div><div class="rk-card-type">老虎機</div></div></div><div class="rk-card-bot"><span class="rk-card-ml">遊玩人數</span><span class="rk-card-mv">7,120 Players</span></div></div>
+            <div class="rk-card"><div class="rk-card-top"><div class="rk-card-n">04</div><div class="rk-card-info"><div class="rk-card-name">Mines Original</div><div class="rk-card-type">原創遊戲</div></div></div><div class="rk-card-bot"><span class="rk-card-ml">遊玩人數</span><span class="rk-card-mv">5,102 Players</span></div></div>
+            <div class="rk-card"><div class="rk-card-top"><div class="rk-card-n">05</div><div class="rk-card-info"><div class="rk-card-name">Lightning Roulette</div><div class="rk-card-type">真人遊戲</div></div></div><div class="rk-card-bot"><span class="rk-card-ml">遊玩人數</span><span class="rk-card-mv">4,388 Players</span></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. 評選方法 -->
+    <section class="sec-pad">
+      <div class="shell">
+        <div class="sec-head" style="max-width:880px"><div><h2>晴天兄弟 如何評選娛樂城排行？</h2><p class="sec-lead">我們會從平台背景、遊戲體驗、優惠條款與出入金透明等面向，整理值得參考的線上娛樂城推薦名單</p></div></div>
+        <div class="feat-grid">
+          <article class="feat-card"><div class="feat-ic"><img src="image/index/safe.png" alt="安全審查"></div><h3>平台安全與背景審查</h3><p>優先檢視線上娛樂城的品牌背景、帳戶安全機制、隱私保護與平台透明度，協助玩家避開資訊不足的平台</p><ul class="feat-tags"><li>牌照與營運資訊</li><li>帳戶安全機制</li><li>客服風險應對</li><li>平台信譽觀察</li></ul></article>
+          <article class="feat-card"><div class="feat-ic"><img src="image/index/credit card.png" alt="出入金評估"></div><h3>優惠條款與出入金評估</h3><p>不只看首存優惠高低，也會比較洗碼條件、提款限制、支付方式與處理速度，確認優惠是否真的合理與實用</p><ul class="feat-tags"><li>返水與回饋比較</li><li>提款規則審查</li><li>支付方式多元性</li><li>處理速度評估</li></ul></article>
+          <article class="feat-card"><div class="feat-ic"><img src="image/index/game.png" alt="遊戲體驗比較"></div><h3>遊戲種類與玩家體驗比較</h3><p>從老虎機、真人娛樂、原創遊戲到桌上遊戲，整理各平台的遊戲豐富度、介面流暢度與適合族群，幫助玩家快速判斷</p><ul class="feat-tags"><li>遊戲種類豐富度</li><li>介面流暢度</li><li>適合族群分析</li><li>RTP 透明度</li></ul></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. FAQ -->
+    <site-faq title="FAQ常見問題" section-class="sec-pad" shell-style="max-width:880px" head-class="sec-head">
+      <details class="faq-item"><summary>Q1：娛樂城推薦要看哪些重點？</summary><p>建議從平台安全性、提款流程、優惠條款、遊戲種類與客服品質一起看，而不是只看首存優惠。真正值得參考的線上娛樂城推薦，通常會把使用風險與適合族群說清楚。</p></details>
+      <details class="faq-item"><summary>Q2：晴天兄弟的娛樂城排行依據是什麼？</summary><p>我們會綜合品牌背景、出入金效率、遊戲體驗、活動透明度與實際使用情境進行評估，再整理成較容易比較的排行資訊，幫助新手和進階玩家快速篩選。</p></details>
+      <details class="faq-item"><summary>Q3：線上娛樂城推薦平台一定安全嗎？</summary><p>沒有任何平台可以只靠品牌名氣就直接判定絕對安全，因此仍要檢查平台背景、條款與帳戶安全措施。推薦排行的價值在於先幫你排除明顯不透明的平台，降低踩雷機率。</p></details>
+      <details class="faq-item"><summary>Q4：Stake、Rainbet、Shuffle怎麼選？</summary><p>如果你重視全球知名度與加密體驗，Stake 會是較穩定的選擇；偏好社群氛圍與體育投注可看 Rainbet；若你喜歡較新穎的介面與探索感，Shuffle 會更適合。</p></details>
+      <details class="faq-item"><summary>Q5：新手適合哪一種線上娛樂城？</summary><p>新手可以優先選擇介面清楚、客服回應快、活動規則透明的平台，並先從老虎機或桌上遊戲等門檻較低的類型開始。與其追高額獎勵，不如先確認提款與帳戶安全是否穩定。</p></details>
+      <details class="faq-item"><summary>Q6：娛樂城優惠越高越好嗎？</summary><p>不一定。高額優惠如果伴隨複雜流水、提款上限或額外限制，實際價值反而可能偏低。比較線上娛樂城推薦時，建議把「是否能順利用到」放在比數字更前面。</p></details>
+    </site-faq>
+
+  </main>
+
+  <site-footer page="index"></site-footer>
+
+  <script src="components/site-components.js"></script>
+  <script>
+    (function () {
+      var header = document.querySelector('.hdr');
+      var hero = document.querySelector('.hero');
+      if (!header || !hero) return;
+
+      function syncHeaderState() {
+        var heroBottom = hero.offsetTop + hero.offsetHeight;
+        var passedHero = window.scrollY >= (heroBottom - header.offsetHeight);
+        header.classList.toggle('is-solid', passedHero);
+      }
+
+      syncHeaderState();
+      window.addEventListener('scroll', syncHeaderState, { passive: true });
+      window.addEventListener('resize', syncHeaderState);
+    })();
+  </script>
+</body>
+</html>

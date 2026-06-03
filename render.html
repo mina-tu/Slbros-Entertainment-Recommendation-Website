@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button Component — DS Preview</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://cdn.jsdelivr.net/npm/chiron-hei-hk-webfont@2.6.9/index.css" rel="stylesheet">
+  <style>
+    /* ── tokens (inlined) ─────────────────────────────── */
+    :root {
+      --color-primary-700: #43269A; --color-primary-500: #7656D7; --color-primary-300: #9FC9FF;
+      --color-secondary-500: #DEF243;
+      --color-purple-900: #3A0661;
+      --color-success: #A4F467; --color-warning: #F0DB66; --color-error: #E94242;
+      --color-neutral-50: #FFFFFF; --color-neutral-100: #E1E2E4; --color-neutral-200: #AAABAC;
+      --color-neutral-300: #909192; --color-neutral-400: #5E5E5F; --color-neutral-500: #474747;
+      --color-neutral-600: #303030; --color-neutral-700: #1B1C1C;
+      --color-white: #FFFFFF;
+      --font-family: 'Chiron Hei HK', sans-serif;
+      --radius-md: 10px;
+      --shadow-focus: 0 0 0 3px rgba(118,86,215,0.35);
+      --btn-radius: var(--radius-md); --btn-border-width: 1px; --btn-gap: 8px;
+      --btn-transition: all 0.15s ease-in-out;
+      --btn-sm-height:32px; --btn-sm-px:12px; --btn-sm-py:6px; --btn-sm-font-size:12px; --btn-sm-line-height:16px;
+      --btn-md-height:40px; --btn-md-px:20px; --btn-md-py:10px; --btn-md-font-size:14px; --btn-md-line-height:20px;
+      --btn-lg-height:48px; --btn-lg-px:24px; --btn-lg-py:12px; --btn-lg-font-size:16px; --btn-lg-line-height:24px;
+      --btn-primary-bg:#43269A; --btn-primary-text:#fff; --btn-primary-border:transparent;
+      --btn-primary-hover-bg:#5534B0; --btn-primary-active-bg:#3A0661;
+      --btn-secondary-bg:#DEF243; --btn-secondary-text:#1B1C1C; --btn-secondary-border:#DEF243;
+      --btn-secondary-hover-bg:#E8FB5E; --btn-secondary-active-bg:#C8D636;
+      --btn-outline-bg:transparent; --btn-outline-text:#FFFFFF; --btn-outline-border:#7656D7;
+      --btn-outline-hover-bg:rgba(118,86,215,.15); --btn-outline-active-bg:rgba(118,86,215,.25);
+      --btn-ghost-bg:transparent; --btn-ghost-text:#9FC9FF; --btn-ghost-border:transparent;
+      --btn-ghost-hover-bg:rgba(118,86,215,.12); --btn-ghost-active-bg:rgba(118,86,215,.22);
+      --btn-neutral-bg:#161922; --btn-neutral-text:#fff; --btn-neutral-border:#2E3444;
+      --btn-neutral-hover-bg:#1E2230;
+      --btn-disabled-bg:#222633; --btn-disabled-text:#5E6678; --btn-disabled-border:#222633;
+    }
+    /* ── button.css (inlined) ─────────────────────────── */
+    .btn {
+      --_bg:var(--btn-primary-bg); --_text:var(--btn-primary-text); --_border:var(--btn-primary-border); --_shadow:none;
+      display:inline-flex; align-items:center; justify-content:center; gap:var(--btn-gap);
+      white-space:nowrap; cursor:pointer; user-select:none; text-decoration:none;
+      height:var(--btn-md-height); padding:var(--btn-md-py) var(--btn-md-px);
+      font-size:var(--btn-md-font-size); line-height:var(--btn-md-line-height);
+      font-family:var(--font-family); font-weight: 400; text-align:center;
+      background:var(--_bg); color:var(--_text);
+      border:var(--btn-border-width) solid var(--_border);
+      border-radius:var(--btn-radius); box-shadow:var(--_shadow);
+      transition:var(--btn-transition); appearance:none; outline:none;
+    }
+    .btn-primary   { --_bg:var(--btn-primary-bg); --_text:var(--btn-primary-text); --_border:transparent; border:none; }
+    .btn-secondary { --_bg:var(--btn-secondary-bg); --_text:var(--btn-secondary-text); --_border:var(--btn-secondary-border); }
+    .btn-outline   { --_bg:var(--btn-outline-bg); --_text:var(--btn-outline-text); --_border:transparent; border:none; box-shadow:inset 0 0 0 1.5px #7656D7; }
+    .btn-ghost     { --_bg:var(--btn-ghost-bg); --_text:var(--btn-ghost-text); --_border:transparent; border:none; }
+    .btn-neutral   { --_bg:var(--btn-neutral-bg); --_text:var(--btn-neutral-text); --_border:var(--btn-neutral-border); }
+    .btn-sm { height:var(--btn-sm-height); padding:var(--btn-sm-py) var(--btn-sm-px); font-size:var(--btn-sm-font-size); line-height:var(--btn-sm-line-height); }
+    .btn-lg { height:var(--btn-lg-height); padding:var(--btn-lg-py) var(--btn-lg-px); font-size:var(--btn-lg-font-size); line-height:var(--btn-lg-line-height); }
+    .btn-block { width:100%; }
+    .btn-primary:hover,.btn-primary.is-hover     { --_bg:var(--btn-primary-hover-bg); }
+    .btn-primary:active,.btn-primary.is-active   { --_bg:var(--btn-primary-active-bg); }
+    .btn-secondary:hover,.btn-secondary.is-hover { --_bg:var(--btn-secondary-hover-bg); }
+    .btn-secondary:active,.btn-secondary.is-active { --_bg:var(--btn-secondary-active-bg); }
+    .btn-outline:hover,.btn-outline.is-hover     { --_bg:var(--btn-outline-hover-bg); }
+    .btn-outline:active,.btn-outline.is-active   { --_bg:var(--btn-outline-active-bg); }
+    .btn-ghost:hover,.btn-ghost.is-hover         { --_bg:var(--btn-ghost-hover-bg); }
+    .btn-ghost:active,.btn-ghost.is-active       { --_bg:var(--btn-ghost-active-bg); }
+    .btn-neutral:hover,.btn-neutral.is-hover     { --_bg:var(--btn-neutral-hover-bg); }
+    .btn:focus-visible,.btn.is-focus { box-shadow:var(--shadow-focus); outline:none; }
+    .btn-outline:focus-visible,.btn-outline.is-focus { box-shadow:inset 0 0 0 1.5px #7656D7, var(--shadow-focus); }
+    .btn:disabled,.btn.is-disabled { --_bg:var(--btn-disabled-bg); --_text:var(--btn-disabled-text); --_border:var(--btn-disabled-border); cursor:not-allowed; pointer-events:none; box-shadow:none; border:var(--btn-border-width) solid var(--btn-disabled-border); }
+    .btn.is-loading { position:relative; color:transparent; pointer-events:none; }
+    .btn.is-loading::after { content:''; position:absolute; width:1em; height:1em; border:2px solid currentColor; border-right-color:transparent; border-radius:50%; animation:btn-spin .6s linear infinite; color:var(--_text); }
+    @keyframes btn-spin { to { transform:rotate(360deg); } }
+
+    /* ── page layout ──────────────────────────────────── */
+    *,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
+    body { font-family:var(--font-family); background:#0F1115; color:#C3CAD8; padding:48px; line-height:1.5; max-width:960px; }
+    h1 { font-size:32px; font-weight:700; margin-bottom:4px; letter-spacing:-0.5px; color:#F4F7FF; }
+    .subtitle { font-size:14px; color:#A9B1C2; margin-bottom:48px; }
+    .section-title { font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:2.5px; color:#9FC9FF; margin-bottom:20px; padding-bottom:12px; border-bottom:1px solid #2E3444; }
+    section { margin-bottom:48px; }
+    .row { display:flex; align-items:center; gap:16px; margin-bottom:16px; flex-wrap:wrap; }
+    .row-label { width:100px; font-size:13px; font-weight: 400; color:#A9B1C2; flex-shrink:0; }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:24px; margin-bottom:20px; }
+    .cell-label { font-size:11px; font-weight: 700; color:#A9B1C2; text-transform:uppercase; letter-spacing:1px; margin-bottom:8px; }
+    .token-ref { display:block; font-size:11px; color:#8F98AC; font-family:'SF Mono','Fira Code',monospace; margin-top:6px; }
+    .dark-strip { background:#1E2230; padding:16px 20px; border-radius:10px; display:flex; align-items:center; gap:16px; }
+    .dark-strip .row-label { color:#A9B1C2; }
+    hr.divider { border:none; border-top:1px solid #2E3444; margin:40px 0; }
+    .color-dot { display:inline-block; width:12px; height:12px; border-radius:50%; margin-right:6px; vertical-align:middle; }
+  </style>
+</head>
+<body>
+
+  <h1>Button Component</h1>
+  <p class="subtitle">
+    DS Colors: Primary <span class="color-dot" style="background:#43269A"></span>#43269A ·
+    Secondary <span class="color-dot" style="background:#DEF243"></span>#DEF243 ·
+    Accent <span class="color-dot" style="background:#7656D7"></span>#7656D7
+  </p>
+
+  <!-- ═══ Variant × Size ═══════════════════════════════ -->
+  <section>
+    <div class="section-title">Primary · #43269A</div>
+    <div class="grid">
+      <div><div class="cell-label">Small</div><button class="btn btn-primary btn-sm">Button</button><span class="token-ref">.btn-primary.btn-sm</span></div>
+      <div><div class="cell-label">Medium</div><button class="btn btn-primary">Button</button><span class="token-ref">.btn-primary</span></div>
+      <div><div class="cell-label">Large</div><button class="btn btn-primary btn-lg">Button</button><span class="token-ref">.btn-primary.btn-lg</span></div>
+    </div>
+
+    <div class="section-title">Secondary · #DEF243</div>
+    <div class="grid">
+      <div><button class="btn btn-secondary btn-sm">Button</button><span class="token-ref">.btn-secondary.btn-sm</span></div>
+      <div><button class="btn btn-secondary">Button</button><span class="token-ref">.btn-secondary</span></div>
+      <div><button class="btn btn-secondary btn-lg">Button</button><span class="token-ref">.btn-secondary.btn-lg</span></div>
+    </div>
+
+    <div class="section-title">Outline · #7656D7 border</div>
+    <div class="grid">
+      <div><button class="btn btn-outline btn-sm">Button</button><span class="token-ref">.btn-outline.btn-sm</span></div>
+      <div><button class="btn btn-outline">Button</button><span class="token-ref">.btn-outline</span></div>
+      <div><button class="btn btn-outline btn-lg">Button</button><span class="token-ref">.btn-outline.btn-lg</span></div>
+    </div>
+
+    <div class="section-title">Ghost · Transparent</div>
+    <div class="grid">
+      <div><button class="btn btn-ghost btn-sm">Button</button><span class="token-ref">.btn-ghost.btn-sm</span></div>
+      <div><button class="btn btn-ghost">Button</button><span class="token-ref">.btn-ghost</span></div>
+      <div><button class="btn btn-ghost btn-lg">Button</button><span class="token-ref">.btn-ghost.btn-lg</span></div>
+    </div>
+
+    <div class="section-title">Neutral · #1B1C1C</div>
+    <div class="dark-strip">
+      <span class="row-label">Neutral</span>
+      <button class="btn btn-neutral btn-sm">Button</button>
+      <button class="btn btn-neutral">Button</button>
+      <button class="btn btn-neutral btn-lg">Button</button>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ═══ States ════════════════════════════════════════ -->
+  <section>
+    <div class="section-title">States — Primary (#43269A)</div>
+    <div class="row"><span class="row-label">Default</span><button class="btn btn-primary">查看娛樂城排行</button></div>
+    <div class="row"><span class="row-label">Hover</span><button class="btn btn-primary is-hover">查看娛樂城排行</button></div>
+    <div class="row"><span class="row-label">Focus</span><button class="btn btn-primary is-focus">查看娛樂城排行</button></div>
+    <div class="row"><span class="row-label">Disabled</span><button class="btn btn-primary is-disabled">查看娛樂城排行</button></div>
+    <div class="row"><span class="row-label">Loading</span><button class="btn btn-primary is-loading">查看娛樂城排行</button></div>
+  </section>
+
+  <section>
+    <div class="section-title">States — Secondary (#DEF243)</div>
+    <div class="row"><span class="row-label">Default</span><button class="btn btn-secondary">了解評測標準</button></div>
+    <div class="row"><span class="row-label">Hover</span><button class="btn btn-secondary is-hover">了解評測標準</button></div>
+    <div class="row"><span class="row-label">Focus</span><button class="btn btn-secondary is-focus">了解評測標準</button></div>
+    <div class="row"><span class="row-label">Disabled</span><button class="btn btn-secondary is-disabled">了解評測標準</button></div>
+    <div class="row"><span class="row-label">Loading</span><button class="btn btn-secondary is-loading">了解評測標準</button></div>
+  </section>
+
+  <section>
+    <div class="section-title">States — Outline (#7656D7)</div>
+    <div class="row"><span class="row-label">Default</span><button class="btn btn-outline">查看詳情</button></div>
+    <div class="row"><span class="row-label">Hover</span><button class="btn btn-outline is-hover">查看詳情</button></div>
+    <div class="row"><span class="row-label">Focus</span><button class="btn btn-outline is-focus">查看詳情</button></div>
+    <div class="row"><span class="row-label">Disabled</span><button class="btn btn-outline is-disabled">查看詳情</button></div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ═══ Block ═════════════════════════════════════════ -->
+  <section>
+    <div class="section-title">Full-width / Block</div>
+    <div style="max-width:400px;">
+      <button class="btn btn-primary btn-block" style="margin-bottom:12px;">聯繫客服領取方案</button>
+      <button class="btn btn-secondary btn-block" style="margin-bottom:12px;">立即加入</button>
+      <button class="btn btn-outline btn-block">了解更多</button>
+    </div>
+  </section>
+
+  <!-- ═══ Real-world ════════════════════════════════════ -->
+  <section>
+    <div class="section-title">Real-world Usage</div>
+    <div class="row">
+      <span class="row-label">Hero CTA</span>
+      <button class="btn btn-primary">查看娛樂城排行</button>
+      <button class="btn btn-outline">了解評測標準</button>
+    </div>
+    <div class="row">
+      <span class="row-label">Card Action</span>
+      <button class="btn btn-primary btn-sm">查看詳情 →</button>
+      <button class="btn btn-secondary btn-sm">立即加入</button>
+    </div>
+    <div class="row">
+      <span class="row-label">Section Link</span>
+      <button class="btn btn-neutral btn-sm">查看完整排行榜</button>
+      <button class="btn btn-ghost btn-sm">更多資訊 →</button>
+    </div>
+    <div style="max-width:400px; margin-top:12px;">
+      <span class="row-label" style="margin-bottom:8px; display:block;">VIP CTA</span>
+      <button class="btn btn-primary btn-block btn-lg">聯繫客服領取方案</button>
+    </div>
+  </section>
+
+</body>
+</html>

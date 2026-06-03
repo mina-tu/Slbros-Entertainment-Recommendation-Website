@@ -1,0 +1,144 @@
+/* ============================================================
+  Design Tokens - CSS Custom Properties
+  Source: Figma Style Guide (node 31:17)
+
+  DS Primary:   #43269A -> #9FC9FF
+  DS Secondary: #DEF243
+  DS Accent:    #7656D7
+
+  ✓ = confirmed from Figma | ⟡ = inferred
+  ============================================================ */
+
+:root {
+  /* ── DS Primary Palette ──────────────────────────────── */
+  --color-primary-700: #43269A; /* ✓ brand core, gradient start */
+  --color-primary-500: #7656D7; /* ✓ accent purple */
+  --color-primary-300: #9FC9FF; /* ✓ gradient end */
+
+  /* ── DS Secondary Palette ────────────────────────────── */
+  --color-secondary-500: #DEF243; /* ✓ lime highlight */
+  --color-secondary-100: #FFFFFF; /* ✓ alt white */
+
+  /* ── DS Deep Purple ──────────────────────────────────── */
+  --color-purple-900: #3A0661; /* ✓ */
+
+  /* ── DS Status Colors ────────────────────────────────── */
+  --color-success: #A4F467; /* ✓ */
+  --color-warning: #F0DB66; /* ✓ */
+  --color-error: #E94242; /* ✓ */
+
+  /* ── DS Neutral Scale ────────────────────────────────── */
+  --color-neutral-50: #FFFFFF; /* ✓ */
+  --color-neutral-100: #E1E2E4; /* ✓ */
+  --color-neutral-200: #AAABAC; /* ✓ */
+  --color-neutral-300: #909192; /* ✓ */
+  --color-neutral-400: #5E5E5F; /* ✓ */
+  --color-neutral-500: #474747; /* ✓ */
+  --color-neutral-600: #303030; /* ✓ */
+  --color-neutral-700: #1B1C1C; /* ✓ */
+
+  /* ── Common ──────────────────────────────────────────── */
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+
+  /* ── Typography ──────────────────────────────────────── */
+  /* Load: https://cdn.jsdelivr.net/npm/chiron-hei-hk-webfont@2.6.9/index.css */
+  --font-family: 'Chiron Hei HK', sans-serif;
+
+  /* Weight mapping (Chiron Hei HK supports 300/400/700/900) */
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 400; /* Chiron Hei 無 500，用 400 近似 */
+  --font-weight-semibold: 700; /* Chiron Hei 無 600，升至 700 */
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+
+  /* ── Spacing ─────────────────────────────────────────── */
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+  --spacing-10: 40px;
+  --spacing-12: 48px;
+  --spacing-14: 56px;
+  --spacing-16: 64px;
+  --spacing-20: 80px;
+  --spacing-30: 120px;
+  --spacing-40: 160px;
+
+  /* ── Radius (直角風格：sm/md/lg 一律 0；full 保留給膠囊/圓形元件) ── */
+  --radius-sm: 0;
+  --radius-md: 0;
+  --radius-lg: 0;
+  --radius-full: 9999px;
+
+  /* ── Shadows (based on DS purple) ────────────────────── */
+  --shadow-sm: 0 1px 2px rgba(67,38,154,0.06);
+  --shadow-md: 0 4px 8px -2px rgba(67,38,154,0.1), 0 2px 4px -2px rgba(67,38,154,0.06);
+  --shadow-lg: 0 12px 16px -4px rgba(67,38,154,0.1), 0 4px 6px -2px rgba(67,38,154,0.04);
+  --shadow-focus: 0 0 0 3px rgba(118,86,215,0.35);  /* ⟡ accent #7656D7 ring */
+
+  /* ── Button: Sizes ───────────────────────────────────── */
+  --btn-radius: var(--radius-md);
+  --btn-border-width: 1px;
+  --btn-gap: 8px;
+  --btn-transition: all 0.15s ease-in-out;
+
+  --btn-sm-height: 32px;
+  --btn-sm-px: 12px;
+  --btn-sm-py: 6px;
+  --btn-sm-font-size: 12px;
+  --btn-sm-line-height: 16px;
+
+  --btn-md-height: 40px; /* ✓ */
+  --btn-md-px: 20px; /* ✓ */
+  --btn-md-py: 10px; /* ✓ */
+  --btn-md-font-size: 14px; /* ✓ */
+  --btn-md-line-height: 20px; /* ✓ */
+
+  --btn-lg-height: 48px;
+  --btn-lg-px: 24px;
+  --btn-lg-py: 12px;
+  --btn-lg-font-size: 16px;
+  --btn-lg-line-height: 24px;
+
+  /* ── Button: Primary / CTA (DS lime #DEF243 — 重點 CTA 一律綠色) ─── */
+  --btn-primary-bg: var(--color-secondary-500); /* #DEF243 lime */
+  --btn-primary-text: var(--color-neutral-700); /* #1B1C1C dark on lime */
+  --btn-primary-border: var(--color-secondary-500);
+  --btn-primary-hover-bg: #E8FB5E; /* ⟡ brighter lime */
+  --btn-primary-active-bg: #C8D636; /* ⟡ deeper lime */
+
+  /* ── Button: Secondary (#DEF243 lime) ────────────────── */
+  --btn-secondary-bg: var(--color-secondary-500); /* ✓ #DEF243 */
+  --btn-secondary-text: var(--color-neutral-700); /* #1B1C1C dark on lime */
+  --btn-secondary-border: var(--color-secondary-500);
+  --btn-secondary-hover-bg: #E8FB5E; /* ⟡ brighter */
+  --btn-secondary-active-bg: #C8D636; /* ⟡ deeper */
+
+  /* ── Button: Outline (white bg, #7656D7 border) ──────── */
+  --btn-outline-bg: var(--color-white);
+  --btn-outline-text: var(--color-primary-700); /* #43269A */
+  --btn-outline-border: var(--color-primary-500); /* #7656D7 */
+  --btn-outline-hover-bg: #F4F0FF; /* ⟡ faint purple */
+  --btn-outline-active-bg: #EBE4FF;
+
+  /* ── Button: Ghost (transparent, purple text) ────────── */
+  --btn-ghost-bg: transparent;
+  --btn-ghost-text: var(--color-primary-700); /* #43269A */
+  --btn-ghost-border: transparent;
+  --btn-ghost-hover-bg: #F4F0FF;
+  --btn-ghost-active-bg: #EBE4FF;
+
+  /* ── Button: Neutral (#1B1C1C dark) ──────────────────── */
+  --btn-neutral-bg: var(--color-neutral-700); /* ✓ #1B1C1C */
+  --btn-neutral-text:       var(--color-white);
+  --btn-neutral-border: var(--color-neutral-600); /* #303030 */
+  --btn-neutral-hover-bg: var(--color-neutral-500); /* #474747 */
+
+  /* ── Button: Disabled ────────────────────────────────── */
+  --btn-disabled-bg: var(--color-neutral-100); /* #E1E2E4 */
+  --btn-disabled-text: var(--color-neutral-200); /* #AAABAC */
+  --btn-disabled-border: var(--color-neutral-100);
+}
