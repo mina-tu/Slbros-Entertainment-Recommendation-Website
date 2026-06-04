@@ -1,0 +1,617 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>娛樂城新聞｜最新娛樂城資訊、活動消息與熱門話題｜晴天娛樂城推薦網</title>
+  <meta name="description" content="掌握最新娛樂城新聞與熱門資訊，包含Stake、Rainbet、Shuffle平台消息、優惠活動、熱門遊戲更新、體育投注話題與加密娛樂城趨勢，第一時間了解娛樂城最新動態。">
+  <!-- 字體：提前建立連線，縮短 webfont 取得時間、降低字體切換造成的位移（CLS）。webfont 本身已採用 font-display:swap -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+  <link href="https://cdn.jsdelivr.net/npm/chiron-hei-hk-webfont@2.6.9/index.css" rel="stylesheet">
+  <style>
+    /* ============================================================
+       娛樂城新聞中心 — 新聞總覽頁
+       延續站內視覺：Chiron Hei HK / 深色科技感 / 紫綠點綴 / 直角
+       ============================================================ */
+    :root{
+      --pri-700:#43269A;--pri-500:#7656D7;--pri-300:#9FC9FF;--pri-200:#B5A8F0;
+      --sec:#DEF243;--purple-900:#3A0661;
+      --n50:#161922;--n100:#222633;--n150:#2E3444;--n200:#8F98AC;--n300:#A9B1C2;
+      --n400:#C3CAD8;--n500:#D9DEEA;--n600:#E8ECF5;--n700:#F4F7FF;--n800:#FFFFFF;
+      --surface-muted:#1E2230;--success:#A4F467;
+      /* 後備字體改用度量相近的 CJK 黑體，降低 webfont 載入後切換時的回流位移 */
+      --ff:'Chiron Hei HK','PingFang TC','Microsoft JhengHei','Noto Sans TC',sans-serif;
+      --r-full:999px;
+      --fs-hero:clamp(30px,4.4vw,50px);--fs-h2:clamp(25px,3.1vw,34px);--fs-h3:20px;
+      --fs-lead:18px;--fs-body:16px;--fs-sm:14px;--fs-xs:12px;
+      --lh-tight:1.2;--lh-heading:1.3;--lh-body:1.7;
+      --ease:cubic-bezier(.4,0,.2,1);--dur:.25s;--lift:-4px;
+      --shadow-card:0 24px 60px -18px rgba(0,0,0,.6);
+      --shadow-card-sm:0 18px 40px -16px rgba(0,0,0,.5);
+      --shadow-glow:0 0 0 1px rgba(159,168,240,.42),0 0 22px rgba(118,86,215,.62),0 0 52px rgba(67,38,154,.42),0 0 84px rgba(67,38,154,.18);
+      --grad-purple:linear-gradient(150deg,#1A1740 0%,#43269A 52%,#7656D7 100%);
+      --grad-bloom:radial-gradient(125% 130% at 50% 118%,#7656D7 0%,#43269A 42%,#16153C 100%);
+      --grad-blue:linear-gradient(150deg,#10243F 0%,#1C4C82 52%,#3E7FC4 100%);
+      --grad-lime:linear-gradient(150deg,#1B2210 0%,#566B16 52%,#9CC02C 100%);
+      --grad-sport:linear-gradient(150deg,#241133 0%,#5B1E73 52%,#9B3FB0 100%);
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    [hidden]{display:none!important}
+    html{scroll-behavior:smooth}
+    body{background:#0F1115;color:var(--n500);font-family:var(--ff);-webkit-font-smoothing:antialiased;min-width:320px}
+    a{color:inherit;text-decoration:none}img,svg{display:block}button{font:inherit}
+    .shell{width:min(calc(100% - 40px),1240px);margin:0 auto}
+
+    /* ── CLS：為 JS 注入的共用元件預留高度，避免渲染後把內容往下推 ── */
+    site-navbar{display:block;min-height:72px}
+    site-footer{display:block;min-height:300px}
+
+    /* ── A11y：跳到主要內容（鍵盤聚焦時才出現）── */
+    .skip-link{position:fixed;left:16px;top:-80px;z-index:200;background:var(--sec);color:#1B1C1C;font-weight:700;
+      padding:12px 20px;text-decoration:none;transition:top .2s var(--ease)}
+    .skip-link:focus{top:14px}
+
+    /* ── A11y：清楚一致的鍵盤焦點狀態 ── */
+    :focus-visible{outline:3px solid var(--sec);outline-offset:3px;border-radius:2px}
+
+    /* ── A11y：尊重「減少動態」偏好 ── */
+    @media(prefers-reduced-motion:reduce){
+      html{scroll-behavior:auto}
+      *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
+      .card:hover,.news-card:hover,.cat-card:hover,.topic-card:hover,.btn:hover{transform:none}
+    }
+
+    /* ── Buttons ── */
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;
+      font-family:var(--ff);height:46px;padding:10px 26px;font-size:16px;font-weight:700;line-height:22px;
+      border:none;border-radius:0;background:var(--sec);color:#1B1C1C;transition:background .15s,transform .15s}
+    .btn:hover{background:#E8FB5E;transform:translateY(-2px)}
+    .btn-ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.45)}
+    .btn-ghost:hover{background:rgba(255,255,255,.08);border-color:#fff}
+    .btn-sm{height:38px;padding:8px 18px;font-size:14px}
+
+    /* ── Section frame ── */
+    .sec{padding:54px 0}
+    @media(min-width:768px){.sec{padding:76px 0}}
+    .sec-head{margin-bottom:38px}
+    .sec-head.center{text-align:center}
+    .eyebrow{display:inline-flex;align-items:center;font-size:13px;font-weight:700;letter-spacing:.12em;
+      text-transform:uppercase;color:var(--pri-200);margin-bottom:14px}
+    .h2{font-size:var(--fs-h2);font-weight:700;line-height:var(--lh-heading);color:var(--n800);letter-spacing:-.01em}
+    .sec-desc{margin-top:14px;font-size:var(--fs-lead);line-height:1.7;color:var(--n300);max-width:760px}
+    .sec-head.center .sec-desc{margin-left:auto;margin-right:auto}
+
+    /* ── Category tag ── */
+    .tag{display:inline-flex;align-items:center;font-size:12px;font-weight:700;line-height:1;
+      padding:6px 12px;border-radius:var(--r-full);letter-spacing:.02em;
+      background:rgba(118,86,215,.16);color:var(--pri-200);border:1px solid rgba(118,86,215,.3)}
+    .tag.is-promo{background:rgba(222,242,67,.14);color:#D7E84A;border-color:rgba(222,242,67,.3)}
+    .tag.is-sport{background:rgba(155,63,176,.18);color:#D89BE6;border-color:rgba(155,63,176,.34)}
+    .tag.is-trend{background:rgba(62,127,196,.18);color:#8FC0F0;border-color:rgba(62,127,196,.34)}
+    .tag.is-game{background:rgba(164,244,103,.14);color:#B7F08A;border-color:rgba(164,244,103,.3)}
+    .date{font-size:13px;color:var(--n200);display:inline-flex;align-items:center;gap:6px}
+    .date svg{width:14px;height:14px;opacity:.8}
+
+    /* ════ HEADER / NAVBAR ════ */
+    .hdr{position:sticky;top:0;z-index:50;background:transparent;border-bottom:1px solid rgba(255,255,255,.14);
+      transition:background-color .25s var(--ease),backdrop-filter .25s var(--ease),border-color .25s var(--ease)}
+    .hdr.is-solid{background:rgba(15,17,21,.86);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom-color:rgba(255,255,255,.10)}
+    .hdr-in{display:flex;align-items:center;justify-content:space-between;height:72px;gap:24px}
+    .brand{font-weight:800;font-size:20px;color:#fff;letter-spacing:-.02em;white-space:nowrap}
+    .nav{display:flex;align-items:center;gap:4px}
+    .nav a{position:relative;padding:10px 16px;font-size:15px;font-weight:500;color:rgba(255,255,255,.82);white-space:nowrap;transition:color .15s}
+    .nav a::after{content:'';position:absolute;left:16px;right:16px;bottom:4px;height:2px;background:var(--sec);transform:scaleX(0);transform-origin:center;transition:transform .2s var(--ease)}
+    .nav a:hover,.nav a.active{color:#fff}
+    .nav a:hover::after,.nav a.active::after{transform:scaleX(1)}
+    .hdr-icons{display:flex;align-items:center;gap:14px}
+    .hdr-ic{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;color:#fff;background:none;border:none;cursor:pointer;transition:color .15s}
+    .hdr-ic:hover{color:var(--sec)}
+    .hdr-ic svg{width:20px;height:20px}
+    /* 優惠活動 下拉選單（搭配共用 site-navbar 元件） */
+    .nav-dd{position:relative;display:flex}
+    .nav-dd-trigger{display:inline-flex;align-items:center;gap:6px}
+    .nav-dd-caret{width:11px;height:11px;flex-shrink:0;transition:transform .2s}
+    .nav-dd:hover .nav-dd-caret,.nav-dd:focus-within .nav-dd-caret{transform:rotate(180deg)}
+    .nav-dd-menu{position:absolute;top:calc(100% + 12px);left:50%;transform:translateX(-50%) translateY(6px);min-width:184px;background:var(--n50);border:1px solid var(--n150);box-shadow:0 18px 40px -12px rgba(15,6,28,.4);padding:6px;display:flex;flex-direction:column;gap:2px;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .18s ease,transform .18s ease;z-index:60}
+    .nav-dd-menu::before{content:'';position:absolute;left:0;right:0;top:-12px;height:12px}
+    .nav-dd:hover .nav-dd-menu,.nav-dd:focus-within .nav-dd-menu{opacity:1;visibility:visible;pointer-events:auto;transform:translateX(-50%) translateY(0)}
+    .nav-dd-menu a{padding:10px 16px;font-size:14px;font-weight:500;color:var(--n500);white-space:nowrap;transition:background .15s,color .15s}
+    .nav-dd-menu a::after{display:none}
+    .nav-dd-menu a:hover{background:var(--surface-muted);color:var(--pri-200)}
+    .nav-dd-menu .nav-dd-all{margin-top:5px;padding-top:11px;border-top:1px solid var(--n150);color:var(--pri-200);font-weight:700}
+
+    /* ════ HERO ════ */
+    .hero{position:relative;margin-top:-72px;min-height:640px;padding:160px 0 104px;display:flex;align-items:center;overflow:hidden;
+      background:linear-gradient(95deg,rgba(8,9,14,.94) 0%,rgba(8,9,14,.74) 36%,rgba(10,12,24,.34) 68%,rgba(10,12,24,.12) 100%),url('image/news-center/banner.webp') center right/cover no-repeat}
+    .hero::before{content:'';position:absolute;inset:0;
+      background:linear-gradient(180deg,transparent 50%,rgba(15,17,21,.7) 100%)}
+    .hero-wrap{position:relative;z-index:2;max-width:920px}
+    .hero h1{font-size:var(--fs-hero);font-weight:700;line-height:var(--lh-tight);color:#fff;letter-spacing:-.02em}
+    .hero-sub{margin-top:22px;font-size:var(--fs-lead);line-height:1.85;color:rgba(255,255,255,.86);max-width:760px}
+    .hero-sub+.hero-sub{margin-top:14px}
+    .hero-cta{margin-top:36px;display:flex;flex-wrap:wrap;gap:14px}
+    .hero-stats{margin-top:46px;display:flex;flex-wrap:wrap;gap:14px 40px;padding-top:30px;border-top:1px solid rgba(255,255,255,.14)}
+    .hero-stat b{display:block;font-size:28px;font-weight:800;color:#fff;line-height:1}
+    .hero-stat span{font-size:13px;color:rgba(255,255,255,.66)}
+
+    /* ════ 即時焦點 ════ */
+    .focus-grid{display:grid;grid-template-columns:1.45fr 1fr;gap:24px}
+    .card{background:var(--n50);border:1px solid var(--n150);display:flex;flex-direction:column;overflow:hidden;
+      transition:transform var(--dur) var(--ease),box-shadow var(--dur) var(--ease),border-color var(--dur) var(--ease)}
+    .card:hover{transform:translateY(var(--lift));box-shadow:var(--shadow-card),var(--shadow-glow);border-color:rgba(159,168,240,.3)}
+    .card-thumb{position:relative;background:var(--grad-purple);overflow:hidden}
+    .card-thumb::after{content:attr(data-label);position:absolute;left:18px;bottom:16px;font-size:13px;font-weight:700;color:rgba(255,255,255,.9);letter-spacing:.04em}
+    .lead-badge{position:absolute;top:16px;left:16px;z-index:1;display:inline-flex;align-items:center;gap:6px;
+      background:var(--sec);color:#1B1C1C;font-size:12px;font-weight:900;letter-spacing:.04em;padding:6px 13px;border-radius:var(--r-full)}
+    .lead-badge::before{content:'';width:7px;height:7px;border-radius:50%;background:#1B1C1C}
+    .feat-main .card-thumb{height:300px}
+    .feat-main .card-body{padding:30px}
+    .feat-main .card-title{font-size:26px;line-height:1.32}
+    .feat-main .card-sum{font-size:15px}
+    .card-body{padding:22px;display:flex;flex-direction:column;flex:1;gap:14px}
+    .card-meta{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .card-title{font-size:18px;font-weight:700;line-height:1.4;color:var(--n800);letter-spacing:-.01em}
+    .card-sum{font-size:14px;line-height:1.7;color:var(--n300)}
+    .focus-side{display:grid;gap:24px;grid-template-rows:repeat(3,1fr)}
+    .feat-side{flex-direction:row}
+    .feat-side .card-thumb{width:128px;flex-shrink:0;height:auto;min-height:128px}
+    .feat-side .card-thumb::after{display:none}
+    .feat-side .card-body{padding:18px 20px;gap:10px}
+    .feat-side .card-title{font-size:16px;line-height:1.45}
+
+    /* ════ 分類導覽 ════ */
+    .cat-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:18px}
+    .cat-card{position:relative;border:1px solid var(--n150);padding:30px 22px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:14px;overflow:hidden;
+      background:linear-gradient(155deg,#1A1740 0%,#1B1834 48%,var(--n50) 100%);
+      transition:transform var(--dur) var(--ease),box-shadow var(--dur) var(--ease),border-color var(--dur) var(--ease)}
+    .cat-card::before{content:'';position:absolute;inset:0;z-index:0;opacity:.55;pointer-events:none;
+      background:radial-gradient(120% 80% at 50% 0%,rgba(118,86,215,.4) 0%,transparent 60%);
+      transition:opacity var(--dur) var(--ease)}
+    .cat-card>*{position:relative;z-index:1}
+    .cat-card:hover{transform:translateY(var(--lift));box-shadow:var(--shadow-card-sm);border-color:rgba(118,86,215,.55)}
+    .cat-card:hover::before{opacity:.9}
+    .cat-ic{width:54px;height:54px;display:flex;align-items:center;justify-content:center;color:#fff;
+      background:var(--grad-purple);border:1px solid rgba(159,168,240,.35);box-shadow:0 8px 22px -8px rgba(118,86,215,.7)}
+    .cat-ic svg{width:26px;height:26px;color:#fff}
+    .cat-name{font-size:17px;font-weight:700;color:var(--n800)}
+    .cat-desc{font-size:13px;line-height:1.65;color:var(--n300);flex:1}
+
+    /* ════ 最新新聞列表 ════ */
+    .tabs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:34px}
+    .tab{height:38px;padding:0 18px;font-size:14px;font-weight:500;color:var(--n300);background:var(--n50);border:1px solid var(--n150);
+      border-radius:var(--r-full);cursor:pointer;transition:all .15s}
+    .tab:hover{color:#fff;border-color:rgba(159,168,240,.4)}
+    .tab.active{background:var(--sec);color:#1B1C1C;border-color:var(--sec);font-weight:700}
+    .news-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+    .news-card{background:var(--n50);border:1px solid var(--n150);display:flex;flex-direction:column;overflow:hidden;
+      transition:transform var(--dur) var(--ease),box-shadow var(--dur) var(--ease),border-color var(--dur) var(--ease)}
+    .news-card:hover{transform:translateY(var(--lift));box-shadow:var(--shadow-card-sm);border-color:rgba(159,168,240,.3)}
+    .news-thumb{height:170px;position:relative;overflow:hidden}
+    .news-thumb .tag{position:absolute;left:16px;top:16px;z-index:1;backdrop-filter:blur(4px)}
+    .news-body{padding:22px;display:flex;flex-direction:column;flex:1;gap:12px}
+    .news-title{font-size:17px;font-weight:700;line-height:1.45;color:var(--n800);letter-spacing:-.01em}
+    .news-sum{font-size:14px;line-height:1.7;color:var(--n300);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+    .news-foot{margin-top:auto;display:flex;align-items:center;justify-content:space-between;padding-top:14px;border-top:1px solid var(--n150)}
+    .read-more{display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:700;color:var(--pri-200);transition:gap .15s,color .15s}
+    .read-more:hover{gap:10px;color:var(--sec)}
+    .read-more svg{width:15px;height:15px}
+    .news-empty{display:none;text-align:center;color:var(--n200);padding:40px 0;font-size:15px}
+    .load-wrap{margin-top:40px;text-align:center}
+
+    /* ════ 熱門專題（主題策展卡：彙整多篇的收藏夾樣式，刻意有別於單篇文章卡）════ */
+    .topic-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+    .topic-card{display:flex;flex-direction:column;background:var(--n50);border:1px solid var(--n150);overflow:hidden;
+      transition:transform var(--dur) var(--ease),box-shadow var(--dur) var(--ease),border-color var(--dur) var(--ease)}
+    .topic-card:hover{transform:translateY(var(--lift));box-shadow:var(--shadow-card-sm);border-color:rgba(159,168,240,.3)}
+    .topic-cover{position:relative;height:96px;display:flex;align-items:flex-end;padding:16px 20px;background:var(--grad-purple)}
+    .topic-cover::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 30%,rgba(0,0,0,.32) 100%)}
+    .topic-kicker{position:relative;z-index:1;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#fff}
+    .topic-chip{position:absolute;top:14px;right:14px;z-index:1;font-size:11px;font-weight:700;padding:4px 11px;border-radius:var(--r-full);
+      background:rgba(8,9,14,.5);color:#fff;border:1px solid rgba(255,255,255,.28);backdrop-filter:blur(4px)}
+    .topic-body{padding:22px 24px 24px;display:flex;flex-direction:column;flex:1;gap:14px}
+    .topic-title{font-size:20px;font-weight:700;line-height:1.35;color:var(--n800);letter-spacing:-.01em}
+    .topic-title a:hover{color:var(--pri-200)}
+    .topic-desc{font-size:14px;line-height:1.7;color:var(--n300)}
+    .topic-list{list-style:none;display:flex;flex-direction:column;gap:11px;padding-top:16px;border-top:1px solid var(--n150)}
+    .topic-list li{position:relative;padding-left:20px;font-size:14px;line-height:1.5;color:var(--n400)}
+    .topic-list li::before{content:'';position:absolute;left:0;top:7px;width:7px;height:7px;border-radius:2px;background:var(--pri-500)}
+    .topic-list a{transition:color .15s}
+    .topic-list a:hover{color:var(--pri-200)}
+    .topic-foot{margin-top:auto;padding-top:18px;display:flex;align-items:center;justify-content:space-between}
+    .topic-count{font-size:13px;font-weight:700;color:var(--pri-200);background:var(--surface-muted);border:1px solid rgba(118,86,215,.2);padding:5px 12px;border-radius:var(--r-full)}
+    .topic-link{display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:700;color:#fff;transition:gap .15s,color .15s}
+    .topic-link:hover{gap:10px;color:var(--sec)}
+    .topic-link svg{width:15px;height:15px}
+
+    /* ════ FAQ ════ */
+    .faq-wrap{max-width:880px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
+    .faq{background:var(--n50);border:1px solid var(--n150);transition:border-color .2s}
+    .faq[open]{border-color:rgba(159,168,240,.34)}
+    .faq summary{list-style:none;cursor:pointer;padding:22px 26px;display:flex;align-items:center;justify-content:space-between;gap:16px;
+      font-size:16px;font-weight:700;color:var(--n700)}
+    .faq summary::-webkit-details-marker{display:none}
+    .faq-icon{flex-shrink:0;width:26px;height:26px;border:1px solid var(--n150);display:flex;align-items:center;justify-content:center;color:var(--pri-200);transition:transform .25s,background .2s}
+    .faq[open] .faq-icon{transform:rotate(45deg);background:var(--sec);color:#1B1C1C;border-color:var(--sec)}
+    .faq-icon svg{width:14px;height:14px}
+    .faq-body{padding:0 26px 24px;font-size:15px;line-height:1.8;color:var(--n300)}
+
+    /* ════ FOOTER ════ */
+    .ft{background:#0B0C11;margin-top:30px;padding:56px 0 36px;color:#fff;border-top:1px solid var(--n150)}
+    .ft-inner{display:grid;gap:38px}
+    .ft-brand h2{font-size:24px;font-weight:700;margin-bottom:10px}
+    .ft-brand p{color:var(--n300);font-size:14px;line-height:1.7;max-width:560px}
+    .ft-links{display:grid;grid-template-columns:repeat(6,1fr);gap:24px;padding-top:34px;border-top:1px solid rgba(255,255,255,.08)}
+    .ft-col h3{font-size:var(--fs-xs);font-weight:700;color:var(--n400);margin-bottom:14px;text-transform:uppercase;letter-spacing:.1em}
+    .ft-col ul{list-style:none;display:flex;flex-direction:column;gap:9px}
+    .ft-col a{color:var(--n300);font-size:14px;transition:color .15s}
+    .ft-col a:hover{color:var(--sec)}
+    .ft-bot{padding-top:26px;border-top:1px solid rgba(255,255,255,.08);display:flex;flex-wrap:wrap;gap:10px 24px;justify-content:space-between;align-items:center;font-size:13px;color:var(--n200)}
+    .ft-disc{font-size:12px;line-height:1.7;color:var(--n200);max-width:760px}
+
+    /* ════ RESPONSIVE ════ */
+    @media(min-width:768px){.ft-inner{grid-template-columns:1fr}}
+    @media(max-width:980px){
+      .focus-grid{grid-template-columns:1fr}
+      .focus-side{grid-template-rows:none}
+      .cat-grid{grid-template-columns:repeat(2,1fr)}
+      .news-grid{grid-template-columns:repeat(2,1fr)}
+      .topic-grid{grid-template-columns:repeat(3,1fr)}
+      .ft-links{grid-template-columns:repeat(3,1fr)}
+    }
+    @media(max-width:900px){
+      .cat-grid{grid-template-columns:repeat(3,1fr)}
+      .topic-grid{grid-template-columns:1fr}
+    }
+    @media(max-width:760px){
+      .hero{min-height:auto;padding:120px 0 64px;
+        background:linear-gradient(180deg,rgba(8,9,14,.5) 0%,rgba(8,9,14,.7) 55%,rgba(8,9,14,.94) 100%),url('image/news-center/banner_phone.webp') center top/cover no-repeat}
+      .feat-side{flex-direction:column}
+      .feat-side .card-thumb{width:100%;height:150px;min-height:0}
+      .cat-grid{grid-template-columns:1fr}
+      .news-grid{grid-template-columns:1fr}
+      .topic-grid{grid-template-columns:1fr}
+      .ft-links{grid-template-columns:repeat(2,1fr)}
+    }
+  </style>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">跳到主要內容</a>
+
+  <!-- ════════ HEADER（共用 site-navbar 元件）════════ -->
+  <site-navbar page="news"></site-navbar>
+
+  <main id="main">
+
+  <!-- ════════ HERO ════════ -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="shell hero-wrap">
+      <h1 id="hero-title">最新娛樂城新聞</h1>
+      <p class="hero-sub">掌握最新娛樂城新聞、平台消息、優惠活動、熱門遊戲更新與體育賽事焦點，快速了解 Stake、Rainbet、Shuffle 等平台動態，以及 NBA、MLB、足球、電競等熱門投注話題</p>
+      <div class="hero-cta">
+        <a href="#latest" class="btn">查看最新新聞</a>
+        <a href="#categories" class="btn btn-ghost">熱門優惠活動</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat"><b>5</b><span>新聞分類主題</span></div>
+        <div class="hero-stat"><b>每日</b><span>新聞內容更新</span></div>
+        <div class="hero-stat"><b>3+</b><span>主力娛樂城平台追蹤</span></div>
+        <div class="hero-stat"><b>多項</b><span>體育與電競賽事覆蓋</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ 即時焦點：編輯精選頭條（一則主頭條＋延伸焦點）════════ -->
+  <section class="sec" id="focus" aria-labelledby="focus-title">
+    <div class="shell">
+      <div class="sec-head">
+        <span class="eyebrow">編輯精選</span>
+        <h2 class="h2" id="focus-title">今日頭條焦點</h2>
+        <p class="sec-desc">編輯每日從平台公告與賽事消息中挑出最值得關注的一則頭條，搭配三則延伸焦點，讓你用最短時間掌握當天重點</p>
+      </div>
+      <div class="focus-grid">
+        <!-- 主頭條 -->
+        <article class="card feat-main">
+          <div class="card-thumb" data-label="Stake · 平台動態" style="background:var(--grad-purple)"><span class="lead-badge">本日頭條</span></div>
+          <div class="card-body">
+            <div class="card-meta">
+              <span class="tag">平台消息</span>
+              <time class="date" datetime="2026-06-03"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="16" rx="1" stroke="currentColor" stroke-width="1.6"/><path d="M3 9h18M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>2026-06-03</time>
+            </div>
+            <h3 class="card-title">Stake 推出全新賽事中心介面，整合體育與電競即時數據</h3>
+            <p class="card-sum">Stake 近期更新賽事中心版面，將熱門體育與電競賽事的即時數據、賽程資訊整合於同一入口，並調整導覽結構，讓使用者在不同裝置上瀏覽賽事資訊時更為直覺。本次更新以資訊呈現與操作流暢度為主，現已逐步開放給各地區使用者</p>
+          </div>
+        </article>
+        <!-- 小焦點 ×3 -->
+        <div class="focus-side">
+          <article class="card feat-side">
+            <div class="card-thumb" style="background:var(--grad-lime)"></div>
+            <div class="card-body">
+              <div class="card-meta"><span class="tag is-promo">優惠活動</span><time class="date" datetime="2026-06-02">2026-06-02</time></div>
+              <h3 class="card-title">Rainbet 公布六月每週任務獎勵架構，新增多種代幣回饋選項</h3>
+            </div>
+          </article>
+          <article class="card feat-side">
+            <div class="card-thumb" style="background:var(--grad-blue)"></div>
+            <div class="card-body">
+              <div class="card-meta"><span class="tag is-game">遊戲更新</span><time class="date" datetime="2026-06-01">2026-06-01</time></div>
+              <h3 class="card-title">Shuffle 上架多款原創 Crash 類遊戲，並調整介面載入體驗</h3>
+            </div>
+          </article>
+          <article class="card feat-side">
+            <div class="card-thumb" style="background:var(--grad-bloom)"></div>
+            <div class="card-body">
+              <div class="card-meta"><span class="tag is-trend">加密趨勢</span><time class="date" datetime="2026-05-31">2026-05-31</time></div>
+              <h3 class="card-title">穩定幣存提款使用比例持續上升，多平台擴大支援鏈別</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ 分類導覽 ════════ -->
+  <section class="sec" id="categories" style="background:#0B0D12" aria-labelledby="cat-title">
+    <div class="shell">
+      <div class="sec-head center">
+        <span class="eyebrow">新聞分類</span>
+        <h2 class="h2" id="cat-title">依主題瀏覽娛樂城資訊</h2>
+        <p class="sec-desc">五大分類涵蓋平台、優惠、遊戲、體育與加密趨勢，依照你關注的方向快速找到相關內容</p>
+      </div>
+      <div class="cat-grid">
+        <a class="cat-card" href="#latest">
+          <div class="cat-ic"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="14" rx="1.5" stroke="currentColor" stroke-width="1.6"/><path d="M3 9h18M8 21h8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></div>
+          <h3 class="cat-name">平台消息</h3>
+          <p class="cat-desc">Stake、Rainbet、Shuffle 等平台的版本更新、功能調整與服務公告</p>
+        </a>
+        <a class="cat-card" href="#latest">
+          <div class="cat-ic"><svg viewBox="0 0 24 24" fill="none"><path d="M20 12v8H4v-8M2 7h20v5H2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M12 22V7M12 7S9 3 6.5 4 7 8 12 7zM12 7s3-4 5.5-3-.5 4-5.5 3z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></div>
+          <h3 class="cat-name">優惠活動</h3>
+          <p class="cat-desc">各平台最新任務、返水機制、限時活動與獎勵制度整理</p>
+        </a>
+        <a class="cat-card" href="#latest">
+          <div class="cat-ic"><svg viewBox="0 0 24 24" fill="none"><path d="M6 9h4M8 7v4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="15.5" cy="9" r="1" fill="currentColor"/><circle cx="17.5" cy="11" r="1" fill="currentColor"/><rect x="2" y="6" width="20" height="12" rx="3" stroke="currentColor" stroke-width="1.6"/></svg></div>
+          <h3 class="cat-name">熱門遊戲更新</h3>
+          <p class="cat-desc">新遊戲上架、原創玩法調整與遊戲功能優化的即時消息</p>
+        </a>
+        <a class="cat-card" href="#latest">
+          <div class="cat-ic"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M12 3a14 14 0 0 0 0 18M12 3a14 14 0 0 1 0 18M3.5 9h17M3.5 15h17" stroke="currentColor" stroke-width="1.4"/></svg></div>
+          <h3 class="cat-name">體育賽事焦點</h3>
+          <p class="cat-desc">NBA、MLB、足球與電競賽事的賽況資訊與熱門話題彙整</p>
+        </a>
+        <a class="cat-card" href="#latest">
+          <div class="cat-ic"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M9.5 8.5h4a2 2 0 0 1 0 4h-4zm0 4h4.5a2 2 0 0 1 0 4H9.5zm.5-8v12M8 8.5h2M8 16.5h2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <h3 class="cat-name">加密娛樂城趨勢</h3>
+          <p class="cat-desc">穩定幣、錢包安全、鏈別支援與 Web3 娛樂城市場觀察</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ 最新新聞：完整新聞流（依時間排序＋篩選）════════ -->
+  <section class="sec" id="latest" aria-labelledby="latest-title">
+    <div class="shell">
+      <div class="sec-head">
+        <span class="eyebrow">新聞總表</span>
+        <h2 class="h2" id="latest-title">最新文章</h2>
+        <p class="sec-desc">收錄所有最新娛樂城新聞，依發布時間由新到舊排序，可用下方標籤篩選平台與主題，是掌握每日動態的完整列表</p>
+      </div>
+
+      <div class="tabs" role="group" aria-label="依平台與主題篩選新聞">
+        <button type="button" class="tab active" data-filter="all" aria-pressed="true">全部</button>
+        <button type="button" class="tab" data-filter="stake" aria-pressed="false">Stake</button>
+        <button type="button" class="tab" data-filter="rainbet" aria-pressed="false">Rainbet</button>
+        <button type="button" class="tab" data-filter="shuffle" aria-pressed="false">Shuffle</button>
+        <button type="button" class="tab" data-filter="sport" aria-pressed="false">體育</button>
+        <button type="button" class="tab" data-filter="promo" aria-pressed="false">優惠</button>
+        <button type="button" class="tab" data-filter="trend" aria-pressed="false">趨勢</button>
+      </div>
+
+      <div class="news-grid">
+        <!-- 1 -->
+        <article class="news-card" data-cat="stake">
+          <div class="news-thumb" style="background:var(--grad-purple)"><span class="tag">Stake</span></div>
+          <div class="news-body">
+            <h3 class="news-title">Stake 調整 VIP 等級顯示方式，新增進度透明度資訊</h3>
+            <p class="news-sum">Stake 更新 VIP 介面，於等級進度頁面加入更清楚的累積資訊與里程碑說明，玩家可更直接地查看目前狀態與下一階段條件</p>
+            <div class="news-foot"><time class="date" datetime="2026-05-30">2026-05-30</time><a class="read-more" href="#">閱讀更多<svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+          </div>
+        </article>
+        <!-- 2 -->
+        <article class="news-card" data-cat="sport">
+          <div class="news-thumb" style="background:var(--grad-sport)"><span class="tag is-sport">體育</span></div>
+          <div class="news-body">
+            <h3 class="news-title">NBA 季後賽進入關鍵階段，平台同步更新賽事數據看板</h3>
+            <p class="news-sum">隨著 NBA 季後賽推進，多家平台更新賽事數據看板與賽程資訊呈現方式，方便關注賽事的使用者掌握每日對戰與最新動態</p>
+            <div class="news-foot"><time class="date" datetime="2026-05-29">2026-05-29</time><a class="read-more" href="#">閱讀更多<svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+          </div>
+        </article>
+        <!-- 3 -->
+        <article class="news-card" data-cat="promo">
+          <div class="news-thumb" style="background:var(--grad-lime)"><span class="tag is-promo">優惠</span></div>
+          <div class="news-body">
+            <h3 class="news-title">多家娛樂城推出夏季限定任務，玩家參與方式一次整理</h3>
+            <p class="news-sum">進入夏季檔期，數個平台陸續上線限定任務與活動頁面，本文彙整各活動的參與條件與時間區間，協助玩家了解規則後再決定是否參與</p>
+            <div class="news-foot"><time class="date" datetime="2026-05-28">2026-05-28</time><a class="read-more" href="#">閱讀更多<svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+          </div>
+        </article>
+        <!-- 4 -->
+        <article class="news-card" data-cat="rainbet">
+          <div class="news-thumb" style="background:var(--grad-blue)"><span class="tag is-trend">Rainbet</span></div>
+          <div class="news-body">
+            <h3 class="news-title">Rainbet 優化手機端介面，導覽與錢包頁面載入更順暢</h3>
+            <p class="news-sum">Rainbet 針對行動裝置調整版面與載入流程，主要優化導覽列與錢包頁面的操作體驗，並修正部分頁面在小螢幕上的顯示細節</p>
+            <div class="news-foot"><time class="date" datetime="2026-05-27">2026-05-27</time><a class="read-more" href="#">閱讀更多<svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+          </div>
+        </article>
+        <!-- 5 -->
+        <article class="news-card" data-cat="trend">
+          <div class="news-thumb" style="background:var(--grad-bloom)"><span class="tag is-trend">趨勢</span></div>
+          <div class="news-body">
+            <h3 class="news-title">加密娛樂城錢包安全議題受關注，平台強化雙重驗證</h3>
+            <p class="news-sum">近期錢包安全成為討論焦點，部分平台陸續加入或強化雙重驗證等帳戶保護機制，本文整理常見安全設定與使用者可留意的方向</p>
+            <div class="news-foot"><time class="date" datetime="2026-05-26">2026-05-26</time><a class="read-more" href="#">閱讀更多<svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+          </div>
+        </article>
+        <!-- 6 -->
+        <article class="news-card" data-cat="shuffle">
+          <div class="news-thumb" style="background:var(--grad-blue)"><span class="tag is-game">Shuffle</span></div>
+          <div class="news-body">
+            <h3 class="news-title">Shuffle 公布原創遊戲開發路線圖，預告新玩法系列</h3>
+            <p class="news-sum">Shuffle 釋出近期原創遊戲的開發方向，說明接下來預計推出的玩法系列與更新節奏，並提及將持續優化既有遊戲的操作體驗</p>
+            <div class="news-foot"><time class="date" datetime="2026-05-25">2026-05-25</time><a class="read-more" href="#">閱讀更多<svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+          </div>
+        </article>
+        <!-- 7 -->
+        <article class="news-card" data-cat="sport">
+          <div class="news-thumb" style="background:var(--grad-sport)"><span class="tag is-sport">體育</span></div>
+          <div class="news-body">
+            <h3 class="news-title">MLB 例行賽戰況更新，熱門對戰數據與賠率變化觀察</h3>
+            <p class="news-sum">MLB 例行賽持續進行，本文整理近期熱門對戰的賽況與數據變化，並觀察市場關注度與賠率波動，提供賽事面向的資訊參考</p>
+            <div class="news-foot"><time class="date" datetime="2026-05-24">2026-05-24</time><a class="read-more" href="#">閱讀更多<svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+          </div>
+        </article>
+        <!-- 8 -->
+        <article class="news-card" data-cat="promo">
+          <div class="news-thumb" style="background:var(--grad-lime)"><span class="tag is-promo">優惠</span></div>
+          <div class="news-body">
+            <h3 class="news-title">返水與任務制度差異解析，協助玩家理解獎勵機制</h3>
+            <p class="news-sum">不同平台的獎勵設計各有差異，本文以返水與任務兩種常見制度為例，說明其計算邏輯與適用情境，協助玩家更清楚地理解規則</p>
+            <div class="news-foot"><time class="date" datetime="2026-05-23">2026-05-23</time><a class="read-more" href="#">閱讀更多<svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+          </div>
+        </article>
+        <!-- 9 -->
+        <article class="news-card" data-cat="stake">
+          <div class="news-thumb" style="background:var(--grad-purple)"><span class="tag">Stake</span></div>
+          <div class="news-body">
+            <h3 class="news-title">Stake 原創遊戲新增遊戲紀錄查詢功能，操作流程說明</h3>
+            <p class="news-sum">Stake 為部分原創遊戲加入更完整的紀錄查詢入口，玩家可回顧過往遊戲資訊，本文說明該功能的位置與基本操作流程</p>
+            <div class="news-foot"><time class="date" datetime="2026-05-22">2026-05-22</time><a class="read-more" href="#">閱讀更多<svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+          </div>
+        </article>
+        <!-- 10 -->
+        <article class="news-card" data-cat="trend">
+          <div class="news-thumb" style="background:var(--grad-bloom)"><span class="tag is-trend">趨勢</span></div>
+          <div class="news-body">
+            <h3 class="news-title">電競投注市場熱度回升，主流賽事關注度持續成長</h3>
+            <p class="news-sum">隨著多項電競賽事陸續開打，市場對電競相關話題的關注度提升，本文整理主流賽事的熱度變化與相關討論方向</p>
+            <div class="news-foot"><time class="date" datetime="2026-05-21">2026-05-21</time><a class="read-more" href="#">閱讀更多<svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+          </div>
+        </article>
+        <!-- 11 -->
+        <article class="news-card" data-cat="rainbet">
+          <div class="news-thumb" style="background:var(--grad-blue)"><span class="tag is-trend">Rainbet</span></div>
+          <div class="news-body">
+            <h3 class="news-title">Rainbet 社群活動回顧，本月玩家互動數據整理</h3>
+            <p class="news-sum">Rainbet 公布近期社群活動的參與情況，整理本月玩家互動與討論的概況，並說明後續社群經營與活動規劃的方向</p>
+            <div class="news-foot"><time class="date" datetime="2026-05-20">2026-05-20</time><a class="read-more" href="#">閱讀更多<svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+          </div>
+        </article>
+        <!-- 12 -->
+        <article class="news-card" data-cat="sport">
+          <div class="news-thumb" style="background:var(--grad-sport)"><span class="tag is-sport">體育</span></div>
+          <div class="news-body">
+            <h3 class="news-title">歐洲足球賽季收官，跨平台賽事資訊彙整重點</h3>
+            <p class="news-sum">歐洲多項足球賽事陸續進入收尾階段，本文彙整賽季尾聲的賽況重點與話題討論，並整理跨平台賽事資訊的觀察方向</p>
+            <div class="news-foot"><time class="date" datetime="2026-05-19">2026-05-19</time><a class="read-more" href="#">閱讀更多<svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+          </div>
+        </article>
+      </div>
+      <p class="news-empty" role="status" aria-live="polite">目前此分類尚無文章，請選擇其他標籤</p>
+      <div class="load-wrap"><a href="#latest" class="btn btn-ghost btn-sm">載入更多新聞</a></div>
+    </div>
+  </section>
+
+  <!-- ════════ FAQ ════════ -->
+  <section class="sec" id="faq" style="background:#0B0D12" aria-labelledby="faq-title">
+    <div class="shell">
+      <div class="sec-head center">
+        <h2 class="h2" id="faq-title">常見問題</h2>
+        <p class="sec-desc">整理玩家最常詢問的問題，協助你了解新聞中心提供的內容與更新方式</p>
+      </div>
+      <div class="faq-wrap">
+        <details class="faq" open>
+          <summary>新聞中心提供哪些資訊？<span class="faq-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></summary>
+          <div class="faq-body">新聞中心整理娛樂城產業的最新消息，內容包含平台版本更新、優惠活動、熱門遊戲上架、體育賽事焦點與加密娛樂城趨勢。我們以資訊整理與消息彙整為主，協助玩家在同一個入口快速掌握各方面的動態</div>
+        </details>
+        <details class="faq">
+          <summary>會更新哪些平台內容？<span class="faq-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></summary>
+          <div class="faq-body">目前主要追蹤 Stake、Rainbet、Shuffle 等熱門娛樂城平台的公開消息，並依平台公告整理功能更新與活動資訊。若有其他平台出現值得關注的動態，也會視情況納入新聞與快訊內容中</div>
+        </details>
+        <details class="faq">
+          <summary>是否包含體育投注相關資訊？<span class="faq-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></summary>
+          <div class="faq-body">包含。新聞中心涵蓋 NBA、MLB、足球與電競等熱門體育話題，整理賽事賽況、數據變化與市場關注度等資訊。相關內容以賽事資訊整理與話題彙整為主，提供閱讀參考</div>
+        </details>
+        <details class="faq">
+          <summary>優惠活動多久更新一次？<span class="faq-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></summary>
+          <div class="faq-body">優惠活動內容會依各平台的公告節奏更新，通常每週都會有新的活動消息整理。平台快訊區則會以較即時的方式呈現當日的重點更新。實際活動規則與時間，仍以各平台官方公告為準</div>
+        </details>
+        <details class="faq">
+          <summary>新聞內容是否代表投注建議？<span class="faq-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></summary>
+          <div class="faq-body">不是。新聞中心提供的是資訊整理與消息彙整，內容僅供了解產業動態與賽事話題之用，不構成任何投注建議或保證。請玩家依自身判斷理性參與，並留意責任博弈相關提醒</div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- ════════ FOOTER（共用 site-footer 元件）════════ -->
+  <site-footer page="news"></site-footer>
+
+  <!-- 共用導覽列 / 頁尾元件腳本（含手機選單互動） -->
+  <script src="components/site-components.js"></script>
+  <script>
+    // ── 導覽列 sticky 實心切換 ──
+    (function(){
+      var header=document.querySelector('.hdr');
+      var hero=document.querySelector('.hero');
+      if(!header||!hero)return;
+      function sync(){
+        var heroBottom=hero.offsetTop+hero.offsetHeight;
+        header.classList.toggle('is-solid',window.scrollY>=(heroBottom-header.offsetHeight));
+      }
+      sync();
+      window.addEventListener('scroll',sync,{passive:true});
+      window.addEventListener('resize',sync);
+    })();
+
+    // ── 最新新聞篩選 tabs（同步 aria-pressed 狀態）──
+    (function(){
+      var tabs=document.querySelectorAll('.tab');
+      var cards=document.querySelectorAll('.news-card');
+      var empty=document.querySelector('.news-empty');
+      tabs.forEach(function(tab){
+        tab.addEventListener('click',function(){
+          tabs.forEach(function(t){t.classList.remove('active');t.setAttribute('aria-pressed','false');});
+          tab.classList.add('active');
+          tab.setAttribute('aria-pressed','true');
+          var f=tab.getAttribute('data-filter');
+          var shown=0;
+          cards.forEach(function(card){
+            var match=(f==='all'||card.getAttribute('data-cat')===f);
+            card.hidden=!match;
+            if(match)shown++;
+          });
+          if(empty)empty.style.display=shown?'none':'block';
+        });
+      });
+    })();
+
+    // ── A11y：補強無障礙語意（在元件注入後執行）──
+    (function(){
+      // 1) 為重複的「閱讀更多」連結補上對應文章標題，避免螢幕報讀只聽到一堆「閱讀更多」
+      document.querySelectorAll('.news-card').forEach(function(card){
+        var t=card.querySelector('.news-title'),a=card.querySelector('.read-more');
+        if(t&&a)a.setAttribute('aria-label','閱讀更多：'+t.textContent.trim());
+      });
+      // 2) 純裝飾性 icon 一律對輔助技術隱藏，並移出 Tab 焦點順序
+      document.querySelectorAll('svg:not([aria-hidden])').forEach(function(s){
+        s.setAttribute('aria-hidden','true');
+        s.setAttribute('focusable','false');
+      });
+    })();
+  </script>
+</body>
+</html>
