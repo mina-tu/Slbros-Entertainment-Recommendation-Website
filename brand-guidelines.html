@@ -374,7 +374,7 @@
   </div></section>
 
   <!-- ═══════════ Do / Don't ═══════════ -->
-  <section style="border-bottom:none"><div class="wrap">
+  <section><div class="wrap">
     <div class="section-title">06 · Usage</div>
     <div class="section-lead">一致性守則</div>
     <p class="section-desc">維持品牌統一的關鍵，是永遠引用 token，不要硬寫數值。</p>
@@ -397,6 +397,45 @@
           <li>大面積鋪滿萊姆綠造成廉價感</li>
           <li>同一畫面塞多個 Primary 互搶焦點</li>
           <li>臨時引入新字體或新圓角值</li>
+        </ul>
+      </div>
+    </div>
+  </div></section>
+
+  <!-- ═══════════ Layout Components ═══════════ -->
+  <section style="border-bottom:none"><div class="wrap">
+    <div class="section-title">07 · Layout Components</div>
+    <div class="section-lead">導覽列與頁尾元件</div>
+    <p class="section-desc">全站的導覽列（Navbar）與頁尾（Footer）一律使用共用元件 <code style="font-family:'SF Mono',monospace;font-size:12px;background:#1E2230;color:#9FC9FF;padding:2px 6px;border-radius:4px">components/site-components.js</code>，以自訂元素 <code style="font-family:'SF Mono',monospace;font-size:12px;background:#1E2230;color:#9FC9FF;padding:2px 6px;border-radius:4px">&lt;site-navbar&gt;</code> 與 <code style="font-family:'SF Mono',monospace;font-size:12px;background:#1E2230;color:#9FC9FF;padding:2px 6px;border-radius:4px">&lt;site-footer&gt;</code> 置入。任何頁面都<strong>不得</strong>自行內嵌 header / footer，以確保導覽結構、連結與品牌資訊全站一致。</p>
+
+    <pre style="font-family:'SF Mono',monospace;font-size:13px;line-height:1.7;background:#161922;border:1px solid #2E3444;border-radius:8px;color:#C3CAD8;padding:18px 20px;overflow:auto;margin-bottom:var(--space-4)"><code>&lt;!-- 頁首：放在 &lt;body&gt; 最上方 --&gt;
+&lt;site-navbar page="news"&gt;&lt;/site-navbar&gt;
+
+&lt;!-- 頁尾：放在內容最後 --&gt;
+&lt;site-footer page="news"&gt;&lt;/site-footer&gt;
+
+&lt;!-- 元件腳本：放在 &lt;/body&gt; 前 --&gt;
+&lt;script src="components/site-components.js"&gt;&lt;/script&gt;</code></pre>
+
+    <p class="section-desc" style="margin-bottom:var(--space-4)"><code style="font-family:'SF Mono',monospace;font-size:12px;background:#1E2230;color:#9FC9FF;padding:2px 6px;border-radius:4px">page</code> 屬性用來標示目前頁面並套用 active 狀態，可用值：<code style="font-family:'SF Mono',monospace;font-size:12px;background:#1E2230;color:#9FC9FF;padding:2px 6px;border-radius:4px">index</code>、<code style="font-family:'SF Mono',monospace;font-size:12px;background:#1E2230;color:#9FC9FF;padding:2px 6px;border-radius:4px">online</code>、<code style="font-family:'SF Mono',monospace;font-size:12px;background:#1E2230;color:#9FC9FF;padding:2px 6px;border-radius:4px">news</code>、<code style="font-family:'SF Mono',monospace;font-size:12px;background:#1E2230;color:#9FC9FF;padding:2px 6px;border-radius:4px">guide</code>、<code style="font-family:'SF Mono',monospace;font-size:12px;background:#1E2230;color:#9FC9FF;padding:2px 6px;border-radius:4px">promotions</code>。導覽項目目前為：線上娛樂城排行榜、娛樂城新聞、娛樂城攻略、優惠活動、VIP會員。</p>
+
+    <div class="guide-grid">
+      <div class="guide-card do">
+        <div class="tag">DO · 建議</div>
+        <ul>
+          <li>每個頁面都以 <code style="font-size:11px">&lt;site-navbar&gt;</code> 與 <code style="font-size:11px">&lt;site-footer&gt;</code> 置入頁首頁尾</li>
+          <li>以 <code style="font-size:11px">page</code> 屬性標示當前頁面、套用 active 狀態</li>
+          <li>導覽或連結需調整時，統一改 <code style="font-size:11px">site-components.js</code> 一處生效全站</li>
+          <li>內文句子結尾不加句號「。」，維持簡潔一致的文案風格</li>
+        </ul>
+      </div>
+      <div class="guide-card dont">
+        <div class="tag">DON'T · 避免</div>
+        <ul>
+          <li>在頁面中自行手刻 header / footer 結構</li>
+          <li>各頁複製貼上不同版本的導覽列，造成連結不一致</li>
+          <li>直接改單一頁面的導覽 HTML，而非改共用元件</li>
+          <li>標題或摘要文末殘留多餘句號「。」</li>
         </ul>
       </div>
     </div>

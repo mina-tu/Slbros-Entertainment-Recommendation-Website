@@ -2,15 +2,17 @@
   function getNavbarLinks(page) {
     if (page === "index") {
       return {
-        game: "#criteria",
         ranking: "#promotions",
+        news: "news-center.html",
+        guide: "#",
         vip: "#ranking",
       };
     }
 
     return {
-      game: "index.html#games",
       ranking: "online-casino-recommendation.html",
+      news: "news-center.html",
+      guide: "#",
       vip: "index.html#vip",
     };
   }
@@ -173,8 +175,9 @@
         '  <div class="' + headerContainerClass + '">' +
         '    <a class="brand" href="index.html">晴天娛樂城推薦網</a>' +
         '    <nav class="pill-nav nav">' +
-        '      <a href="' + links.game + '" class="' + isActive(page, "index").trim() + '">遊戲中心</a>' +
         '      <a href="' + links.ranking + '" class="' + isActive(page, "online").trim() + '">線上娛樂城排行榜</a>' +
+        '      <a href="' + links.news + '" class="' + isActive(page, "news").trim() + '">娛樂城新聞</a>' +
+        '      <a href="' + links.guide + '" class="' + isActive(page, "guide").trim() + '">娛樂城攻略</a>' +
         '      <div class="nav-dd">' +
         '        <a href="promotions.html" class="nav-dd-trigger' + isActive(page, "promotions") + '">優惠活動<svg class="nav-dd-caret" viewBox="0 0 12 12" fill="none"><path d="M2.5 4.5 6 8l3.5-3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>' +
         '        <div class="nav-dd-menu">' +
@@ -194,8 +197,9 @@
         '    </div>' +
         '  </div>' +
         '  <nav class="mob-nav" aria-label="手機導覽">' +
-        '    <a href="' + links.game + '" class="' + isActive(page, "index").trim() + '">遊戲中心</a>' +
         '    <a href="' + links.ranking + '" class="' + isActive(page, "online").trim() + '">線上娛樂城排行榜</a>' +
+        '    <a href="' + links.news + '" class="' + isActive(page, "news").trim() + '">娛樂城新聞</a>' +
+        '    <a href="' + links.guide + '" class="' + isActive(page, "guide").trim() + '">娛樂城攻略</a>' +
         '    <div class="mob-group' + (page === "promotions" ? ' is-open' : '') + '">' +
         '      <button class="mob-group-toggle' + (page === "promotions" ? ' is-active' : '') + '" type="button" aria-expanded="' + (page === "promotions" ? 'true' : 'false') + '">優惠活動</button>' +
         '      <div class="mob-submenu">' +

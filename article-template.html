@@ -1,0 +1,739 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stake 最新活動更新｜平台優惠內容、賽事焦點與玩家關注資訊｜晴天娛樂城推薦網</title>
+  <meta name="description" content="整理 Stake 最新活動更新、平台資訊與近期熱門體育賽事焦點，帶你快速掌握娛樂城新聞重點、優惠變化與玩家關注話題。">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Stake 最新活動更新：平台優惠內容、體育賽事焦點與玩家近期關注整理">
+  <meta property="og:description" content="整理 Stake 最新活動更新、平台資訊與近期熱門體育賽事焦點，帶你快速掌握娛樂城新聞重點、優惠變化與玩家關注話題。">
+  <!-- 字體：提前建立連線，縮短 webfont 取得時間、降低字體切換造成的位移（CLS）。webfont 本身已採用 font-display:swap -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+  <link href="https://cdn.jsdelivr.net/npm/chiron-hei-hk-webfont@2.6.9/index.css" rel="stylesheet">
+  <style>
+    /* ============================================================
+       娛樂城新聞中心 — 單篇新聞文章內頁
+       延續站內視覺：Chiron Hei HK / 深色科技感 / 紫藍點綴 / 直角
+       ============================================================ */
+    :root{
+      --pri-700:#43269A;--pri-500:#7656D7;--pri-300:#9FC9FF;--pri-200:#B5A8F0;
+      --sec:#DEF243;--purple-900:#3A0661;
+      --n50:#161922;--n100:#222633;--n150:#2E3444;--n200:#8F98AC;--n300:#A9B1C2;
+      --n400:#C3CAD8;--n500:#D9DEEA;--n600:#E8ECF5;--n700:#F4F7FF;--n800:#FFFFFF;
+      --surface-muted:#1E2230;--success:#A4F467;
+      --ff:'Chiron Hei HK','PingFang TC','Microsoft JhengHei','Noto Sans TC',sans-serif;
+      --r-full:999px;
+      --fs-hero:clamp(21px,2.5vw,30px);--fs-h2:clamp(23px,2.8vw,31px);--fs-h3:20px;
+      --fs-lead:18px;--fs-body:16px;--fs-sm:14px;--fs-xs:12px;
+      --lh-tight:1.22;--lh-heading:1.32;--lh-body:1.85;
+      --ease:cubic-bezier(.4,0,.2,1);--dur:.25s;--lift:-4px;
+      --shadow-card:0 24px 60px -18px rgba(0,0,0,.6);
+      --shadow-card-sm:0 18px 40px -16px rgba(0,0,0,.5);
+      --shadow-glow:0 0 0 1px rgba(159,168,240,.42),0 0 22px rgba(118,86,215,.62),0 0 52px rgba(67,38,154,.42),0 0 84px rgba(67,38,154,.18);
+      --grad-purple:linear-gradient(150deg,#1A1740 0%,#43269A 52%,#7656D7 100%);
+      --grad-bloom:radial-gradient(125% 130% at 50% 118%,#7656D7 0%,#43269A 42%,#16153C 100%);
+      --grad-blue:linear-gradient(150deg,#10243F 0%,#1C4C82 52%,#3E7FC4 100%);
+      --grad-lime:linear-gradient(150deg,#1B2210 0%,#566B16 52%,#9CC02C 100%);
+      --grad-sport:linear-gradient(150deg,#241133 0%,#5B1E73 52%,#9B3FB0 100%);
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    [hidden]{display:none!important}
+    html{scroll-behavior:smooth}
+    body{background:#0F1115;color:var(--n500);font-family:var(--ff);-webkit-font-smoothing:antialiased;min-width:320px}
+    a{color:inherit;text-decoration:none}img,svg{display:block}button{font:inherit}
+    .shell{width:min(calc(100% - 40px),1240px);margin:0 auto}
+
+    /* ── CLS：為 JS 注入的共用元件預留高度 ── */
+    site-navbar{display:block;min-height:72px}
+    site-footer{display:block;min-height:300px}
+
+    /* ── A11y ── */
+    .skip-link{position:fixed;left:16px;top:-80px;z-index:200;background:var(--sec);color:#1B1C1C;font-weight:700;
+      padding:12px 20px;text-decoration:none;transition:top .2s var(--ease)}
+    .skip-link:focus{top:14px}
+    :focus-visible{outline:3px solid var(--sec);outline-offset:3px;border-radius:2px}
+    @media(prefers-reduced-motion:reduce){
+      html{scroll-behavior:auto}
+      *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
+      .card:hover,.rel-card:hover,.btn:hover{transform:none}
+    }
+
+    /* ── Buttons ── */
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;
+      font-family:var(--ff);height:46px;padding:10px 26px;font-size:16px;font-weight:700;line-height:22px;
+      border:none;border-radius:0;background:var(--sec);color:#1B1C1C;transition:background .15s,transform .15s}
+    .btn:hover{background:#E8FB5E;transform:translateY(-2px)}
+    .btn-ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.45)}
+    .btn-ghost:hover{background:rgba(255,255,255,.08);border-color:#fff}
+    .btn-sm{height:38px;padding:8px 18px;font-size:14px}
+
+    /* ── Tag / date ── */
+    .tag{display:inline-flex;align-items:center;font-size:12px;font-weight:700;line-height:1;
+      padding:6px 12px;border-radius:var(--r-full);letter-spacing:.02em;
+      background:rgba(118,86,215,.16);color:var(--pri-200);border:1px solid rgba(118,86,215,.3)}
+    .tag.is-promo{background:rgba(222,242,67,.14);color:#D7E84A;border-color:rgba(222,242,67,.3)}
+    .tag.is-sport{background:rgba(155,63,176,.18);color:#D89BE6;border-color:rgba(155,63,176,.34)}
+    .tag.is-trend{background:rgba(62,127,196,.18);color:#8FC0F0;border-color:rgba(62,127,196,.34)}
+    .tag.is-game{background:rgba(164,244,103,.14);color:#B7F08A;border-color:rgba(164,244,103,.3)}
+    .tag.is-plat{background:rgba(118,86,215,.22);color:#CFC2FF;border-color:rgba(159,168,240,.42)}
+    .date{font-size:13px;color:var(--n200);display:inline-flex;align-items:center;gap:6px}
+    .date svg{width:14px;height:14px;opacity:.85}
+
+    /* ════ HEADER / NAVBAR（搭配共用 site-navbar 元件）════ */
+    .hdr{position:sticky;top:0;z-index:50;background:transparent;border-bottom:1px solid rgba(255,255,255,.14);
+      transition:background-color .25s var(--ease),backdrop-filter .25s var(--ease),border-color .25s var(--ease)}
+    .hdr.is-solid{background:rgba(15,17,21,.86);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom-color:rgba(255,255,255,.10)}
+    .hdr-in{display:flex;align-items:center;justify-content:space-between;height:72px;gap:24px}
+    .brand{font-weight:800;font-size:20px;color:#fff;letter-spacing:-.02em;white-space:nowrap}
+    .nav{display:flex;align-items:center;gap:4px}
+    .nav a{position:relative;padding:10px 16px;font-size:15px;font-weight:500;color:rgba(255,255,255,.82);white-space:nowrap;transition:color .15s}
+    .nav a::after{content:'';position:absolute;left:16px;right:16px;bottom:4px;height:2px;background:var(--sec);transform:scaleX(0);transform-origin:center;transition:transform .2s var(--ease)}
+    .nav a:hover,.nav a.active{color:#fff}
+    .nav a:hover::after,.nav a.active::after{transform:scaleX(1)}
+    .hdr-icons{display:flex;align-items:center;gap:14px}
+    .hdr-ic{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;color:#fff;background:none;border:none;cursor:pointer;transition:color .15s}
+    .hdr-ic:hover{color:var(--sec)}
+    .hdr-ic svg{width:20px;height:20px}
+    .nav-dd{position:relative;display:flex}
+    .nav-dd-trigger{display:inline-flex;align-items:center;gap:6px}
+    .nav-dd-caret{width:11px;height:11px;flex-shrink:0;transition:transform .2s}
+    .nav-dd:hover .nav-dd-caret,.nav-dd:focus-within .nav-dd-caret{transform:rotate(180deg)}
+    .nav-dd-menu{position:absolute;top:calc(100% + 12px);left:50%;transform:translateX(-50%) translateY(6px);min-width:184px;background:var(--n50);border:1px solid var(--n150);box-shadow:0 18px 40px -12px rgba(15,6,28,.4);padding:6px;display:flex;flex-direction:column;gap:2px;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .18s ease,transform .18s ease;z-index:60}
+    .nav-dd-menu::before{content:'';position:absolute;left:0;right:0;top:-12px;height:12px}
+    .nav-dd:hover .nav-dd-menu,.nav-dd:focus-within .nav-dd-menu{opacity:1;visibility:visible;pointer-events:auto;transform:translateX(-50%) translateY(0)}
+    .nav-dd-menu a{padding:10px 16px;font-size:14px;font-weight:500;color:var(--n500);white-space:nowrap;transition:background .15s,color .15s}
+    .nav-dd-menu a::after{display:none}
+    .nav-dd-menu a:hover{background:var(--surface-muted);color:var(--pri-200)}
+    .nav-dd-menu .nav-dd-all{margin-top:5px;padding-top:11px;border-top:1px solid var(--n150);color:var(--pri-200);font-weight:700}
+
+    /* ════ BREADCRUMB ════ */
+    .crumb{padding:22px 0 4px;margin-top:0}
+    .crumb ol{list-style:none;display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:13px;color:var(--n200)}
+    .crumb li{display:inline-flex;align-items:center;gap:8px}
+    .crumb a{color:var(--n300);transition:color .15s}
+    .crumb a:hover{color:var(--pri-200)}
+    .crumb li[aria-current]{color:var(--n500)}
+    .crumb svg{width:14px;height:14px;opacity:.55;flex-shrink:0}
+
+    /* ════ ARTICLE HERO（文章頁首）════ */
+    .art-hero{padding:26px 0 30px;position:relative}
+    .art-hero .shell{position:relative}
+    .art-tags{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:20px}
+    .art-h1{font-size:var(--fs-hero);font-weight:700;line-height:var(--lh-tight);color:#fff;letter-spacing:-.02em}
+    @media(min-width:980px){.art-h1{white-space:nowrap}}
+    .art-lead{margin-top:20px;font-size:var(--fs-lead);line-height:1.8;color:var(--n300);max-width:840px}
+    .art-meta{margin-top:20px;display:flex;flex-wrap:wrap;align-items:center;gap:12px 26px}
+    .meta-item{display:inline-flex;align-items:center;gap:9px;font-size:14px;color:var(--n300)}
+    .meta-item svg{width:17px;height:17px;color:var(--pri-200);flex-shrink:0}
+    .meta-item b{color:var(--n600);font-weight:600}
+    .meta-item .meta-k{color:var(--n200);font-size:13px}
+    .meta-author{display:inline-flex;align-items:center;gap:10px}
+    .meta-ava{width:30px;height:30px;border-radius:50%;background:var(--grad-purple);display:inline-flex;align-items:center;justify-content:center;
+      font-size:13px;font-weight:800;color:#fff;border:1px solid rgba(159,168,240,.4);flex-shrink:0}
+
+    /* ════ 封面主視覺 ════ */
+    .cover{padding:8px 0 0}
+    .cover-fig{margin:0}
+    .cover-img{position:relative;height:clamp(220px,40vw,420px);overflow:hidden;border:1px solid var(--n150);
+      background:var(--grad-bloom)}
+    .cover-img img{width:100%;height:100%;object-fit:cover;opacity:.92}
+    .cover-img::after{content:'';position:absolute;inset:0;
+      background:linear-gradient(180deg,rgba(15,17,21,0) 40%,rgba(15,17,21,.55) 100%)}
+    .cover-badge{position:absolute;left:18px;top:18px;z-index:1;display:inline-flex;align-items:center;gap:7px;
+      background:rgba(8,9,14,.55);color:#fff;font-size:12px;font-weight:700;letter-spacing:.04em;padding:7px 14px;
+      border-radius:var(--r-full);border:1px solid rgba(255,255,255,.22);backdrop-filter:blur(6px)}
+    .cover-badge::before{content:'';width:7px;height:7px;border-radius:50%;background:var(--sec)}
+    .cover-cap{margin-top:12px;font-size:13px;line-height:1.7;color:var(--n200);display:flex;gap:9px}
+    .cover-cap svg{width:15px;height:15px;flex-shrink:0;margin-top:2px;opacity:.7}
+
+    /* ════ 雙欄版型 ════ */
+    .layout{display:grid;grid-template-columns:minmax(0,1fr) 332px;gap:48px;padding:46px 0 30px;align-items:start}
+
+    /* ── 正文主欄 ── */
+    .article{min-width:0;font-size:var(--fs-body);line-height:var(--lh-body);color:var(--n400)}
+    .article>section{scroll-margin-top:96px}
+    .article h2{font-size:var(--fs-h2);font-weight:700;line-height:var(--lh-heading);color:var(--n800);letter-spacing:-.01em;
+      margin:46px 0 18px;padding-left:16px;position:relative}
+    .article section:first-of-type h2{margin-top:8px}
+    .article h2::before{content:'';position:absolute;left:0;top:.16em;bottom:.16em;width:4px;
+      background:linear-gradient(var(--pri-500),var(--sec))}
+    .article h3{font-size:var(--fs-h3);font-weight:700;color:var(--n700);line-height:1.4;margin:30px 0 12px}
+    .article p{margin:0 0 17px}
+    .article p>strong{color:var(--n600);font-weight:700}
+    .article a.inline{color:var(--pri-200);font-weight:600;border-bottom:1px solid rgba(181,168,240,.4);transition:color .15s,border-color .15s}
+    .article a.inline:hover{color:var(--sec);border-color:var(--sec)}
+    .article ul.list{list-style:none;margin:0 0 20px;display:flex;flex-direction:column;gap:11px}
+    .article ul.list li{position:relative;padding-left:26px;line-height:1.7}
+    .article ul.list li::before{content:'';position:absolute;left:2px;top:.55em;width:8px;height:8px;border-radius:2px;
+      background:var(--pri-500);box-shadow:0 0 10px rgba(118,86,215,.6)}
+    .article ul.list li strong{color:var(--n600)}
+
+    /* 重點摘要框 */
+    .keybox{background:linear-gradient(155deg,rgba(67,38,154,.22),rgba(22,25,34,.6));border:1px solid rgba(118,86,215,.34);
+      padding:26px 28px;margin:4px 0 8px;position:relative;overflow:hidden}
+    .keybox::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(var(--pri-500),var(--sec))}
+    .keybox-h{display:flex;align-items:center;gap:10px;font-size:15px;font-weight:800;color:#fff;letter-spacing:.02em;margin-bottom:16px}
+    .keybox-h svg{width:20px;height:20px;color:var(--sec)}
+    .keybox ul{list-style:none;display:flex;flex-direction:column;gap:12px}
+    .keybox li{position:relative;padding-left:28px;font-size:15px;line-height:1.7;color:var(--n400)}
+    .keybox li::before{content:'';position:absolute;left:3px;top:.5em;width:9px;height:9px;border:2px solid var(--sec);border-radius:50%}
+    .keybox li strong{color:var(--n700)}
+
+    /* 文中提示卡 */
+    .note{display:flex;gap:14px;background:var(--n50);border:1px solid var(--n150);border-left:3px solid var(--pri-500);
+      padding:18px 20px;margin:24px 0;font-size:14px;line-height:1.75;color:var(--n300)}
+    .note svg{width:20px;height:20px;color:var(--pri-200);flex-shrink:0;margin-top:1px}
+    .note b{color:var(--n600);display:block;margin-bottom:3px;font-size:14px}
+
+    /* 數據小表（平台更新整理） */
+    .mini-table{margin:22px 0;border:1px solid var(--n150);overflow:hidden}
+    .mini-table table{width:100%;border-collapse:collapse;font-size:14px}
+    .mini-table caption{text-align:left;font-size:13px;color:var(--n200);padding:12px 16px;background:var(--n50);border-bottom:1px solid var(--n150)}
+    .mini-table th,.mini-table td{padding:13px 16px;text-align:left;border-bottom:1px solid var(--n150);line-height:1.6}
+    .mini-table thead th{background:var(--surface-muted);color:var(--n500);font-weight:700;font-size:13px}
+    .mini-table tbody tr:last-child td{border-bottom:none}
+    .mini-table td:first-child{color:var(--n600);font-weight:600;white-space:nowrap}
+    .mini-table tbody tr:hover{background:rgba(118,86,215,.06)}
+
+    /* 文末分享 / 標籤列 */
+    .art-foot{margin-top:38px;padding-top:24px;border-top:1px solid var(--n150);display:flex;flex-wrap:wrap;gap:18px;justify-content:space-between;align-items:center}
+    .art-foot-tags{display:flex;flex-wrap:wrap;gap:8px}
+    .chip{font-size:13px;color:var(--n300);background:var(--n50);border:1px solid var(--n150);padding:6px 13px;transition:all .15s}
+    .chip:hover{color:var(--pri-200);border-color:rgba(118,86,215,.5)}
+    .share{display:flex;align-items:center;gap:10px}
+    .share span{font-size:13px;color:var(--n200)}
+    .share button{width:36px;height:36px;display:inline-flex;align-items:center;justify-content:center;color:var(--n300);
+      background:var(--n50);border:1px solid var(--n150);cursor:pointer;transition:all .15s}
+    .share button:hover{color:var(--sec);border-color:rgba(222,242,67,.5);transform:translateY(-2px)}
+    .share button svg{width:17px;height:17px}
+
+    /* ── 側欄 ── */
+    .sidebar{display:flex;flex-direction:column;gap:24px;position:sticky;top:92px}
+    .sb-card{background:var(--n50);border:1px solid var(--n150)}
+    .sb-head{display:flex;align-items:center;gap:9px;padding:16px 20px;border-bottom:1px solid var(--n150);
+      font-size:14px;font-weight:800;color:var(--n700);letter-spacing:.04em}
+    .sb-head svg{width:17px;height:17px;color:var(--pri-200)}
+    .sb-body{padding:16px 20px}
+
+    /* TOC */
+    .toc-card .sb-body{padding:10px 12px}
+    .toc{list-style:none;counter-reset:toc}
+    .toc li{counter-increment:toc}
+    .toc a{display:flex;gap:11px;padding:9px 12px;font-size:14px;line-height:1.5;color:var(--n300);
+      border-left:2px solid transparent;transition:color .15s,border-color .15s,background .15s}
+    .toc a::before{content:counter(toc,decimal-leading-zero);font-size:12px;font-weight:700;color:var(--n200);flex-shrink:0;font-variant-numeric:tabular-nums}
+    .toc a:hover{color:var(--n700);background:rgba(118,86,215,.08)}
+    .toc a.is-active{color:var(--sec);border-left-color:var(--sec);background:rgba(222,242,67,.06)}
+    .toc a.is-active::before{color:var(--sec)}
+    /* TOC 折疊（手機） */
+    .toc-toggle{display:none}
+
+    /* 側欄相關新聞 */
+    .sb-news{list-style:none;display:flex;flex-direction:column}
+    .sb-news li{padding:14px 0;border-bottom:1px solid var(--n150)}
+    .sb-news li:first-child{padding-top:0}
+    .sb-news li:last-child{padding-bottom:0;border-bottom:none}
+    .sb-news a{display:block;transition:color .15s}
+    .sb-news .sb-cat{font-size:11px;font-weight:700;color:var(--pri-200);letter-spacing:.04em;display:block;margin-bottom:6px}
+    .sb-news .sb-t{font-size:14px;font-weight:600;line-height:1.5;color:var(--n500);transition:color .15s}
+    .sb-news a:hover .sb-t{color:var(--pri-200)}
+    .sb-news .sb-d{font-size:12px;color:var(--n200);margin-top:7px}
+
+    /* 平台資訊卡 */
+    .plat-card .sb-body{display:flex;flex-direction:column;gap:14px}
+    .plat-top{display:flex;align-items:center;gap:13px}
+    .plat-logo{width:48px;height:48px;flex-shrink:0;display:flex;align-items:center;justify-content:center;
+      background:var(--grad-purple);border:1px solid rgba(159,168,240,.35);font-size:18px;font-weight:900;color:#fff}
+    .plat-logo img{width:100%;height:100%;object-fit:cover}
+    .plat-name{font-size:17px;font-weight:800;color:var(--n800)}
+    .plat-name span{display:block;font-size:12px;font-weight:500;color:var(--n200);margin-top:2px}
+    .plat-stats{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--n150);border:1px solid var(--n150)}
+    .plat-stat{background:var(--n50);padding:13px 14px}
+    .plat-stat b{display:block;font-size:18px;font-weight:800;color:#fff;line-height:1.1}
+    .plat-stat span{font-size:12px;color:var(--n200)}
+    .plat-list{list-style:none;display:flex;flex-direction:column;gap:9px}
+    .plat-list li{display:flex;align-items:flex-start;gap:9px;font-size:13px;line-height:1.5;color:var(--n300)}
+    .plat-list svg{width:15px;height:15px;color:var(--success);flex-shrink:0;margin-top:1px}
+
+    /* 熱門優惠導流卡 */
+    .promo-card{position:relative;overflow:hidden;background:var(--grad-bloom);border:1px solid rgba(159,168,240,.3);padding:24px 22px}
+    .promo-card::before{content:'';position:absolute;inset:0;background:radial-gradient(120% 90% at 100% 0%,rgba(222,242,67,.16),transparent 55%)}
+    .promo-card>*{position:relative;z-index:1}
+    .promo-eyebrow{font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--sec)}
+    .promo-h{font-size:19px;font-weight:800;color:#fff;line-height:1.35;margin:10px 0 8px}
+    .promo-d{font-size:13px;line-height:1.65;color:rgba(255,255,255,.82);margin-bottom:18px}
+    .promo-card .btn{width:100%}
+
+    /* ════ Section frame（延伸閱讀 / FAQ / CTA）════ */
+    .sec{padding:54px 0}
+    @media(min-width:768px){.sec{padding:72px 0}}
+    .sec-head{margin-bottom:34px}
+    .sec-head.center{text-align:center}
+    .eyebrow{display:inline-flex;align-items:center;font-size:13px;font-weight:700;letter-spacing:.12em;
+      text-transform:uppercase;color:var(--pri-200);margin-bottom:14px}
+    .h2{font-size:var(--fs-h2);font-weight:700;line-height:var(--lh-heading);color:var(--n800);letter-spacing:-.01em}
+    .sec-desc{margin-top:14px;font-size:var(--fs-lead);line-height:1.7;color:var(--n300);max-width:760px}
+    .sec-head.center .sec-desc{margin-left:auto;margin-right:auto}
+
+    /* 延伸閱讀卡 */
+    .rel-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+    .rel-card{background:var(--n50);border:1px solid var(--n150);display:flex;flex-direction:column;overflow:hidden;
+      transition:transform var(--dur) var(--ease),box-shadow var(--dur) var(--ease),border-color var(--dur) var(--ease)}
+    .rel-card:hover{transform:translateY(var(--lift));box-shadow:var(--shadow-card-sm);border-color:rgba(159,168,240,.3)}
+    .rel-thumb{height:152px;position:relative;overflow:hidden}
+    .rel-thumb .tag{position:absolute;left:14px;top:14px;z-index:1;backdrop-filter:blur(4px)}
+    .rel-body{padding:20px;display:flex;flex-direction:column;flex:1;gap:11px}
+    .rel-title{font-size:16px;font-weight:700;line-height:1.45;color:var(--n800);letter-spacing:-.01em}
+    .rel-card a:hover .rel-title{color:var(--pri-200)}
+    .rel-sum{font-size:13px;line-height:1.7;color:var(--n300);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+    .rel-foot{margin-top:auto;padding-top:13px;border-top:1px solid var(--n150);display:flex;align-items:center;justify-content:space-between}
+    .read-more{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:700;color:var(--pri-200);transition:gap .15s,color .15s}
+    .read-more:hover{gap:10px;color:var(--sec)}
+    .read-more svg{width:15px;height:15px}
+
+    /* FAQ */
+    .faq-wrap{max-width:880px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
+    .faq{background:var(--n50);border:1px solid var(--n150);transition:border-color .2s}
+    .faq[open]{border-color:rgba(159,168,240,.34)}
+    .faq summary{list-style:none;cursor:pointer;padding:22px 26px;display:flex;align-items:center;justify-content:space-between;gap:16px;
+      font-size:16px;font-weight:700;color:var(--n700)}
+    .faq summary::-webkit-details-marker{display:none}
+    .faq-icon{flex-shrink:0;width:26px;height:26px;border:1px solid var(--n150);display:flex;align-items:center;justify-content:center;color:var(--pri-200);transition:transform .25s,background .2s}
+    .faq[open] .faq-icon{transform:rotate(45deg);background:var(--sec);color:#1B1C1C;border-color:var(--sec)}
+    .faq-icon svg{width:14px;height:14px}
+    .faq-body{padding:0 26px 24px;font-size:15px;line-height:1.8;color:var(--n300)}
+
+    /* CTA */
+    .cta-band{position:relative;overflow:hidden;border:1px solid rgba(159,168,240,.28);
+      background:linear-gradient(150deg,#16153C 0%,#241B52 55%,#15131F 100%);padding:clamp(34px,5vw,56px)}
+    .cta-band::before{content:'';position:absolute;inset:0;pointer-events:none;
+      background:radial-gradient(90% 120% at 100% 0%,rgba(118,86,215,.32),transparent 55%),radial-gradient(70% 90% at 0% 100%,rgba(222,242,67,.1),transparent 50%)}
+    .cta-in{position:relative;z-index:1;max-width:760px}
+    .cta-in .eyebrow{color:var(--sec)}
+    .cta-h{font-size:var(--fs-h2);font-weight:700;color:#fff;line-height:1.32;letter-spacing:-.01em}
+    .cta-d{margin-top:14px;font-size:16px;line-height:1.75;color:var(--n300)}
+    .cta-actions{margin-top:28px;display:flex;flex-wrap:wrap;gap:14px}
+
+    /* ════ FOOTER（共用 site-footer 元件）════ */
+    .ft{background:#0B0C11;margin-top:0;padding:56px 0 36px;color:#fff;border-top:1px solid var(--n150)}
+    .ft-inner{display:grid;gap:38px}
+    .ft-brand h2{font-size:24px;font-weight:700;margin-bottom:10px}
+    .ft-brand p{color:var(--n300);font-size:14px;line-height:1.7;max-width:560px}
+    .ft-links{display:grid;grid-template-columns:repeat(6,1fr);gap:24px;padding-top:34px;border-top:1px solid rgba(255,255,255,.08)}
+    .ft-col h3{font-size:var(--fs-xs);font-weight:700;color:var(--n400);margin-bottom:14px;text-transform:uppercase;letter-spacing:.1em}
+    .ft-col ul{list-style:none;display:flex;flex-direction:column;gap:9px}
+    .ft-col a{color:var(--n300);font-size:14px;transition:color .15s}
+    .ft-col a:hover{color:var(--sec)}
+    .ft-bot{padding-top:26px;border-top:1px solid rgba(255,255,255,.08);display:flex;flex-wrap:wrap;gap:10px 24px;justify-content:space-between;align-items:center;font-size:13px;color:var(--n200)}
+
+    /* ════ RESPONSIVE ════ */
+    @media(min-width:768px){.ft-inner{grid-template-columns:1fr}}
+    @media(max-width:1040px){
+      .layout{grid-template-columns:1fr;gap:0}
+      .sidebar{position:static;top:auto;margin-top:40px;display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}
+      .toc-card{grid-column:1/-1;order:-1}
+      .rel-grid{grid-template-columns:repeat(3,1fr)}
+    }
+    @media(max-width:760px){
+      .layout{padding:30px 0 20px}
+      .sidebar{grid-template-columns:1fr}
+      .art-meta{gap:10px 18px}
+      .rel-grid{grid-template-columns:1fr}
+      .ft-links{grid-template-columns:repeat(2,1fr)}
+      /* TOC 可折疊 */
+      .toc-card .sb-head{cursor:pointer;justify-content:space-between}
+      .toc-toggle{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;color:var(--pri-200);margin-left:auto;transition:transform .25s}
+      .toc-card.is-collapsed .toc-toggle{transform:rotate(-90deg)}
+      .toc-card.is-collapsed .sb-body{display:none}
+      .art-foot{flex-direction:column;align-items:flex-start}
+    }
+    @media(max-width:520px){
+      .ft-links{grid-template-columns:1fr 1fr}
+    }
+  </style>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">跳到主要內容</a>
+
+  <!-- ════════ HEADER（共用 site-navbar 元件，標示「娛樂城新聞」active）════════ -->
+  <site-navbar page="news"></site-navbar>
+
+  <main id="main">
+
+    <!-- ════════ BREADCRUMB ════════ -->
+    <nav class="crumb" aria-label="麵包屑導覽">
+      <div class="shell">
+        <ol>
+          <li><a href="index.html">首頁</a></li>
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><a href="news-center.html">娛樂城新聞</a></li>
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><a href="news-center.html">Stake</a></li>
+          <li aria-current="page"><svg viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Stake 最新活動更新</li>
+        </ol>
+      </div>
+    </nav>
+
+    <!-- ════════ ARTICLE HERO（文章頁首）════════ -->
+    <header class="art-hero">
+      <div class="shell">
+        <div class="art-tags">
+          <span class="tag">平台消息</span>
+          <span class="tag is-plat">Stake</span>
+          <span class="tag is-sport">體育賽事</span>
+        </div>
+        <h1 class="art-h1">Stake 最新活動更新：平台優惠內容、體育賽事焦點與玩家近期關注整理</h1>
+
+        <div class="art-meta">
+          <span class="meta-item" title="發布日期">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="16" rx="1" stroke="currentColor" stroke-width="1.6"/><path d="M3 9h18M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            <span class="meta-k">發布</span>&nbsp;<b><time datetime="2026-06-03">2026-06-03</time></b>
+          </span>
+        </div>
+      </div>
+    </header>
+
+    <!-- ════════ 封面主視覺 ════════ -->
+    <div class="cover">
+      <div class="shell">
+        <figure class="cover-fig">
+          <div class="cover-img">
+            <span class="cover-badge">平台動態 · 資訊整理</span>
+            <img src="image/news-center/banner.webp" alt="Stake 平台活動與賽事資訊整理主視覺" loading="eager" width="1240" height="420">
+          </div>
+          <figcaption class="cover-cap">
+            <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M12 11v5M12 8h.01" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            圖為示意主視覺。本文內容以平台公開公告與資訊整理為主，實際活動規則、時間與適用範圍，仍以 Stake 官方頁面公告為準。
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <!-- ════════ 雙欄：正文 + 側欄 ════════ -->
+    <div class="shell">
+      <div class="layout">
+
+        <!-- ── 正文主欄 ── -->
+        <article class="article">
+
+          <!-- H2 事件重點 -->
+          <section id="sec-overview" aria-labelledby="h2-overview">
+            <h2 id="h2-overview">事件重點：這次 Stake 更新了什麼</h2>
+            <p>Stake 在近期一連串的公告中，集中釋出了幾項與<strong>活動內容</strong>、<strong>賽事資訊呈現</strong>與<strong>帳戶功能</strong>相關的更新。整體來看，這次的調整並不是一次大型改版，而是多個面向的小幅優化集中在同一段時間內推出，因此容易被視為「一次完整的活動更新」。</p>
+            <p>從公開資訊整理，可以把這次更新大致分為三條主線：第一是<strong>優惠與任務架構</strong>的調整，讓玩家更容易看懂目前進度與獎勵條件；第二是<strong>賽事中心</strong>的介面重整，將體育與電競的即時數據整合到同一入口；第三則是<strong>帳戶與紀錄查詢</strong>等使用體驗細節的修正。</p>
+            <p>對長期關注娛樂城新聞的讀者來說，這類「資訊整合型」更新通常比單純加碼活動更值得留意，因為它會直接影響日常使用流程，例如查詢活動條件、檢視賽事數據或回顧遊戲紀錄的方式。以下分區整理具體內容與其對玩家的實際影響。</p>
+          </section>
+
+          <!-- H2 平台更新內容 -->
+          <section id="sec-update" aria-labelledby="h2-update">
+            <h2 id="h2-update">平台更新內容：優惠、賽事與功能調整</h2>
+            <p>這次更新的具體內容可以拆成幾個區塊來看。以下整理各區塊的更新方向與重點，方便對照官方公告逐項確認。</p>
+
+            <h3>優惠與任務架構</h3>
+            <p>在優惠方面，Stake 調整了部分任務與返水資訊的呈現方式。過去玩家若要了解目前任務進度，往往需要在不同頁面間切換；這次更新將<strong>進度資訊、達成條件與對應獎勵</strong>整理得更集中，讓使用者在同一處就能看到自己目前的狀態與下一階段門檻。值得注意的是，這類調整著重在「資訊透明度」，並不代表獎勵額度提高，實際內容仍以活動頁面為準。</p>
+
+            <h3>賽事中心與體育投注介面</h3>
+            <p>配合 NBA 季後賽、歐洲足球賽季收尾與多項電競賽事的時間節點，Stake 重整了賽事中心的版面，將<strong>即時比分、賽程資訊與熱門賽事入口</strong>整合到同一個導覽結構中。對於同時關注多種賽事的使用者來說，這類整合主要解決的是「資訊分散」的問題，讓賽事瀏覽更接近單一入口的體驗。</p>
+
+            <h3>帳戶與紀錄查詢</h3>
+            <p>在帳戶功能層面，這次更新也包含一些細節修正，例如部分原創遊戲新增了更完整的<strong>遊戲紀錄查詢入口</strong>，以及 VIP 等級頁面在進度顯示上的小幅優化。這些調整單獨來看幅度不大，但合併起來會讓日常查詢與回顧的流程更順暢。</p>
+
+            <div class="mini-table">
+              <table>
+                <caption>表：本次更新方向概覽（依公開資訊整理，實際以官方公告為準）</caption>
+                <thead>
+                  <tr><th scope="col">更新面向</th><th scope="col">主要調整</th><th scope="col">影響類型</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>優惠任務</td><td>進度與條件資訊集中呈現</td><td>資訊透明度</td></tr>
+                  <tr><td>賽事中心</td><td>體育／電競數據整合入口</td><td>瀏覽體驗</td></tr>
+                  <tr><td>原創遊戲</td><td>新增遊戲紀錄查詢</td><td>功能便利性</td></tr>
+                  <tr><td>VIP 頁面</td><td>等級進度顯示優化</td><td>介面細節</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <p>整體而言，這份更新清單的共通點是「讓既有功能更好用」，而非推出全新玩法。對玩家來說，理解這些調整的位置與用途，會比急著參與任何單一活動更實際。若想進一步了解平台註冊與基本設定，可參考站內的<a class="inline" href="register-guide-stake.html">Stake 註冊教學指南</a>。</p>
+          </section>
+
+          <!-- H2 對玩家的影響 -->
+          <section id="sec-impact" aria-labelledby="h2-impact">
+            <h2 id="h2-impact">對玩家的影響：實際使用上會有什麼不同</h2>
+            <p>把更新內容對應到日常使用情境，可以更具體地理解這次調整的意義。以下從幾個常見使用面向說明。</p>
+            <ul class="list">
+              <li><strong>查活動更快：</strong>任務與返水資訊集中後，玩家在判斷「這個活動值不值得參與」時，需要切換的頁面變少，理解條件的時間也隨之縮短。</li>
+              <li><strong>看賽事更集中：</strong>對同時關注 NBA、足球與電競的使用者，賽事中心整合後可在單一入口掌握賽程與數據，減少在不同分頁間來回查找的情況。</li>
+              <li><strong>回顧紀錄更方便：</strong>原創遊戲新增的紀錄查詢，讓玩家能更完整地回顧過往遊戲資訊，對於想檢視自身使用情況的人較為實用。</li>
+              <li><strong>進度判讀更清楚：</strong>VIP 等級頁面的進度顯示優化，讓玩家更直接地知道目前狀態與下一階段條件，降低資訊落差。</li>
+            </ul>
+            <p>需要提醒的是，介面與資訊呈現的優化雖然提升了便利性，但<strong>不會改變參與任何活動本身的風險與不確定性</strong>。建議玩家在了解規則後，依自身狀況理性評估，並留意責任博弈相關提醒。若想比較不同平台的整體條件，可參考<a class="inline" href="online-casino-recommendation.html">線上娛樂城排行榜</a>的評測整理。</p>
+          </section>
+
+          <!-- H2 延伸觀察 -->
+          <section id="sec-outlook" aria-labelledby="h2-outlook">
+            <h2 id="h2-outlook">延伸觀察：後續可留意的方向</h2>
+            <p>從這次更新的方向，可以延伸出幾個值得持續關注的觀察點。這些並非預測，而是依目前趨勢整理的留意方向，供讀者在後續閱讀新聞時參考。</p>
+            <p>第一，<strong>資訊整合會是常態</strong>。近期多個平台都在朝「單一入口、集中呈現」的方向調整介面，這通常意味著後續還會有更多資訊查詢與導覽相關的優化，而非一次到位。</p>
+            <p>第二，<strong>賽季節點會帶動賽事內容更新</strong>。隨著不同運動的賽季交替，賽事中心與相關數據呈現很可能會配合熱門賽事再做調整，關注體育話題的讀者可留意這類週期性變化。</p>
+            <p>第三，<strong>優惠調整偏向結構化</strong>。從這次「資訊透明度優先」的做法可以看出，活動設計越來越強調規則清楚與條件可讀，而非單純比拚加碼幅度，這對重視理性參與的玩家是相對正向的方向。</p>
+            <p>後續若有新的平台公告或賽事焦點，新聞中心會持續整理更新。想掌握更完整的脈絡，建議搭配<a class="inline" href="news-center.html">娛樂城新聞總覽</a>一起閱讀。</p>
+
+            <!-- 文末標籤 / 分享 -->
+            <div class="art-foot">
+              <div class="art-foot-tags" aria-label="文章標籤">
+                <a class="chip" href="news-center.html">#Stake</a>
+                <a class="chip" href="news-center.html">#平台消息</a>
+                <a class="chip" href="news-center.html">#體育賽事</a>
+                <a class="chip" href="news-center.html">#優惠活動</a>
+              </div>
+              <div class="share">
+                <span>分享</span>
+                <button type="button" data-share="copy" aria-label="複製文章連結">
+                  <svg viewBox="0 0 24 24" fill="none"><path d="M10 13a5 5 0 0 0 7 0l2-2a5 5 0 0 0-7-7l-1 1M14 11a5 5 0 0 0-7 0l-2 2a5 5 0 0 0 7 7l1-1" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <button type="button" data-share="x" aria-label="分享到 X">
+                  <svg viewBox="0 0 24 24" fill="none"><path d="M4 4l16 16M20 4L4 20" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+                </button>
+                <button type="button" data-share="line" aria-label="分享到 LINE">
+                  <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="14" rx="4" stroke="currentColor" stroke-width="1.7"/><path d="M8 9v4M11 9v4l3-4v4M16 9v4h2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+              </div>
+            </div>
+          </section>
+        </article>
+
+        <!-- ── 側欄 ── -->
+        <aside class="sidebar" aria-label="文章側欄">
+
+          <!-- 文章目錄 TOC -->
+          <nav class="sb-card toc-card" id="toc-card" aria-labelledby="toc-title">
+            <div class="sb-head" id="toc-title">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M8 6h13M8 12h13M8 18h13M3.5 6h.01M3.5 12h.01M3.5 18h.01" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              文章目錄
+              <button type="button" class="toc-toggle" aria-label="展開或收合目錄" aria-expanded="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+            </div>
+            <div class="sb-body">
+              <ol class="toc">
+                <li><a href="#sec-overview">事件重點</a></li>
+                <li><a href="#sec-update">平台更新內容</a></li>
+                <li><a href="#sec-impact">對玩家的影響</a></li>
+                <li><a href="#sec-outlook">延伸觀察</a></li>
+              </ol>
+            </div>
+          </nav>
+
+          <!-- 相關新聞 3 則 -->
+          <section class="sb-card" aria-labelledby="sb-rel-title">
+            <div class="sb-head" id="sb-rel-title">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M4 5h16M4 12h16M4 19h10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              相關新聞
+            </div>
+            <div class="sb-body">
+              <ul class="sb-news">
+                <li><a href="news-center.html"><span class="sb-cat">平台消息</span><span class="sb-t">Stake 推出全新賽事中心介面，整合體育與電競即時數據</span><span class="sb-d">2026-06-03</span></a></li>
+                <li><a href="news-center.html"><span class="sb-cat">優惠活動</span><span class="sb-t">Stake 調整 VIP 等級顯示方式，新增進度透明度資訊</span><span class="sb-d">2026-05-30</span></a></li>
+                <li><a href="news-center.html"><span class="sb-cat">體育賽事</span><span class="sb-t">NBA 季後賽進入關鍵階段，平台同步更新賽事數據看板</span><span class="sb-d">2026-05-29</span></a></li>
+              </ul>
+            </div>
+          </section>
+
+          <!-- 平台資訊卡 -->
+          <section class="sb-card plat-card" aria-labelledby="sb-plat-title">
+            <div class="sb-head" id="sb-plat-title">
+              <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M3 9h18" stroke="currentColor" stroke-width="1.6"/></svg>
+              平台資訊
+            </div>
+            <div class="sb-body">
+              <div class="plat-top">
+                <span class="plat-logo"><img src="image/shared/stake.webp" alt="Stake 平台標誌" width="48" height="48"></span>
+                <span class="plat-name">Stake<span>加密娛樂城 · 體育投注</span></span>
+              </div>
+              <div class="plat-stats">
+                <div class="plat-stat"><b>3000+</b><span>遊戲數量</span></div>
+                <div class="plat-stat"><b>24/7</b><span>線上客服</span></div>
+                <div class="plat-stat"><b>多鏈</b><span>加密存提款</span></div>
+                <div class="plat-stat"><b>原創</b><span>自製遊戲系列</span></div>
+              </div>
+              <ul class="plat-list">
+                <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 12l5 5L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>整合體育、電競與原創遊戲入口</li>
+                <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 12l5 5L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>支援多種穩定幣存提款</li>
+                <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 12l5 5L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>VIP 等級與任務制度透明</li>
+              </ul>
+              <a href="register-guide-stake.html" class="btn btn-sm btn-ghost" style="width:100%">查看註冊教學</a>
+            </div>
+          </section>
+
+          <!-- 熱門優惠導流卡 -->
+          <section class="promo-card" aria-labelledby="sb-promo-title">
+            <span class="promo-eyebrow">熱門優惠</span>
+            <h2 class="promo-h" id="sb-promo-title">Stake 首存回饋活動整理</h2>
+            <p class="promo-d">查看目前各平台首存與每日返水的條件比較，了解規則後再決定是否參與。</p>
+            <a href="stake-first-deposit.html" class="btn btn-sm">查看優惠內容</a>
+          </section>
+
+        </aside>
+      </div>
+    </div>
+
+    <!-- ════════ 延伸閱讀 ════════ -->
+    <section class="sec" style="background:#0B0D12" id="related" aria-labelledby="related-title">
+      <div class="shell">
+        <div class="sec-head">
+          <span class="eyebrow">繼續閱讀</span>
+          <h2 class="h2" id="related-title">相關新聞與延伸閱讀</h2>
+          <p class="sec-desc">依本篇主題挑選的延伸內容，從平台動態到賽事與優惠話題，協助你建立更完整的脈絡。</p>
+        </div>
+        <div class="rel-grid">
+          <article class="rel-card">
+            <a href="news-center.html" aria-label="閱讀更多：Rainbet 公布六月每週任務獎勵架構">
+              <div class="rel-thumb" style="background:var(--grad-lime)"><span class="tag is-promo">優惠活動</span></div>
+              <div class="rel-body">
+                <h3 class="rel-title">Rainbet 公布六月每週任務獎勵架構，新增多種代幣回饋選項</h3>
+                <p class="rel-sum">Rainbet 更新每週任務的獎勵架構，整理本月任務條件與代幣回饋方向，提供玩家了解規則後再行評估。</p>
+                <div class="rel-foot"><time class="date" datetime="2026-06-02">2026-06-02</time><span class="read-more">閱讀更多<svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+              </div>
+            </a>
+          </article>
+          <article class="rel-card">
+            <a href="news-center.html" aria-label="閱讀更多：NBA 季後賽進入關鍵階段">
+              <div class="rel-thumb" style="background:var(--grad-sport)"><span class="tag is-sport">體育賽事</span></div>
+              <div class="rel-body">
+                <h3 class="rel-title">NBA 季後賽進入關鍵階段，平台同步更新賽事數據看板</h3>
+                <p class="rel-sum">隨著季後賽推進，多家平台更新賽事數據看板與賽程資訊呈現方式，方便關注賽事的使用者掌握每日動態。</p>
+                <div class="rel-foot"><time class="date" datetime="2026-05-29">2026-05-29</time><span class="read-more">閱讀更多<svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+              </div>
+            </a>
+          </article>
+          <article class="rel-card">
+            <a href="news-center.html" aria-label="閱讀更多：返水與任務制度差異解析">
+              <div class="rel-thumb" style="background:var(--grad-purple)"><span class="tag">平台消息</span></div>
+              <div class="rel-body">
+                <h3 class="rel-title">返水與任務制度差異解析，協助玩家理解獎勵機制</h3>
+                <p class="rel-sum">以返水與任務兩種常見制度為例，說明其計算邏輯與適用情境，協助玩家更清楚地理解平台獎勵規則。</p>
+                <div class="rel-foot"><time class="date" datetime="2026-05-23">2026-05-23</time><span class="read-more">閱讀更多<svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+              </div>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════ CTA（柔和導流）════════ -->
+    <section class="sec" style="padding-top:0" aria-labelledby="cta-title">
+      <div class="shell">
+        <div class="cta-band">
+          <div class="cta-in">
+            <span class="eyebrow">繼續探索</span>
+            <h2 class="cta-h" id="cta-title">看完這篇，接著掌握更多娛樂城資訊</h2>
+            <p class="cta-d">不論是想了解最新優惠變化、回到新聞總覽掌握每日動態，或從基礎指南開始熟悉平台，都能在站內找到對應內容。建議了解規則後再依自身狀況理性評估。</p>
+            <div class="cta-actions">
+              <a href="promotions.html" class="btn">查看最新娛樂城優惠</a>
+              <a href="news-center.html" class="btn btn-ghost">前往娛樂城新聞總覽</a>
+              <a href="register-guide-stake.html" class="btn btn-ghost">閱讀遊戲指南</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ════════ FOOTER（共用 site-footer 元件）════════ -->
+  <site-footer page="news"></site-footer>
+
+  <!-- 共用導覽列 / 頁尾元件腳本（含手機選單互動） -->
+  <script src="components/site-components.js"></script>
+  <script>
+    // ── 導覽列 sticky 實心切換（離開文章頁首後變實心）──
+    (function(){
+      var header=document.querySelector('.hdr');
+      var trigger=document.querySelector('.art-hero');
+      if(!header||!trigger)return;
+      function sync(){
+        var bottom=trigger.offsetTop+trigger.offsetHeight;
+        header.classList.toggle('is-solid',window.scrollY>=(bottom-header.offsetHeight));
+      }
+      sync();
+      window.addEventListener('scroll',sync,{passive:true});
+      window.addEventListener('resize',sync);
+    })();
+
+    // ── TOC scrollspy（依目前可視段落高亮）──
+    (function(){
+      var links=Array.prototype.slice.call(document.querySelectorAll('.toc a'));
+      if(!links.length)return;
+      var sections=links.map(function(l){return document.querySelector(l.getAttribute('href'));}).filter(Boolean);
+      function spy(){
+        var pos=window.scrollY+140;
+        var current=sections[0];
+        sections.forEach(function(s){if(s.offsetTop<=pos)current=s;});
+        links.forEach(function(l){
+          l.classList.toggle('is-active',l.getAttribute('href')==='#'+current.id);
+        });
+      }
+      spy();
+      window.addEventListener('scroll',spy,{passive:true});
+      window.addEventListener('resize',spy);
+    })();
+
+    // ── TOC 手機版可折疊 ──
+    (function(){
+      var card=document.getElementById('toc-card');
+      if(!card)return;
+      var head=card.querySelector('.sb-head');
+      var toggle=card.querySelector('.toc-toggle');
+      function isMobile(){return window.matchMedia('(max-width:760px)').matches;}
+      function setOpen(open){
+        card.classList.toggle('is-collapsed',!open);
+        if(toggle)toggle.setAttribute('aria-expanded',open?'true':'false');
+      }
+      // 預設手機版收合
+      if(isMobile())setOpen(false);
+      head.addEventListener('click',function(e){
+        if(!isMobile())return;
+        // 點到目錄連結不觸發折疊
+        if(e.target.closest('.toc'))return;
+        setOpen(card.classList.contains('is-collapsed'));
+      });
+      window.addEventListener('resize',function(){
+        if(!isMobile())setOpen(true);
+      });
+    })();
+
+    // ── 分享按鈕 ──
+    (function(){
+      var url=window.location.href;
+      var title=document.title;
+      document.querySelectorAll('[data-share]').forEach(function(btn){
+        btn.addEventListener('click',function(){
+          var type=btn.getAttribute('data-share');
+          if(type==='copy'){
+            if(navigator.clipboard){
+              navigator.clipboard.writeText(url).then(function(){
+                var old=btn.getAttribute('aria-label');
+                btn.setAttribute('aria-label','已複製連結');
+                setTimeout(function(){btn.setAttribute('aria-label',old);},1600);
+              });
+            }
+          }else if(type==='x'){
+            window.open('https://twitter.com/intent/tweet?text='+encodeURIComponent(title)+'&url='+encodeURIComponent(url),'_blank','noopener');
+          }else if(type==='line'){
+            window.open('https://social-plugins.line.me/lineit/share?url='+encodeURIComponent(url),'_blank','noopener');
+          }
+        });
+      });
+    })();
+
+    // ── A11y：純裝飾 icon 對輔助技術隱藏 ──
+    (function(){
+      document.querySelectorAll('svg:not([aria-hidden])').forEach(function(s){
+        s.setAttribute('aria-hidden','true');
+        s.setAttribute('focusable','false');
+      });
+    })();
+  </script>
+</body>
+</html>
