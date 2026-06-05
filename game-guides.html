@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>娛樂城遊戲指南｜熱門老虎機、真人娛樂與原創遊戲攻略｜晴天娛樂城推薦網</title>
+  <meta name="description" content="提供完整娛樂城遊戲指南，整理熱門老虎機、真人娛樂與原創遊戲玩法教學、規則介紹、技巧攻略與新手秘笈，幫助玩家快速了解遊戲特色與實戰技巧。">
+  <link rel="canonical" href="/game-guides/">
+  <!-- 字體：提前建立連線，縮短 webfont 取得時間、降低字體切換造成的位移（CLS）。webfont 本身已採用 font-display:swap -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+  <link href="https://cdn.jsdelivr.net/npm/chiron-hei-hk-webfont@2.6.9/index.css" rel="stylesheet">
+  <style>
+    /* ============================================================
+       娛樂城遊戲指南 — 遊戲玩法教學 / 攻略總覽頁
+       延續站內視覺：Chiron Hei HK / 深色科技感 / 紫綠點綴 / 直角
+       本頁定位：內容導向、單欄、留白、閱讀性優先（非入口站）
+       ============================================================ */
+    :root{
+      --pri-700:#43269A;--pri-500:#7656D7;--pri-300:#9FC9FF;--pri-200:#B5A8F0;
+      --sec:#DEF243;--purple-900:#3A0661;
+      --n50:#161922;--n100:#222633;--n150:#2E3444;--n200:#8F98AC;--n300:#A9B1C2;
+      --n400:#C3CAD8;--n500:#D9DEEA;--n600:#E8ECF5;--n700:#F4F7FF;--n800:#FFFFFF;
+      --surface-muted:#1E2230;--success:#A4F467;
+      /* 後備字體改用度量相近的 CJK 黑體，降低 webfont 載入後切換時的回流位移 */
+      --ff:'Chiron Hei HK','PingFang TC','Microsoft JhengHei','Noto Sans TC',sans-serif;
+      --r-full:999px;
+      --fs-hero:clamp(30px,4.4vw,50px);--fs-h2:clamp(25px,3.1vw,34px);--fs-h3:20px;
+      --fs-lead:18px;--fs-body:16px;--fs-sm:14px;--fs-xs:12px;
+      --lh-tight:1.2;--lh-heading:1.3;--lh-body:1.7;
+      --ease:cubic-bezier(.4,0,.2,1);--dur:.25s;--lift:-4px;
+      --shadow-card:0 24px 60px -18px rgba(0,0,0,.6);
+      --shadow-card-sm:0 18px 40px -16px rgba(0,0,0,.5);
+      --shadow-glow:0 0 0 1px rgba(159,168,240,.42),0 0 22px rgba(118,86,215,.62),0 0 52px rgba(67,38,154,.42),0 0 84px rgba(67,38,154,.18);
+      --grad-purple:linear-gradient(150deg,#1A1740 0%,#43269A 52%,#7656D7 100%);
+      --grad-bloom:radial-gradient(125% 130% at 50% 118%,#7656D7 0%,#43269A 42%,#16153C 100%);
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    [hidden]{display:none!important}
+    html{scroll-behavior:smooth}
+    body{background:#0F1115;color:var(--n500);font-family:var(--ff);-webkit-font-smoothing:antialiased;min-width:320px}
+    a{color:inherit;text-decoration:none}img,svg{display:block}button{font:inherit}
+    .shell{width:min(calc(100% - 40px),1240px);margin:0 auto}
+    /* 內容導向：閱讀欄寬度刻意收窄，提升長文閱讀性 */
+    .read{width:min(calc(100% - 40px),900px);margin:0 auto}
+
+    /* ── CLS：為 JS 注入的共用元件預留高度，避免渲染後把內容往下推 ── */
+    site-navbar{display:block;min-height:72px}
+    site-footer{display:block;min-height:300px}
+
+    /* ── A11y：跳到主要內容（鍵盤聚焦時才出現）── */
+    .skip-link{position:fixed;left:16px;top:-80px;z-index:200;background:var(--sec);color:#1B1C1C;font-weight:700;
+      padding:12px 20px;text-decoration:none;transition:top .2s var(--ease)}
+    .skip-link:focus{top:14px}
+
+    /* ── A11y：清楚一致的鍵盤焦點狀態 ── */
+    :focus-visible{outline:3px solid var(--sec);outline-offset:3px;border-radius:2px}
+
+    /* ── A11y：尊重「減少動態」偏好 ── */
+    @media(prefers-reduced-motion:reduce){
+      html{scroll-behavior:auto}
+      *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
+      .guide-item:hover,.brief:hover,.cta-card:hover,.btn:hover{transform:none}
+      .reveal{opacity:1!important;transform:none!important}
+    }
+
+    /* ── Buttons ── */
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;
+      font-family:var(--ff);height:46px;padding:10px 26px;font-size:16px;font-weight:700;line-height:22px;
+      border:none;border-radius:0;background:var(--sec);color:#1B1C1C;transition:background .15s,transform .15s}
+    .btn:hover{background:#E8FB5E;transform:translateY(-2px)}
+    .btn-ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.45)}
+    .btn-ghost:hover{background:rgba(255,255,255,.08);border-color:#fff}
+    .btn-sm{height:38px;padding:8px 18px;font-size:14px}
+
+    /* ── Section frame ── */
+    .sec{padding:54px 0}
+    @media(min-width:768px){.sec{padding:76px 0}}
+    .sec-head{margin-bottom:38px}
+    .sec-head.center{text-align:center}
+    .eyebrow{display:inline-flex;align-items:center;font-size:13px;font-weight:700;letter-spacing:.12em;
+      text-transform:uppercase;color:var(--pri-200);margin-bottom:14px}
+    .h2{font-size:var(--fs-h2);font-weight:700;line-height:var(--lh-heading);color:var(--n800);letter-spacing:-.01em}
+    .sec-desc{margin-top:14px;font-size:var(--fs-lead);line-height:1.7;color:var(--n300);max-width:760px}
+    .sec-head.center .sec-desc{margin-left:auto;margin-right:auto}
+
+    /* ── Category tag（沿用站內語意色）── */
+    .tag{display:inline-flex;align-items:center;font-size:12px;font-weight:700;line-height:1;
+      padding:6px 12px;border-radius:var(--r-full);letter-spacing:.02em;
+      background:rgba(118,86,215,.16);color:var(--pri-200);border:1px solid rgba(118,86,215,.3)}
+    .tag.is-promo{background:rgba(222,242,67,.14);color:#D7E84A;border-color:rgba(222,242,67,.3)}
+    .tag.is-sport{background:rgba(155,63,176,.18);color:#D89BE6;border-color:rgba(155,63,176,.34)}
+    .tag.is-trend{background:rgba(62,127,196,.18);color:#8FC0F0;border-color:rgba(62,127,196,.34)}
+    .tag.is-game{background:rgba(164,244,103,.14);color:#B7F08A;border-color:rgba(164,244,103,.3)}
+    .date{font-size:13px;color:var(--n200);display:inline-flex;align-items:center;gap:6px}
+    .date svg{width:14px;height:14px;opacity:.8}
+
+    /* ════ HEADER / NAVBAR（與站內其他頁一致）════ */
+    .hdr{position:sticky;top:0;z-index:50;background:transparent;border-bottom:1px solid rgba(255,255,255,.14);
+      transition:background-color .25s var(--ease),backdrop-filter .25s var(--ease),border-color .25s var(--ease)}
+    .hdr.is-solid{background:rgba(15,17,21,.86);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom-color:rgba(255,255,255,.10)}
+    .hdr-in{display:flex;align-items:center;justify-content:space-between;height:72px;gap:24px}
+    .brand{font-weight:800;font-size:20px;color:#fff;letter-spacing:-.02em;white-space:nowrap}
+    .nav{display:flex;align-items:center;gap:4px}
+    .nav a{position:relative;padding:10px 16px;font-size:15px;font-weight:500;color:rgba(255,255,255,.82);white-space:nowrap;transition:color .15s}
+    .nav a::after{content:'';position:absolute;left:16px;right:16px;bottom:4px;height:2px;background:var(--sec);transform:scaleX(0);transform-origin:center;transition:transform .2s var(--ease)}
+    .nav a:hover,.nav a.active{color:#fff}
+    .nav a:hover::after,.nav a.active::after{transform:scaleX(1)}
+    .hdr-icons{display:flex;align-items:center;gap:14px}
+    .hdr-ic{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;color:#fff;background:none;border:none;cursor:pointer;transition:color .15s}
+    .hdr-ic:hover{color:var(--sec)}
+    .hdr-ic svg{width:20px;height:20px}
+    /* 優惠活動 下拉選單（搭配共用 site-navbar 元件） */
+    .nav-dd{position:relative;display:flex}
+    .nav-dd-trigger{display:inline-flex;align-items:center;gap:6px}
+    .nav-dd-caret{width:11px;height:11px;flex-shrink:0;transition:transform .2s}
+    .nav-dd:hover .nav-dd-caret,.nav-dd:focus-within .nav-dd-caret{transform:rotate(180deg)}
+    .nav-dd-menu{position:absolute;top:calc(100% + 12px);left:50%;transform:translateX(-50%) translateY(6px);min-width:184px;background:var(--n50);border:1px solid var(--n150);box-shadow:0 18px 40px -12px rgba(15,6,28,.4);padding:6px;display:flex;flex-direction:column;gap:2px;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .18s ease,transform .18s ease;z-index:60}
+    .nav-dd-menu::before{content:'';position:absolute;left:0;right:0;top:-12px;height:12px}
+    .nav-dd:hover .nav-dd-menu,.nav-dd:focus-within .nav-dd-menu{opacity:1;visibility:visible;pointer-events:auto;transform:translateX(-50%) translateY(0)}
+    .nav-dd-menu a{padding:10px 16px;font-size:14px;font-weight:500;color:var(--n500);white-space:nowrap;transition:background .15s,color .15s}
+    .nav-dd-menu a::after{display:none}
+    .nav-dd-menu a:hover{background:var(--surface-muted);color:var(--pri-200)}
+    .nav-dd-menu .nav-dd-all{margin-top:5px;padding-top:11px;border-top:1px solid var(--n150);color:var(--pri-200);font-weight:700}
+
+    /* ════ HERO（自帶漸層網格背景：無圖、純 CSS 氛圍）════ */
+    .hero{position:relative;margin-top:-72px;padding:188px 0 110px;min-height:600px;display:flex;align-items:center;overflow:hidden;
+      background:radial-gradient(128% 120% at 50% -12%,#2A1E63 0%,#1B1742 36%,#121327 64%,#0F1115 88%)}
+    /* 細點陣網格紋理 */
+    .hero::before{content:'';position:absolute;inset:0;z-index:0;pointer-events:none;opacity:.5;
+      background-image:radial-gradient(rgba(159,168,240,.16) 1px,transparent 1px);background-size:30px 30px;
+      -webkit-mask-image:radial-gradient(80% 70% at 50% 28%,#000 0%,transparent 78%);mask-image:radial-gradient(80% 70% at 50% 28%,#000 0%,transparent 78%)}
+    /* 底部融入頁面背景 */
+    .hero::after{content:'';position:absolute;left:0;right:0;bottom:0;height:42%;z-index:0;pointer-events:none;
+      background:linear-gradient(180deg,transparent 0%,rgba(15,17,21,.6) 60%,#0F1115 100%)}
+    /* 柔光球 */
+    .hero-orb{position:absolute;z-index:0;border-radius:50%;filter:blur(70px);pointer-events:none}
+    .hero-orb.a{width:480px;height:480px;top:-120px;right:-90px;background:radial-gradient(circle,rgba(118,86,215,.55),transparent 68%)}
+    .hero-orb.b{width:360px;height:360px;bottom:-80px;left:-60px;background:radial-gradient(circle,rgba(222,242,67,.16),transparent 70%)}
+    .hero-wrap{position:relative;z-index:2;max-width:880px;text-align:center;margin:0 auto}
+    .hero-eyebrow{display:inline-flex;align-items:center;gap:9px;font-size:13px;font-weight:700;letter-spacing:.14em;
+      text-transform:uppercase;color:var(--pri-200);padding:8px 18px;border:1px solid rgba(159,168,240,.34);
+      border-radius:var(--r-full);background:rgba(118,86,215,.12)}
+    .hero-eyebrow .dot{width:7px;height:7px;border-radius:50%;background:var(--sec);box-shadow:0 0 10px var(--sec)}
+    .hero h1{margin-top:26px;font-size:var(--fs-hero);font-weight:700;line-height:var(--lh-tight);color:#fff;letter-spacing:-.02em}
+    .hero h1 .accent{background:linear-gradient(100deg,#DEF243 0%,#9FC9FF 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+    .hero-sub{margin:24px auto 0;max-width:680px;font-size:var(--fs-lead);line-height:1.85;color:rgba(255,255,255,.84)}
+    .hero-tags{margin-top:32px;display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+    .hero-tags .tag{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.18);color:rgba(255,255,255,.84)}
+    /* 進場動畫：載入時依序淡入上浮 */
+    .hero-wrap>*{opacity:0;transform:translateY(18px);animation:rise .7s var(--ease) forwards}
+    .hero-eyebrow{animation-delay:.05s}
+    .hero h1{animation-delay:.16s}
+    .hero-sub{animation-delay:.28s}
+    .hero-tags{animation-delay:.4s}
+    @keyframes rise{to{opacity:1;transform:translateY(0)}}
+
+    /* ════ INTRO 開場介紹（純文字、行寬收窄、細分隔線）════ */
+    .intro{padding:56px 0}
+    @media(min-width:768px){.intro{padding:72px 0}}
+    .intro-inner{width:min(calc(100% - 40px),820px);margin:0 auto}
+    .intro-kicker{font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--pri-200);
+      padding-bottom:18px;margin-bottom:26px;border-bottom:1px solid var(--n150)}
+    .intro p{font-size:var(--fs-lead);line-height:1.9;color:var(--n400)}
+    .intro p + p{margin-top:20px}
+    .intro strong{color:var(--n700);font-weight:700}
+
+    /* ════ 精選遊戲教學文章（三欄卡片網格、內容導向）════ */
+    .guide-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .guide-item{position:relative;display:flex;flex-direction:column;background:var(--n50);border:1px solid var(--n150);
+      padding:24px 24px 22px;transition:transform var(--dur) var(--ease),box-shadow var(--dur) var(--ease),border-color var(--dur) var(--ease)}
+    .guide-item::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--pri-500);
+      transform:scaleY(0);transform-origin:top;transition:transform var(--dur) var(--ease)}
+    .guide-item:hover{transform:translateY(var(--lift));box-shadow:var(--shadow-card-sm);border-color:rgba(159,168,240,.3)}
+    .guide-item:hover::before{transform:scaleY(1)}
+    .guide-top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:15px}
+    .guide-title{font-size:17px;font-weight:700;line-height:1.45;color:var(--n800);letter-spacing:-.01em;
+      display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+    .guide-item:hover .guide-title{color:var(--pri-200)}
+    .guide-sum{margin-top:11px;font-size:14px;line-height:1.75;color:var(--n300);
+      display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+    .guide-foot{margin-top:18px;padding-top:16px;border-top:1px solid var(--n150);display:flex;align-items:center;justify-content:flex-end}
+    .guide-more{display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:700;color:var(--pri-200);transition:gap .15s,color .15s}
+    .guide-item:hover .guide-more{gap:10px;color:var(--sec)}
+    .guide-more svg{width:15px;height:15px}
+
+    /* ── 分頁數字列（讓讀者知道目前閱讀到第幾頁）── */
+    .pager{margin-top:42px;display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:8px}
+    .pager-btn,.pager-num{display:inline-flex;align-items:center;justify-content:center;min-width:40px;height:40px;padding:0 12px;
+      font-family:var(--ff);font-size:14px;font-weight:700;color:var(--n400);background:transparent;border:1px solid var(--n150);
+      border-radius:0;cursor:pointer;transition:color .15s,background .15s,border-color .15s,transform .15s}
+    .pager-btn svg{width:16px;height:16px}
+    .pager-num:hover,.pager-btn:not(:disabled):hover{color:var(--n700);border-color:rgba(159,168,240,.45);background:var(--surface-muted)}
+    .pager-num.active{background:var(--sec);color:#1B1C1C;border-color:var(--sec);cursor:default}
+    .pager-btn:disabled{opacity:.4;cursor:not-allowed}
+    .pager-ellipsis{display:inline-flex;align-items:center;justify-content:center;min-width:28px;height:40px;color:var(--n200);font-weight:700}
+    .pager-info{width:100%;margin-top:14px;text-align:center;font-size:13px;color:var(--n200);letter-spacing:.02em}
+    .pager-info b{color:var(--pri-200);font-weight:700}
+
+    /* ════ 遊戲入門重點整理（內容摘要模組，非分類卡）════ */
+    .brief-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+    .brief{position:relative;display:flex;flex-direction:column;padding:34px 32px;overflow:hidden;
+      background:linear-gradient(160deg,#1A1D2A 0%,var(--n50) 60%);border:1px solid var(--n150);
+      transition:transform var(--dur) var(--ease),box-shadow var(--dur) var(--ease),border-color var(--dur) var(--ease)}
+    /* 角落的巨大底色序號 */
+    .brief-bignum{position:absolute;top:-18px;right:6px;font-size:128px;font-weight:900;line-height:1;color:rgba(159,168,240,.07);
+      pointer-events:none;letter-spacing:-.04em}
+    .brief:hover{transform:translateY(var(--lift));box-shadow:var(--shadow-card-sm);border-color:rgba(159,168,240,.32)}
+    .brief>*{position:relative;z-index:1}
+    .brief-step{display:inline-flex;align-items:center;gap:9px;font-size:12px;font-weight:700;letter-spacing:.12em;
+      text-transform:uppercase;color:var(--pri-200)}
+    .brief-step .bar{width:24px;height:2px;background:var(--sec)}
+    .brief h3{margin-top:16px;font-size:var(--fs-h3);font-weight:700;line-height:1.4;color:var(--n800);letter-spacing:-.01em}
+    .brief p{margin-top:13px;font-size:15px;line-height:1.85;color:var(--n300)}
+    .brief-list{margin-top:16px;display:flex;flex-direction:column;gap:9px}
+    .brief-list li{position:relative;list-style:none;padding-left:22px;font-size:14px;line-height:1.6;color:var(--n400)}
+    .brief-list li::before{content:'';position:absolute;left:0;top:8px;width:8px;height:8px;
+      background:var(--pri-500);transform:rotate(45deg)}
+
+    /* ════ FAQ（accordion；預設展開第一題）════ */
+    .faq-wrap{max-width:880px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
+    .faq{background:var(--n50);border:1px solid var(--n150);transition:border-color .2s}
+    .faq[open]{border-color:rgba(159,168,240,.34)}
+    .faq summary{list-style:none;cursor:pointer;padding:22px 26px;display:flex;align-items:center;justify-content:space-between;gap:16px;
+      font-size:16px;font-weight:700;color:var(--n700)}
+    .faq summary::-webkit-details-marker{display:none}
+    .faq-icon{flex-shrink:0;width:26px;height:26px;border:1px solid var(--n150);display:flex;align-items:center;justify-content:center;color:var(--pri-200);transition:transform .25s,background .2s}
+    .faq[open] .faq-icon{transform:rotate(45deg);background:var(--sec);color:#1B1C1C;border-color:var(--sec)}
+    .faq-icon svg{width:14px;height:14px}
+    .faq-body{padding:0 26px 24px;font-size:15px;line-height:1.8;color:var(--n300)}
+
+    /* ════ 延伸閱讀 / CTA ════ */
+    .cta-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;max-width:760px;margin:0 auto}
+    .cta-card{position:relative;display:flex;flex-direction:column;gap:16px;padding:30px 26px;overflow:hidden;
+      background:linear-gradient(155deg,#1A1740 0%,#1B1834 48%,var(--n50) 100%);border:1px solid var(--n150);
+      transition:transform var(--dur) var(--ease),box-shadow var(--dur) var(--ease),border-color var(--dur) var(--ease)}
+    .cta-card::before{content:'';position:absolute;inset:0;z-index:0;opacity:.5;pointer-events:none;
+      background:radial-gradient(120% 80% at 50% 0%,rgba(118,86,215,.4) 0%,transparent 60%);transition:opacity var(--dur) var(--ease)}
+    .cta-card>*{position:relative;z-index:1}
+    .cta-card:hover{transform:translateY(var(--lift));box-shadow:var(--shadow-card-sm);border-color:rgba(118,86,215,.55)}
+    .cta-card:hover::before{opacity:.85}
+    .cta-ic{width:50px;height:50px;display:flex;align-items:center;justify-content:center;color:#fff;
+      background:var(--grad-purple);border:1px solid rgba(159,168,240,.35);box-shadow:0 8px 22px -8px rgba(118,86,215,.7)}
+    .cta-ic svg{width:24px;height:24px}
+    .cta-name{font-size:17px;font-weight:700;color:var(--n800)}
+    .cta-go{margin-top:auto;display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:700;color:var(--pri-200);transition:gap .15s,color .15s}
+    .cta-go svg{width:15px;height:15px;transition:transform .15s}
+    .cta-card:hover .cta-go{color:var(--sec)}
+    .cta-card:hover .cta-go svg{transform:translateX(4px)}
+
+    /* ── 進場捲動揭示 ── */
+    .reveal{opacity:0;transform:translateY(22px);transition:opacity .6s var(--ease),transform .6s var(--ease)}
+    .reveal.is-in{opacity:1;transform:none}
+
+    /* ════ FOOTER（與站內其他頁一致）════ */
+    .ft{background:#0B0C11;margin-top:30px;padding:56px 0 36px;color:#fff;border-top:1px solid var(--n150)}
+    .ft-inner{display:grid;gap:38px}
+    .ft-brand h2{font-size:24px;font-weight:700;margin-bottom:10px}
+    .ft-brand p{color:var(--n300);font-size:14px;line-height:1.7;max-width:560px}
+    .ft-links{display:grid;grid-template-columns:repeat(6,1fr);gap:24px;padding-top:34px;border-top:1px solid rgba(255,255,255,.08)}
+    .ft-col h3{font-size:var(--fs-xs);font-weight:700;color:var(--n400);margin-bottom:14px;text-transform:uppercase;letter-spacing:.1em}
+    .ft-col ul{list-style:none;display:flex;flex-direction:column;gap:9px}
+    .ft-col a{color:var(--n300);font-size:14px;transition:color .15s}
+    .ft-col a:hover{color:var(--sec)}
+    .ft-bot{padding-top:26px;border-top:1px solid rgba(255,255,255,.08);display:flex;flex-wrap:wrap;gap:10px 24px;justify-content:space-between;align-items:center;font-size:13px;color:var(--n200)}
+
+    /* ════ RESPONSIVE ════ */
+    @media(min-width:768px){.ft-inner{grid-template-columns:1fr}}
+    @media(max-width:1080px){
+      .cta-grid{grid-template-columns:repeat(2,1fr)}
+    }
+    @media(max-width:980px){
+      .guide-grid{grid-template-columns:repeat(2,1fr)}
+      .brief-grid{grid-template-columns:1fr}
+      .ft-links{grid-template-columns:repeat(3,1fr)}
+    }
+    @media(max-width:760px){
+      .hero{min-height:auto;padding:138px 0 80px}
+      .hero-orb.a{width:320px;height:320px;top:-90px;right:-110px}
+      .guide-grid{grid-template-columns:1fr}
+      .guide-title{-webkit-line-clamp:none}
+      .cta-grid{grid-template-columns:1fr}
+      .ft-links{grid-template-columns:repeat(2,1fr)}
+    }
+  </style>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">跳到主要內容</a>
+
+  <!-- ════════ HEADER（共用 site-navbar 元件）════════ -->
+  <site-navbar page="game-guide"></site-navbar>
+
+  <main id="main">
+
+  <!-- ════════ HERO BANNER（自帶漸層網格、無圖）════════ -->
+  <section class="hero" aria-labelledby="hero-title">
+    <span class="hero-orb a" aria-hidden="true"></span>
+    <span class="hero-orb b" aria-hidden="true"></span>
+    <div class="shell hero-wrap">
+      <h1 id="hero-title">娛樂城遊戲指南<br><span class="accent">熱門遊戲玩法與攻略教學</span></h1>
+      <p class="hero-sub">整理老虎機、真人娛樂與原創遊戲的玩法教學、規則說明與攻略重點，幫助玩家快速看懂遊戲特色、掌握基本機制，建立屬於自己的實戰節奏</p>
+      <div class="hero-tags">
+        <span class="tag">老虎機玩法</span>
+        <span class="tag is-sport">真人娛樂規則</span>
+        <span class="tag is-trend">原創遊戲攻略</span>
+        <span class="tag is-game">新手入門</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ SECTION 1：開場介紹（純文字、行寬收窄）════════ -->
+  <section class="intro" aria-labelledby="intro-title">
+    <div class="intro-inner">
+      <p class="intro-kicker" id="intro-title">關於本指南</p>
+      <p><strong>晴天娛樂城推薦網</strong>遊戲指南，將熱門娛樂城遊戲整理成清楚的教學內容，涵蓋老虎機、真人娛樂與原創遊戲三大類型。從遊戲規則、基本機制到實戰攻略觀念，協助玩家在開始遊戲前先建立正確認知，看懂遊戲畫面與數值資訊</p>
+      <p>無論你是第一次接觸娛樂城遊戲的新手，還是想更有系統地理解各類遊戲玩法的玩家，都能透過本頁的教學文章與重點整理，循序了解每種遊戲的特色與差異，找到適合自己的遊戲方向與節奏</p>
+    </div>
+  </section>
+
+  <!-- ════════ SECTION 2：精選遊戲教學文章（三類混排）════════ -->
+  <section class="sec" id="articles" style="background:#0B0D12" aria-labelledby="articles-title">
+    <div class="shell">
+      <div class="sec-head">
+        <span class="eyebrow">精選教學</span>
+        <h2 class="h2" id="articles-title">精選遊戲教學文章</h2>
+      </div>
+
+      <!-- 文章卡片由下方 script 依資料渲染（每頁 12 篇＝三欄四列）；分頁數字列讓讀者知道目前頁數 -->
+      <div class="guide-grid" id="guide-grid" aria-live="polite"></div>
+      <nav class="pager" id="pager" aria-label="文章分頁"></nav>
+    </div>
+  </section>
+
+  <!-- ════════ SECTION 3：延伸閱讀 / CTA ════════ -->
+  <section class="sec" id="more" style="background:#0B0D12" aria-labelledby="more-title">
+    <div class="shell">
+      <div class="sec-head center">
+        <span class="eyebrow">延伸閱讀</span>
+        <h2 class="h2" id="more-title">想繼續了解更多？</h2>
+        <p class="sec-desc">了解完遊戲玩法後，可以接著瀏覽娛樂城推薦與優惠活動，完整準備你的娛樂城體驗</p>
+      </div>
+      <div class="cta-grid">
+        <a class="cta-card reveal" href="online-casino-recommendation.html">
+          <div class="cta-ic"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9 6.8 19.2l1-5.8L3.5 9.2l5.9-.9z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></div>
+          <h3 class="cta-name">娛樂城推薦總覽</h3>
+          <span class="cta-go">前往瀏覽<svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+        <a class="cta-card reveal" href="promotions.html">
+          <div class="cta-ic"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="8" width="18" height="13" rx="1" stroke="currentColor" stroke-width="1.6"/><path d="M3 12h18M12 8v13" stroke="currentColor" stroke-width="1.6"/><path d="M12 8C12 8 10.5 4 8 4S5 7.2 8 8h4zM12 8c0 0 1.5-4 4-4s3 3.2 0 4h-4z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></div>
+          <h3 class="cta-name">優惠總覽頁</h3>
+          <span class="cta-go">前往瀏覽<svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- ════════ FOOTER（共用 site-footer 元件）════════ -->
+  <site-footer page="game-guide"></site-footer>
+
+  <!-- 共用導覽列 / 頁尾元件腳本（含手機選單互動） -->
+  <script src="components/site-components.js"></script>
+  <script>
+    (function(){
+      // ── 導覽列 sticky：捲過 hero 後切換為實心背景 ──
+      var header=document.querySelector('.hdr');
+      var hero=document.querySelector('.hero');
+      if(header&&hero){
+        function sync(){
+          var heroBottom=hero.offsetTop+hero.offsetHeight;
+          header.classList.toggle('is-solid',window.scrollY>=(heroBottom-header.offsetHeight));
+        }
+        sync();
+        window.addEventListener('scroll',sync,{passive:true});
+        window.addEventListener('resize',sync);
+      }
+    })();
+
+    // ════ 精選遊戲教學文章：資料 + 分頁渲染（數字列顯示目前頁數）════
+    (function(){
+      var PAGE_SIZE=12; // 每頁文章數（三欄四列）
+      // 文章資料（cls 對應站內語意色 tag：老虎機=is-game / 真人娛樂=is-sport / 原創遊戲=is-trend）
+      var ARTICLES=[
+        {cat:'老虎機教學',cls:'is-game', date:'2026-05-30',title:'老虎機玩法入門：轉軸、賠付線與中獎判定一次看懂',sum:'從轉軸結構、賠付線到中獎判定方式，帶你看懂老虎機的基本畫面資訊與玩法名詞，建立入門認知'},
+        {cat:'真人娛樂教學',cls:'is-sport',date:'2026-05-28',title:'真人百家樂規則教學：莊閒和與下注方式詳解',sum:'說明百家樂的莊、閒、和基本規則、補牌邏輯與常見下注方式，協助新手快速理解牌桌節奏'},
+        {cat:'原創遊戲攻略',cls:'is-trend',date:'2026-05-26',title:'Crash 遊戲怎麼玩？原創倍數遊戲機制與節奏解析',sum:'解析 Crash 類原創遊戲的倍數成長、收手時機與風險特性，理解這類即時遊戲的基本節奏'},
+        {cat:'老虎機教學',cls:'is-game', date:'2026-05-24',title:'RTP 與波動性是什麼？挑選老虎機前必懂的數值',sum:'解釋 RTP 與波動性的意義與影響，帶你在挑選老虎機前看懂遊戲數值，了解不同機台的風格差異'},
+        {cat:'真人娛樂教學',cls:'is-sport',date:'2026-05-22',title:'真人輪盤入門：歐式與美式輪盤的差異與賠率',sum:'介紹歐式與美式輪盤的格數差異、常見下注區域與對應賠率，幫助新手理解輪盤的基本玩法'},
+        {cat:'原創遊戲攻略',cls:'is-trend',date:'2026-05-20',title:'Plinko、Mines 玩法整理：原創遊戲的風險與賠率邏輯',sum:'整理 Plinko 與 Mines 等原創遊戲的玩法規則、風險等級與賠率設定，理解自訂風險的核心觀念'},
+        {cat:'老虎機教學',cls:'is-game', date:'2026-05-18',title:'免費旋轉與購買特殊玩法：老虎機 Bonus 功能解析',sum:'說明免費旋轉、購買特色玩法與倍數符號等老虎機 Bonus 機制，帶你看懂特殊玩法的觸發條件'},
+        {cat:'真人娛樂教學',cls:'is-sport',date:'2026-05-16',title:'真人二十一點基本策略：補牌與停牌的判斷原則',sum:'介紹二十一點的點數計算、補牌與停牌的基本判斷原則，協助新手建立穩定的牌桌決策觀念'},
+        {cat:'原創遊戲攻略',cls:'is-trend',date:'2026-05-14',title:'Dice 骰寶遊戲教學：自訂勝率與倍率的玩法觀念',sum:'解析 Dice 類原創遊戲如何透過調整勝率影響倍率，理解風險與報酬之間的取捨與基本玩法'},
+        {cat:'老虎機教學',cls:'is-game', date:'2026-05-12',title:'Megaways 是什麼？變動轉軸老虎機玩法解析',sum:'介紹 Megaways 變動轉軸機制如何改變每局的連線數，理解這類老虎機的高變化玩法特性'},
+        {cat:'真人娛樂教學',cls:'is-sport',date:'2026-05-10',title:'真人骰寶 Sic Bo 玩法教學：下注區域與賠率整理',sum:'說明真人骰寶的大小、單雙與點數組合下注區域與對應賠率，協助新手看懂骰寶牌桌'},
+        {cat:'原創遊戲攻略',cls:'is-trend',date:'2026-05-08',title:'Limbo 玩法解析：目標倍率與命中機率的關係',sum:'解析 Limbo 原創遊戲的目標倍率設定與命中機率關係，理解高倍與低倍之間的取捨'},
+        {cat:'老虎機教學',cls:'is-game', date:'2026-05-06',title:'老虎機賠付表怎麼看？符號權重與連線規則解析',sum:'教你看懂老虎機賠付表的符號權重、連線方向與倍數，下注前先掌握遊戲的報酬結構'},
+        {cat:'真人娛樂教學',cls:'is-sport',date:'2026-05-04',title:'龍虎鬥怎麼玩？快節奏真人遊戲規則入門',sum:'介紹龍虎鬥的下注方式、開牌規則與賠率，適合想體驗快節奏真人遊戲的新手入門'},
+        {cat:'原創遊戲攻略',cls:'is-trend',date:'2026-05-02',title:'Keno 賓果類原創遊戲玩法與賠率整理',sum:'整理 Keno 賓果類原創遊戲的選號方式、命中賠率與玩法節奏，理解這類號碼遊戲的基本玩法'},
+        {cat:'老虎機教學',cls:'is-game', date:'2026-04-30',title:'老虎機累積獎池 Jackpot 類型與中獎條件整理',sum:'說明固定、累積與必中等獎池類型的差異與觸發條件，了解老虎機大獎的運作方式'},
+        {cat:'真人娛樂教學',cls:'is-sport',date:'2026-04-28',title:'真人遊戲介面導覽：路單、限額與下注時間說明',sum:'帶你認識真人遊戲介面的路單、限額與下注時間提示，熟悉牌桌資訊與操作位置'},
+        {cat:'原創遊戲攻略',cls:'is-trend',date:'2026-04-26',title:'Hilo 猜牌遊戲教學：連續猜大小的玩法觀念',sum:'介紹 Hilo 猜牌遊戲的連續猜大小機制與倍率累積方式，理解風險與收手時機的拿捏'},
+        {cat:'老虎機教學',cls:'is-game', date:'2026-04-24',title:'消除式老虎機 Cluster Pays 玩法與連鎖機制',sum:'說明消除式老虎機的群組連線與連鎖消除機制，看懂與傳統賠付線不同的中獎方式'},
+        {cat:'真人娛樂教學',cls:'is-sport',date:'2026-04-22',title:'百家樂路單怎麼看？大路與珠盤路基礎解讀',sum:'從大路、珠盤路等常見路單入門，教你看懂百家樂的開牌紀錄與基本判讀方式'},
+        {cat:'原創遊戲攻略',cls:'is-trend',date:'2026-04-20',title:'Wheel 幸運轉盤原創遊戲玩法與風險設定',sum:'介紹幸運轉盤原創遊戲的區段賠率與風險設定，理解不同風險模式之間的倍率差異'},
+        {cat:'老虎機教學',cls:'is-game', date:'2026-04-18',title:'老虎機試玩模式怎麼用？免費熟悉機制的方法',sum:'說明如何善用老虎機試玩 Demo 模式，在不下注的情況下先熟悉機制與特殊玩法'},
+        {cat:'真人娛樂教學',cls:'is-sport',date:'2026-04-16',title:'真人荷官遊戲與電子遊戲差在哪？特色比較',sum:'比較真人荷官遊戲與電子遊戲在節奏、互動與玩法上的差異，協助新手選擇適合的類型'},
+        {cat:'原創遊戲攻略',cls:'is-trend',date:'2026-04-14',title:'原創遊戲公平性怎麼看？Provably Fair 機制入門',sum:'介紹原創遊戲常見的 Provably Fair 可驗證公平機制，了解遊戲結果如何被驗證的基本概念'}
+      ];
+
+      var CAL='<svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="1" stroke="currentColor" stroke-width="1.6"/><path d="M3 9h18M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>';
+      var ARR='<svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+
+      var grid=document.getElementById('guide-grid');
+      var pager=document.getElementById('pager');
+      var section=document.getElementById('articles');
+      if(!grid||!pager) return;
+
+      var totalPages=Math.max(1,Math.ceil(ARTICLES.length/PAGE_SIZE));
+      var current=1;
+
+      function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+
+      function cardHTML(a){
+        return '<a class="guide-item" href="#" aria-label="'+esc(a.title)+'：查看全文">'+
+          '<div class="guide-top"><span class="tag '+a.cls+'">'+esc(a.cat)+'</span>'+
+          '<time class="date" datetime="'+a.date+'">'+CAL+a.date+' 更新</time></div>'+
+          '<h3 class="guide-title">'+esc(a.title)+'</h3>'+
+          '<p class="guide-sum">'+esc(a.sum)+'</p>'+
+          '<div class="guide-foot"><span class="guide-more">查看全文'+ARR+'</span></div></a>';
+      }
+
+      function renderGrid(){
+        var start=(current-1)*PAGE_SIZE;
+        var items=ARTICLES.slice(start,start+PAGE_SIZE);
+        grid.innerHTML=items.map(cardHTML).join('');
+      }
+
+      // 產生分頁數字（含首尾與省略號，頁數少時即完整顯示）
+      function pageList(){
+        var out=[],i;
+        if(totalPages<=7){for(i=1;i<=totalPages;i++)out.push(i);return out;}
+        out.push(1);
+        var s=Math.max(2,current-1),e=Math.min(totalPages-1,current+1);
+        if(s>2)out.push('…');
+        for(i=s;i<=e;i++)out.push(i);
+        if(e<totalPages-1)out.push('…');
+        out.push(totalPages);
+        return out;
+      }
+
+      function renderPager(){
+        var html='';
+        html+='<button class="pager-btn" data-rel="prev" aria-label="上一頁"'+(current===1?' disabled':'')+'>'+
+          '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>';
+        pageList().forEach(function(p){
+          if(p==='…'){html+='<span class="pager-ellipsis" aria-hidden="true">…</span>';return;}
+          var act=(p===current);
+          html+='<button class="pager-num'+(act?' active':'')+'" data-page="'+p+'"'+(act?' aria-current="page"':'')+' aria-label="第 '+p+' 頁">'+p+'</button>';
+        });
+        html+='<button class="pager-btn" data-rel="next" aria-label="下一頁"'+(current===totalPages?' disabled':'')+'>'+
+          '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>';
+        html+='<span class="pager-info" role="status">第 <b>'+current+'</b> 頁，共 <b>'+totalPages+'</b> 頁</span>';
+        pager.innerHTML=html;
+      }
+
+      function goTo(p,scroll){
+        p=Math.min(totalPages,Math.max(1,p));
+        current=p;
+        renderGrid();
+        renderPager();
+        if(scroll){
+          var hdr=document.querySelector('.hdr');
+          var offset=(hdr?hdr.offsetHeight:0)+12;
+          var y=section.getBoundingClientRect().top+window.scrollY-offset;
+          window.scrollTo({top:y,behavior:'smooth'});
+        }
+      }
+
+      pager.addEventListener('click',function(e){
+        var btn=e.target.closest('button');
+        if(!btn||btn.disabled) return;
+        if(btn.dataset.page){goTo(parseInt(btn.dataset.page,10),true);}
+        else if(btn.dataset.rel==='prev'){goTo(current-1,true);}
+        else if(btn.dataset.rel==='next'){goTo(current+1,true);}
+      });
+
+      goTo(1,false);
+    })();
+
+    // ── 進場捲動揭示（含 reduced-motion 保護；逐項微延遲）──
+    (function(){
+      var items=document.querySelectorAll('.reveal');
+      if(!items.length) return;
+      var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+      if(reduce||!('IntersectionObserver' in window)){
+        items.forEach(function(el){el.classList.add('is-in');});
+        return;
+      }
+      var io=new IntersectionObserver(function(entries){
+        entries.forEach(function(en){
+          if(en.isIntersecting){
+            var el=en.target;
+            var sibs=Array.prototype.slice.call(el.parentNode.children).filter(function(n){return n.classList&&n.classList.contains('reveal');});
+            el.style.transitionDelay=(Math.min(sibs.indexOf(el),5)*70)+'ms';
+            el.classList.add('is-in');
+            io.unobserve(el);
+          }
+        });
+      },{rootMargin:'0px 0px -10% 0px',threshold:.12});
+      items.forEach(function(el){io.observe(el);});
+    })();
+
+    // ── A11y：純裝飾性 icon 一律對輔助技術隱藏 ──
+    (function(){
+      document.querySelectorAll('svg:not([aria-hidden])').forEach(function(s){
+        s.setAttribute('aria-hidden','true');
+        s.setAttribute('focusable','false');
+      });
+    })();
+  </script>
+</body>
+</html>

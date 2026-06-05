@@ -4,7 +4,8 @@
       return {
         ranking: "#promotions",
         news: "news-center.html",
-        guide: "#",
+        guide: "casino-guide.html",
+        gameGuide: "game-guides.html",
         vip: "#ranking",
       };
     }
@@ -12,7 +13,8 @@
     return {
       ranking: "online-casino-recommendation.html",
       news: "news-center.html",
-      guide: "#",
+      guide: "casino-guide.html",
+      gameGuide: "game-guides.html",
       vip: "index.html#vip",
     };
   }
@@ -178,6 +180,7 @@
         '      <a href="' + links.ranking + '" class="' + isActive(page, "online").trim() + '">線上娛樂城排行榜</a>' +
         '      <a href="' + links.news + '" class="' + isActive(page, "news").trim() + '">娛樂城新聞</a>' +
         '      <a href="' + links.guide + '" class="' + isActive(page, "guide").trim() + '">娛樂城攻略</a>' +
+        '      <a href="' + links.gameGuide + '" class="' + isActive(page, "game-guide").trim() + '">遊戲指南</a>' +
         '      <div class="nav-dd">' +
         '        <a href="promotions.html" class="nav-dd-trigger' + isActive(page, "promotions") + '">優惠活動<svg class="nav-dd-caret" viewBox="0 0 12 12" fill="none"><path d="M2.5 4.5 6 8l3.5-3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>' +
         '        <div class="nav-dd-menu">' +
@@ -200,6 +203,7 @@
         '    <a href="' + links.ranking + '" class="' + isActive(page, "online").trim() + '">線上娛樂城排行榜</a>' +
         '    <a href="' + links.news + '" class="' + isActive(page, "news").trim() + '">娛樂城新聞</a>' +
         '    <a href="' + links.guide + '" class="' + isActive(page, "guide").trim() + '">娛樂城攻略</a>' +
+        '    <a href="' + links.gameGuide + '" class="' + isActive(page, "game-guide").trim() + '">遊戲指南</a>' +
         '    <div class="mob-group' + (page === "promotions" ? ' is-open' : '') + '">' +
         '      <button class="mob-group-toggle' + (page === "promotions" ? ' is-active' : '') + '" type="button" aria-expanded="' + (page === "promotions" ? 'true' : 'false') + '">優惠活動</button>' +
         '      <div class="mob-submenu">' +

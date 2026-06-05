@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>娛樂城攻略｜娛樂城教學、USDT指南與平台使用技巧</title>
+  <meta name="description" content="整理娛樂城教學、USDT入金指南、平台操作技巧、娛樂城術語與新手常見問題，協助玩家快速了解娛樂城玩法與平台使用方式。">
+  <!-- 字體：提前建立連線，縮短 webfont 取得時間、降低字體切換造成的位移（CLS）。webfont 本身已採用 font-display:swap -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+  <link href="https://cdn.jsdelivr.net/npm/chiron-hei-hk-webfont@2.6.9/index.css" rel="stylesheet">
+  <style>
+    /* ============================================================
+       娛樂城攻略 — 文章總覽頁 / 新手指南頁
+       延續站內視覺：Chiron Hei HK / 深色科技感 / 紫綠點綴 / 直角
+       本頁定位：內容導向、單欄、留白、閱讀性優先（非入口站）
+       ============================================================ */
+    :root{
+      --pri-700:#43269A;--pri-500:#7656D7;--pri-300:#9FC9FF;--pri-200:#B5A8F0;
+      --sec:#DEF243;--purple-900:#3A0661;
+      --n50:#161922;--n100:#222633;--n150:#2E3444;--n200:#8F98AC;--n300:#A9B1C2;
+      --n400:#C3CAD8;--n500:#D9DEEA;--n600:#E8ECF5;--n700:#F4F7FF;--n800:#FFFFFF;
+      --surface-muted:#1E2230;--success:#A4F467;
+      /* 後備字體改用度量相近的 CJK 黑體，降低 webfont 載入後切換時的回流位移 */
+      --ff:'Chiron Hei HK','PingFang TC','Microsoft JhengHei','Noto Sans TC',sans-serif;
+      --r-full:999px;
+      --fs-hero:clamp(30px,4.4vw,50px);--fs-h2:clamp(25px,3.1vw,34px);--fs-h3:20px;
+      --fs-lead:18px;--fs-body:16px;--fs-sm:14px;--fs-xs:12px;
+      --lh-tight:1.2;--lh-heading:1.3;--lh-body:1.7;
+      --ease:cubic-bezier(.4,0,.2,1);--dur:.25s;--lift:-4px;
+      --shadow-card:0 24px 60px -18px rgba(0,0,0,.6);
+      --shadow-card-sm:0 18px 40px -16px rgba(0,0,0,.5);
+      --shadow-glow:0 0 0 1px rgba(159,168,240,.42),0 0 22px rgba(118,86,215,.62),0 0 52px rgba(67,38,154,.42),0 0 84px rgba(67,38,154,.18);
+      --grad-purple:linear-gradient(150deg,#1A1740 0%,#43269A 52%,#7656D7 100%);
+      --grad-bloom:radial-gradient(125% 130% at 50% 118%,#7656D7 0%,#43269A 42%,#16153C 100%);
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    [hidden]{display:none!important}
+    html{scroll-behavior:smooth}
+    body{background:#0F1115;color:var(--n500);font-family:var(--ff);-webkit-font-smoothing:antialiased;min-width:320px}
+    a{color:inherit;text-decoration:none}img,svg{display:block}button{font:inherit}
+    .shell{width:min(calc(100% - 40px),1240px);margin:0 auto}
+    /* 內容導向：閱讀欄寬度刻意收窄，提升長文閱讀性 */
+    .read{width:min(calc(100% - 40px),900px);margin:0 auto}
+
+    /* ── CLS：為 JS 注入的共用元件預留高度，避免渲染後把內容往下推 ── */
+    site-navbar{display:block;min-height:72px}
+    site-footer{display:block;min-height:300px}
+
+    /* ── A11y：跳到主要內容（鍵盤聚焦時才出現）── */
+    .skip-link{position:fixed;left:16px;top:-80px;z-index:200;background:var(--sec);color:#1B1C1C;font-weight:700;
+      padding:12px 20px;text-decoration:none;transition:top .2s var(--ease)}
+    .skip-link:focus{top:14px}
+
+    /* ── A11y：清楚一致的鍵盤焦點狀態 ── */
+    :focus-visible{outline:3px solid var(--sec);outline-offset:3px;border-radius:2px}
+
+    /* ── A11y：尊重「減少動態」偏好 ── */
+    @media(prefers-reduced-motion:reduce){
+      html{scroll-behavior:auto}
+      *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
+      .guide-item:hover,.cta-card:hover,.btn:hover{transform:none}
+    }
+
+    /* ── Buttons ── */
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;
+      font-family:var(--ff);height:46px;padding:10px 26px;font-size:16px;font-weight:700;line-height:22px;
+      border:none;border-radius:0;background:var(--sec);color:#1B1C1C;transition:background .15s,transform .15s}
+    .btn:hover{background:#E8FB5E;transform:translateY(-2px)}
+    .btn-ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.45)}
+    .btn-ghost:hover{background:rgba(255,255,255,.08);border-color:#fff}
+    .btn-sm{height:38px;padding:8px 18px;font-size:14px}
+
+    /* ── Section frame ── */
+    .sec{padding:54px 0}
+    @media(min-width:768px){.sec{padding:76px 0}}
+    .sec-head{margin-bottom:38px}
+    .sec-head.center{text-align:center}
+    .eyebrow{display:inline-flex;align-items:center;font-size:13px;font-weight:700;letter-spacing:.12em;
+      text-transform:uppercase;color:var(--pri-200);margin-bottom:14px}
+    .h2{font-size:var(--fs-h2);font-weight:700;line-height:var(--lh-heading);color:var(--n800);letter-spacing:-.01em}
+    .sec-desc{margin-top:14px;font-size:var(--fs-lead);line-height:1.7;color:var(--n300);max-width:760px}
+    .sec-head.center .sec-desc{margin-left:auto;margin-right:auto}
+
+    /* ── Category tag（沿用站內語意色）── */
+    .tag{display:inline-flex;align-items:center;font-size:12px;font-weight:700;line-height:1;
+      padding:6px 12px;border-radius:var(--r-full);letter-spacing:.02em;
+      background:rgba(118,86,215,.16);color:var(--pri-200);border:1px solid rgba(118,86,215,.3)}
+    .tag.is-promo{background:rgba(222,242,67,.14);color:#D7E84A;border-color:rgba(222,242,67,.3)}
+    .tag.is-sport{background:rgba(155,63,176,.18);color:#D89BE6;border-color:rgba(155,63,176,.34)}
+    .tag.is-trend{background:rgba(62,127,196,.18);color:#8FC0F0;border-color:rgba(62,127,196,.34)}
+    .tag.is-game{background:rgba(164,244,103,.14);color:#B7F08A;border-color:rgba(164,244,103,.3)}
+    .date{font-size:13px;color:var(--n200);display:inline-flex;align-items:center;gap:6px}
+    .date svg{width:14px;height:14px;opacity:.8}
+
+    /* ════ HEADER / NAVBAR（與站內其他頁一致）════ */
+    .hdr{position:sticky;top:0;z-index:50;background:transparent;border-bottom:1px solid rgba(255,255,255,.14);
+      transition:background-color .25s var(--ease),backdrop-filter .25s var(--ease),border-color .25s var(--ease)}
+    .hdr.is-solid{background:rgba(15,17,21,.86);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom-color:rgba(255,255,255,.10)}
+    .hdr-in{display:flex;align-items:center;justify-content:space-between;height:72px;gap:24px}
+    .brand{font-weight:800;font-size:20px;color:#fff;letter-spacing:-.02em;white-space:nowrap}
+    .nav{display:flex;align-items:center;gap:4px}
+    .nav a{position:relative;padding:10px 16px;font-size:15px;font-weight:500;color:rgba(255,255,255,.82);white-space:nowrap;transition:color .15s}
+    .nav a::after{content:'';position:absolute;left:16px;right:16px;bottom:4px;height:2px;background:var(--sec);transform:scaleX(0);transform-origin:center;transition:transform .2s var(--ease)}
+    .nav a:hover,.nav a.active{color:#fff}
+    .nav a:hover::after,.nav a.active::after{transform:scaleX(1)}
+    .hdr-icons{display:flex;align-items:center;gap:14px}
+    .hdr-ic{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;color:#fff;background:none;border:none;cursor:pointer;transition:color .15s}
+    .hdr-ic:hover{color:var(--sec)}
+    .hdr-ic svg{width:20px;height:20px}
+    /* 優惠活動 下拉選單（搭配共用 site-navbar 元件） */
+    .nav-dd{position:relative;display:flex}
+    .nav-dd-trigger{display:inline-flex;align-items:center;gap:6px}
+    .nav-dd-caret{width:11px;height:11px;flex-shrink:0;transition:transform .2s}
+    .nav-dd:hover .nav-dd-caret,.nav-dd:focus-within .nav-dd-caret{transform:rotate(180deg)}
+    .nav-dd-menu{position:absolute;top:calc(100% + 12px);left:50%;transform:translateX(-50%) translateY(6px);min-width:184px;background:var(--n50);border:1px solid var(--n150);box-shadow:0 18px 40px -12px rgba(15,6,28,.4);padding:6px;display:flex;flex-direction:column;gap:2px;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .18s ease,transform .18s ease;z-index:60}
+    .nav-dd-menu::before{content:'';position:absolute;left:0;right:0;top:-12px;height:12px}
+    .nav-dd:hover .nav-dd-menu,.nav-dd:focus-within .nav-dd-menu{opacity:1;visibility:visible;pointer-events:auto;transform:translateX(-50%) translateY(0)}
+    .nav-dd-menu a{padding:10px 16px;font-size:14px;font-weight:500;color:var(--n500);white-space:nowrap;transition:background .15s,color .15s}
+    .nav-dd-menu a::after{display:none}
+    .nav-dd-menu a:hover{background:var(--surface-muted);color:var(--pri-200)}
+    .nav-dd-menu .nav-dd-all{margin-top:5px;padding-top:11px;border-top:1px solid var(--n150);color:var(--pri-200);font-weight:700}
+
+    /* ════ HERO（內容導向：左文右視覺 banner、無輪播、留白明確）════ */
+    .hero{position:relative;margin-top:-72px;padding:172px 0 96px;min-height:600px;display:flex;align-items:center;overflow:hidden;
+      background:linear-gradient(90deg,#0B0C13 0%,rgba(11,12,19,.94) 26%,rgba(11,12,19,.62) 50%,rgba(11,12,19,.18) 74%,rgba(11,12,19,0) 100%),url('image/casino-guide/banner.webp') center right/cover no-repeat;
+      background-color:#0B0C13}
+    .hero::after{content:'';position:absolute;inset:0;z-index:0;pointer-events:none;
+      background:linear-gradient(180deg,transparent 55%,rgba(15,17,21,.55) 82%,#0F1115 100%)}
+    .hero-wrap{position:relative;z-index:2;max-width:760px}
+    .hero h1{font-size:clamp(20px,3.3vw,36px);font-weight:700;line-height:var(--lh-tight);color:#fff;letter-spacing:-.02em;white-space:nowrap}
+    .hero-sub{margin-top:22px;font-size:var(--fs-lead);line-height:1.85;color:rgba(255,255,255,.84)}
+    .hero-tags{margin-top:30px;display:flex;flex-wrap:wrap;gap:10px}
+    .hero-tags .tag{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.18);color:rgba(255,255,255,.84)}
+
+    /* ════ INTRO（純文字介紹、行寬收窄、細分隔線）════ */
+    .intro{padding:56px 0}
+    @media(min-width:768px){.intro{padding:72px 0}}
+    .intro-inner{width:min(calc(100% - 40px),820px);margin:0 auto}
+    .intro-kicker{font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--pri-200);
+      padding-bottom:18px;margin-bottom:26px;border-bottom:1px solid var(--n150)}
+    .intro p{font-size:var(--fs-lead);line-height:1.9;color:var(--n400)}
+    .intro p + p{margin-top:20px}
+    .intro strong{color:var(--n700);font-weight:700}
+
+    /* ════ 精選文章總覽（三欄四列卡片網格、內容導向）════ */
+    .guide-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .guide-item{position:relative;display:flex;flex-direction:column;background:var(--n50);border:1px solid var(--n150);
+      padding:24px 24px 22px;transition:transform var(--dur) var(--ease),box-shadow var(--dur) var(--ease),border-color var(--dur) var(--ease)}
+    .guide-item::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--pri-500);
+      transform:scaleY(0);transform-origin:top;transition:transform var(--dur) var(--ease)}
+    .guide-item:hover{transform:translateY(var(--lift));box-shadow:var(--shadow-card-sm);border-color:rgba(159,168,240,.3)}
+    .guide-item:hover::before{transform:scaleY(1)}
+    .guide-top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:15px}
+    .guide-title{font-size:17px;font-weight:700;line-height:1.45;color:var(--n800);letter-spacing:-.01em;
+      display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+    .guide-item:hover .guide-title{color:var(--pri-200)}
+    .guide-sum{margin-top:11px;font-size:14px;line-height:1.75;color:var(--n300);
+      display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+    .guide-foot{margin-top:18px;padding-top:16px;border-top:1px solid var(--n150);display:flex;align-items:center;justify-content:flex-end}
+    .guide-more{display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:700;color:var(--pri-200);transition:gap .15s,color .15s}
+    .guide-item:hover .guide-more{gap:10px;color:var(--sec)}
+    .guide-more svg{width:15px;height:15px}
+
+    /* ── 分頁數字列 ── */
+    .pager{margin-top:42px;display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:8px}
+    .pager-btn,.pager-num{display:inline-flex;align-items:center;justify-content:center;min-width:40px;height:40px;padding:0 12px;
+      font-family:var(--ff);font-size:14px;font-weight:700;color:var(--n400);background:transparent;border:1px solid var(--n150);
+      border-radius:0;cursor:pointer;transition:color .15s,background .15s,border-color .15s,transform .15s}
+    .pager-btn svg{width:16px;height:16px}
+    .pager-num:hover,.pager-btn:not(:disabled):hover{color:var(--n700);border-color:rgba(159,168,240,.45);background:var(--surface-muted)}
+    .pager-num.active{background:var(--sec);color:#1B1C1C;border-color:var(--sec);cursor:default}
+    .pager-btn:disabled{opacity:.4;cursor:not-allowed}
+    .pager-ellipsis{display:inline-flex;align-items:center;justify-content:center;min-width:28px;height:40px;color:var(--n200);font-weight:700}
+    .pager-info{width:100%;margin-top:14px;text-align:center;font-size:13px;color:var(--n200);letter-spacing:.02em}
+    .pager-info b{color:var(--pri-200);font-weight:700}
+
+    /* ════ FAQ（accordion；預設展開第一題）════ */
+    .faq-wrap{max-width:880px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
+    .faq{background:var(--n50);border:1px solid var(--n150);transition:border-color .2s}
+    .faq[open]{border-color:rgba(159,168,240,.34)}
+    .faq summary{list-style:none;cursor:pointer;padding:22px 26px;display:flex;align-items:center;justify-content:space-between;gap:16px;
+      font-size:16px;font-weight:700;color:var(--n700)}
+    .faq summary::-webkit-details-marker{display:none}
+    .faq-icon{flex-shrink:0;width:26px;height:26px;border:1px solid var(--n150);display:flex;align-items:center;justify-content:center;color:var(--pri-200);transition:transform .25s,background .2s}
+    .faq[open] .faq-icon{transform:rotate(45deg);background:var(--sec);color:#1B1C1C;border-color:var(--sec)}
+    .faq-icon svg{width:14px;height:14px}
+    .faq-body{padding:0 26px 24px;font-size:15px;line-height:1.8;color:var(--n300)}
+
+    /* ════ 延伸閱讀 / CTA ════ */
+    .cta-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:980px;margin:0 auto}
+    .cta-card{position:relative;display:flex;flex-direction:column;gap:16px;padding:30px 26px;overflow:hidden;
+      background:linear-gradient(155deg,#1A1740 0%,#1B1834 48%,var(--n50) 100%);border:1px solid var(--n150);
+      transition:transform var(--dur) var(--ease),box-shadow var(--dur) var(--ease),border-color var(--dur) var(--ease)}
+    .cta-card::before{content:'';position:absolute;inset:0;z-index:0;opacity:.5;pointer-events:none;
+      background:radial-gradient(120% 80% at 50% 0%,rgba(118,86,215,.4) 0%,transparent 60%);transition:opacity var(--dur) var(--ease)}
+    .cta-card>*{position:relative;z-index:1}
+    .cta-card:hover{transform:translateY(var(--lift));box-shadow:var(--shadow-card-sm);border-color:rgba(118,86,215,.55)}
+    .cta-card:hover::before{opacity:.85}
+    .cta-ic{width:50px;height:50px;display:flex;align-items:center;justify-content:center;color:#fff;
+      background:var(--grad-purple);border:1px solid rgba(159,168,240,.35);box-shadow:0 8px 22px -8px rgba(118,86,215,.7)}
+    .cta-ic svg{width:24px;height:24px}
+    .cta-name{font-size:17px;font-weight:700;color:var(--n800)}
+    .cta-go{margin-top:auto;display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:700;color:var(--pri-200);transition:gap .15s,color .15s}
+    .cta-go svg{width:15px;height:15px;transition:transform .15s}
+    .cta-card:hover .cta-go{color:var(--sec)}
+    .cta-card:hover .cta-go svg{transform:translateX(4px)}
+
+    /* ════ FOOTER（與站內其他頁一致）════ */
+    .ft{background:#0B0C11;margin-top:30px;padding:56px 0 36px;color:#fff;border-top:1px solid var(--n150)}
+    .ft-inner{display:grid;gap:38px}
+    .ft-brand h2{font-size:24px;font-weight:700;margin-bottom:10px}
+    .ft-brand p{color:var(--n300);font-size:14px;line-height:1.7;max-width:560px}
+    .ft-links{display:grid;grid-template-columns:repeat(6,1fr);gap:24px;padding-top:34px;border-top:1px solid rgba(255,255,255,.08)}
+    .ft-col h3{font-size:var(--fs-xs);font-weight:700;color:var(--n400);margin-bottom:14px;text-transform:uppercase;letter-spacing:.1em}
+    .ft-col ul{list-style:none;display:flex;flex-direction:column;gap:9px}
+    .ft-col a{color:var(--n300);font-size:14px;transition:color .15s}
+    .ft-col a:hover{color:var(--sec)}
+    .ft-bot{padding-top:26px;border-top:1px solid rgba(255,255,255,.08);display:flex;flex-wrap:wrap;gap:10px 24px;justify-content:space-between;align-items:center;font-size:13px;color:var(--n200)}
+
+    /* ════ RESPONSIVE ════ */
+    @media(min-width:768px){.ft-inner{grid-template-columns:1fr}}
+    @media(max-width:980px){
+      .guide-grid{grid-template-columns:repeat(2,1fr)}
+      .cta-grid{grid-template-columns:1fr}
+      .ft-links{grid-template-columns:repeat(3,1fr)}
+    }
+    @media(max-width:760px){
+      .hero{min-height:auto;height:640px;padding:72px 0 0;align-items:center;
+        background:linear-gradient(180deg,rgba(8,9,14,.66) 0%,rgba(8,9,14,.26) 42%,rgba(8,9,14,.58) 100%),url('image/casino-guide/banner_phone.webp') center top/cover no-repeat;
+        background-color:#0B0C13}
+      .hero::after{display:none}
+      .hero h1{white-space:normal;font-size:clamp(26px,7vw,32px)}
+      .guide-grid{grid-template-columns:1fr}
+      .guide-title{-webkit-line-clamp:none}
+      .ft-links{grid-template-columns:repeat(2,1fr)}
+    }
+  </style>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">跳到主要內容</a>
+
+  <!-- ════════ HEADER（共用 site-navbar 元件）════════ -->
+  <site-navbar page="guide"></site-navbar>
+
+  <main id="main">
+
+  <!-- ════════ HERO BANNER（簡單大標＋短說明）════════ -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="shell hero-wrap">
+      <h1 id="hero-title">娛樂城新手指南｜娛樂城教學與平台使用技巧</h1>
+      <p class="hero-sub">整理娛樂城新手教學、USDT入金指南、娛樂城術語、平台操作技巧與常見問題，幫助玩家快速了解娛樂城玩法與 Web3 娛樂平台基礎知識</p>
+      <div class="hero-tags">
+        <span class="tag">娛樂城教學</span>
+        <span class="tag is-promo">USDT 指南</span>
+        <span class="tag is-trend">平台技巧</span>
+        <span class="tag is-game">新手 FAQ</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ INTRO 介紹區（純文字、行寬收窄）════════ -->
+  <section class="intro" aria-labelledby="intro-title">
+    <div class="intro-inner">
+      <p class="intro-kicker" id="intro-title">關於本指南</p>
+      <p><strong>晴天娛樂城推薦網</strong>新手指南提供完整娛樂城教學、USDT入金指南、娛樂城術語解說、平台操作技巧與新手常見問題。內容涵蓋 Stake、Rainbet、Shuffle 等熱門娛樂城平台，以及加密貨幣儲值、KYC 驗證、帳戶安全設定等實用主題</p>
+      <p>透過系統化的娛樂城教學內容，幫助新手玩家快速建立娛樂城基礎觀念，了解平台運作方式、常見功能與使用流程，降低初次接觸娛樂城的學習門檻</p>
+    </div>
+  </section>
+
+  <!-- ════════ 精選文章總覽（三欄四列卡片網格＋分頁）════════ -->
+  <section class="sec" id="articles" style="background:#0B0D12" aria-labelledby="articles-title">
+    <div class="shell">
+      <div class="sec-head">
+        <span class="eyebrow">新手必讀</span>
+        <h2 class="h2" id="articles-title">精選新手教學文章</h2>
+        <p class="sec-desc">從娛樂城入門、USDT 儲值到平台操作技巧，以下整理適合新手優先閱讀的重點文章</p>
+      </div>
+
+      <!-- 文章卡片由下方 script 依資料渲染（每頁 12 篇，三欄四列）-->
+      <div class="guide-grid" id="guide-grid" aria-live="polite"></div>
+      <nav class="pager" id="pager" aria-label="文章分頁"></nav>
+    </div>
+  </section>
+
+  <!-- ════════ FAQ（accordion；預設展開第一題）════════ -->
+  <section class="sec" id="faq" aria-labelledby="faq-title">
+    <div class="shell">
+      <div class="sec-head center">
+        <span class="eyebrow">常見問題</span>
+        <h2 class="h2" id="faq-title">娛樂城新手常見問題</h2>
+        <p class="sec-desc">整理新手最常詢問的問題，幫助你決定從哪裡開始閱讀，並建立娛樂城的基礎使用觀念</p>
+      </div>
+      <div class="faq-wrap">
+        <details class="faq" open>
+          <summary>娛樂城新手應該先看哪一類文章？<span class="faq-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></summary>
+          <div class="faq-body">建議新手先從「娛樂城是什麼」這類入門觀念文章開始，建立基礎認知後，再閱讀 USDT 入金教學與帳戶安全設定。先理解平台運作方式與常見功能，後續操作與閱讀其他文章時會更容易上手</div>
+        </details>
+        <details class="faq">
+          <summary>USDT 入金前需要先準備什麼？<span class="faq-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></summary>
+          <div class="faq-body">一般而言會需要先準備好可以存放 USDT 的加密貨幣錢包，並確認入金時使用的鏈別與平台支援的鏈別一致。建議在轉帳前先閱讀 USDT 入金教學，了解完整流程與常見的入金問題，避免因鏈別或地址錯誤造成困擾</div>
+        </details>
+        <details class="faq">
+          <summary>娛樂城平台一定要完成 KYC 驗證嗎？<span class="faq-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></summary>
+          <div class="faq-body">各平台的 KYC 驗證規定不盡相同，部分平台會在特定情況（例如提款或達到一定額度）要求完成身份驗證。建議先閱讀 KYC 教學了解驗證用途與常見流程，並以各平台官方公告的實際規定為準</div>
+        </details>
+        <details class="faq">
+          <summary>娛樂城常見術語很多，新手應該先理解哪些？<span class="faq-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></summary>
+          <div class="faq-body">建議先從與儲值、投注、提款、返水、任務等日常操作最相關的名詞開始理解，這些是閱讀文章與操作介面時最常遇到的術語。本指南的「娛樂城常見術語整理」一文有系統性彙整，可在閱讀其他教學時搭配參考</div>
+        </details>
+        <details class="faq">
+          <summary>Stake、Rainbet、Shuffle 這些平台適合新手嗎？<span class="faq-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></summary>
+          <div class="faq-body">這幾個都是較常見的國際娛樂城平台，介面風格與特色功能各有不同。新手可先閱讀平台比較文章，依介面操作習慣與想體驗的功能來了解差異，再決定從哪個平台開始熟悉。本指南內容以資訊整理為主，不構成投注建議</div>
+        </details>
+        <details class="faq">
+          <summary>這個頁面適合當成娛樂城新手的入口嗎？<span class="faq-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></summary>
+          <div class="faq-body">適合。本頁整理了從入門觀念、USDT 入金、KYC 驗證到平台操作技巧的重點文章，並彙整新手常見問題，方便初次接觸娛樂城的玩家循序閱讀。你可以從上方的精選文章開始，逐步建立完整的基礎知識</div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ 延伸閱讀 / CTA ════════ -->
+  <section class="sec" id="more" style="background:#0B0D12" aria-labelledby="more-title">
+    <div class="shell">
+      <div class="sec-head center">
+        <span class="eyebrow">延伸閱讀</span>
+        <h2 class="h2" id="more-title">想繼續了解更多？</h2>
+        <p class="sec-desc">如果你想進一步了解娛樂城平台、USDT 操作方式與各平台差異，可以從下方主題延伸閱讀</p>
+      </div>
+      <div class="cta-grid">
+        <a class="cta-card" href="online-casino-recommendation.html">
+          <div class="cta-ic"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9 6.8 19.2l1-5.8L3.5 9.2l5.9-.9z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></div>
+          <h3 class="cta-name">查看娛樂城推薦整理</h3>
+          <span class="cta-go">前往瀏覽<svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+        <a class="cta-card" href="stake-first-deposit.html">
+          <div class="cta-ic"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M12 7v10M9.2 9.4c0-1.2 1.3-1.9 2.8-1.9s2.8.7 2.8 1.9-1.3 1.9-2.8 1.9-2.8.7-2.8 1.9 1.3 1.9 2.8 1.9 2.8-.7 2.8-1.9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+          <h3 class="cta-name">前往 USDT 教學專區</h3>
+          <span class="cta-go">前往瀏覽<svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+        <a class="cta-card" href="online-casino-recommendation.html">
+          <div class="cta-ic"><svg viewBox="0 0 24 24" fill="none"><path d="M4 19V10M10 19V5M16 19v-6M21 19H3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <h3 class="cta-name">了解熱門平台評測</h3>
+          <span class="cta-go">前往瀏覽<svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- ════════ FOOTER（共用 site-footer 元件）════════ -->
+  <site-footer page="guide"></site-footer>
+
+  <!-- 共用導覽列 / 頁尾元件腳本（含手機選單互動） -->
+  <script src="components/site-components.js"></script>
+  <script>
+    (function(){
+      // ── 導覽列 sticky：捲過 hero 後切換為實心背景 ──
+      var header=document.querySelector('.hdr');
+      var hero=document.querySelector('.hero');
+      if(header&&hero){
+        function sync(){
+          var heroBottom=hero.offsetTop+hero.offsetHeight;
+          header.classList.toggle('is-solid',window.scrollY>=(heroBottom-header.offsetHeight));
+        }
+        sync();
+        window.addEventListener('scroll',sync,{passive:true});
+        window.addEventListener('resize',sync);
+      }
+    })();
+
+    // ════ 精選文章：資料 + 三欄四列分頁渲染 ════
+    (function(){
+      var PAGE_SIZE=12; // 三欄 × 四列
+      // 文章資料（cls 對應站內語意色 tag）
+      var ARTICLES=[
+        {cat:'娛樂城教學',cls:'is-game', date:'2026-05-30',title:'娛樂城是什麼？新手入門觀念一次看懂',sum:'從娛樂城基本概念、常見平台類型到新手入門時應該先了解的重點，建立完整基礎認知'},
+        {cat:'USDT 指南',cls:'is-promo', date:'2026-05-28',title:'USDT 入金教學：從錢包到平台儲值流程整理',sum:'整理 USDT 儲值前要準備的工具、常見轉帳流程與新手最常遇到的入金問題'},
+        {cat:'平台比較',cls:'is-trend', date:'2026-05-26',title:'Stake、Rainbet、Shuffle 有什麼差異？熱門平台特色整理',sum:'整理常見國際娛樂城平台的介面風格、特色功能與適合的新手使用情境'},
+        {cat:'平台技巧',cls:'',         date:'2026-05-24',title:'娛樂城帳號註冊與帳戶安全設定教學',sum:'說明帳號建立、密碼安全、雙重驗證與常見帳戶安全設定，降低日後使用風險'},
+        {cat:'KYC 教學',cls:'is-sport', date:'2026-05-22',title:'KYC 驗證是什麼？娛樂城身份驗證流程與注意事項',sum:'介紹 KYC 驗證用途、常見流程與提交資料時需要注意的細節'},
+        {cat:'術語整理',cls:'is-trend', date:'2026-05-20',title:'娛樂城常見術語整理：新手必懂名詞快速入門',sum:'整理新手常看到的功能名稱、活動術語與平台操作名詞，幫助閱讀文章與使用介面時更容易理解'},
+        {cat:'新手 FAQ',cls:'is-game',  date:'2026-05-18',title:'第一次出金要注意什麼？娛樂城新手常見問題整理',sum:'彙整新手在儲值、投注、驗證、提款過程中最常遇到的問題與基本注意事項'},
+        {cat:'Web3 入門',cls:'is-promo',date:'2026-05-16',title:'Web3 娛樂平台是什麼？加密貨幣娛樂城基礎觀念整理',sum:'從加密貨幣、鏈上支付到 Web3 平台概念，幫助新手理解新型娛樂城平台的基本架構'},
+        {cat:'出金教學',cls:'is-promo', date:'2026-05-14',title:'娛樂城出金流程教學：提款前要確認的幾件事',sum:'說明提款申請流程、常見審核項目與影響到帳時間的因素，協助新手順利完成第一次出金'},
+        {cat:'帳戶安全',cls:'',         date:'2026-05-12',title:'雙重驗證與裝置管理：保護娛樂城帳號的基本設定',sum:'整理 2FA、登入通知與裝置授權等帳號保護功能，建立日常使用的安全習慣'},
+        {cat:'老虎機',  cls:'is-game',  date:'2026-05-10',title:'老虎機新手入門：認識轉軸、賠付線與遊戲機制',sum:'介紹老虎機的基本結構、常見玩法名詞與遊戲機制，幫助新手看懂遊戲畫面資訊'},
+        {cat:'真人娛樂',cls:'is-sport', date:'2026-05-08',title:'真人娛樂是什麼？常見桌遊類型與介面操作概覽',sum:'說明真人娛樂的運作方式、常見桌遊類型與介面操作，協助新手熟悉遊戲環境'},
+        {cat:'返水機制',cls:'is-promo', date:'2026-05-06',title:'返水是什麼？娛樂城回饋機制與計算邏輯整理',sum:'說明返水的基本概念、常見計算方式與不同平台的回饋差異，幫助新手理解獎勵規則'},
+        {cat:'任務制度',cls:'is-trend', date:'2026-05-04',title:'娛樂城任務與活動制度解析：參與前要看懂的條件',sum:'整理常見任務類型、達成條件與獎勵發放方式，協助新手評估是否參與活動'},
+        {cat:'錢包設定',cls:'is-promo', date:'2026-05-02',title:'加密錢包怎麼選？娛樂城入金前的錢包準備指南',sum:'介紹常見錢包類型、建立流程與鏈別選擇，協助新手完成入金前的準備工作'},
+        {cat:'風險控管',cls:'',         date:'2026-04-30',title:'新手資金控管觀念：設定預算與理性參與的方法',sum:'整理常見的資金控管方式與自我設限工具，協助新手建立理性參與的習慣'},
+        {cat:'體育投注',cls:'is-trend', date:'2026-04-28',title:'體育投注新手入門：認識賠率與常見投注類型',sum:'介紹體育投注的基本賠率概念、常見投注類型與賽事資訊判讀方式'},
+        {cat:'平台技巧',cls:'',         date:'2026-04-26',title:'娛樂城介面導覽：錢包、紀錄與設定的位置整理',sum:'說明常見平台的錢包、交易紀錄與帳戶設定位置，幫助新手快速上手操作'},
+        {cat:'術語整理',cls:'is-trend', date:'2026-04-24',title:'RTP、波動性是什麼？遊戲數值名詞快速理解',sum:'解釋 RTP、波動性等遊戲數值名詞的意義，幫助新手看懂遊戲資訊與說明'},
+        {cat:'新手 FAQ',cls:'is-game',  date:'2026-04-22',title:'入金沒到帳怎麼辦？娛樂城常見入金問題排查',sum:'整理入金延遲或未到帳時的常見原因與基本排查方向，協助新手釐清狀況'},
+        {cat:'KYC 教學',cls:'is-sport', date:'2026-04-20',title:'KYC 資料怎麼準備？身份驗證文件與常見退件原因',sum:'整理 KYC 常見所需文件、拍攝注意事項與容易被退件的情況'},
+        {cat:'娛樂城教學',cls:'is-game',date:'2026-04-18',title:'娛樂城遊戲類型總覽：老虎機、真人到原創遊戲',sum:'概覽娛樂城常見的遊戲類型與特色，幫助新手找到適合自己的遊戲方向'},
+        {cat:'Web3 入門',cls:'is-promo',date:'2026-04-16',title:'區塊鏈與鏈別是什麼？加密娛樂城入金前必懂概念',sum:'用淺顯方式說明區塊鏈、鏈別與手續費概念，降低加密入金的理解門檻'},
+        {cat:'責任博弈',cls:'',         date:'2026-04-14',title:'責任博弈是什麼？認識自我設限與求助資源',sum:'介紹責任博弈觀念、平台常見的自我設限工具與相關求助資源'}
+      ];
+
+      var CAL='<svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="1" stroke="currentColor" stroke-width="1.6"/><path d="M3 9h18M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>';
+      var ARR='<svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+
+      var grid=document.getElementById('guide-grid');
+      var pager=document.getElementById('pager');
+      var section=document.getElementById('articles');
+      if(!grid||!pager) return;
+
+      var totalPages=Math.max(1,Math.ceil(ARTICLES.length/PAGE_SIZE));
+      var current=1;
+
+      function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+
+      function cardHTML(a){
+        return '<a class="guide-item" href="#" aria-label="'+esc(a.title)+'：查看全文">'+
+          '<div class="guide-top"><span class="tag '+a.cls+'">'+esc(a.cat)+'</span>'+
+          '<time class="date" datetime="'+a.date+'">'+CAL+a.date+' 更新</time></div>'+
+          '<h3 class="guide-title">'+esc(a.title)+'</h3>'+
+          '<p class="guide-sum">'+esc(a.sum)+'</p>'+
+          '<div class="guide-foot"><span class="guide-more">查看全文'+ARR+'</span></div></a>';
+      }
+
+      function renderGrid(){
+        var start=(current-1)*PAGE_SIZE;
+        var items=ARTICLES.slice(start,start+PAGE_SIZE);
+        grid.innerHTML=items.map(cardHTML).join('');
+      }
+
+      // 產生分頁數字（含首尾與省略號，目前頁數少時即完整顯示）
+      function pageList(){
+        var out=[],i;
+        if(totalPages<=7){for(i=1;i<=totalPages;i++)out.push(i);return out;}
+        out.push(1);
+        var s=Math.max(2,current-1),e=Math.min(totalPages-1,current+1);
+        if(s>2)out.push('…');
+        for(i=s;i<=e;i++)out.push(i);
+        if(e<totalPages-1)out.push('…');
+        out.push(totalPages);
+        return out;
+      }
+
+      function renderPager(){
+        var html='';
+        html+='<button class="pager-btn" data-rel="prev" aria-label="上一頁"'+(current===1?' disabled':'')+'>'+
+          '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>';
+        pageList().forEach(function(p){
+          if(p==='…'){html+='<span class="pager-ellipsis" aria-hidden="true">…</span>';return;}
+          var act=(p===current);
+          html+='<button class="pager-num'+(act?' active':'')+'" data-page="'+p+'"'+(act?' aria-current="page"':'')+' aria-label="第 '+p+' 頁">'+p+'</button>';
+        });
+        html+='<button class="pager-btn" data-rel="next" aria-label="下一頁"'+(current===totalPages?' disabled':'')+'>'+
+          '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>';
+        html+='<span class="pager-info" role="status">第 <b>'+current+'</b> 頁，共 <b>'+totalPages+'</b> 頁</span>';
+        pager.innerHTML=html;
+      }
+
+      function goTo(p,scroll){
+        p=Math.min(totalPages,Math.max(1,p));
+        if(p===current&&scroll!==true) {/* still allow re-render on first call */}
+        current=p;
+        renderGrid();
+        renderPager();
+        if(scroll){
+          var hdr=document.querySelector('.hdr');
+          var offset=(hdr?hdr.offsetHeight:0)+12;
+          var y=section.getBoundingClientRect().top+window.scrollY-offset;
+          window.scrollTo({top:y,behavior:'smooth'});
+        }
+      }
+
+      pager.addEventListener('click',function(e){
+        var btn=e.target.closest('button');
+        if(!btn||btn.disabled) return;
+        if(btn.dataset.page){goTo(parseInt(btn.dataset.page,10),true);}
+        else if(btn.dataset.rel==='prev'){goTo(current-1,true);}
+        else if(btn.dataset.rel==='next'){goTo(current+1,true);}
+      });
+
+      goTo(1,false);
+    })();
+
+    // ── A11y：純裝飾性 icon 一律對輔助技術隱藏（針對版面固定的 SVG；動態卡片已於渲染時標註）──
+    (function(){
+      document.querySelectorAll('svg:not([aria-hidden])').forEach(function(s){
+        s.setAttribute('aria-hidden','true');
+        s.setAttribute('focusable','false');
+      });
+    })();
+  </script>
+</body>
+</html>
