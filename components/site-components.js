@@ -41,12 +41,25 @@
 
   function getFooterLinks(page) {
     var isIndex = page === "index";
+    var promo = getPromoLinks(page);
     return {
-      games: isIndex ? "#games" : "index.html#games",
-      promotions: isIndex ? "#promotions" : "promotions.html#promotions",
+      home: "index.html",
+      ranking: "online-casino-recommendation.html",
+      news: "news-center.html",
+      guide: "casino-guide.html",
+      gameGuide: "game-guides.html",
       vip: isIndex ? "#vip" : "index.html#vip",
+      promoAll: promo.all,
+      promoNewbie: promo.newbie,
+      promoDeposit: promo.deposit,
+      promoVip: promo.vip,
+      promoLimited: promo.limited,
+      games: "game-guides.html",
       criteria: isIndex ? "#criteria" : "index.html#criteria",
-      faq: "#faq",
+      faq: isIndex ? "#faq" : "index.html#faq",
+      helpCenter: "casino-guide.html",
+      terms: "#",
+      privacy: "#",
     };
   }
 
@@ -184,11 +197,11 @@
         '      <div class="nav-dd">' +
         '        <a href="promotions.html" class="nav-dd-trigger' + isActive(page, "promotions") + '">優惠活動<svg class="nav-dd-caret" viewBox="0 0 12 12" fill="none"><path d="M2.5 4.5 6 8l3.5-3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>' +
         '        <div class="nav-dd-menu">' +
+        '          <a href="' + promo.all + '" class="nav-dd-all">優惠總覽</a>' +
         '          <a href="' + promo.newbie + '">新手優惠</a>' +
         '          <a href="' + promo.deposit + '">儲值回饋</a>' +
         '          <a href="' + promo.vip + '">VIP獎勵</a>' +
         '          <a href="' + promo.limited + '">限時活動</a>' +
-        '          <a href="' + promo.all + '" class="nav-dd-all">優惠總覽頁</a>' +
         '        </div>' +
         '      </div>' +
         '      <a href="' + links.vip + '">VIP會員</a>' +
@@ -207,7 +220,7 @@
         '    <div class="mob-group' + (page === "promotions" ? ' is-open' : '') + '">' +
         '      <button class="mob-group-toggle' + (page === "promotions" ? ' is-active' : '') + '" type="button" aria-expanded="' + (page === "promotions" ? 'true' : 'false') + '">優惠活動</button>' +
         '      <div class="mob-submenu">' +
-        '        <a href="' + promo.all + '" class="' + isActive(page, "promotions").trim() + '">優惠總覽頁</a>' +
+        '        <a href="' + promo.all + '" class="' + isActive(page, "promotions").trim() + '">優惠總覽</a>' +
         '        <a href="' + promo.newbie + '">新手優惠</a>' +
         '        <a href="' + promo.deposit + '">儲值回饋</a>' +
         '        <a href="' + promo.vip + '">VIP獎勵</a>' +
@@ -232,12 +245,11 @@
         '<footer class="ft"><div class="shell ft-inner">' +
         '  <div class="ft-brand"><h2>晴天娛樂城推薦網</h2><p>提供最透明的娛樂城資訊與安全性評測，為每一位玩家打造屬於自身的完整評測體驗</p></div>' +
         '  <div class="ft-links">' +
-        '    <div class="ft-col"><h3>遊戲中心</h3><ul><li><a href="' + links.games + '">老虎機</a></li><li><a href="' + links.games + '">真人娛樂</a></li><li><a href="' + links.games + '">原創遊戲</a></li><li><a href="' + links.games + '">體育投注</a></li></ul></div>' +
-        '    <div class="ft-col"><h3>優惠活動</h3><ul><li><a href="' + links.promotions + '">首存優惠</a></li><li><a href="' + links.promotions + '">每日返水</a></li><li><a href="' + links.vip + '">VIP 獎勵</a></li><li><a href="' + links.promotions + '">推薦好友</a></li></ul></div>' +
-        '    <div class="ft-col"><h3>品牌與公司</h3><ul><li><a href="' + links.criteria + '">關於我們</a></li><li><a href="' + links.criteria + '">合作夥伴</a></li><li><a href="' + links.criteria + '">品牌故事</a></li><li><a href="' + links.criteria + '">新聞中心</a></li></ul></div>' +
-        '    <div class="ft-col"><h3>客服與支援</h3><ul><li><a href="' + links.faq + '">聯繫客服</a></li><li><a href="' + links.faq + '">常見問題</a></li><li><a href="' + links.faq + '">使用教學</a></li><li><a href="' + links.faq + '">帳戶安全</a></li></ul></div>' +
-        '    <div class="ft-col"><h3>法務與政策</h3><ul><li><a href="' + links.criteria + '">使用條款</a></li><li><a href="' + links.criteria + '">隱私政策</a></li><li><a href="' + links.criteria + '">責任博弈</a></li><li><a href="' + links.criteria + '">合規聲明</a></li></ul></div>' +
-        '    <div class="ft-col"><h3>聯絡我們</h3><ul><li><a href="' + links.faq + '">客服信箱</a></li><li><a href="' + links.faq + '">社群媒體</a></li><li><a href="' + links.faq + '">商業合作</a></li><li><a href="' + links.faq + '">意見回饋</a></li></ul></div>' +
+        '    <div class="ft-col"><h3>優惠活動</h3><ul><li><a href="' + links.promoAll + '">優惠總覽</a></li><li><a href="' + links.promoNewbie + '">新手優惠</a></li><li><a href="' + links.promoDeposit + '">儲值優惠</a></li><li><a href="' + links.promoVip + '">VIP活動</a></li><li><a href="' + links.promoLimited + '">限時活動</a></li></ul></div>' +
+        '    <div class="ft-col"><h3>遊戲分類</h3><ul><li><a href="' + links.games + '">老虎機</a></li><li><a href="' + links.games + '">真人娛樂</a></li><li><a href="' + links.games + '">體育投注</a></li><li><a href="' + links.games + '">桌上遊戲</a></li><li><a href="' + links.games + '">原創遊戲</a></li></ul></div>' +
+        '    <div class="ft-col"><h3>品牌與公司</h3><ul><li><a href="' + links.criteria + '">品牌介紹</a></li><li><a href="' + links.criteria + '">技術與安全</a></li></ul></div>' +
+        '    <div class="ft-col"><h3>客服與支援</h3><ul><li><a href="' + links.faq + '">聯繫客服</a></li><li><a href="' + links.faq + '">常見問題</a></li><li><a href="' + links.helpCenter + '">幫助中心</a></li></ul></div>' +
+        '    <div class="ft-col"><h3>法務與政策</h3><ul><li><a href="' + links.terms + '">使用條款</a></li><li><a href="' + links.privacy + '">隱私政策</a></li></ul></div>' +
         '  </div>' +
         '  <div class="ft-bot">© 2026 晴天娛樂城推薦網. All rights reserved.</div>' +
         '</div></footer>';
