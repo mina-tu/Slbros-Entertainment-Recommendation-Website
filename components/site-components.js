@@ -114,8 +114,7 @@
     var button = root.querySelector(".mob-menu");
     var header = root.querySelector(".hdr");
     var overlay = root.querySelector(".mob-overlay");
-    var promoGroup = root.querySelector(".mob-group");
-    var promoToggle = root.querySelector(".mob-group-toggle");
+    var groups = root.querySelectorAll(".mob-group");
 
     if (!button || !header) {
       return;
@@ -137,12 +136,15 @@
       });
     }
 
-    if (promoGroup && promoToggle) {
-      promoToggle.addEventListener("click", function () {
-        var isOpen = promoGroup.classList.toggle("is-open");
-        promoToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
-      });
-    }
+    groups.forEach(function (group) {
+      var toggle = group.querySelector(".mob-group-toggle");
+      if (toggle) {
+        toggle.addEventListener("click", function () {
+          var isOpen = group.classList.toggle("is-open");
+          toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+        });
+      }
+    });
 
     root.querySelectorAll(".mob-nav a").forEach(function (link) {
       link.addEventListener("click", function () {
@@ -181,6 +183,7 @@
       var page = this.getAttribute("page") || "index";
       var links = getNavbarLinks(page);
       var promo = getPromoLinks(page);
+      var isHotGames = page === "slot-recommend" || page === "live-casino" || page === "sportsbook" || page === "table-games" || page === "original-games";
       var headerContainerClass = "shell hdr-in";
 
       ensureNavbarStyle();
@@ -194,6 +197,12 @@
         '      <a href="' + links.news + '" class="' + isActive(page, "news").trim() + '">娛樂城新聞</a>' +
         '      <a href="' + links.guide + '" class="' + isActive(page, "guide").trim() + '">娛樂城攻略</a>' +
         '      <a href="' + links.gameGuide + '" class="' + isActive(page, "game-guide").trim() + '">遊戲指南</a>' +
+        '      <div class="nav-dd">' +
+        '        <a href="slot-recommend.html" class="nav-dd-trigger' + (isHotGames ? " active" : "") + '">熱門遊戲<svg class="nav-dd-caret" viewBox="0 0 12 12" fill="none"><path d="M2.5 4.5 6 8l3.5-3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>' +
+        '        <div class="nav-dd-menu">' +
+        '          <a href="slot-recommend.html">老虎機推薦</a>' +
+        '        </div>' +
+        '      </div>' +
         '      <div class="nav-dd">' +
         '        <a href="promotions.html" class="nav-dd-trigger' + isActive(page, "promotions") + '">優惠活動<svg class="nav-dd-caret" viewBox="0 0 12 12" fill="none"><path d="M2.5 4.5 6 8l3.5-3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>' +
         '        <div class="nav-dd-menu">' +
@@ -217,6 +226,12 @@
         '    <a href="' + links.news + '" class="' + isActive(page, "news").trim() + '">娛樂城新聞</a>' +
         '    <a href="' + links.guide + '" class="' + isActive(page, "guide").trim() + '">娛樂城攻略</a>' +
         '    <a href="' + links.gameGuide + '" class="' + isActive(page, "game-guide").trim() + '">遊戲指南</a>' +
+        '    <div class="mob-group' + (isHotGames ? ' is-open' : '') + '">' +
+        '      <button class="mob-group-toggle' + (isHotGames ? ' is-active' : '') + '" type="button" aria-expanded="' + (isHotGames ? 'true' : 'false') + '">熱門遊戲</button>' +
+        '      <div class="mob-submenu">' +
+        '        <a href="slot-recommend.html" class="' + isActive(page, "slot-recommend").trim() + '">老虎機推薦</a>' +
+        '      </div>' +
+        '    </div>' +
         '    <div class="mob-group' + (page === "promotions" ? ' is-open' : '') + '">' +
         '      <button class="mob-group-toggle' + (page === "promotions" ? ' is-active' : '') + '" type="button" aria-expanded="' + (page === "promotions" ? 'true' : 'false') + '">優惠活動</button>' +
         '      <div class="mob-submenu">' +
@@ -246,7 +261,7 @@
         '  <div class="ft-brand"><h2>晴天娛樂城推薦網</h2><p>提供最透明的娛樂城資訊與安全性評測，為每一位玩家打造屬於自身的完整評測體驗</p></div>' +
         '  <div class="ft-links">' +
         '    <div class="ft-col"><h3>優惠活動</h3><ul><li><a href="' + links.promoAll + '">優惠總覽</a></li><li><a href="' + links.promoNewbie + '">新手優惠</a></li><li><a href="' + links.promoDeposit + '">儲值優惠</a></li><li><a href="' + links.promoVip + '">VIP活動</a></li><li><a href="' + links.promoLimited + '">限時活動</a></li></ul></div>' +
-        '    <div class="ft-col"><h3>遊戲分類</h3><ul><li><a href="' + links.games + '">老虎機</a></li><li><a href="' + links.games + '">真人娛樂</a></li><li><a href="' + links.games + '">體育投注</a></li><li><a href="' + links.games + '">桌上遊戲</a></li><li><a href="' + links.games + '">原創遊戲</a></li></ul></div>' +
+        '    <div class="ft-col"><h3>遊戲分類</h3><ul><li><a href="slot-recommend.html">老虎機</a></li><li><span style="color:var(--n300);font-size:14px">真人娛樂</span></li><li><span style="color:var(--n300);font-size:14px">體育投注</span></li><li><span style="color:var(--n300);font-size:14px">桌上遊戲</span></li><li><span style="color:var(--n300);font-size:14px">原創遊戲</span></li></ul></div>' +
         '    <div class="ft-col"><h3>品牌與公司</h3><ul><li><a href="' + links.criteria + '">品牌介紹</a></li><li><a href="' + links.criteria + '">技術與安全</a></li></ul></div>' +
         '    <div class="ft-col"><h3>客服與支援</h3><ul><li><a href="' + links.faq + '">聯繫客服</a></li><li><a href="' + links.faq + '">常見問題</a></li><li><a href="' + links.helpCenter + '">幫助中心</a></li></ul></div>' +
         '    <div class="ft-col"><h3>法務與政策</h3><ul><li><a href="' + links.terms + '">使用條款</a></li><li><a href="' + links.privacy + '">隱私政策</a></li></ul></div>' +
