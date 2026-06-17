@@ -176,7 +176,7 @@
     .intro p+p{margin-top:18px}
 
     /* ════ CATEGORY NAV（分類入口）════ */
-    .cat-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}
+    .cat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
     .cat{display:flex;flex-direction:column;gap:10px;padding:22px 20px;background:var(--n50);border:1px solid var(--n150);
       transition:transform var(--dur) var(--ease),border-color var(--dur) var(--ease),box-shadow var(--dur) var(--ease)}
     .cat:hover{transform:translateY(-3px);border-color:rgba(159,168,240,.4);box-shadow:var(--shadow-card-sm)}
@@ -190,6 +190,7 @@
 
     /* ════ GAME CARDS（每類 3 張推薦卡）════ */
     .top-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .top-grid--4{grid-template-columns:repeat(4,1fr)}
     .scard{display:flex;flex-direction:column;background:var(--n50);border:1px solid var(--n150);overflow:hidden;
       transition:transform var(--dur) var(--ease),box-shadow var(--dur) var(--ease),border-color var(--dur) var(--ease)}
     .scard:hover{transform:translateY(var(--lift));box-shadow:var(--shadow-card-sm);border-color:rgba(159,168,240,.3)}
@@ -281,7 +282,7 @@
     /* ════ RESPONSIVE ════ */
     @media(min-width:768px){.ft-inner{grid-template-columns:1fr}}
     @media(max-width:1080px){
-      .cat-grid{grid-template-columns:repeat(3,1fr)}
+      .cat-grid{grid-template-columns:repeat(2,1fr)}
       .top-grid{grid-template-columns:repeat(2,1fr)}
       .mech-grid{grid-template-columns:repeat(2,1fr)}
       .ft-links{grid-template-columns:repeat(3,1fr)}
@@ -292,10 +293,13 @@
     }
     @media(max-width:640px){
       .ahero{min-height:520px;padding:48px 0 40px;align-items:flex-start;text-align:center;
-        background:linear-gradient(180deg,rgba(11,13,18,.93) 0%,rgba(15,17,21,.5) 46%,rgba(15,17,21,.12) 100%),url('image/table-games-recommend/banner-phone.png') center top/cover no-repeat}
+        background:linear-gradient(180deg,rgba(11,13,18,.93) 0%,rgba(15,17,21,.5) 46%,rgba(15,17,21,.12) 100%),url('image/table-games-recommend/banner-phone.png') center 30%/cover no-repeat}
       .ahero h1{white-space:nowrap;font-size:calc(3.2vw + 2px);font-weight:800}
       .ahero-desc{font-size:12px;max-width:none;margin-left:auto;margin-right:auto}
-      .cat-grid,.top-grid,.mech-grid,.il-grid{grid-template-columns:1fr}
+      .intro+.sec{padding-top:84px}
+      .top-grid,.mech-grid,.il-grid{grid-template-columns:1fr}
+      .cat-grid{grid-template-columns:repeat(2,1fr);gap:12px}
+      .cat{padding:18px 14px}
       .ft-links{grid-template-columns:repeat(2,1fr)}
     }
   </style>
@@ -335,7 +339,6 @@
     <section class="sec" id="categories">
       <div class="shell">
         <div class="sec-head center">
-          <span class="eyebrow">分類總覽</span>
           <h2 class="h2">熱門桌上遊戲分類排行</h2>
           <p class="sec-desc">娛樂城桌上遊戲種類多元，不同遊戲的玩法規則、節奏與難易度都不一樣。以下整理目前常見的賭場桌上遊戲分類，包含輪盤、21點、骰寶與撲克遊戲，並提供熱門遊戲推薦排行，幫助玩家快速找到適合自己的遊戲類型</p>
         </div>
@@ -353,22 +356,16 @@
             <div class="cat-sub">重視判斷與策略的經典控牌玩法</div>
             <span class="cat-go">查看排行 →</span>
           </a>
-          <a class="cat" href="#sicbo">
-            <div class="cat-ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="8" cy="8" r="1.2"/><circle cx="16" cy="8" r="1.2"/><circle cx="12" cy="12" r="1.2"/><circle cx="8" cy="16" r="1.2"/><circle cx="16" cy="16" r="1.2"/></svg></div>
-            <div class="cat-name">骰寶</div>
-            <div class="cat-sub">三顆骰子決勝負，規則直覺、節奏快速</div>
-            <span class="cat-go">查看排行 →</span>
-          </a>
           <a class="cat" href="#poker">
             <div class="cat-ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="11" height="15" rx="2"/><path d="M18 6h2a1 1 0 011 1v12a2 2 0 01-2 2H9a1 1 0 01-1-1"/><circle cx="9.5" cy="10.5" r="1.6"/></svg></div>
             <div class="cat-name">撲克遊戲</div>
             <div class="cat-sub">牌型策略玩法，最具策略感的分類</div>
             <span class="cat-go">查看排行 →</span>
           </a>
-          <a class="cat" href="#others">
-            <div class="cat-ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M9 9v11"/></svg></div>
-            <div class="cat-name">其他經典玩法</div>
-            <div class="cat-sub">牌九、Bac Bo 等特殊桌面玩法</div>
+          <a class="cat" href="#sicbo">
+            <div class="cat-ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="8" cy="8" r="1.2"/><circle cx="16" cy="8" r="1.2"/><circle cx="12" cy="12" r="1.2"/><circle cx="8" cy="16" r="1.2"/><circle cx="16" cy="16" r="1.2"/></svg></div>
+            <div class="cat-name">骰寶</div>
+            <div class="cat-sub">三顆骰子決勝負，規則直覺、節奏快速</div>
             <span class="cat-go">查看排行 →</span>
           </a>
         </div>
@@ -385,47 +382,26 @@
 
         <div class="top-grid">
           <article class="scard">
-            <div class="scard-thumb"><span class="scard-badge">綜合首選</span><div class="scard-ph">Roulette Thumbnail</div></div>
+            <div class="scard-thumb"><span class="scard-badge">Stake</span><div class="scard-ph">Roulette Thumbnail</div><img class="scard-img" src="image/table-games-recommend/Stake%20Roulette.avif" alt="Stake Roulette" loading="lazy"></div>
             <div class="scard-body">
-              <p class="scard-label">輪盤 01 · 單零盤面</p>
-              <h3 class="scard-name">歐式輪盤</h3>
-              <p class="scard-desc">僅有一個 0 的單零盤面，莊家優勢較低，是輪盤入門最推薦的版本</p>
-              <div class="scard-meta">
-                <div class="scard-stat"><span class="scard-stat-l">莊家優勢</span><span class="scard-stat-v">約 2.7%</span></div>
-                <div class="scard-stat"><span class="scard-stat-l">玩法選擇</span><span class="scard-stat-v">多元</span></div>
-                <div class="scard-stat"><span class="scard-stat-l">最高賠率</span><span class="scard-stat-v">35:1</span></div>
-              </div>
-              <a class="btn btn-wide btn-sm" href="index.html#faq">前往試玩</a>
+              <h3 class="scard-name">Stake Roulette</h3>
+              <a class="btn btn-wide btn-sm" href="https://stake.com/zh/casino/games/onetouch-roulette" target="_blank" rel="noopener noreferrer">前往試玩</a>
             </div>
           </article>
 
           <article class="scard">
-            <div class="scard-thumb"><span class="scard-badge">高倍機制</span><div class="scard-ph">Roulette Thumbnail</div></div>
+            <div class="scard-thumb"><span class="scard-badge">Rainbet</span><div class="scard-ph">Roulette Thumbnail</div><img class="scard-img" src="image/table-games-recommend/Royal%20Roulette%20500X.webp" alt="Royal Roulette 500X" loading="lazy"></div>
             <div class="scard-body">
-              <p class="scard-label">輪盤 02 · 加成玩法</p>
-              <h3 class="scard-name">閃電輪盤</h3>
-              <p class="scard-desc">每局隨機號碼附加加成倍率，命中可獲得更高賠率，刺激感十足</p>
-              <div class="scard-meta">
-                <div class="scard-stat"><span class="scard-stat-l">莊家優勢</span><span class="scard-stat-v">約 2.9%</span></div>
-                <div class="scard-stat"><span class="scard-stat-l">玩法選擇</span><span class="scard-stat-v">多元</span></div>
-                <div class="scard-stat"><span class="scard-stat-l">最高賠率</span><span class="scard-stat-v">最高 500:1</span></div>
-              </div>
-              <a class="btn btn-wide btn-sm" href="index.html#faq">前往試玩</a>
+              <h3 class="scard-name">Royal Roulette 500X</h3>
+              <a class="btn btn-wide btn-sm" href="https://rainbet.com/zh/casino/slots/bgaming-royal-roulette-500x" target="_blank" rel="noopener noreferrer">前往試玩</a>
             </div>
           </article>
 
           <article class="scard">
-            <div class="scard-thumb"><span class="scard-badge">高波動</span><div class="scard-ph">Roulette Thumbnail</div></div>
+            <div class="scard-thumb"><span class="scard-badge">Shuffle</span><div class="scard-ph">Roulette Thumbnail</div><img class="scard-img" src="image/table-games-recommend/Shuffle%20Roulette.png" alt="Shuffle Roulette" loading="lazy"></div>
             <div class="scard-body">
-              <p class="scard-label">輪盤 03 · 雙零盤面</p>
-              <h3 class="scard-name">美式輪盤</h3>
-              <p class="scard-desc">含 0 與 00 雙零盤面，賠率刺激但莊家優勢較高，適合追求變化的玩家</p>
-              <div class="scard-meta">
-                <div class="scard-stat"><span class="scard-stat-l">莊家優勢</span><span class="scard-stat-v">約 5.26%</span></div>
-                <div class="scard-stat"><span class="scard-stat-l">玩法選擇</span><span class="scard-stat-v">多元</span></div>
-                <div class="scard-stat"><span class="scard-stat-l">最高賠率</span><span class="scard-stat-v">35:1</span></div>
-              </div>
-              <a class="btn btn-wide btn-sm" href="index.html#faq">前往試玩</a>
+              <h3 class="scard-name">Shuffle Roulette</h3>
+              <a class="btn btn-wide btn-sm" href="https://shuffle.com/zh/games/originals/roulette" target="_blank" rel="noopener noreferrer">前往試玩</a>
             </div>
           </article>
         </div>
@@ -442,47 +418,70 @@
 
         <div class="top-grid">
           <article class="scard">
-            <div class="scard-thumb"><span class="scard-badge">綜合首選</span><div class="scard-ph">Blackjack Thumbnail</div></div>
+            <div class="scard-thumb"><span class="scard-badge">Stake</span><div class="scard-ph">Blackjack Thumbnail</div><img class="scard-img" src="image/table-games-recommend/Stake%20Blackjack.avif" alt="Stake Blackjack" loading="lazy"></div>
             <div class="scard-body">
-              <p class="scard-label">21點 01 · 經典玩法</p>
-              <h3 class="scard-name">經典21點</h3>
-              <p class="scard-desc">最標準的 Blackjack 規則，可要牌、停牌、加倍與分牌，策略空間完整</p>
-              <div class="scard-meta">
-                <div class="scard-stat"><span class="scard-stat-l">莊家優勢</span><span class="scard-stat-v">約 0.5%</span></div>
-                <div class="scard-stat"><span class="scard-stat-l">策略性</span><span class="scard-stat-v">高</span></div>
-                <div class="scard-stat"><span class="scard-stat-l">難易度</span><span class="scard-stat-v">中等</span></div>
-              </div>
-              <a class="btn btn-wide btn-sm" href="index.html#faq">前往試玩</a>
+              <h3 class="scard-name">Stake Blackjack</h3>
+              <a class="btn btn-wide btn-sm" href="https://stake.com/zh/casino/games/onetouch-blackjack" target="_blank" rel="noopener noreferrer">前往試玩</a>
             </div>
           </article>
 
           <article class="scard">
-            <div class="scard-thumb"><span class="scard-badge">新手友善</span><div class="scard-ph">Blackjack Thumbnail</div></div>
+            <div class="scard-thumb"><span class="scard-badge">Rainbet</span><div class="scard-ph">Blackjack Thumbnail</div><img class="scard-img" src="image/table-games-recommend/Rainbet%20Blackjack.webp" alt="Rainbet Blackjack" loading="lazy"></div>
             <div class="scard-body">
-              <p class="scard-label">21點 02 · 無限玩法</p>
-              <h3 class="scard-name">無限21點</h3>
-              <p class="scard-desc">同桌不限人數，所有玩家共用一手莊家牌，免排隊即可入桌，新手友善</p>
-              <div class="scard-meta">
-                <div class="scard-stat"><span class="scard-stat-l">莊家優勢</span><span class="scard-stat-v">約 0.5%</span></div>
-                <div class="scard-stat"><span class="scard-stat-l">策略性</span><span class="scard-stat-v">中高</span></div>
-                <div class="scard-stat"><span class="scard-stat-l">難易度</span><span class="scard-stat-v">低</span></div>
-              </div>
-              <a class="btn btn-wide btn-sm" href="index.html#faq">前往試玩</a>
+              <h3 class="scard-name">Rainbet Blackjack</h3>
+              <a class="btn btn-wide btn-sm" href="https://rainbet.com/zh/casino/originals/blackjack" target="_blank" rel="noopener noreferrer">前往試玩</a>
             </div>
           </article>
 
           <article class="scard">
-            <div class="scard-thumb"><span class="scard-badge">免費加倍</span><div class="scard-ph">Blackjack Thumbnail</div></div>
+            <div class="scard-thumb"><span class="scard-badge">Shuffle</span><div class="scard-ph">Blackjack Thumbnail</div><img class="scard-img" src="image/table-games-recommend/Shuffle%20Blackjack.png" alt="Shuffle Blackjack" loading="lazy"></div>
             <div class="scard-body">
-              <p class="scard-label">21點 03 · 自由下注</p>
-              <h3 class="scard-name">自由下注21點</h3>
-              <p class="scard-desc">可免費分牌與加倍，降低額外下注壓力，適合想練習策略的玩家</p>
-              <div class="scard-meta">
-                <div class="scard-stat"><span class="scard-stat-l">莊家優勢</span><span class="scard-stat-v">約 1.0%</span></div>
-                <div class="scard-stat"><span class="scard-stat-l">策略性</span><span class="scard-stat-v">高</span></div>
-                <div class="scard-stat"><span class="scard-stat-l">難易度</span><span class="scard-stat-v">中等</span></div>
-              </div>
-              <a class="btn btn-wide btn-sm" href="index.html#faq">前往試玩</a>
+              <h3 class="scard-name">Shuffle Blackjack</h3>
+              <a class="btn btn-wide btn-sm" href="https://shuffle.com/zh/games/originals/blackjack" target="_blank" rel="noopener noreferrer">前往試玩</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════ 撲克遊戲 ════════ -->
+    <section class="sec sec-alt" id="poker">
+      <div class="shell">
+        <div class="sec-head">
+          <h2 class="h2">撲克遊戲推薦排行</h2>
+          <p class="sec-desc">撲克遊戲是桌上遊戲中最具策略感的分類之一，常見類型包含Stake Poker、Video Poker、Poker 1000、Double Poker等不同玩法。相較於多人德州撲克，娛樂城中的撲克遊戲通常更偏向快速節奏、牌型判斷與單人娛樂體驗，適合喜歡撲克牌型與策略判斷的玩家</p>
+        </div>
+
+        <div class="top-grid top-grid--4">
+          <article class="scard">
+            <div class="scard-thumb"><span class="scard-badge">Stake</span><div class="scard-ph">Poker Thumbnail</div><img class="scard-img" src="image/table-games-recommend/無限注德州撲克.avif" alt="無限注德州撲克" loading="lazy"></div>
+            <div class="scard-body">
+              <h3 class="scard-name">無限注德州撲克</h3>
+              <a class="btn btn-wide btn-sm" href="https://stake.com/zh/casino/games/poker" target="_blank" rel="noopener noreferrer">前往試玩</a>
+            </div>
+          </article>
+
+          <article class="scard">
+            <div class="scard-thumb"><span class="scard-badge">Stake</span><div class="scard-ph">Poker Thumbnail</div><img class="scard-img" src="image/table-games-recommend/Video%20Poker.avif" alt="Video Poker" loading="lazy"></div>
+            <div class="scard-body">
+              <h3 class="scard-name">Video Poker</h3>
+              <a class="btn btn-wide btn-sm" href="https://stake.com/zh/casino/games/video-poker" target="_blank" rel="noopener noreferrer">前往試玩</a>
+            </div>
+          </article>
+
+          <article class="scard">
+            <div class="scard-thumb"><span class="scard-badge">Rainbet</span><div class="scard-ph">Poker Thumbnail</div><img class="scard-img" src="image/table-games-recommend/Hold%27em%20Poker.webp" alt="Hold'em Poker" loading="lazy"></div>
+            <div class="scard-body">
+              <h3 class="scard-name">Hold'em Poker</h3>
+              <a class="btn btn-wide btn-sm" href="https://rainbet.com/zh/casino/slots/onetouch-holdem-poker" target="_blank" rel="noopener noreferrer">前往試玩</a>
+            </div>
+          </article>
+
+          <article class="scard">
+            <div class="scard-thumb"><span class="scard-badge">Shuffle</span><div class="scard-ph">Poker Thumbnail</div><img class="scard-img" src="image/table-games-recommend/Joker%20Poker.png" alt="Joker Poker" loading="lazy"></div>
+            <div class="scard-body">
+              <h3 class="scard-name">Joker Poker</h3>
+              <a class="btn btn-wide btn-sm" href="https://shuffle.com/zh/games/voltent-joker-poker" target="_blank" rel="noopener noreferrer">前往試玩</a>
             </div>
           </article>
         </div>
@@ -490,7 +489,7 @@
     </section>
 
     <!-- ════════ 骰寶 ════════ -->
-    <section class="sec sec-alt" id="sicbo">
+    <section class="sec" id="sicbo">
       <div class="shell">
         <div class="sec-head">
           <h2 class="h2">骰寶推薦排行</h2>
@@ -499,161 +498,26 @@
 
         <div class="top-grid">
           <article class="scard">
-            <div class="scard-thumb"><span class="scard-badge">綜合首選</span><div class="scard-ph">Sic Bo Thumbnail</div></div>
+            <div class="scard-thumb"><span class="scard-badge">Stake</span><div class="scard-ph">Sic Bo Thumbnail</div><img class="scard-img" src="image/table-games-recommend/Mega%20Sic%20Bo.avif" alt="Mega Sic Bo" loading="lazy"></div>
             <div class="scard-body">
-              <p class="scard-label">骰寶 01 · 經典玩法</p>
-              <h3 class="scard-name">經典骰寶</h3>
-              <p class="scard-desc">最標準的三骰玩法，以大小、單雙為主軸，是骰寶入門最容易上手的選擇</p>
-              <div class="scard-meta">
-                <div class="scard-stat"><span class="scard-stat-l">下注類型</span><span class="scard-stat-v">大小單雙</span></div>
-                <div class="scard-stat"><span class="scard-stat-l">最高賠率</span><span class="scard-stat-v">180:1</span></div>
-                <div class="scard-stat"><span class="scard-stat-l">遊戲節奏</span><span class="scard-stat-v">快速</span></div>
-              </div>
-              <a class="btn btn-wide btn-sm" href="index.html#faq">前往試玩</a>
+              <h3 class="scard-name">Mega Sic Bo</h3>
+              <a class="btn btn-wide btn-sm" href="https://stake.com/zh/casino/games/pragmatic-play-live-mega-sic-bo" target="_blank" rel="noopener noreferrer">前往試玩</a>
             </div>
           </article>
 
           <article class="scard">
-            <div class="scard-thumb"><span class="scard-badge">高倍機制</span><div class="scard-ph">Sic Bo Thumbnail</div></div>
+            <div class="scard-thumb"><span class="scard-badge">Shuffle</span><div class="scard-ph">Sic Bo Thumbnail</div><img class="scard-img" src="image/table-games-recommend/Sic%20Bo%20Dragons.png" alt="Sic Bo Dragons" loading="lazy"></div>
             <div class="scard-body">
-              <p class="scard-label">骰寶 02 · 超級玩法</p>
-              <h3 class="scard-name">超級骰寶</h3>
-              <p class="scard-desc">每局隨機點數組合附加倍率加成，命中可獲得遠高於標準賠率的彩金</p>
-              <div class="scard-meta">
-                <div class="scard-stat"><span class="scard-stat-l">下注類型</span><span class="scard-stat-v">組合加成</span></div>
-                <div class="scard-stat"><span class="scard-stat-l">最高賠率</span><span class="scard-stat-v">最高 1000:1</span></div>
-                <div class="scard-stat"><span class="scard-stat-l">遊戲節奏</span><span class="scard-stat-v">快速</span></div>
-              </div>
-              <a class="btn btn-wide btn-sm" href="index.html#faq">前往試玩</a>
+              <h3 class="scard-name">Sic Bo Dragons</h3>
+              <a class="btn btn-wide btn-sm" href="https://shuffle.com/zh/games/voltent-sic-bo-dragons" target="_blank" rel="noopener noreferrer">前往試玩</a>
             </div>
           </article>
 
           <article class="scard">
-            <div class="scard-thumb"><span class="scard-badge">即時開獎</span><div class="scard-ph">Sic Bo Thumbnail</div></div>
+            <div class="scard-thumb"><span class="scard-badge">Shuffle</span><div class="scard-ph">Sic Bo Thumbnail</div><img class="scard-img" src="image/table-games-recommend/Shuffle%20Sic%20Bo.png" alt="Shuffle Sic Bo" loading="lazy"></div>
             <div class="scard-body">
-              <p class="scard-label">骰寶 03 · 閃電玩法</p>
-              <h3 class="scard-name">閃電骰子</h3>
-              <p class="scard-desc">三顆骰子即時開獎，搭配隨機加倍點數，節奏明快、玩法直覺</p>
-              <div class="scard-meta">
-                <div class="scard-stat"><span class="scard-stat-l">下注類型</span><span class="scard-stat-v">點數加成</span></div>
-                <div class="scard-stat"><span class="scard-stat-l">最高賠率</span><span class="scard-stat-v">最高 1000:1</span></div>
-                <div class="scard-stat"><span class="scard-stat-l">遊戲節奏</span><span class="scard-stat-v">極快</span></div>
-              </div>
-              <a class="btn btn-wide btn-sm" href="index.html#faq">前往試玩</a>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- ════════ 撲克遊戲 ════════ -->
-    <section class="sec" id="poker">
-      <div class="shell">
-        <div class="sec-head">
-          <h2 class="h2">撲克遊戲推薦排行</h2>
-          <p class="sec-desc">撲克遊戲是桌上遊戲中最具策略感的分類之一，常見類型包含Stake Poker、Video Poker、Poker 1000、Double Poker等不同玩法。相較於多人德州撲克，娛樂城中的撲克遊戲通常更偏向快速節奏、牌型判斷與單人娛樂體驗，適合喜歡撲克牌型與策略判斷的玩家</p>
-        </div>
-
-        <div class="top-grid">
-          <article class="scard">
-            <div class="scard-thumb"><span class="scard-badge">綜合首選</span><div class="scard-ph">Poker Thumbnail</div></div>
-            <div class="scard-body">
-              <p class="scard-label">撲克 01 · 牌型玩法</p>
-              <h3 class="scard-name">Video Poker</h3>
-              <p class="scard-desc">依撲克牌型大小決定賠率，規則清楚、單人即可遊玩，是撲克入門首選</p>
-              <div class="scard-meta">
-                <div class="scard-stat"><span class="scard-stat-l">牌型玩法</span><span class="scard-stat-v">五張抽換</span></div>
-                <div class="scard-stat"><span class="scard-stat-l">策略性</span><span class="scard-stat-v">中高</span></div>
-                <div class="scard-stat"><span class="scard-stat-l">遊戲節奏</span><span class="scard-stat-v">中等</span></div>
-              </div>
-              <a class="btn btn-wide btn-sm" href="index.html#faq">前往試玩</a>
-            </div>
-          </article>
-
-          <article class="scard">
-            <div class="scard-thumb"><span class="scard-badge">平台原創</span><div class="scard-ph">Poker Thumbnail</div></div>
-            <div class="scard-body">
-              <p class="scard-label">撲克 02 · 原創玩法</p>
-              <h3 class="scard-name">Stake Poker</h3>
-              <p class="scard-desc">Stake 原創撲克玩法，節奏快速、介面直覺，適合喜歡快速牌局的玩家</p>
-              <div class="scard-meta">
-                <div class="scard-stat"><span class="scard-stat-l">牌型玩法</span><span class="scard-stat-v">原創規則</span></div>
-                <div class="scard-stat"><span class="scard-stat-l">策略性</span><span class="scard-stat-v">中</span></div>
-                <div class="scard-stat"><span class="scard-stat-l">遊戲節奏</span><span class="scard-stat-v">快速</span></div>
-              </div>
-              <a class="btn btn-wide btn-sm" href="index.html#faq">前往試玩</a>
-            </div>
-          </article>
-
-          <article class="scard">
-            <div class="scard-thumb"><span class="scard-badge">高倍牌型</span><div class="scard-ph">Poker Thumbnail</div></div>
-            <div class="scard-body">
-              <p class="scard-label">撲克 03 · 高倍玩法</p>
-              <h3 class="scard-name">Poker 1000</h3>
-              <p class="scard-desc">以牌型倍率為核心，命中高階牌型可獲得高額倍數回饋，刺激感十足</p>
-              <div class="scard-meta">
-                <div class="scard-stat"><span class="scard-stat-l">牌型玩法</span><span class="scard-stat-v">倍率牌型</span></div>
-                <div class="scard-stat"><span class="scard-stat-l">策略性</span><span class="scard-stat-v">中高</span></div>
-                <div class="scard-stat"><span class="scard-stat-l">遊戲節奏</span><span class="scard-stat-v">快速</span></div>
-              </div>
-              <a class="btn btn-wide btn-sm" href="index.html#faq">前往試玩</a>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- ════════ 其他經典桌上遊戲 ════════ -->
-    <section class="sec sec-alt" id="others">
-      <div class="shell">
-        <div class="sec-head">
-          <h2 class="h2">其他經典桌上遊戲</h2>
-          <p class="sec-desc">除了輪盤、21點、骰寶與撲克遊戲之外，部分娛樂城平台也可能提供其他經典桌上遊戲，例如牌九、Bac Bo、Casino Hold'em、Caribbean Stud Poker或其他特殊桌面玩法。這類遊戲通常較偏小眾，適合已熟悉基本桌上遊戲、想嘗試不同玩法的玩家</p>
-        </div>
-
-        <div class="top-grid">
-          <article class="scard">
-            <div class="scard-thumb"><span class="scard-badge">綜合首選</span><div class="scard-ph">Bac Bo Thumbnail</div></div>
-            <div class="scard-body">
-              <p class="scard-label">其他 01 · 骰子百家</p>
-              <h3 class="scard-name">Bac Bo</h3>
-              <p class="scard-desc">結合骰子與百家樂玩法，押莊閒比點數，規則簡單、節奏明快</p>
-              <div class="scard-meta">
-                <div class="scard-stat"><span class="scard-stat-l">玩法類型</span><span class="scard-stat-v">骰子比點</span></div>
-                <div class="scard-stat"><span class="scard-stat-l">難易度</span><span class="scard-stat-v">低</span></div>
-                <div class="scard-stat"><span class="scard-stat-l">遊戲節奏</span><span class="scard-stat-v">快速</span></div>
-              </div>
-              <a class="btn btn-wide btn-sm" href="index.html#faq">前往試玩</a>
-            </div>
-          </article>
-
-          <article class="scard">
-            <div class="scard-thumb"><span class="scard-badge">策略首選</span><div class="scard-ph">Casino Holdem Thumbnail</div></div>
-            <div class="scard-body">
-              <p class="scard-label">其他 02 · 德州變體</p>
-              <h3 class="scard-name">Casino Hold'em</h3>
-              <p class="scard-desc">與莊家比牌的德州撲克變體，保留牌型策略，又不需面對其他玩家</p>
-              <div class="scard-meta">
-                <div class="scard-stat"><span class="scard-stat-l">玩法類型</span><span class="scard-stat-v">德州變體</span></div>
-                <div class="scard-stat"><span class="scard-stat-l">難易度</span><span class="scard-stat-v">中等</span></div>
-                <div class="scard-stat"><span class="scard-stat-l">遊戲節奏</span><span class="scard-stat-v">中等</span></div>
-              </div>
-              <a class="btn btn-wide btn-sm" href="index.html#faq">前往試玩</a>
-            </div>
-          </article>
-
-          <article class="scard">
-            <div class="scard-thumb"><span class="scard-badge">經典玩法</span><div class="scard-ph">Pai Gow Thumbnail</div></div>
-            <div class="scard-body">
-              <p class="scard-label">其他 03 · 經典骨牌</p>
-              <h3 class="scard-name">牌九</h3>
-              <p class="scard-desc">經典骨牌玩法，將牌分為大小兩組與莊家比牌，東方賭場代表之一</p>
-              <div class="scard-meta">
-                <div class="scard-stat"><span class="scard-stat-l">玩法類型</span><span class="scard-stat-v">骨牌比牌</span></div>
-                <div class="scard-stat"><span class="scard-stat-l">難易度</span><span class="scard-stat-v">中等</span></div>
-                <div class="scard-stat"><span class="scard-stat-l">遊戲節奏</span><span class="scard-stat-v">中等</span></div>
-              </div>
-              <a class="btn btn-wide btn-sm" href="index.html#faq">前往試玩</a>
+              <h3 class="scard-name">Shuffle Sic Bo</h3>
+              <a class="btn btn-wide btn-sm" href="https://shuffle.com/zh/games/one-touch-ont-sicbo" target="_blank" rel="noopener noreferrer">前往試玩</a>
             </div>
           </article>
         </div>
@@ -664,7 +528,6 @@
     <section class="sec" id="players">
       <div class="shell">
         <div class="sec-head">
-          <span class="eyebrow">玩家類型</span>
           <h2 class="h2">桌上遊戲適合哪些玩家？</h2>
           <p class="sec-desc">桌上遊戲適合喜歡經典賭場玩法、規則判斷與機率遊戲的玩家。不同桌上遊戲適合不同類型玩家，新手可以先從規則簡單的遊戲開始，進階玩家則可選擇更重視策略判斷的玩法</p>
         </div>
@@ -698,7 +561,6 @@
     <section class="sec sec-alt" id="choose">
       <div class="shell">
         <div class="sec-head">
-          <span class="eyebrow">選擇指南</span>
           <h2 class="h2">如何選擇適合自己的桌上遊戲？</h2>
           <p class="sec-desc">依照入門難度與玩法偏好選擇對應遊戲，能更快找到合適的桌上遊戲類型</p>
         </div>
@@ -739,7 +601,6 @@
     <section class="sec" id="vs-live">
       <div class="shell">
         <div class="sec-head center">
-          <span class="eyebrow">類型比較</span>
           <h2 class="h2">桌上遊戲和真人娛樂有什麼不同？</h2>
         </div>
 
@@ -755,7 +616,6 @@
     <section class="sec sec-alt" id="faq">
       <div class="shell">
         <div class="sec-head center">
-          <span class="eyebrow">常見問題</span>
           <h2 class="h2">桌上遊戲常見問題</h2>
         </div>
 
@@ -808,26 +668,13 @@
     <section class="sec" id="internal">
       <div class="shell">
         <div class="sec-head">
-          <span class="eyebrow">推薦閱讀</span>
           <h2 class="h2">探索更多遊戲與娛樂城推薦</h2>
           <p class="sec-desc">看完桌上遊戲，再深入了解其他遊戲類型、平台評測與優惠活動，找到最適合你的玩法</p>
         </div>
 
         <div class="il-grid">
-          <a class="il" href="live-casino-recommend.html" aria-label="前往真人娛樂推薦">
-            <div><div class="il-title">真人娛樂推薦</div><div class="il-sub">百家樂、輪盤、21點與真人荷官排行</div></div>
-            <div class="il-arrow" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M7 13L13 7"/><path d="M8 7H13V12"/></svg></div>
-          </a>
           <a class="il" href="slot-recommend.html" aria-label="前往老虎機推薦">
             <div><div class="il-title">老虎機推薦</div><div class="il-sub">熱門線上老虎機排行與玩法介紹</div></div>
-            <div class="il-arrow" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M7 13L13 7"/><path d="M8 7H13V12"/></svg></div>
-          </a>
-          <a class="il" href="sportsbook-recommend.html" aria-label="前往體育投注">
-            <div><div class="il-title">體育投注</div><div class="il-sub">NBA、MLB、足球與電競賽事投注排行</div></div>
-            <div class="il-arrow" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M7 13L13 7"/><path d="M8 7H13V12"/></svg></div>
-          </a>
-          <a class="il" href="game-guides.html" aria-label="前往原創遊戲">
-            <div><div class="il-title">原創遊戲</div><div class="il-sub">娛樂城獨家原創玩法與機制介紹</div></div>
             <div class="il-arrow" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M7 13L13 7"/><path d="M8 7H13V12"/></svg></div>
           </a>
           <a class="il" href="game-guides.html" aria-label="前往娛樂城遊戲排行">

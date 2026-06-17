@@ -160,10 +160,11 @@
     .nav-dd-menu .nav-dd-all{margin-top:5px;padding-top:11px;border-top:1px solid var(--n150);color:var(--pri-200);font-weight:700}
 
     /* ════ ARTICLE HERO ════ */
-    .ahero{position:relative;overflow:hidden;padding:60px 0 56px;
-      background:linear-gradient(180deg,#12101F 0%,#0F1115 100%);border-bottom:1px solid var(--n150)}
-    .ahero::before{content:'';position:absolute;inset:0;z-index:0;pointer-events:none;opacity:.7;
-      background:radial-gradient(120% 90% at 78% -10%,rgba(118,86,215,.35) 0%,transparent 58%)}
+    .ahero{position:relative;overflow:hidden;padding:84px 0;min-height:440px;display:flex;align-items:center;
+      background:linear-gradient(90deg,rgba(11,13,18,.95) 0%,rgba(13,12,26,.78) 36%,rgba(15,17,21,.34) 66%,rgba(15,17,21,.1) 100%),url('image/sportsbook-recommend/banner.png') center right/cover no-repeat;
+      border-bottom:1px solid var(--n150)}
+    .ahero::before{content:'';position:absolute;inset:0;z-index:0;pointer-events:none;
+      background:radial-gradient(110% 120% at 0% 50%,rgba(67,38,154,.3) 0%,transparent 55%)}
     .ahero .shell{position:relative;z-index:1}
     .ahero h1{font-size:clamp(19px,2.3vw,27px);font-weight:700;line-height:1.25;letter-spacing:-.02em;color:var(--n800);margin-bottom:18px;white-space:nowrap;text-shadow:0 2px 14px rgba(0,0,0,.55)}
     .ahero-desc{font-size:var(--fs-lead);line-height:1.85;color:var(--n300);max-width:640px;margin-bottom:26px}
@@ -274,7 +275,8 @@
       .il-grid{grid-template-columns:repeat(2,1fr)}
     }
     @media(max-width:640px){
-      .ahero{text-align:center}
+      .ahero{min-height:520px;padding:48px 0 40px;align-items:flex-start;text-align:center;
+        background:linear-gradient(180deg,rgba(11,13,18,.93) 0%,rgba(15,17,21,.5) 46%,rgba(15,17,21,.12) 100%),url('image/sportsbook-recommend/banner-phone.png') center 30%/cover no-repeat}
       .ahero h1{white-space:nowrap;font-size:calc(3.2vw + 2px);font-weight:800}
       .ahero-desc{font-size:12px;max-width:none;margin-left:auto;margin-right:auto}
       .cat-grid,.mech-grid,.il-grid{grid-template-columns:1fr}
@@ -314,7 +316,6 @@
     <section class="sec" id="categories">
       <div class="shell">
         <div class="sec-head center">
-          <span class="eyebrow">分類總覽</span>
           <h2 class="h2">熱門體育投注與運彩分類</h2>
           <p class="sec-desc">體育投注項目種類多元，不同賽事的熱門程度、盤口類型與投注節奏都不一樣。台灣玩家最常關注的運彩項目包含NBA運彩、MLB運彩、足球運彩與電競投注，本頁將依照不同賽事類型整理平台特色與推薦方向</p>
         </div>
@@ -544,7 +545,6 @@
     <section class="sec sec-alt" id="bet-types">
       <div class="shell">
         <div class="sec-head">
-          <span class="eyebrow">玩法解析</span>
           <h2 class="h2">常見運彩玩法介紹</h2>
           <p class="sec-desc">不論是NBA運彩、MLB運彩、足球運彩或電競投注，玩家最常接觸的玩法包含獨贏、讓分、大小分、串關與滾球投注。了解基本玩法後，會更容易判斷不同賽事適合哪一種投注方式</p>
         </div>
@@ -583,7 +583,6 @@
     <section class="sec" id="choose">
       <div class="shell">
         <div class="sec-head">
-          <span class="eyebrow">選擇指南</span>
           <h2 class="h2">如何選擇適合自己的體育投注平台？</h2>
           <p class="sec-desc">選擇體育投注平台時，可從賽事支援度、盤口類型、操作介面、活動優惠與自己熟悉的賽事五個面向評估，找到最適合自己的運彩平台</p>
         </div>
@@ -628,7 +627,6 @@
     <section class="sec sec-alt" id="faq">
       <div class="shell">
         <div class="sec-head center">
-          <span class="eyebrow">常見問題</span>
           <h2 class="h2">體育投注常見問題</h2>
         </div>
 
@@ -681,7 +679,6 @@
     <section class="sec" id="internal">
       <div class="shell">
         <div class="sec-head">
-          <span class="eyebrow">推薦閱讀</span>
           <h2 class="h2">探索更多遊戲與娛樂城推薦</h2>
           <p class="sec-desc">看完體育投注，再深入了解其他遊戲類型、平台評測與優惠活動，找到最適合你的玩法</p>
         </div>

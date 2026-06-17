@@ -1,0 +1,313 @@
+{
+  "version": "0.4",
+  "title": "隱私權政策",
+  "type": "page",
+  "page_settings": {
+    "background_background": "classic",
+    "background_color": "#0F1115"
+  },
+  "content": [
+    {
+      "id": "ppcrumb",
+      "elType": "section",
+      "settings": {
+        "content_width": { "unit": "px", "size": 1240 },
+        "padding": { "unit": "px", "top": "18", "right": "20", "bottom": "0", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "ppcrumbcol",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "ppcrumbtx",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p><a href=\"/\" style=\"color:#A9B1C2\">首頁</a> <span style=\"color:#8F98AC\">›</span> <span style=\"color:#D9DEEA\">隱私權政策</span></p>",
+                "text_color": "#8F98AC",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 13 }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ppsec001",
+      "elType": "section",
+      "settings": {
+        "content_width": { "unit": "px", "size": 1240 },
+        "background_background": "gradient",
+        "background_color": "#7656D7",
+        "background_color_b": "#16153C",
+        "background_gradient_type": "radial",
+        "background_gradient_position": "center bottom",
+        "padding": { "unit": "px", "top": "52", "right": "20", "bottom": "56", "left": "20", "isLinked": false },
+        "margin": { "unit": "px", "top": "16", "right": "0", "bottom": "0", "left": "0", "isLinked": false },
+        "border_border": "solid",
+        "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+        "border_color": "rgba(159,168,240,0.28)"
+      },
+      "elements": [
+        {
+          "id": "ppcol001",
+          "elType": "column",
+          "settings": { "_column_size": 100, "_inline_size": null },
+          "elements": [
+            {
+              "id": "ppwh001",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "隱私權政策",
+                "header_size": "h1",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 40 },
+                "typography_font_weight": "700",
+                "typography_line_height": { "unit": "em", "size": 1.22 }
+              },
+              "elements": []
+            },
+            {
+              "id": "ppwt001",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>我們重視您的隱私與個人資料安全，請詳閱以下隱私權政策內容</p>",
+                "text_color": "#E8ECF5",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 18 },
+                "typography_line_height": { "unit": "em", "size": 1.8 }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ppmain01",
+      "elType": "section",
+      "settings": {
+        "content_width": { "unit": "px", "size": 1240 },
+        "gap": "wide",
+        "reverse_order_tablet": "reverse-tablet",
+        "reverse_order_mobile": "reverse-mobile",
+        "padding": { "unit": "px", "top": "46", "right": "20", "bottom": "20", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "ppcolL",
+          "elType": "column",
+          "settings": {
+            "_column_size": 66,
+            "_inline_size": 68,
+            "custom_css": "html{scroll-padding-top:120px;}selector h2{scroll-margin-top:120px;}selector .elementor-widget-heading{scroll-margin-top:120px;}"
+          },
+          "elements": [
+            {
+              "id": "ppwt002",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<p>晴天娛樂城推薦網重視每位使用者的隱私權與個人資料保護。本隱私權政策旨在說明本網站如何蒐集、使用、保護及管理使用者資訊，並協助您了解相關權益與網站資料使用方式。</p><p>當您瀏覽或使用本網站服務時，即表示您已閱讀並同意本隱私權政策之內容。</p>", "text_color": "#C3CAD8", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 17 }, "typography_line_height": { "unit": "em", "size": 1.9 } },
+              "elements": []
+            },
+            { "id": "ppnum01", "elType": "widget", "widgetType": "heading", "settings": { "title": "01", "header_size": "h6", "title_color": "#B5A8F0", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 14 }, "typography_font_weight": "800", "typography_letter_spacing": { "unit": "px", "size": 1.2 }, "_margin": { "unit": "px", "top": "30", "right": "0", "bottom": "0", "left": "0", "isLinked": false } }, "elements": [] },
+            { "id": "pph2_01", "elType": "widget", "widgetType": "heading", "settings": { "title": "資料蒐集範圍", "header_size": "h2", "title_color": "#FFFFFF", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 28 }, "typography_font_weight": "700" }, "elements": [] },
+            { "id": "pptx_01", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>當您瀏覽本網站時，我們可能蒐集部分非個人識別資訊，以提升網站功能、改善使用體驗及分析網站流量。可能蒐集的資訊包含：</p>", "text_color": "#C3CAD8", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 16 }, "typography_line_height": { "unit": "em", "size": 1.9 } }, "elements": [] },
+            {
+              "id": "ppls_01", "elType": "widget", "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  { "text": "瀏覽器類型與版本", "selected_icon": { "value": "fas fa-circle", "library": "fa-solid" }, "_id": "il0101" },
+                  { "text": "裝置類型", "selected_icon": { "value": "fas fa-circle", "library": "fa-solid" }, "_id": "il0102" },
+                  { "text": "作業系統資訊", "selected_icon": { "value": "fas fa-circle", "library": "fa-solid" }, "_id": "il0103" },
+                  { "text": "網站瀏覽紀錄", "selected_icon": { "value": "fas fa-circle", "library": "fa-solid" }, "_id": "il0104" },
+                  { "text": "進入頁面與停留時間", "selected_icon": { "value": "fas fa-circle", "library": "fa-solid" }, "_id": "il0105" },
+                  { "text": "點擊行為與使用習慣", "selected_icon": { "value": "fas fa-circle", "library": "fa-solid" }, "_id": "il0106" },
+                  { "text": "IP 位址（依服務需求可能記錄）", "selected_icon": { "value": "fas fa-circle", "library": "fa-solid" }, "_id": "il0107" }
+                ],
+                "space_between": { "unit": "px", "size": 11 }, "icon_color": "#7656D7", "icon_size": { "unit": "px", "size": 8 }, "text_color": "#C3CAD8", "text_typography_typography": "custom", "text_typography_font_size": { "unit": "px", "size": 16 }
+              },
+              "elements": []
+            },
+            { "id": "pptx_01b", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>若未來開放會員系統、聯絡表單或活動申請功能，使用者主動提供之資訊亦可能包含<strong style=\"color:#E8ECF5\">姓名、電子郵件地址及相關聯絡資料</strong>。</p>", "text_color": "#C3CAD8", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 16 }, "typography_line_height": { "unit": "em", "size": 1.9 } }, "elements": [] },
+
+            { "id": "ppnum02", "elType": "widget", "widgetType": "heading", "settings": { "title": "02", "header_size": "h6", "title_color": "#B5A8F0", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 14 }, "typography_font_weight": "800", "typography_letter_spacing": { "unit": "px", "size": 1.2 }, "_margin": { "unit": "px", "top": "30", "right": "0", "bottom": "0", "left": "0", "isLinked": false } }, "elements": [] },
+            { "id": "pph2_02", "elType": "widget", "widgetType": "heading", "settings": { "title": "資料使用目的", "header_size": "h2", "title_color": "#FFFFFF", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 28 }, "typography_font_weight": "700" }, "elements": [] },
+            { "id": "pptx_02", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>本網站蒐集相關資訊主要用於以下用途：</p>", "text_color": "#C3CAD8", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 16 }, "typography_line_height": { "unit": "em", "size": 1.9 } }, "elements": [] },
+            {
+              "id": "ppls_02", "elType": "widget", "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  { "text": "改善網站內容與使用體驗", "selected_icon": { "value": "fas fa-circle", "library": "fa-solid" }, "_id": "il0201" },
+                  { "text": "分析網站流量與訪客行為", "selected_icon": { "value": "fas fa-circle", "library": "fa-solid" }, "_id": "il0202" },
+                  { "text": "優化網站功能與服務品質", "selected_icon": { "value": "fas fa-circle", "library": "fa-solid" }, "_id": "il0203" },
+                  { "text": "提供活動通知或服務資訊", "selected_icon": { "value": "fas fa-circle", "library": "fa-solid" }, "_id": "il0204" },
+                  { "text": "維護網站安全與防止異常行為", "selected_icon": { "value": "fas fa-circle", "library": "fa-solid" }, "_id": "il0205" },
+                  { "text": "回應使用者詢問與客服需求", "selected_icon": { "value": "fas fa-circle", "library": "fa-solid" }, "_id": "il0206" }
+                ],
+                "space_between": { "unit": "px", "size": 11 }, "icon_color": "#7656D7", "icon_size": { "unit": "px", "size": 8 }, "text_color": "#C3CAD8", "text_typography_typography": "custom", "text_typography_font_size": { "unit": "px", "size": 16 }
+              },
+              "elements": []
+            },
+            {
+              "id": "ppkb_02", "elType": "widget", "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": { "value": "fas fa-shield-alt", "library": "fa-solid" }, "view": "default", "position": "left", "title_text": "", "description_text": "本網站<strong>不會將使用者個人資料出售、出租或提供給無關第三方</strong>作商業用途。", "primary_color": "#DEF243", "icon_size": { "unit": "px", "size": 22 }, "description_color": "#C3CAD8", "content_vertical_alignment": "top", "text_align": "left",
+                "_background_background": "classic", "_background_color": "rgba(67,38,154,0.22)", "_border_border": "solid", "_border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "4", "isLinked": false }, "_border_color": "rgba(118,86,215,0.34)", "_padding": { "unit": "px", "top": "18", "right": "22", "bottom": "18", "left": "22", "isLinked": false }, "_margin": { "unit": "px", "top": "10", "right": "0", "bottom": "8", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+
+            { "id": "ppnum03", "elType": "widget", "widgetType": "heading", "settings": { "title": "03", "header_size": "h6", "title_color": "#B5A8F0", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 14 }, "typography_font_weight": "800", "typography_letter_spacing": { "unit": "px", "size": 1.2 }, "_margin": { "unit": "px", "top": "30", "right": "0", "bottom": "0", "left": "0", "isLinked": false } }, "elements": [] },
+            { "id": "pph2_03", "elType": "widget", "widgetType": "heading", "settings": { "title": "Cookie 技術使用說明", "header_size": "h2", "title_color": "#FFFFFF", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 28 }, "typography_font_weight": "700" }, "elements": [] },
+            { "id": "pptx_03", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>為提供更完善的網站服務，本網站可能使用 Cookie 技術記錄使用者偏好與瀏覽行為。</p><p>Cookie 是一種儲存在使用者裝置中的小型文字檔案，可協助網站記住使用習慣、分析流量來源及改善網站功能。</p><p>使用者可透過瀏覽器設定停用 Cookie 功能，但部分網站功能可能因此無法正常運作。</p>", "text_color": "#C3CAD8", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 16 }, "typography_line_height": { "unit": "em", "size": 1.9 } }, "elements": [] },
+
+            { "id": "ppnum04", "elType": "widget", "widgetType": "heading", "settings": { "title": "04", "header_size": "h6", "title_color": "#B5A8F0", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 14 }, "typography_font_weight": "800", "typography_letter_spacing": { "unit": "px", "size": 1.2 }, "_margin": { "unit": "px", "top": "30", "right": "0", "bottom": "0", "left": "0", "isLinked": false } }, "elements": [] },
+            { "id": "pph2_04", "elType": "widget", "widgetType": "heading", "settings": { "title": "Google Analytics 與第三方分析工具", "header_size": "h2", "title_color": "#FFFFFF", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 28 }, "typography_font_weight": "700" }, "elements": [] },
+            { "id": "pptx_04", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>本網站可能使用 Google Analytics、Google Search Console、Microsoft Clarity 或其他網站分析工具，以了解網站流量、使用者行為及內容表現。</p><p>這些工具可能透過 Cookie 或其他技術蒐集匿名資訊，用於統計分析與網站優化。</p><p>相關資料將依據各第三方服務提供商之隱私權政策進行處理。</p>", "text_color": "#C3CAD8", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 16 }, "typography_line_height": { "unit": "em", "size": 1.9 } }, "elements": [] },
+
+            { "id": "ppnum05", "elType": "widget", "widgetType": "heading", "settings": { "title": "05", "header_size": "h6", "title_color": "#B5A8F0", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 14 }, "typography_font_weight": "800", "typography_letter_spacing": { "unit": "px", "size": 1.2 }, "_margin": { "unit": "px", "top": "30", "right": "0", "bottom": "0", "left": "0", "isLinked": false } }, "elements": [] },
+            { "id": "pph2_05", "elType": "widget", "widgetType": "heading", "settings": { "title": "第三方網站連結", "header_size": "h2", "title_color": "#FFFFFF", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 28 }, "typography_font_weight": "700" }, "elements": [] },
+            { "id": "pptx_05", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>本網站部分內容可能包含第三方網站、合作平台或外部服務連結。</p><p>當您離開本網站並進入第三方網站後，其資料蒐集與隱私保護措施將依該網站規範辦理。</p><p>晴天娛樂城推薦網無法控制第三方網站之內容與隱私政策，建議使用者自行查閱相關規範。</p>", "text_color": "#C3CAD8", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 16 }, "typography_line_height": { "unit": "em", "size": 1.9 } }, "elements": [] },
+
+            { "id": "ppnum06", "elType": "widget", "widgetType": "heading", "settings": { "title": "06", "header_size": "h6", "title_color": "#B5A8F0", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 14 }, "typography_font_weight": "800", "typography_letter_spacing": { "unit": "px", "size": 1.2 }, "_margin": { "unit": "px", "top": "30", "right": "0", "bottom": "0", "left": "0", "isLinked": false } }, "elements": [] },
+            { "id": "pph2_06", "elType": "widget", "widgetType": "heading", "settings": { "title": "個人資料保護措施", "header_size": "h2", "title_color": "#FFFFFF", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 28 }, "typography_font_weight": "700" }, "elements": [] },
+            { "id": "pptx_06", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>本網站採取合理且適當之技術與管理措施，以保護使用者資料安全，避免未經授權之存取、竄改、揭露或遺失。</p><p>然而，任何網路傳輸方式均無法保證百分之百安全，因此使用者仍應<strong style=\"color:#E8ECF5\">妥善保管個人帳號、密碼及相關資訊</strong>。</p>", "text_color": "#C3CAD8", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 16 }, "typography_line_height": { "unit": "em", "size": 1.9 } }, "elements": [] },
+
+            { "id": "ppnum07", "elType": "widget", "widgetType": "heading", "settings": { "title": "07", "header_size": "h6", "title_color": "#B5A8F0", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 14 }, "typography_font_weight": "800", "typography_letter_spacing": { "unit": "px", "size": 1.2 }, "_margin": { "unit": "px", "top": "30", "right": "0", "bottom": "0", "left": "0", "isLinked": false } }, "elements": [] },
+            { "id": "pph2_07", "elType": "widget", "widgetType": "heading", "settings": { "title": "使用者權利", "header_size": "h2", "title_color": "#FFFFFF", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 28 }, "typography_font_weight": "700" }, "elements": [] },
+            { "id": "pptx_07", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>依據相關個人資料保護法規，使用者有權：</p>", "text_color": "#C3CAD8", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 16 }, "typography_line_height": { "unit": "em", "size": 1.9 } }, "elements": [] },
+            {
+              "id": "ppls_07", "elType": "widget", "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  { "text": "查詢個人資料使用情況", "selected_icon": { "value": "fas fa-circle", "library": "fa-solid" }, "_id": "il0701" },
+                  { "text": "請求更正或更新資料", "selected_icon": { "value": "fas fa-circle", "library": "fa-solid" }, "_id": "il0702" },
+                  { "text": "請求停止使用相關資料", "selected_icon": { "value": "fas fa-circle", "library": "fa-solid" }, "_id": "il0703" },
+                  { "text": "請求刪除個人資料", "selected_icon": { "value": "fas fa-circle", "library": "fa-solid" }, "_id": "il0704" }
+                ],
+                "space_between": { "unit": "px", "size": 11 }, "icon_color": "#7656D7", "icon_size": { "unit": "px", "size": 8 }, "text_color": "#C3CAD8", "text_typography_typography": "custom", "text_typography_font_size": { "unit": "px", "size": 16 }
+              },
+              "elements": []
+            },
+            { "id": "pptx_07b", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>如有相關需求，可透過本網站聯絡方式與我們聯繫。</p>", "text_color": "#C3CAD8", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 16 }, "typography_line_height": { "unit": "em", "size": 1.9 } }, "elements": [] },
+
+            { "id": "ppnum08", "elType": "widget", "widgetType": "heading", "settings": { "title": "08", "header_size": "h6", "title_color": "#B5A8F0", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 14 }, "typography_font_weight": "800", "typography_letter_spacing": { "unit": "px", "size": 1.2 }, "_margin": { "unit": "px", "top": "30", "right": "0", "bottom": "0", "left": "0", "isLinked": false } }, "elements": [] },
+            { "id": "pph2_08", "elType": "widget", "widgetType": "heading", "settings": { "title": "未成年人保護", "header_size": "h2", "title_color": "#FFFFFF", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 28 }, "typography_font_weight": "700" }, "elements": [] },
+            {
+              "id": "ppkb_08", "elType": "widget", "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": { "value": "fas fa-exclamation-circle", "library": "fa-solid" }, "view": "default", "position": "left", "title_text": "", "description_text": "本網站內容<strong>僅供年滿十八歲（18 歲）以上之成年人</strong>瀏覽與使用。若發現未成年人提供個人資料，本網站有權刪除相關資料並停止提供相關服務。", "primary_color": "#DEF243", "icon_size": { "unit": "px", "size": 22 }, "description_color": "#C3CAD8", "content_vertical_alignment": "top", "text_align": "left",
+                "_background_background": "classic", "_background_color": "rgba(67,38,154,0.22)", "_border_border": "solid", "_border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "4", "isLinked": false }, "_border_color": "rgba(118,86,215,0.34)", "_padding": { "unit": "px", "top": "18", "right": "22", "bottom": "18", "left": "22", "isLinked": false }, "_margin": { "unit": "px", "top": "10", "right": "0", "bottom": "8", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+
+            { "id": "ppnum09", "elType": "widget", "widgetType": "heading", "settings": { "title": "09", "header_size": "h6", "title_color": "#B5A8F0", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 14 }, "typography_font_weight": "800", "typography_letter_spacing": { "unit": "px", "size": 1.2 }, "_margin": { "unit": "px", "top": "30", "right": "0", "bottom": "0", "left": "0", "isLinked": false } }, "elements": [] },
+            { "id": "pph2_09", "elType": "widget", "widgetType": "heading", "settings": { "title": "隱私權政策修訂", "header_size": "h2", "title_color": "#FFFFFF", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 28 }, "typography_font_weight": "700" }, "elements": [] },
+            { "id": "pptx_09", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>本網站保留隨時修改、更新或調整本隱私權政策內容之權利，且無須另行通知。</p><p>更新後之內容將公布於本頁面，使用者於政策更新後持續使用本網站，即視為同意最新版本之隱私權政策內容。</p>", "text_color": "#C3CAD8", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 16 }, "typography_line_height": { "unit": "em", "size": 1.9 } }, "elements": [] },
+
+            { "id": "ppnum10", "elType": "widget", "widgetType": "heading", "settings": { "title": "10", "header_size": "h6", "title_color": "#B5A8F0", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 14 }, "typography_font_weight": "800", "typography_letter_spacing": { "unit": "px", "size": 1.2 }, "_margin": { "unit": "px", "top": "30", "right": "0", "bottom": "0", "left": "0", "isLinked": false } }, "elements": [] },
+            { "id": "pph2_10", "elType": "widget", "widgetType": "heading", "settings": { "title": "聯絡我們", "header_size": "h2", "title_color": "#FFFFFF", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 28 }, "typography_font_weight": "700" }, "elements": [] },
+            { "id": "pptx_10", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>若您對本隱私權政策有任何疑問，歡迎透過本網站聯絡頁面與我們聯繫。</p>", "text_color": "#C3CAD8", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 16 }, "typography_line_height": { "unit": "em", "size": 1.9 } }, "elements": [] }
+          ]
+        },
+        {
+          "id": "ppcolR",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": 30
+          },
+          "elements": [
+            {
+              "id": "pptoc01",
+              "elType": "widget",
+              "widgetType": "table-of-contents",
+              "settings": {
+                "title": "本頁目錄",
+                "headings_by_tags": ["h2"],
+                "marker_view": "numbers",
+                "min_height": { "unit": "px", "size": 0 },
+                "header_color": "#F4F7FF",
+                "box_background_color_background": "classic",
+                "box_background_color_color": "#161922",
+                "box_border_color": "#2E3444",
+                "box_border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                "box_padding": { "unit": "px", "top": "8", "right": "8", "bottom": "12", "left": "8", "isLinked": false },
+                "list_text_color": "#A9B1C2",
+                "list_text_color_hover": "#F4F7FF",
+                "list_text_color_active": "#DEF243",
+                "marker_color": "#8F98AC",
+                "marker_color_active": "#DEF243",
+                "list_typography_typography": "custom",
+                "list_typography_font_size": { "unit": "px", "size": 14 },
+                "sticky": "top",
+                "sticky_offset": 92,
+                "sticky_parent": "yes",
+                "sticky_on": ["desktop"],
+                "custom_css": "selector .elementor-toc__list-item{font-size:14px!important;line-height:1.5!important;margin-bottom:2px!important;}selector a.elementor-toc__list-item-text{padding:8px 10px!important;text-decoration:none!important;border-left:2px solid transparent;transition:color .15s,background .15s,border-color .15s;}selector a.elementor-toc__list-item-text:hover{color:#F4F7FF!important;background:rgba(118,86,215,.10);border-left-color:#7656D7;text-decoration:none!important;}selector .elementor-toc__list-item.elementor-item-active a.elementor-toc__list-item-text,selector li.elementor-item-active a.elementor-toc__list-item-text{color:#DEF243!important;border-left-color:#DEF243!important;background:rgba(222,242,67,.06)!important;}"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ppseccta",
+      "elType": "section",
+      "settings": {
+        "content_width": { "unit": "px", "size": 1240 },
+        "padding": { "unit": "px", "top": "0", "right": "20", "bottom": "0", "left": "20", "isLinked": false },
+        "margin": { "unit": "px", "top": "30", "right": "0", "bottom": "40", "left": "0", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "ppcolcta",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "background_background": "gradient",
+            "background_color": "#241B52",
+            "background_color_b": "#15131F",
+            "background_gradient_angle": { "unit": "deg", "size": 150 },
+            "border_border": "solid",
+            "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+            "border_color": "rgba(159,168,240,0.28)",
+            "padding": { "unit": "px", "top": "44", "right": "40", "bottom": "44", "left": "40", "isLinked": false }
+          },
+          "elements": [
+            { "id": "ppctaeb", "elType": "widget", "widgetType": "heading", "settings": { "title": "安心瀏覽", "header_size": "h6", "title_color": "#DEF243", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 13 }, "typography_font_weight": "700", "typography_letter_spacing": { "unit": "px", "size": 1.5 } }, "elements": [] },
+            { "id": "ppctah", "elType": "widget", "widgetType": "heading", "settings": { "title": "了解我們如何保護你，接著繼續探索娛樂城資訊", "header_size": "h3", "title_color": "#FFFFFF", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 27 }, "typography_font_weight": "700" }, "elements": [] },
+            { "id": "ppctad", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>在尊重隱私與資料安全的前提下，你可以放心瀏覽站內的平台評測、優惠整理與新手教學內容。建議了解規則後再依自身狀況理性評估</p>", "text_color": "#A9B1C2", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 16 }, "typography_line_height": { "unit": "em", "size": 1.75 } }, "elements": [] },
+            {
+              "id": "ppctainner", "elType": "section", "isInner": true,
+              "settings": { "gap": "no", "padding": { "unit": "px", "top": "18", "right": "0", "bottom": "0", "left": "0", "isLinked": false } },
+              "elements": [
+                {
+                  "id": "ppctabtncol", "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "custom_css": "selector .elementor-widget-wrap{display:flex;flex-direction:row;flex-wrap:wrap;gap:14px;align-items:flex-start;}selector .elementor-widget-wrap > .elementor-widget{width:auto!important;max-width:100%;}"
+                  },
+                  "elements": [
+                    { "id": "ppctabtn1", "elType": "widget", "widgetType": "button", "settings": { "text": "查看娛樂城排行榜", "link": { "url": "https://slbrox.com.tw/%e7%b7%9a%e4%b8%8a%e5%a8%9b%e6%a8%82%e5%9f%8e%e6%8e%92%e8%a1%8c%e6%a6%9c/", "is_external": "", "nofollow": "" }, "align": "left", "background_color": "#DEF243", "button_text_color": "#1B1C1C", "border_radius": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true }, "typography_typography": "custom", "typography_font_weight": "700" }, "elements": [] },
+                    { "id": "ppctabtn2", "elType": "widget", "widgetType": "button", "settings": { "text": "前往娛樂城攻略", "link": { "url": "https://slbrox.com.tw/%e5%a8%9b%e6%a8%82%e5%9f%8e%e6%94%bb%e7%95%a5/", "is_external": "", "nofollow": "" }, "align": "left", "background_color": "rgba(255,255,255,0)", "button_text_color": "#FFFFFF", "border_border": "solid", "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true }, "border_color": "rgba(255,255,255,0.45)", "border_radius": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true }, "typography_typography": "custom", "typography_font_weight": "700" }, "elements": [] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
