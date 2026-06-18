@@ -1,0 +1,4388 @@
+{
+  "version": "0.4",
+  "title": "桌上遊戲推薦",
+  "type": "page",
+  "page_settings": {
+    "background_background": "classic",
+    "background_color": "#0F1115"
+  },
+  "content": [
+    {
+      "id": "tghero",
+      "elType": "section",
+      "settings": {
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding": {
+          "unit": "px",
+          "top": "64",
+          "right": "20",
+          "bottom": "64",
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "gradient",
+        "background_color": "#7656D7",
+        "background_color_b": "#16153C",
+        "background_gradient_type": "radial",
+        "background_gradient_position": "center bottom",
+        "margin": {
+          "unit": "px",
+          "top": "16",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": "1",
+          "right": "1",
+          "bottom": "1",
+          "left": "1",
+          "isLinked": true
+        },
+        "border_color": "rgba(159,168,240,0.28)",
+        "custom_css": "@media(max-width:767px){selector{padding-top:48px;padding-bottom:40px;text-align:center;min-height:520px;display:flex;align-items:flex-start;}}"
+      },
+      "elements": [
+        {
+          "id": "tgc3",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": 100
+          },
+          "elements": [
+            {
+              "id": "tgh1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "桌上遊戲推薦｜輪盤、21點、骰寶與撲克遊戲排行",
+                "header_size": "h1",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.25
+                },
+                "custom_css": "@media(max-width:767px){selector .elementor-heading-title{font-size:22px;line-height:1.25;text-align:center;}}"
+              },
+              "elements": []
+            },
+            {
+              "id": "tgt2",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>整理熱門賭場桌上遊戲類型，包含輪盤、21點Blackjack、骰寶與撲克遊戲，快速比較各類經典桌上遊戲特色與熱門推薦排行</p>",
+                "text_color": "#E8ECF5",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "custom_css": "@media(max-width:767px){selector{font-size:12px;line-height:1.8;text-align:center;max-width:none;margin-left:auto;margin-right:auto;}}"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tgs7",
+      "elType": "section",
+      "settings": {
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding": {
+          "unit": "px",
+          "top": "40",
+          "right": "20",
+          "bottom": "0",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "tgc6",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": 100,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "40",
+              "bottom": "0",
+              "left": "40",
+              "isLinked": false
+            },
+            "custom_css": "@media(max-width:767px){selector{padding-left:0!important;padding-right:0!important;}}"
+          },
+          "elements": [
+            {
+              "id": "tgt4",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>桌上遊戲是娛樂城中最經典的遊戲分類之一，主要包含輪盤、21點Blackjack、骰寶、撲克遊戲與其他賭場桌面玩法。相較於老虎機，桌上遊戲更重視規則理解、下注選擇與策略判斷，適合喜歡經典賭場玩法與機率遊戲的玩家</p>",
+                "text_color": "#C3CAD8",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.85
+                },
+                "align": "center"
+              },
+              "elements": []
+            },
+            {
+              "id": "tgt5",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>本頁整理熱門娛樂城桌上遊戲分類，並預留各類型熱門遊戲推薦排行區塊，協助玩家快速了解不同桌上遊戲的特色、節奏與適合族群</p>",
+                "text_color": "#C3CAD8",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.85
+                },
+                "align": "center",
+                "_margin": {
+                  "unit": "px",
+                  "top": "14",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tgsk",
+      "elType": "section",
+      "settings": {
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding": {
+          "unit": "px",
+          "top": "54",
+          "right": "20",
+          "bottom": "54",
+          "left": "20",
+          "isLinked": false
+        },
+        "custom_css": "@media(max-width:767px){selector{padding-top:84px;padding-bottom:54px;}}"
+      },
+      "elements": [
+        {
+          "id": "tgcj",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": 100
+          },
+          "elements": [
+            {
+              "id": "tgh8",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "熱門桌上遊戲分類排行",
+                "header_size": "h2",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.25
+                },
+                "align": "center",
+                "custom_css": "@media(max-width:767px){selector .elementor-heading-title{font-size:25px;line-height:1.3;}}"
+              },
+              "elements": []
+            },
+            {
+              "id": "tgt9",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>娛樂城桌上遊戲種類多元，不同遊戲的玩法規則、節奏與難易度都不一樣。以下整理目前常見的賭場桌上遊戲分類，包含輪盤、21點、骰寶與撲克遊戲，並提供熱門遊戲推薦排行，幫助玩家快速找到適合自己的遊戲類型</p>",
+                "text_color": "#A9B1C2",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "14",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "align": "center"
+              },
+              "elements": []
+            },
+            {
+              "id": "tgisi",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "gap": "wide",
+                "_margin": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "id": "tgcb",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 25,
+                    "_column_size_mobile": 50,
+                    "_inline_size": 25,
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#2E3444",
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "18",
+                      "bottom": "22",
+                      "left": "18",
+                      "isLinked": false
+                    },
+                    "custom_css": "@media(max-width:767px){selector{padding:18px 14px!important;}}"
+                  },
+                  "elements": [
+                    {
+                      "id": "tgibxa",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-life-ring",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "輪盤",
+                        "description_text": "下注方式多元，最具代表性的桌上遊戲",
+                        "link": {
+                          "url": "#roulette",
+                          "is_external": "",
+                          "nofollow": ""
+                        },
+                        "position": "top",
+                        "primary_color": "#B5A8F0",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 24
+                        },
+                        "title_color": "#FFFFFF",
+                        "description_color": "#A9B1C2",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "title_typography_font_weight": "700",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "description_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "tgcd",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 25,
+                    "_column_size_mobile": 50,
+                    "_inline_size": 25,
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#2E3444",
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "18",
+                      "bottom": "22",
+                      "left": "18",
+                      "isLinked": false
+                    },
+                    "custom_css": "@media(max-width:767px){selector{padding:18px 14px!important;}}"
+                  },
+                  "elements": [
+                    {
+                      "id": "tgibxc",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-layer-group",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "21點",
+                        "description_text": "重視判斷與策略的經典控牌玩法",
+                        "link": {
+                          "url": "#blackjack",
+                          "is_external": "",
+                          "nofollow": ""
+                        },
+                        "position": "top",
+                        "primary_color": "#B5A8F0",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 24
+                        },
+                        "title_color": "#FFFFFF",
+                        "description_color": "#A9B1C2",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "title_typography_font_weight": "700",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "description_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "tgcf",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 25,
+                    "_column_size_mobile": 50,
+                    "_inline_size": 25,
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#2E3444",
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "18",
+                      "bottom": "22",
+                      "left": "18",
+                      "isLinked": false
+                    },
+                    "custom_css": "@media(max-width:767px){selector{padding:18px 14px!important;}}"
+                  },
+                  "elements": [
+                    {
+                      "id": "tgibxe",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-clone",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "撲克遊戲",
+                        "description_text": "牌型策略玩法，最具策略感的分類",
+                        "link": {
+                          "url": "#poker",
+                          "is_external": "",
+                          "nofollow": ""
+                        },
+                        "position": "top",
+                        "primary_color": "#B5A8F0",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 24
+                        },
+                        "title_color": "#FFFFFF",
+                        "description_color": "#A9B1C2",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "title_typography_font_weight": "700",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "description_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "tgch",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 25,
+                    "_column_size_mobile": 50,
+                    "_inline_size": 25,
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#2E3444",
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "18",
+                      "bottom": "22",
+                      "left": "18",
+                      "isLinked": false
+                    },
+                    "custom_css": "@media(max-width:767px){selector{padding:18px 14px!important;}}"
+                  },
+                  "elements": [
+                    {
+                      "id": "tgibxg",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-dice",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "骰寶",
+                        "description_text": "三顆骰子決勝負，規則直覺、節奏快速",
+                        "link": {
+                          "url": "#sicbo",
+                          "is_external": "",
+                          "nofollow": ""
+                        },
+                        "position": "top",
+                        "primary_color": "#B5A8F0",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 24
+                        },
+                        "title_color": "#FFFFFF",
+                        "description_color": "#A9B1C2",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "title_typography_font_weight": "700",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "description_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tgsec_roulette",
+      "elType": "section",
+      "settings": {
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding": {
+          "unit": "px",
+          "top": "54",
+          "right": "20",
+          "bottom": "54",
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#0F1115",
+        "_element_id": "roulette"
+      },
+      "elements": [
+        {
+          "id": "tgc13",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": 100
+          },
+          "elements": [
+            {
+              "id": "tgh10",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "輪盤推薦排行",
+                "header_size": "h2",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.25
+                },
+                "custom_css": "@media(max-width:767px){selector .elementor-heading-title{font-size:25px;line-height:1.3;}}"
+              },
+              "elements": []
+            },
+            {
+              "id": "tgt11",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>輪盤是搜尋量最高、最具代表性的經典桌上遊戲之一。玩家可依照號碼、顏色、單雙、大小、區域等不同方式下注，玩法選擇多元，適合喜歡機率變化與多種下注策略的玩家</p>",
+                "text_color": "#A9B1C2",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "14",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "tgis12",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "gap": "wide",
+                "_margin": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "custom_css": "selector > .elementor-container > .elementor-column{overflow:hidden;}selector .elementor-widget-image .elementor-widget-container{display:flex;align-items:center;justify-content:center;min-height:220px;padding:16px;background:linear-gradient(150deg,#1A1740 0%,#241A52 52%,#16153C 100%);overflow:hidden;margin:-18px -18px 14px;}selector .elementor-widget-image img{max-width:100%;max-height:188px;width:auto;height:auto;}selector .elementor-widget-heading h6.elementor-heading-title{display:inline-flex;background:rgba(15,17,21,.72);border:1px solid rgba(159,168,240,.3);padding:4px 10px;border-radius:999px;color:#B5A8F0;}selector .elementor-widget-button .elementor-button{min-height:38px;transition:transform .15s ease,background-color .15s ease;}selector .elementor-widget-button .elementor-button:hover{transform:translateY(-2px);background-color:#E8FB5E;}@media(max-width:767px){selector > .elementor-container > .elementor-column{width:100%!important;}selector .elementor-widget-image .elementor-widget-container{min-height:210px;}}"
+              },
+              "elements": [
+                {
+                  "id": "tgcp",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "_inline_size": 33,
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#2E3444",
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "18",
+                      "bottom": "22",
+                      "left": "18",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "tgimgl",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "",
+                          "id": ""
+                        },
+                        "image_size": "full",
+                        "_border_border": "solid",
+                        "_border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "_border_color": "#2E3444"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tghm",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Stake",
+                        "header_size": "h6",
+                        "title_color": "#B5A8F0",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "typography_font_weight": "800",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1.2
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tghn",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Stake Roulette",
+                        "header_size": "h3",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 18
+                        },
+                        "typography_font_weight": "700",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "4",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgbo",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "前往試玩",
+                        "link": {
+                          "url": "https://stake.com/zh/casino/games/onetouch-roulette",
+                          "is_external": "true",
+                          "nofollow": ""
+                        },
+                        "align": "stretch",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_weight": "700",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "background_color": "#DEF243",
+                        "button_text_color": "#1B1C1C"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "tgcu",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "_inline_size": 33,
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#2E3444",
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "18",
+                      "bottom": "22",
+                      "left": "18",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "tgimgq",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "",
+                          "id": ""
+                        },
+                        "image_size": "full",
+                        "_border_border": "solid",
+                        "_border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "_border_color": "#2E3444"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tghr",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Rainbet",
+                        "header_size": "h6",
+                        "title_color": "#B5A8F0",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "typography_font_weight": "800",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1.2
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tghs",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Royal Roulette 500X",
+                        "header_size": "h3",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 18
+                        },
+                        "typography_font_weight": "700",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "4",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgbt",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "前往試玩",
+                        "link": {
+                          "url": "https://rainbet.com/zh/casino/slots/bgaming-royal-roulette-500x",
+                          "is_external": "true",
+                          "nofollow": ""
+                        },
+                        "align": "stretch",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_weight": "700",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "background_color": "#DEF243",
+                        "button_text_color": "#1B1C1C"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "tgcz",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "_inline_size": 33,
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#2E3444",
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "18",
+                      "bottom": "22",
+                      "left": "18",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "tgimgv",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "",
+                          "id": ""
+                        },
+                        "image_size": "full",
+                        "_border_border": "solid",
+                        "_border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "_border_color": "#2E3444"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tghw",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Shuffle",
+                        "header_size": "h6",
+                        "title_color": "#B5A8F0",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "typography_font_weight": "800",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1.2
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tghx",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Shuffle Roulette",
+                        "header_size": "h3",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 18
+                        },
+                        "typography_font_weight": "700",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "4",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgby",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "前往試玩",
+                        "link": {
+                          "url": "https://shuffle.com/zh/games/originals/roulette",
+                          "is_external": "true",
+                          "nofollow": ""
+                        },
+                        "align": "stretch",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_weight": "700",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "background_color": "#DEF243",
+                        "button_text_color": "#1B1C1C"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tgsec_blackjack",
+      "elType": "section",
+      "settings": {
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding": {
+          "unit": "px",
+          "top": "54",
+          "right": "20",
+          "bottom": "54",
+          "left": "20",
+          "isLinked": false
+        },
+        "_element_id": "blackjack"
+      },
+      "elements": [
+        {
+          "id": "tgc1m",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": 100
+          },
+          "elements": [
+            {
+              "id": "tgh1j",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "21點 / Blackjack 推薦排行",
+                "header_size": "h2",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.25
+                },
+                "custom_css": "@media(max-width:767px){selector .elementor-heading-title{font-size:25px;line-height:1.3;}}"
+              },
+              "elements": []
+            },
+            {
+              "id": "tgt1k",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>21點又稱Blackjack，是非常經典的賭場桌上遊戲。玩家需要讓手牌點數盡量接近21點，同時避免爆牌。相較於輪盤與骰寶，21點更重視判斷與策略，適合喜歡思考、控牌與策略玩法的玩家</p>",
+                "text_color": "#A9B1C2",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "14",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "tgis1l",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "gap": "wide",
+                "_margin": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "custom_css": "selector > .elementor-container > .elementor-column{overflow:hidden;}selector .elementor-widget-image .elementor-widget-container{display:flex;align-items:center;justify-content:center;min-height:220px;padding:16px;background:linear-gradient(150deg,#1A1740 0%,#241A52 52%,#16153C 100%);overflow:hidden;margin:-18px -18px 14px;}selector .elementor-widget-image img{max-width:100%;max-height:188px;width:auto;height:auto;}selector .elementor-widget-heading h6.elementor-heading-title{display:inline-flex;background:rgba(15,17,21,.72);border:1px solid rgba(159,168,240,.3);padding:4px 10px;border-radius:999px;color:#B5A8F0;}selector .elementor-widget-button .elementor-button{min-height:38px;transition:transform .15s ease,background-color .15s ease;}selector .elementor-widget-button .elementor-button:hover{transform:translateY(-2px);background-color:#E8FB5E;}@media(max-width:767px){selector > .elementor-container > .elementor-column{width:100%!important;}selector .elementor-widget-image .elementor-widget-container{min-height:210px;}}"
+              },
+              "elements": [
+                {
+                  "id": "tgc18",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "_inline_size": 33,
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#2E3444",
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "18",
+                      "bottom": "22",
+                      "left": "18",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "tgimg14",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "",
+                          "id": ""
+                        },
+                        "image_size": "full",
+                        "_border_border": "solid",
+                        "_border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "_border_color": "#2E3444"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgh15",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Stake",
+                        "header_size": "h6",
+                        "title_color": "#B5A8F0",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "typography_font_weight": "800",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1.2
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgh16",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Stake Blackjack",
+                        "header_size": "h3",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 18
+                        },
+                        "typography_font_weight": "700",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "4",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgb17",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "前往試玩",
+                        "link": {
+                          "url": "https://stake.com/zh/casino/games/onetouch-blackjack",
+                          "is_external": "true",
+                          "nofollow": ""
+                        },
+                        "align": "stretch",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_weight": "700",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "background_color": "#DEF243",
+                        "button_text_color": "#1B1C1C"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "tgc1d",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "_inline_size": 33,
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#2E3444",
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "18",
+                      "bottom": "22",
+                      "left": "18",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "tgimg19",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "",
+                          "id": ""
+                        },
+                        "image_size": "full",
+                        "_border_border": "solid",
+                        "_border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "_border_color": "#2E3444"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgh1a",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Rainbet",
+                        "header_size": "h6",
+                        "title_color": "#B5A8F0",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "typography_font_weight": "800",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1.2
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgh1b",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Rainbet Blackjack",
+                        "header_size": "h3",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 18
+                        },
+                        "typography_font_weight": "700",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "4",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgb1c",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "前往試玩",
+                        "link": {
+                          "url": "https://rainbet.com/zh/casino/originals/blackjack",
+                          "is_external": "true",
+                          "nofollow": ""
+                        },
+                        "align": "stretch",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_weight": "700",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "background_color": "#DEF243",
+                        "button_text_color": "#1B1C1C"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "tgc1i",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "_inline_size": 33,
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#2E3444",
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "18",
+                      "bottom": "22",
+                      "left": "18",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "tgimg1e",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "",
+                          "id": ""
+                        },
+                        "image_size": "full",
+                        "_border_border": "solid",
+                        "_border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "_border_color": "#2E3444"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgh1f",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Shuffle",
+                        "header_size": "h6",
+                        "title_color": "#B5A8F0",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "typography_font_weight": "800",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1.2
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgh1g",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Shuffle Blackjack",
+                        "header_size": "h3",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 18
+                        },
+                        "typography_font_weight": "700",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "4",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgb1h",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "前往試玩",
+                        "link": {
+                          "url": "https://shuffle.com/zh/games/originals/blackjack",
+                          "is_external": "true",
+                          "nofollow": ""
+                        },
+                        "align": "stretch",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_weight": "700",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "background_color": "#DEF243",
+                        "button_text_color": "#1B1C1C"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tgsec_poker",
+      "elType": "section",
+      "settings": {
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding": {
+          "unit": "px",
+          "top": "54",
+          "right": "20",
+          "bottom": "54",
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#0F1115",
+        "_element_id": "poker"
+      },
+      "elements": [
+        {
+          "id": "tgc2a",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": 100
+          },
+          "elements": [
+            {
+              "id": "tgh27",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "撲克遊戲推薦排行",
+                "header_size": "h2",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.25
+                },
+                "custom_css": "@media(max-width:767px){selector .elementor-heading-title{font-size:25px;line-height:1.3;}}"
+              },
+              "elements": []
+            },
+            {
+              "id": "tgt28",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>撲克遊戲是桌上遊戲中最具策略感的分類之一，常見類型包含Stake Poker、Video Poker、Poker 1000、Double Poker等不同玩法。相較於多人德州撲克，娛樂城中的撲克遊戲通常更偏向快速節奏、牌型判斷與單人娛樂體驗，適合喜歡撲克牌型與策略判斷的玩家</p>",
+                "text_color": "#A9B1C2",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "14",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "tgis29",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "gap": "wide",
+                "_margin": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "custom_css": "selector > .elementor-container > .elementor-column{overflow:hidden;}selector .elementor-widget-image .elementor-widget-container{display:flex;align-items:center;justify-content:center;min-height:220px;padding:16px;background:linear-gradient(150deg,#1A1740 0%,#241A52 52%,#16153C 100%);overflow:hidden;margin:-18px -18px 14px;}selector .elementor-widget-image img{max-width:100%;max-height:188px;width:auto;height:auto;}selector .elementor-widget-heading h6.elementor-heading-title{display:inline-flex;background:rgba(15,17,21,.72);border:1px solid rgba(159,168,240,.3);padding:4px 10px;border-radius:999px;color:#B5A8F0;}selector .elementor-widget-button .elementor-button{min-height:38px;transition:transform .15s ease,background-color .15s ease;}selector .elementor-widget-button .elementor-button:hover{transform:translateY(-2px);background-color:#E8FB5E;}@media(max-width:767px){selector > .elementor-container > .elementor-column{width:100%!important;}selector .elementor-widget-image .elementor-widget-container{min-height:210px;}}"
+              },
+              "elements": [
+                {
+                  "id": "tgc1r",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 25,
+                    "_inline_size": 25,
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#2E3444",
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "18",
+                      "bottom": "22",
+                      "left": "18",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "tgimg1n",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "",
+                          "id": ""
+                        },
+                        "image_size": "full",
+                        "_border_border": "solid",
+                        "_border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "_border_color": "#2E3444"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgh1o",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Stake",
+                        "header_size": "h6",
+                        "title_color": "#B5A8F0",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "typography_font_weight": "800",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1.2
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgh1p",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "無限注德州撲克",
+                        "header_size": "h3",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 18
+                        },
+                        "typography_font_weight": "700",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "4",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgb1q",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "前往試玩",
+                        "link": {
+                          "url": "https://stake.com/zh/casino/games/poker",
+                          "is_external": "true",
+                          "nofollow": ""
+                        },
+                        "align": "stretch",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_weight": "700",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "background_color": "#DEF243",
+                        "button_text_color": "#1B1C1C"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "tgc1w",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 25,
+                    "_inline_size": 25,
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#2E3444",
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "18",
+                      "bottom": "22",
+                      "left": "18",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "tgimg1s",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "",
+                          "id": ""
+                        },
+                        "image_size": "full",
+                        "_border_border": "solid",
+                        "_border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "_border_color": "#2E3444"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgh1t",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Stake",
+                        "header_size": "h6",
+                        "title_color": "#B5A8F0",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "typography_font_weight": "800",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1.2
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgh1u",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Video Poker",
+                        "header_size": "h3",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 18
+                        },
+                        "typography_font_weight": "700",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "4",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgb1v",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "前往試玩",
+                        "link": {
+                          "url": "https://stake.com/zh/casino/games/video-poker",
+                          "is_external": "true",
+                          "nofollow": ""
+                        },
+                        "align": "stretch",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_weight": "700",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "background_color": "#DEF243",
+                        "button_text_color": "#1B1C1C"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "tgc21",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 25,
+                    "_inline_size": 25,
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#2E3444",
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "18",
+                      "bottom": "22",
+                      "left": "18",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "tgimg1x",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "",
+                          "id": ""
+                        },
+                        "image_size": "full",
+                        "_border_border": "solid",
+                        "_border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "_border_color": "#2E3444"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgh1y",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Rainbet",
+                        "header_size": "h6",
+                        "title_color": "#B5A8F0",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "typography_font_weight": "800",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1.2
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgh1z",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Hold'em Poker",
+                        "header_size": "h3",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 18
+                        },
+                        "typography_font_weight": "700",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "4",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgb20",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "前往試玩",
+                        "link": {
+                          "url": "https://rainbet.com/zh/casino/slots/onetouch-holdem-poker",
+                          "is_external": "true",
+                          "nofollow": ""
+                        },
+                        "align": "stretch",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_weight": "700",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "background_color": "#DEF243",
+                        "button_text_color": "#1B1C1C"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "tgc26",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 25,
+                    "_inline_size": 25,
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#2E3444",
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "18",
+                      "bottom": "22",
+                      "left": "18",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "tgimg22",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "",
+                          "id": ""
+                        },
+                        "image_size": "full",
+                        "_border_border": "solid",
+                        "_border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "_border_color": "#2E3444"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgh23",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Shuffle",
+                        "header_size": "h6",
+                        "title_color": "#B5A8F0",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "typography_font_weight": "800",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1.2
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgh24",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Joker Poker",
+                        "header_size": "h3",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 18
+                        },
+                        "typography_font_weight": "700",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "4",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgb25",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "前往試玩",
+                        "link": {
+                          "url": "https://shuffle.com/zh/games/voltent-joker-poker",
+                          "is_external": "true",
+                          "nofollow": ""
+                        },
+                        "align": "stretch",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_weight": "700",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "background_color": "#DEF243",
+                        "button_text_color": "#1B1C1C"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tgsec_sicbo",
+      "elType": "section",
+      "settings": {
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding": {
+          "unit": "px",
+          "top": "54",
+          "right": "20",
+          "bottom": "54",
+          "left": "20",
+          "isLinked": false
+        },
+        "_element_id": "sicbo"
+      },
+      "elements": [
+        {
+          "id": "tgc2t",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": 100
+          },
+          "elements": [
+            {
+              "id": "tgh2q",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "骰寶推薦排行",
+                "header_size": "h2",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.25
+                },
+                "custom_css": "@media(max-width:767px){selector .elementor-heading-title{font-size:25px;line-height:1.3;}}"
+              },
+              "elements": []
+            },
+            {
+              "id": "tgt2r",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>骰寶是以三顆骰子結果決定勝負的經典桌上遊戲，玩家可選擇大小、單雙、點數組合與特定骰子結果等不同玩法。骰寶規則直覺、節奏快速，適合喜歡簡單刺激玩法的新手與休閒玩家</p>",
+                "text_color": "#A9B1C2",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "14",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "tgis2s",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "gap": "wide",
+                "_margin": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "custom_css": "selector > .elementor-container > .elementor-column{overflow:hidden;}selector .elementor-widget-image .elementor-widget-container{display:flex;align-items:center;justify-content:center;min-height:220px;padding:16px;background:linear-gradient(150deg,#1A1740 0%,#241A52 52%,#16153C 100%);overflow:hidden;margin:-18px -18px 14px;}selector .elementor-widget-image img{max-width:100%;max-height:188px;width:auto;height:auto;}selector .elementor-widget-heading h6.elementor-heading-title{display:inline-flex;background:rgba(15,17,21,.72);border:1px solid rgba(159,168,240,.3);padding:4px 10px;border-radius:999px;color:#B5A8F0;}selector .elementor-widget-button .elementor-button{min-height:38px;transition:transform .15s ease,background-color .15s ease;}selector .elementor-widget-button .elementor-button:hover{transform:translateY(-2px);background-color:#E8FB5E;}@media(max-width:767px){selector > .elementor-container > .elementor-column{width:100%!important;}selector .elementor-widget-image .elementor-widget-container{min-height:210px;}}"
+              },
+              "elements": [
+                {
+                  "id": "tgc2f",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "_inline_size": 33,
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#2E3444",
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "18",
+                      "bottom": "22",
+                      "left": "18",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "tgimg2b",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "",
+                          "id": ""
+                        },
+                        "image_size": "full",
+                        "_border_border": "solid",
+                        "_border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "_border_color": "#2E3444"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgh2c",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Stake",
+                        "header_size": "h6",
+                        "title_color": "#B5A8F0",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "typography_font_weight": "800",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1.2
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgh2d",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Mega Sic Bo",
+                        "header_size": "h3",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 18
+                        },
+                        "typography_font_weight": "700",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "4",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgb2e",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "前往試玩",
+                        "link": {
+                          "url": "https://stake.com/zh/casino/games/pragmatic-play-live-mega-sic-bo",
+                          "is_external": "true",
+                          "nofollow": ""
+                        },
+                        "align": "stretch",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_weight": "700",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "background_color": "#DEF243",
+                        "button_text_color": "#1B1C1C"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "tgc2k",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "_inline_size": 33,
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#2E3444",
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "18",
+                      "bottom": "22",
+                      "left": "18",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "tgimg2g",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "",
+                          "id": ""
+                        },
+                        "image_size": "full",
+                        "_border_border": "solid",
+                        "_border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "_border_color": "#2E3444"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgh2h",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Shuffle",
+                        "header_size": "h6",
+                        "title_color": "#B5A8F0",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "typography_font_weight": "800",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1.2
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgh2i",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Sic Bo Dragons",
+                        "header_size": "h3",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 18
+                        },
+                        "typography_font_weight": "700",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "4",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgb2j",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "前往試玩",
+                        "link": {
+                          "url": "https://shuffle.com/zh/games/voltent-sic-bo-dragons",
+                          "is_external": "true",
+                          "nofollow": ""
+                        },
+                        "align": "stretch",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_weight": "700",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "background_color": "#DEF243",
+                        "button_text_color": "#1B1C1C"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "tgc2p",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "_inline_size": 33,
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#2E3444",
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "18",
+                      "bottom": "22",
+                      "left": "18",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "tgimg2l",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "",
+                          "id": ""
+                        },
+                        "image_size": "full",
+                        "_border_border": "solid",
+                        "_border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "_border_color": "#2E3444"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgh2m",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Shuffle",
+                        "header_size": "h6",
+                        "title_color": "#B5A8F0",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "typography_font_weight": "800",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1.2
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgh2n",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Shuffle Sic Bo",
+                        "header_size": "h3",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 18
+                        },
+                        "typography_font_weight": "700",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "4",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgb2o",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "前往試玩",
+                        "link": {
+                          "url": "https://shuffle.com/zh/games/one-touch-ont-sicbo",
+                          "is_external": "true",
+                          "nofollow": ""
+                        },
+                        "align": "stretch",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_weight": "700",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "background_color": "#DEF243",
+                        "button_text_color": "#1B1C1C"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tgs36",
+      "elType": "section",
+      "settings": {
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding": {
+          "unit": "px",
+          "top": "54",
+          "right": "20",
+          "bottom": "54",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "tgc35",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": 100
+          },
+          "elements": [
+            {
+              "id": "tgh2u",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "桌上遊戲適合哪些玩家？",
+                "header_size": "h2",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.25
+                },
+                "custom_css": "@media(max-width:767px){selector .elementor-heading-title{font-size:25px;line-height:1.3;}}"
+              },
+              "elements": []
+            },
+            {
+              "id": "tgt2v",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>桌上遊戲適合喜歡經典賭場玩法、規則判斷與機率遊戲的玩家。不同桌上遊戲適合不同類型玩家，新手可以先從規則簡單的遊戲開始，進階玩家則可選擇更重視策略判斷的玩法</p>",
+                "text_color": "#A9B1C2",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "14",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "tgis34",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "gap": "wide",
+                "_margin": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "custom_css": "@media(max-width:767px){selector > .elementor-container > .elementor-column{width:100%!important;}}"
+              },
+              "elements": [
+                {
+                  "id": "tgc2x",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 25,
+                    "_inline_size": 25,
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#2E3444",
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "18",
+                      "bottom": "22",
+                      "left": "18",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "tgibx2w",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-star",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "新手玩家",
+                        "description_text": "新手玩家可以先從輪盤或骰寶開始，這類遊戲規則直覺，較容易快速理解基本玩法",
+                        "position": "top",
+                        "primary_color": "#B5A8F0",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 24
+                        },
+                        "title_color": "#FFFFFF",
+                        "description_color": "#A9B1C2",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "title_typography_font_weight": "700",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "description_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.7
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "tgc2z",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 25,
+                    "_inline_size": 25,
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#2E3444",
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "18",
+                      "bottom": "22",
+                      "left": "18",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "tgibx2y",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-chess",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "喜歡策略的玩家",
+                        "description_text": "喜歡策略判斷的玩家可以選擇21點Blackjack或撲克遊戲，這類玩法需要更多判斷與牌型理解",
+                        "position": "top",
+                        "primary_color": "#B5A8F0",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 24
+                        },
+                        "title_color": "#FFFFFF",
+                        "description_color": "#A9B1C2",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "title_typography_font_weight": "700",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "description_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.7
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "tgc31",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 25,
+                    "_inline_size": 25,
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#2E3444",
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "18",
+                      "bottom": "22",
+                      "left": "18",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "tgibx30",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-trophy",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "喜歡經典賭場玩法的玩家",
+                        "description_text": "輪盤、21點、骰寶與撲克遊戲都是經典賭場桌上遊戲，適合想體驗傳統娛樂城玩法的玩家",
+                        "position": "top",
+                        "primary_color": "#B5A8F0",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 24
+                        },
+                        "title_color": "#FFFFFF",
+                        "description_color": "#A9B1C2",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "title_typography_font_weight": "700",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "description_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.7
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "tgc33",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 25,
+                    "_inline_size": 25,
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#2E3444",
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "18",
+                      "bottom": "22",
+                      "left": "18",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "tgibx32",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-bolt",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "喜歡快速節奏的玩家",
+                        "description_text": "骰寶與部分輪盤玩法節奏較快，適合想快速完成一局遊戲的玩家",
+                        "position": "top",
+                        "primary_color": "#B5A8F0",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 24
+                        },
+                        "title_color": "#FFFFFF",
+                        "description_color": "#A9B1C2",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "title_typography_font_weight": "700",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "description_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.7
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tgs3j",
+      "elType": "section",
+      "settings": {
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding": {
+          "unit": "px",
+          "top": "54",
+          "right": "20",
+          "bottom": "54",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "tgc3i",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": 100
+          },
+          "elements": [
+            {
+              "id": "tgh37",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "如何選擇適合自己的桌上遊戲？",
+                "header_size": "h2",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.25
+                },
+                "custom_css": "@media(max-width:767px){selector .elementor-heading-title{font-size:25px;line-height:1.3;}}"
+              },
+              "elements": []
+            },
+            {
+              "id": "tgt38",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>依照入門難度與玩法偏好選擇對應遊戲，能更快找到合適的桌上遊戲類型</p>",
+                "text_color": "#A9B1C2",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "14",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "tgis3h",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "gap": "wide",
+                "_margin": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "custom_css": "@media(max-width:767px){selector > .elementor-container > .elementor-column{width:100%!important;}}"
+              },
+              "elements": [
+                {
+                  "id": "tgc3c",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": 50,
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#2E3444",
+                    "padding": {
+                      "unit": "px",
+                      "top": "30",
+                      "right": "30",
+                      "bottom": "30",
+                      "left": "30",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "tgh39",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "依入門難度選擇",
+                        "header_size": "h3",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 18
+                        },
+                        "typography_font_weight": "700",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "18",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgibx3a",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-check",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "想要簡單入門選輪盤或骰寶",
+                        "description_text": "輪盤與骰寶規則相對直覺，玩家只需要理解基本下注選項，就能快速開始遊戲，適合剛接觸桌上遊戲的新手玩家",
+                        "position": "left",
+                        "primary_color": "#DEF243",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 15
+                        },
+                        "title_color": "#F4F7FF",
+                        "description_color": "#A9B1C2",
+                        "content_vertical_alignment": "top",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "title_typography_font_weight": "700",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "description_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.7
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "4",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgibx3b",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-check",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "想要策略判斷選21點",
+                        "description_text": "21點Blackjack需要判斷是否要牌、停牌、分牌或加倍，遊戲過程更重視策略選擇，適合喜歡思考玩法的玩家",
+                        "position": "left",
+                        "primary_color": "#DEF243",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 15
+                        },
+                        "title_color": "#F4F7FF",
+                        "description_color": "#A9B1C2",
+                        "content_vertical_alignment": "top",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "title_typography_font_weight": "700",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "description_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.7
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "4",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "tgc3g",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": 50,
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#2E3444",
+                    "padding": {
+                      "unit": "px",
+                      "top": "30",
+                      "right": "30",
+                      "bottom": "30",
+                      "left": "30",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "tgh3d",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "依玩法偏好選擇",
+                        "header_size": "h3",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 18
+                        },
+                        "typography_font_weight": "700",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "18",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgibx3e",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-check",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "想要牌型玩法選撲克遊戲",
+                        "description_text": "撲克遊戲通常圍繞牌型組合、倍率與判斷，適合喜歡撲克牌、牌型比較與策略感的玩家",
+                        "position": "left",
+                        "primary_color": "#DEF243",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 15
+                        },
+                        "title_color": "#F4F7FF",
+                        "description_color": "#A9B1C2",
+                        "content_vertical_alignment": "top",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "title_typography_font_weight": "700",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "description_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.7
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "4",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgibx3f",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-check",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "想嘗試特殊玩法選其他桌上遊戲",
+                        "description_text": "如果已經熟悉輪盤、21點與骰寶，也可以嘗試其他經典桌上遊戲，例如牌九、Bac Bo或特殊撲克類玩法",
+                        "position": "left",
+                        "primary_color": "#DEF243",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 15
+                        },
+                        "title_color": "#F4F7FF",
+                        "description_color": "#A9B1C2",
+                        "content_vertical_alignment": "top",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "title_typography_font_weight": "700",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "description_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.7
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "4",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tgs3r",
+      "elType": "section",
+      "settings": {
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding": {
+          "unit": "px",
+          "top": "54",
+          "right": "20",
+          "bottom": "54",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "tgc3q",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": 100
+          },
+          "elements": [
+            {
+              "id": "tgh3k",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "桌上遊戲和真人娛樂有什麼不同？",
+                "header_size": "h2",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.25
+                },
+                "align": "center",
+                "custom_css": "@media(max-width:767px){selector .elementor-heading-title{font-size:25px;line-height:1.3;}}"
+              },
+              "elements": []
+            },
+            {
+              "id": "tgis3p",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "gap": "no",
+                "_margin": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "id": "tgc3o",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "_inline_size": 100,
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "3",
+                      "isLinked": false
+                    },
+                    "border_color": "#7656D7",
+                    "padding": {
+                      "unit": "px",
+                      "top": "30",
+                      "right": "32",
+                      "bottom": "30",
+                      "left": "32",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "tgt3l",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>桌上遊戲指的是賭場中常見的經典桌面玩法，例如輪盤、21點、骰寶與撲克遊戲；真人娛樂則通常是透過真人荷官直播進行的遊戲形式</p>",
+                        "text_color": "#A9B1C2",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.85
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgt3m",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>兩者可能會有重疊，例如輪盤、21點、骰寶都可能同時有一般電子版與真人荷官版。簡單來說，桌上遊戲強調遊戲類型與玩法本身，而真人娛樂則更強調真人直播、荷官互動與現場氛圍</p>",
+                        "text_color": "#A9B1C2",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.85
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "tgt3n",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>如果玩家想了解真人荷官直播版本，可以前往<a href=\"#\" style=\"color:#B5A8F0;font-weight:700\">真人娛樂推薦</a>頁；如果想先了解經典賭場桌上遊戲分類，則可以從本頁開始</p>",
+                        "text_color": "#A9B1C2",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.85
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tgs45",
+      "elType": "section",
+      "settings": {
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding": {
+          "unit": "px",
+          "top": "54",
+          "right": "20",
+          "bottom": "54",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "tgc44",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": 100
+          },
+          "elements": [
+            {
+              "id": "tgh43",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "桌上遊戲常見問題",
+                "header_size": "h2",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.25
+                },
+                "align": "center",
+                "custom_css": "@media(max-width:767px){selector .elementor-heading-title{font-size:25px;line-height:1.3;}}"
+              },
+              "elements": []
+            },
+            {
+              "id": "tgfaq3s",
+              "elType": "widget",
+              "widgetType": "accordion",
+              "settings": {
+                "tabs": [
+                  {
+                    "tab_title": "桌上遊戲是什麼？",
+                    "tab_content": "<p>桌上遊戲是娛樂城中常見的經典賭場玩法，包含輪盤、21點Blackjack、骰寶、撲克遊戲與其他桌面遊戲</p>",
+                    "_id": "tgfq3t"
+                  },
+                  {
+                    "tab_title": "桌上遊戲和一般桌遊一樣嗎？",
+                    "tab_content": "<p>不一樣。本頁所指的桌上遊戲是Casino Table Games，也就是賭場桌面遊戲，不是一般聚會型桌遊</p>",
+                    "_id": "tgfq3u"
+                  },
+                  {
+                    "tab_title": "新手適合玩哪種桌上遊戲？",
+                    "tab_content": "<p>新手可以先從輪盤或骰寶開始，這類遊戲規則簡單，下注方式直覺，較容易快速理解玩法</p>",
+                    "_id": "tgfq3v"
+                  },
+                  {
+                    "tab_title": "21點和Blackjack一樣嗎？",
+                    "tab_content": "<p>是的。21點就是Blackjack，玩家需要讓手牌點數盡量接近21點，同時避免爆牌，是經典賭場桌上遊戲之一</p>",
+                    "_id": "tgfq3w"
+                  },
+                  {
+                    "tab_title": "輪盤適合新手嗎？",
+                    "tab_content": "<p>輪盤適合新手。因為玩家可以選擇顏色、單雙、大小或號碼等不同下注方式，玩法選擇多，但基本規則並不難理解</p>",
+                    "_id": "tgfq3x"
+                  },
+                  {
+                    "tab_title": "骰寶玩法難嗎？",
+                    "tab_content": "<p>骰寶玩法不難，玩家主要依照三顆骰子的結果進行下注，例如大小、單雙、點數組合等，是節奏快速且容易入門的桌上遊戲</p>",
+                    "_id": "tgfq3y"
+                  },
+                  {
+                    "tab_title": "撲克遊戲和德州撲克一樣嗎？",
+                    "tab_content": "<p>不完全一樣。娛樂城中的撲克遊戲可能包含Video Poker、Stake Poker、Poker 1000等不同玩法，不一定都是正式多人德州撲克</p>",
+                    "_id": "tgfq3z"
+                  },
+                  {
+                    "tab_title": "桌上遊戲需要技巧嗎？",
+                    "tab_content": "<p>不同遊戲需要的技巧不同。輪盤與骰寶偏向機率玩法，21點與撲克遊戲則更重視策略判斷與規則理解</p>",
+                    "_id": "tgfq40"
+                  },
+                  {
+                    "tab_title": "桌上遊戲和真人娛樂哪個比較適合新手？",
+                    "tab_content": "<p>如果想先了解基本玩法，可以從桌上遊戲開始；如果喜歡真人荷官直播與互動感，可以選擇真人娛樂。兩者都適合新手，只是體驗方向不同</p>",
+                    "_id": "tgfq41"
+                  },
+                  {
+                    "tab_title": "Stake、Rainbet、Shuffle都有桌上遊戲嗎？",
+                    "tab_content": "<p>三個平台皆可能提供不同類型的桌上遊戲，但實際遊戲數量與可用項目會依平台、地區與遊戲供應商有所不同，建議以平台最新遊戲列表為準</p>",
+                    "_id": "tgfq42"
+                  }
+                ],
+                "title_color": "#FFFFFF",
+                "tab_active_color": "#DEF243",
+                "content_color": "#A9B1C2",
+                "icon_color": "#B5A8F0",
+                "icon_active_color": "#1B1C1C",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#2E3444",
+                "title_typography_typography": "custom",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "title_typography_font_weight": "700",
+                "content_typography_typography": "custom",
+                "content_typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "content_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.9
+                },
+                "custom_css": "selector .elementor-accordion-item{margin-top:-1px;}selector .elementor-tab-title{display:flex;align-items:center;gap:18px;padding:30px 34px;background:#11151B;border:1px solid #2E3444;}selector .elementor-tab-title .elementor-accordion-icon{order:0;display:inline-flex;align-items:center;justify-content:center;width:28px;min-width:28px;margin:0;color:#B5A8F0;}selector .elementor-tab-title .elementor-accordion-title{order:1;line-height:1.45;}selector .elementor-tab-title.elementor-active .elementor-accordion-icon,selector .elementor-tab-title.elementor-active .elementor-accordion-title{color:#DEF243;}selector .elementor-tab-content{padding:28px 34px 34px;background:#0F1115;border:1px solid #2E3444;border-top:0;color:#A9B1C2;}@media(max-width:767px){selector .elementor-tab-title{padding:22px 20px;gap:14px;}selector .elementor-tab-content{padding:22px 20px 26px;}selector .elementor-tab-title .elementor-accordion-title{font-size:16px;}}"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tgs4j",
+      "elType": "section",
+      "settings": {
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding": {
+          "unit": "px",
+          "top": "54",
+          "right": "20",
+          "bottom": "60",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "tgc4i",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": 100
+          },
+          "elements": [
+            {
+              "id": "tgh46",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "探索更多遊戲與娛樂城推薦",
+                "header_size": "h2",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.25
+                },
+                "custom_css": "@media(max-width:767px){selector .elementor-heading-title{font-size:25px;line-height:1.3;}}"
+              },
+              "elements": []
+            },
+            {
+              "id": "tgt47",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>看完桌上遊戲，再深入了解其他遊戲類型、平台評測與優惠活動，找到最適合你的玩法</p>",
+                "text_color": "#A9B1C2",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "14",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "tgis4c",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "gap": "no",
+                "_margin": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "custom_css": "selector > .elementor-container{gap:0!important;}selector .elementor-column{margin:0!important;}selector .elementor-icon-box-icon{display:none;}selector .elementor-icon-box-wrapper{display:block;}selector .elementor-icon-box-title{margin-bottom:18px;}selector .elementor-icon-box-description{line-height:1.75;}@media(max-width:767px){selector > .elementor-container > .elementor-column{width:100%!important;}}"
+              },
+              "elements": [
+                {
+                  "id": "tgc49",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": 50,
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#2E3444",
+                    "padding": {
+                      "unit": "px",
+                      "top": "34",
+                      "right": "56",
+                      "bottom": "38",
+                      "left": "56",
+                      "isLinked": false
+                    },
+                    "custom_css": "@media(max-width:767px){selector{padding:28px 24px!important;}}"
+                  },
+                  "elements": [
+                    {
+                      "id": "tgibx48",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-arrow-up-right-from-square",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "老虎機推薦",
+                        "description_text": "熱門線上老虎機排行與玩法介紹",
+                        "link": {
+                          "url": "#",
+                          "is_external": "",
+                          "nofollow": ""
+                        },
+                        "position": "left",
+                        "primary_color": "#B5A8F0",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "title_color": "#FFFFFF",
+                        "description_color": "#A9B1C2",
+                        "content_vertical_alignment": "middle",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 17
+                        },
+                        "title_typography_font_weight": "700",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "description_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        },
+                        "custom_css": "selector .elementor-icon-box-title{margin-bottom:18px;}selector .elementor-icon-box-description{line-height:1.75;}"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "tgc4b",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": 50,
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#2E3444",
+                    "padding": {
+                      "unit": "px",
+                      "top": "34",
+                      "right": "56",
+                      "bottom": "38",
+                      "left": "56",
+                      "isLinked": false
+                    },
+                    "custom_css": "@media(max-width:767px){selector{padding:28px 24px!important;}}"
+                  },
+                  "elements": [
+                    {
+                      "id": "tgibx4a",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-arrow-up-right-from-square",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "娛樂城遊戲排行",
+                        "description_text": "各類熱門娛樂城遊戲綜合人氣排行",
+                        "link": {
+                          "url": "#",
+                          "is_external": "",
+                          "nofollow": ""
+                        },
+                        "position": "left",
+                        "primary_color": "#B5A8F0",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "title_color": "#FFFFFF",
+                        "description_color": "#A9B1C2",
+                        "content_vertical_alignment": "middle",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 17
+                        },
+                        "title_typography_font_weight": "700",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "description_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        },
+                        "custom_css": "selector .elementor-icon-box-title{margin-bottom:18px;}selector .elementor-icon-box-description{line-height:1.75;}"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tgis4h",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "gap": "no",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "custom_css": "selector > .elementor-container{gap:0!important;}selector .elementor-column{margin:0!important;}selector .elementor-icon-box-icon{display:none;}selector .elementor-icon-box-wrapper{display:block;}selector .elementor-icon-box-title{margin-bottom:18px;}selector .elementor-icon-box-description{line-height:1.75;}@media(max-width:767px){selector > .elementor-container > .elementor-column{width:100%!important;}}"
+              },
+              "elements": [
+                {
+                  "id": "tgc4e",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": 50,
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#2E3444",
+                    "padding": {
+                      "unit": "px",
+                      "top": "34",
+                      "right": "56",
+                      "bottom": "38",
+                      "left": "56",
+                      "isLinked": false
+                    },
+                    "custom_css": "@media(max-width:767px){selector{padding:28px 24px!important;}}"
+                  },
+                  "elements": [
+                    {
+                      "id": "tgibx4d",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-arrow-up-right-from-square",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "娛樂城推薦",
+                        "description_text": "Stake、Rainbet、Shuffle 完整評測比較",
+                        "link": {
+                          "url": "#",
+                          "is_external": "",
+                          "nofollow": ""
+                        },
+                        "position": "left",
+                        "primary_color": "#B5A8F0",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "title_color": "#FFFFFF",
+                        "description_color": "#A9B1C2",
+                        "content_vertical_alignment": "middle",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 17
+                        },
+                        "title_typography_font_weight": "700",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "description_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        },
+                        "custom_css": "selector .elementor-icon-box-title{margin-bottom:18px;}selector .elementor-icon-box-description{line-height:1.75;}"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "tgc4g",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": 50,
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#2E3444",
+                    "padding": {
+                      "unit": "px",
+                      "top": "34",
+                      "right": "56",
+                      "bottom": "38",
+                      "left": "56",
+                      "isLinked": false
+                    },
+                    "custom_css": "@media(max-width:767px){selector{padding:28px 24px!important;}}"
+                  },
+                  "elements": [
+                    {
+                      "id": "tgibx4f",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-arrow-up-right-from-square",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "娛樂城優惠活動",
+                        "description_text": "新手禮、儲值回饋與限時優惠總覽",
+                        "link": {
+                          "url": "#",
+                          "is_external": "",
+                          "nofollow": ""
+                        },
+                        "position": "left",
+                        "primary_color": "#B5A8F0",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "title_color": "#FFFFFF",
+                        "description_color": "#A9B1C2",
+                        "content_vertical_alignment": "middle",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 17
+                        },
+                        "title_typography_font_weight": "700",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "description_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        },
+                        "custom_css": "selector .elementor-icon-box-title{margin-bottom:18px;}selector .elementor-icon-box-description{line-height:1.75;}"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

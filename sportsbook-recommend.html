@@ -188,7 +188,7 @@
     .cat:hover .cat-go{color:var(--sec)}
 
     /* ════ PLATFORM CARDS（三大平台比較）════ */
-    .pcard-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .pcard-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;align-items:stretch}
     .pcard{display:flex;flex-direction:column;background:var(--n50);border:1px solid var(--n150);padding:26px;
       transition:transform var(--dur) var(--ease),box-shadow var(--dur) var(--ease),border-color var(--dur) var(--ease)}
     .pcard:hover{transform:translateY(var(--lift));box-shadow:var(--shadow-card-sm);border-color:rgba(159,168,240,.3)}
@@ -197,10 +197,10 @@
     .pcard-badge{display:inline-flex;align-items:center;font-size:11px;font-weight:700;line-height:1;padding:5px 11px;border-radius:var(--r-full);
       background:rgba(118,86,215,.16);color:var(--pri-200);border:1px solid rgba(118,86,215,.3);white-space:nowrap}
     .pcard-desc{font-size:14px;line-height:1.75;color:var(--n300);margin-bottom:18px}
-    .pcard-points{display:flex;flex-direction:column;gap:11px;padding-top:18px;border-top:1px solid var(--n150)}
+    .pcard-points{display:flex;flex-direction:column;gap:11px;padding-top:18px;border-top:1px solid var(--n150);margin-bottom:20px}
     .pcard-point{display:flex;gap:10px;align-items:flex-start;font-size:13px;line-height:1.6;color:var(--n400)}
     .pcard-point svg{flex:none;width:17px;height:17px;margin-top:1px;color:var(--sec)}
-    .pcard .btn{margin-top:20px}
+    .pcard .btn{margin-top:auto}
 
     /* ════ MECHANICS（常見玩法）════ */
     .mech-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
