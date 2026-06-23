@@ -289,10 +289,17 @@
     .gcard-row-v{color:var(--n400)}
     .gcard-tags{display:flex;flex-wrap:wrap;gap:7px}
     .gcard-tags .tag{font-size:11px;padding:5px 10px}
-    .gcard-brands{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
-    .gbrand{display:flex;flex-direction:column;gap:9px;align-items:center;padding:13px 8px;
-      background:rgba(15,17,21,.45);border:1px solid var(--n150)}
-    .gbrand-name{font-size:12px;font-weight:700;color:var(--n600)}
+    .gcard-brands{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+    .gbrand{display:flex;flex-direction:column;gap:9px;padding:10px;border-radius:12px;
+      background:linear-gradient(180deg,rgba(118,86,215,.07),rgba(15,17,21,.5));border:1px solid var(--n150);
+      transition:transform var(--dur) var(--ease),border-color var(--dur) var(--ease),box-shadow var(--dur) var(--ease)}
+    .gbrand:hover{transform:translateY(-3px);border-color:rgba(159,168,240,.5);box-shadow:0 14px 30px -16px rgba(118,86,215,.6)}
+    .gbrand-thumb{aspect-ratio:3/4;overflow:hidden;border-radius:9px;position:relative;
+      border:1px solid rgba(159,168,240,.14);
+      background:linear-gradient(150deg,#1A1740 0%,#241a52 52%,#16153C 100%)}
+    .gbrand-thumb img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .45s var(--ease)}
+    .gbrand:hover .gbrand-thumb img{transform:scale(1.06)}
+    .gbrand-name{font-size:12px;font-weight:700;color:var(--n600);text-align:center;letter-spacing:.02em}
     .gbrand .btn{height:32px;font-size:12px;padding:6px 8px;width:100%}
     .gcard .btn-wide{margin-top:auto}
     .gmore{border-top:1px solid var(--n150);margin-top:2px}
@@ -416,7 +423,7 @@
         <div class="ogrid">
           <article class="gcard">
             <div class="gcard-head"><h3 class="gcard-name">Hilo</h3><span class="gcard-type">牌面預測</span></div>
-            <div class="gcard-brands"><div class="gbrand"><span class="gbrand-name">Stake</span><a class="btn btn-sm" target="_blank" rel="noopener noreferrer" href="https://stake.com/zh/casino/games/hilo">前往試玩</a></div><div class="gbrand"><span class="gbrand-name">Rainbet</span><a class="btn btn-sm" target="_blank" rel="noopener noreferrer" href="https://rainbet.com/zh/casino/originals/hilo">前往試玩</a></div><div class="gbrand"><span class="gbrand-name">Shuffle</span><a class="btn btn-sm" target="_blank" rel="noopener noreferrer" href="https://shuffle.com/zh/games/originals/hilo">前往試玩</a></div></div>
+            <div class="gcard-brands"><div class="gbrand"><div class="gbrand-thumb"><img src="image/original-games-recommend/stake-hilo.webp" alt="Stake Hilo" loading="lazy"></div><span class="gbrand-name">Stake</span><a class="btn btn-sm" target="_blank" rel="noopener noreferrer" href="https://stake.com/zh/casino/games/hilo">前往試玩</a></div><div class="gbrand"><div class="gbrand-thumb"><img src="image/original-games-recommend/Rainbet-hilo.webp" alt="Rainbet Hilo" loading="lazy"></div><span class="gbrand-name">Rainbet</span><a class="btn btn-sm" target="_blank" rel="noopener noreferrer" href="https://rainbet.com/zh/casino/originals/hilo">前往試玩</a></div><div class="gbrand"><div class="gbrand-thumb"><img src="image/original-games-recommend/Shuffle-hilo.webp" alt="Shuffle Hilo" loading="lazy"></div><span class="gbrand-name">Shuffle</span><a class="btn btn-sm" target="_blank" rel="noopener noreferrer" href="https://shuffle.com/zh/games/originals/hilo">前往試玩</a></div></div>
             <p class="gcard-desc">Hilo是一款以牌面大小判斷為核心的原創娛樂城遊戲，玩家需要預測下一張牌會比目前牌面更高或更低。玩法簡單、節奏快速，適合喜歡撲克牌元素與即時判斷的玩家</p>
             <div class="gcard-info"><div class="gcard-row"><span class="gcard-row-l">玩法特色</span><span class="gcard-row-v">猜高低、短局節奏、即時判斷</span></div><div class="gcard-row"><span class="gcard-row-l">適合族群</span><span class="gcard-row-v">新手玩家、喜歡撲克牌玩法的玩家</span></div></div>
             <div class="gcard-tags"><span class="tag">主推遊戲</span><span class="tag">新手友善</span><span class="tag">快速上手</span></div>
@@ -425,7 +432,7 @@
 
           <article class="gcard">
             <div class="gcard-head"><h3 class="gcard-name is-1line">Chicken Cross 小雞過街</h3><span class="gcard-type">風險挑戰</span></div>
-            <div class="gcard-brands"><div class="gbrand"><span class="gbrand-name">Stake</span><a class="btn btn-sm" target="_blank" rel="noopener noreferrer" href="https://stake.com/zh/casino/games/chicken">前往試玩</a></div><div class="gbrand"><span class="gbrand-name">Rainbet</span><a class="btn btn-sm" target="_blank" rel="noopener noreferrer" href="https://rainbet.com/zh/casino/originals/chicken-cross">前往試玩</a></div><div class="gbrand"><span class="gbrand-name">Shuffle</span><a class="btn btn-sm" target="_blank" rel="noopener noreferrer" href="https://shuffle.com/zh/games/originals/chicken">前往試玩</a></div></div>
+            <div class="gcard-brands"><div class="gbrand"><div class="gbrand-thumb"><img src="image/original-games-recommend/stake-chicken.webp" alt="Stake Chicken" loading="lazy"></div><span class="gbrand-name">Stake</span><a class="btn btn-sm" target="_blank" rel="noopener noreferrer" href="https://stake.com/zh/casino/games/chicken">前往試玩</a></div><div class="gbrand"><div class="gbrand-thumb"><img src="image/original-games-recommend/Rainbet-chicken-cross.webp" alt="Rainbet Chicken Cross" loading="lazy"></div><span class="gbrand-name">Rainbet</span><a class="btn btn-sm" target="_blank" rel="noopener noreferrer" href="https://rainbet.com/zh/casino/originals/chicken-cross">前往試玩</a></div><div class="gbrand"><div class="gbrand-thumb"><img src="image/original-games-recommend/Shuffle-chicken.webp" alt="Shuffle Chicken" loading="lazy"></div><span class="gbrand-name">Shuffle</span><a class="btn btn-sm" target="_blank" rel="noopener noreferrer" href="https://shuffle.com/zh/games/originals/chicken">前往試玩</a></div></div>
             <p class="gcard-desc">Chicken Cross又可以理解成小雞過街玩法，玩家需要讓小雞一步一步前進，並在風險變高前決定是否收手。遊戲畫面直覺，玩法簡單，適合喜歡刺激感與短局挑戰的玩家</p>
             <div class="gcard-info"><div class="gcard-row"><span class="gcard-row-l">玩法特色</span><span class="gcard-row-v">逐步前進、倍率提升、隨時收手</span></div><div class="gcard-row"><span class="gcard-row-l">適合族群</span><span class="gcard-row-v">喜歡刺激感、短局遊戲的玩家</span></div></div>
             <div class="gcard-tags"><span class="tag">小雞過街</span><span class="tag">熱門玩法</span><span class="tag">短局刺激</span></div>
@@ -434,7 +441,7 @@
 
           <article class="gcard">
             <div class="gcard-head"><h3 class="gcard-name">Mines</h3><span class="gcard-type">策略挑戰</span></div>
-            <div class="gcard-brands"><div class="gbrand"><span class="gbrand-name">Stake</span><a class="btn btn-sm" target="_blank" rel="noopener noreferrer" href="https://stake.com/zh/casino/games/mines">前往試玩</a></div><div class="gbrand"><span class="gbrand-name">Rainbet</span><a class="btn btn-sm" target="_blank" rel="noopener noreferrer" href="https://rainbet.com/zh/casino/originals/mines-game">前往試玩</a></div><div class="gbrand"><span class="gbrand-name">Shuffle</span><a class="btn btn-sm" target="_blank" rel="noopener noreferrer" href="https://shuffle.com/zh/games/originals/mines">前往試玩</a></div></div>
+            <div class="gcard-brands"><div class="gbrand"><div class="gbrand-thumb"><img src="image/original-games-recommend/stake-mines.webp" alt="Stake Mines" loading="lazy"></div><span class="gbrand-name">Stake</span><a class="btn btn-sm" target="_blank" rel="noopener noreferrer" href="https://stake.com/zh/casino/games/mines">前往試玩</a></div><div class="gbrand"><div class="gbrand-thumb"><img src="image/original-games-recommend/Rainbet-mines.webp" alt="Rainbet Mines" loading="lazy"></div><span class="gbrand-name">Rainbet</span><a class="btn btn-sm" target="_blank" rel="noopener noreferrer" href="https://rainbet.com/zh/casino/originals/mines-game">前往試玩</a></div><div class="gbrand"><div class="gbrand-thumb"><img src="image/original-games-recommend/Shuffle-mines.webp" alt="Shuffle Mines" loading="lazy"></div><span class="gbrand-name">Shuffle</span><a class="btn btn-sm" target="_blank" rel="noopener noreferrer" href="https://shuffle.com/zh/games/originals/mines">前往試玩</a></div></div>
             <p class="gcard-desc">Mines是經典踩地雷玩法，玩家需要在格子中避開地雷，成功翻開安全格就能提高倍率</p>
             <div class="gcard-info"><div class="gcard-row"><span class="gcard-row-l">玩法特色</span><span class="gcard-row-v">踩地雷、翻格子、風險控制、逐步收手</span></div><div class="gcard-row"><span class="gcard-row-l">適合族群</span><span class="gcard-row-v">喜歡策略感、風險判斷的玩家</span></div></div>
             <div class="gcard-tags"><span class="tag">Stake熱門</span><span class="tag">策略玩法</span><span class="tag">高互動性</span></div>
