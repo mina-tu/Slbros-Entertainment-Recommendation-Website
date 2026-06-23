@@ -203,6 +203,7 @@
         '          <a href="slot-recommend.html">老虎機推薦</a>' +
         '          <a href="table-games-recommend.html">桌上遊戲推薦</a>' +
         '          <a href="sportsbook-recommend.html">體育投注</a>' +
+        '          <a href="original-games-recommend.html">原創娛樂城遊戲</a>' +
         '        </div>' +
         '      </div>' +
         '      <div class="nav-dd">' +
@@ -234,6 +235,7 @@
         '        <a href="slot-recommend.html" class="' + isActive(page, "slot-recommend").trim() + '">老虎機推薦</a>' +
         '        <a href="table-games-recommend.html" class="' + isActive(page, "table-games").trim() + '">桌上遊戲推薦</a>' +
         '        <a href="sportsbook-recommend.html" class="' + isActive(page, "sportsbook").trim() + '">體育投注</a>' +
+        '        <a href="original-games-recommend.html" class="' + isActive(page, "original-games").trim() + '">原創娛樂城遊戲</a>' +
         '      </div>' +
         '    </div>' +
         '    <div class="mob-group' + (page === "promotions" ? ' is-open' : '') + '">' +
