@@ -58,8 +58,8 @@
       criteria: isIndex ? "#criteria" : "index.html#criteria",
       faq: isIndex ? "#faq" : "index.html#faq",
       helpCenter: "casino-guide.html",
-      terms: "#",
-      privacy: "#",
+      terms: "disclaimer.html",
+      privacy: "privacy-policy.html",
     };
   }
 
@@ -201,6 +201,7 @@
         '        <a href="slot-recommend.html" class="nav-dd-trigger' + (isHotGames ? " active" : "") + '">熱門遊戲<svg class="nav-dd-caret" viewBox="0 0 12 12" fill="none"><path d="M2.5 4.5 6 8l3.5-3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>' +
         '        <div class="nav-dd-menu">' +
         '          <a href="slot-recommend.html">老虎機推薦</a>' +
+        '          <a href="live-casino-recommend.html">真人娛樂推薦</a>' +
         '          <a href="table-games-recommend.html">桌上遊戲推薦</a>' +
         '          <a href="sportsbook-recommend.html">體育投注</a>' +
         '          <a href="original-games-recommend.html">原創娛樂城遊戲</a>' +
@@ -233,6 +234,7 @@
         '      <button class="mob-group-toggle' + (isHotGames ? ' is-active' : '') + '" type="button" aria-expanded="' + (isHotGames ? 'true' : 'false') + '">熱門遊戲</button>' +
         '      <div class="mob-submenu">' +
         '        <a href="slot-recommend.html" class="' + isActive(page, "slot-recommend").trim() + '">老虎機推薦</a>' +
+        '        <a href="live-casino-recommend.html" class="' + isActive(page, "live-casino").trim() + '">真人娛樂推薦</a>' +
         '        <a href="table-games-recommend.html" class="' + isActive(page, "table-games").trim() + '">桌上遊戲推薦</a>' +
         '        <a href="sportsbook-recommend.html" class="' + isActive(page, "sportsbook").trim() + '">體育投注</a>' +
         '        <a href="original-games-recommend.html" class="' + isActive(page, "original-games").trim() + '">原創娛樂城遊戲</a>' +
@@ -267,10 +269,10 @@
         '  <div class="ft-brand"><h2>晴天娛樂城推薦網</h2><p>提供最透明的娛樂城資訊與安全性評測，為每一位玩家打造屬於自身的完整評測體驗</p></div>' +
         '  <div class="ft-links">' +
         '    <div class="ft-col"><h3>優惠活動</h3><ul><li><a href="' + links.promoAll + '">優惠總覽</a></li><li><a href="' + links.promoNewbie + '">新手優惠</a></li><li><a href="' + links.promoDeposit + '">儲值優惠</a></li><li><a href="' + links.promoVip + '">VIP活動</a></li><li><a href="' + links.promoLimited + '">限時活動</a></li></ul></div>' +
-        '    <div class="ft-col"><h3>遊戲分類</h3><ul><li><a href="slot-recommend.html">老虎機</a></li><li><span style="color:var(--n300);font-size:14px">真人娛樂</span></li><li><a href="sportsbook-recommend.html">體育投注</a></li><li><a href="table-games-recommend.html">桌上遊戲</a></li><li><span style="color:var(--n300);font-size:14px">原創遊戲</span></li></ul></div>' +
+        '    <div class="ft-col"><h3>遊戲分類</h3><ul><li><a href="slot-recommend.html">老虎機</a></li><li><a href="live-casino-recommend.html">真人娛樂</a></li><li><a href="sportsbook-recommend.html">體育投注</a></li><li><a href="table-games-recommend.html">桌上遊戲</a></li><li><span style="color:var(--n300);font-size:14px">原創遊戲</span></li></ul></div>' +
         '    <div class="ft-col"><h3>品牌與公司</h3><ul><li><a href="' + links.criteria + '">品牌介紹</a></li><li><a href="' + links.criteria + '">技術與安全</a></li></ul></div>' +
         '    <div class="ft-col"><h3>客服與支援</h3><ul><li><a href="' + links.faq + '">聯繫客服</a></li><li><a href="' + links.faq + '">常見問題</a></li><li><a href="' + links.helpCenter + '">幫助中心</a></li></ul></div>' +
-        '    <div class="ft-col"><h3>法務與政策</h3><ul><li><a href="' + links.terms + '">使用條款</a></li><li><a href="' + links.privacy + '">隱私政策</a></li></ul></div>' +
+        '    <div class="ft-col"><h3>法務與政策</h3><ul><li><a href="' + links.terms + '">免責聲明</a></li><li><a href="' + links.privacy + '">隱私權政策</a></li></ul></div>' +
         '  </div>' +
         '  <div class="ft-bot">© 2026 晴天娛樂城推薦網. All rights reserved.</div>' +
         '</div></footer>';
