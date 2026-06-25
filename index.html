@@ -460,10 +460,10 @@
  
     /* VIP — frosted glass */
     .vip-panel {
-      background: linear-gradient(160deg,rgba(58,6,97,.38),rgba(67,38,154,.28)),rgba(255,255,255,.12);
-      backdrop-filter: blur(24px);
-      -webkit-backdrop-filter: blur(24px);
-      border: 1px solid rgba(255,255,255,.3);
+      background: linear-gradient(160deg,rgba(58,6,97,.18),rgba(67,38,154,.12)),rgba(255,255,255,.05);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid rgba(255,255,255,.22);
       border-radius: var(--r-lg);
       padding: 28px;
       display: flex;
@@ -701,6 +701,18 @@
       transition: transform var(--dur) var(--ease),box-shadow var(--dur) var(--ease);
       position: relative;
       text-align: center;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .cat-body {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .cat-body p {
+      margin-bottom: 20px;
     }
 
     .cat-card:hover {
@@ -763,6 +775,139 @@
       font-size: 14px;
       line-height: 1.7;
       color: var(--n400);
+    }
+
+    .cat-btn {
+      margin-top: auto;
+      align-self: center;
+    }
+
+    /* ═══ 底部內鏈 ════════════════════════ */
+    .ml-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.5fr;
+      gap: 16px;
+    }
+
+    .ml-feature {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 36px;
+      min-height: 184px;
+      padding: 28px;
+      background: var(--grad-purple);
+      border: 1px solid rgba(255,255,255,.12);
+      overflow: hidden;
+      transition: transform var(--dur) var(--ease),box-shadow var(--dur) var(--ease);
+    }
+
+    .ml-feature::before {
+      content: '';
+      position: absolute;
+      top: -80px;
+      right: -60px;
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      background: radial-gradient(circle,rgba(222,242,67,.18),transparent 60%);
+      pointer-events: none;
+    }
+
+    .ml-feature:hover {
+      transform: translateY(var(--lift));
+      box-shadow: var(--shadow-card);
+    }
+
+    .ml-feature-label {
+      position: relative;
+      font-size: 26px;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: -.03em;
+      line-height: 1.2;
+    }
+
+    .ml-feature-arrow {
+      position: absolute;
+      right: 28px;
+      bottom: 28px;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: var(--sec);
+      color: #1B1C1C;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform .2s;
+    }
+
+    .ml-feature:hover .ml-feature-arrow {
+      transform: scale(1.06);
+    }
+
+    .ml-feature-arrow svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    .ml-links {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .ml-link {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      min-height: 84px;
+      padding: 0 22px;
+      background: var(--n50);
+      border: 1px solid var(--n150);
+      color: var(--n700);
+      font-size: 16px;
+      font-weight: 500;
+      transition: transform var(--dur) var(--ease),border-color .2s,background .2s;
+    }
+
+    .ml-link svg {
+      width: 18px;
+      height: 18px;
+      color: var(--pri-200);
+      flex-shrink: 0;
+      transition: transform .2s,color .2s;
+    }
+
+    .ml-link:hover {
+      transform: translateY(var(--lift));
+      border-color: var(--sec);
+      background: var(--surface-muted);
+    }
+
+    .ml-link:hover svg {
+      color: var(--sec);
+      transform: translate(2px,-2px);
+    }
+
+    @media(max-width:860px) {
+      .ml-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .ml-links {
+        grid-template-columns: 1fr;
+        grid-template-rows: none;
+      }
+
+      .ml-feature {
+        min-height: 0;
+        gap: 28px;
+      }
     }
 
     /* ═══ Ranking — dark banner ═══════════ */
@@ -1297,6 +1442,7 @@
 
       .cat-card {
         display: flex;
+        flex-direction: row;
         align-items: center;
         gap: 16px;
         padding: 18px 16px;
@@ -1304,6 +1450,14 @@
         border-radius: 18px;
         background: var(--n50);
         border: 1px solid var(--n150);
+      }
+
+      .cat-body p {
+        margin-bottom: 14px;
+      }
+
+      .cat-btn {
+        align-self: flex-start;
       }
 
       .cat-num {
@@ -1448,10 +1602,10 @@
         <div class="hero-wrap">
           <div class="hero-copy">
             <h1>晴天娛樂城推薦網</h1>
-            <p>晴天兄弟整理熱門線上娛樂城推薦名單，從平台安全性、出入金效率、遊戲種類與優惠條款進行比較，協助玩家快速了解 Stake、Rainbet、Shuffle 等平台差異</p>
+            <p>晴天娛樂城推薦網整理 2026 熱門線上娛樂城推薦名單，精選 Stake、Rainbet、Shuffle 三大平台，從平台特色、遊戲種類、優惠活動、出入金體驗與玩家使用感受進行比較，協助玩家快速了解不同娛樂城平台的差異，找到適合自己的線上娛樂城選擇</p>
             <div class="hero-act">
-              <a class="btn btn-neutral" href="#ranking">查看娛樂城排行</a>
-              <a class="btn btn-outline" href="#criteria">了解評測標準</a>
+              <a class="btn btn-neutral" href="https://slbrox.com.tw/games-slots/">瀏覽熱門老虎機排行</a>
+              <a class="btn btn-outline" href="original-games-recommend.html">超熱門原創遊戲推薦</a>
             </div>
           </div>
           <aside class="vip-panel" id="vip">
@@ -1464,7 +1618,7 @@
               <li><svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="1.4"/><path d="M6.8 10.1L9 12.3L13.4 7.9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>專屬優惠方案說明</li>
               <li><svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="1.4"/><path d="M6.8 10.1L9 12.3L13.4 7.9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>VIP 權益資格諮詢</li>
             </ul>
-            <a class="btn btn-neutral btn-block" href="#faq">聯繫客服領取方案</a>
+            <a class="btn btn-neutral btn-block" href="#faq">聯繫 LINE 客服領取方案</a>
             <p class="vip-note">* 僅提供資訊諮詢，非代理服務</p>
           </aside>
         </div>
@@ -1474,11 +1628,10 @@
     <!-- 2. 說明區塊 -->
     <section class="copy-sec" id="criteria">
       <div class="shell">
-        <h2>為什麼需要參考 晴天兄弟 娛樂城推薦？</h2>
+        <h2>為什麼需要參考娛樂城推薦排行？</h2>
         <div class="copy-paras">
-          <p>線上娛樂城選擇越來越多，從 Stake、Rainbet 到 Shuffle，不同平台在安全性、遊戲種類、出入金效率、優惠條款與客服品質上都有明顯差異。對玩家來說，單看廣告或首存優惠，很難判斷哪一間娛樂城真正適合自己</p>
-          <p>晴天兄弟 建立娛樂城排行與線上娛樂城推薦機制，會從平台背景、遊戲體驗、優惠透明度、提款流程、帳戶安全與玩家使用情境進行整理，協助你快速比較各大平台的優勢與注意事項</p>
-          <p>本頁提供的不是單純品牌清單，而是一份給新手與進階玩家參考的線上娛樂城評測指南。你可以透過推薦排行了解 Stake、Rainbet、Shuffle 等熱門平台的差異，避開不透明條款，並依照自己的遊玩需求選擇更合適的娛樂城平台</p>
+          <p>線上娛樂城平台選擇越來越多，從 Stake、Rainbet 到 Shuffle，不同平台在遊戲種類、優惠活動、操作介面與出入金體驗上都有差異。對玩家來說，單看首儲優惠或平台廣告，往往很難判斷哪一間娛樂城真正適合自己</p>
+          <p>晴天娛樂城推薦網會依照平台特色、熱門遊戲分類、活動內容與玩家使用體驗進行整理，協助玩家快速比較不同線上娛樂城的優勢與注意事項。無論你想找老虎機、真人娛樂、體育投注、桌上遊戲或原創娛樂城遊戲，都可以透過本頁找到對應入口</p>
         </div>
       </div>
     </section>
@@ -1486,11 +1639,11 @@
     <!-- 3. 娛樂城推薦卡片 -->
     <section class="sec-pad" id="promotions">
       <div class="shell">
-        <div class="sec-head"><div><h2>娛樂城推薦</h2><p class="sec-lead">以下為 晴天兄弟 精選推薦的線上娛樂城平台，依評測綜合分數排列</p></div><a class="btn btn-neutral btn-casino" href="online-casino-recommendation.html">線上娛樂城排行榜</a></div>
+        <div class="sec-head"><div><h2>2026 娛樂城推薦平台排行</h2><p class="sec-lead">以下整理晴天娛樂城推薦網目前精選的三大線上娛樂城平台，包含 Stake、Rainbet 與 Shuffle</p></div><a class="btn btn-neutral btn-casino" href="online-casino-recommendation.html">線上娛樂城排行榜</a></div>
         <div class="c-grid">
-          <article class="c-card"><div class="c-img has-photo"><img class="c-photo" src="image/shared/stake.webp" alt="Stake"><span class="c-pill">綜合推薦</span></div><div class="c-body"><div class="c-name">Stake</div><p class="c-desc">全球知名加密貨幣娛樂城，遊戲種類豐富、出入金快速，適合進階玩家作為主要平台使用</p><div class="c-tags"><span class="c-tag">出入金快速</span><span class="c-tag">遊戲種類多</span><span class="c-tag">原創遊戲</span></div><div class="c-foot"><div><div class="c-sl">綜合評分</div><div style="display:flex;align-items:center"><div class="c-stars"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg></div><span class="c-num">4.8 <small>/ 5</small></span></div></div><a class="btn-arrow" href="#faq" aria-label="查看詳情"><svg viewBox="0 0 24 24" fill="none"><path d="M7 17L17 7M17 7H9M17 7V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></div></article>
-          <article class="c-card"><div class="c-img has-photo"><img class="c-photo" src="image/shared/rainbet.webp" alt="Rainbet"><span class="c-pill">活動豐富</span></div><div class="c-body"><div class="c-name">Rainbet</div><p class="c-desc">活躍的社群互動與競賽活動，優惠條款相對透明，適合喜歡參與娛樂城活動的玩家</p><div class="c-tags"><span class="c-tag">活動頻繁</span><span class="c-tag">社群互動</span><span class="c-tag">條款透明</span></div><div class="c-foot"><div><div class="c-sl">綜合評分</div><div style="display:flex;align-items:center"><div class="c-stars"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg></div><span class="c-num">4.5 <small>/ 5</small></span></div></div><a class="btn-arrow" href="#faq" aria-label="查看詳情"><svg viewBox="0 0 24 24" fill="none"><path d="M7 17L17 7M17 7H9M17 7V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></div></article>
-          <article class="c-card"><div class="c-img has-photo"><img class="c-photo" src="image/shared/Shuffle.webp" alt="Shuffle"><span class="c-pill">新興平台</span></div><div class="c-body"><div class="c-name">Shuffle</div><p class="c-desc">新興線上娛樂城，介面現代化、功能持續更新，適合想體驗新平台的探索型玩家</p><div class="c-tags"><span class="c-tag">介面現代</span><span class="c-tag">持續更新</span><span class="c-tag">新手友善</span></div><div class="c-foot"><div><div class="c-sl">綜合評分</div><div style="display:flex;align-items:center"><div class="c-stars"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg></div><span class="c-num">4.5 <small>/ 5</small></span></div></div><a class="btn-arrow" href="#faq" aria-label="查看詳情"><svg viewBox="0 0 24 24" fill="none"><path d="M7 17L17 7M17 7H9M17 7V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></div></article>
+          <article class="c-card"><div class="c-img has-photo"><img class="c-photo" src="image/shared/stake.webp" alt="Stake"><span class="c-pill">綜合推薦</span></div><div class="c-body"><div class="c-name">Stake</div><p class="c-desc">Stake 是全球知名加密娛樂城平台，主打原創遊戲、老虎機、真人娛樂與體育投注，遊戲種類完整，適合想體驗 Web3 娛樂城與多元玩法的玩家</p><div class="c-tags"><span class="c-tag">出入金快速</span><span class="c-tag">遊戲種類多</span><span class="c-tag">原創遊戲</span></div><div class="c-foot"><div><div class="c-sl">綜合評分</div><div style="display:flex;align-items:center"><div class="c-stars"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg></div><span class="c-num">4.8 <small>/ 5</small></span></div></div><a class="btn-arrow" href="#faq" aria-label="查看詳情"><svg viewBox="0 0 24 24" fill="none"><path d="M7 17L17 7M17 7H9M17 7V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></div></article>
+          <article class="c-card"><div class="c-img has-photo"><img class="c-photo" src="image/shared/rainbet.webp" alt="Rainbet"><span class="c-pill">活動豐富</span></div><div class="c-body"><div class="c-name">Rainbet</div><p class="c-desc">Rainbet 主打活動體驗、原創遊戲與多元娛樂城玩法，介面操作直覺，適合重視優惠活動、新手體驗與平台互動感的玩家</p><div class="c-tags"><span class="c-tag">活動豐富</span><span class="c-tag">介面直覺</span><span class="c-tag">新手友善</span></div><div class="c-foot"><div><div class="c-sl">綜合評分</div><div style="display:flex;align-items:center"><div class="c-stars"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg></div><span class="c-num">4.5 <small>/ 5</small></span></div></div><a class="btn-arrow" href="#faq" aria-label="查看詳情"><svg viewBox="0 0 24 24" fill="none"><path d="M7 17L17 7M17 7H9M17 7V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></div></article>
+          <article class="c-card"><div class="c-img has-photo"><img class="c-photo" src="image/shared/Shuffle.webp" alt="Shuffle"><span class="c-pill">新興平台</span></div><div class="c-body"><div class="c-name">Shuffle</div><p class="c-desc">Shuffle 是新興線上娛樂城平台，提供原創遊戲、體育投注與多種娛樂城玩法，介面簡潔、操作速度快，適合想嘗試新平台與快速遊戲體驗的玩家</p><div class="c-tags"><span class="c-tag">新興平台</span><span class="c-tag">操作快速</span><span class="c-tag">原創玩法</span></div><div class="c-foot"><div><div class="c-sl">綜合評分</div><div style="display:flex;align-items:center"><div class="c-stars"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2.4L12.3 7.1L17.5 7.8L13.7 11.5L14.6 16.7L10 14.2L5.4 16.7L6.3 11.5L2.5 7.8L7.7 7.1Z"/></svg></div><span class="c-num">4.5 <small>/ 5</small></span></div></div><a class="btn-arrow" href="#faq" aria-label="查看詳情"><svg viewBox="0 0 24 24" fill="none"><path d="M7 17L17 7M17 7H9M17 7V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></div></article>
         </div>
       </div>
     </section>
@@ -1498,13 +1651,13 @@
     <!-- 4. 熱門遊戲分類 — numbered bento -->
     <section class="sec-pad" id="games">
       <div class="shell">
-        <div class="sec-head"><div><h2>熱門遊戲分類</h2><p class="sec-lead">依遊戲類型快速找到對應玩法與熱門平台資訊</p></div></div>
+        <div class="sec-head"><div><h2>熱門娛樂城遊戲分類推薦</h2><p class="sec-lead">不同玩家喜歡的娛樂城玩法不同，有些人偏好老虎機，有些人重視真人娛樂，也有玩家專門關注體育投注、桌上遊戲或 Web3 原創遊戲。晴天娛樂城推薦網整理五大熱門娛樂城遊戲分類，幫助玩家依照玩法偏好快速找到適合的平台與遊戲內容</p></div></div>
         <div class="cat-grid">
-          <article class="cat-card"><div class="cat-num">1</div><div class="cat-ic has-image"><img src="image/index/Slot machines.webp?v=2" alt="老虎機"></div><div><h3>老虎機</h3><p>收錄各大平台老虎機遊戲，比較機率、RTP 與主題豐富度</p></div></article>
-          <article class="cat-card"><div class="cat-num">2</div><div class="cat-ic has-image"><img src="image/index/live entertainment.webp" alt="真人娛樂"></div><div><h3>真人娛樂</h3><p>真人荷官直播遊戲，包含百家樂、輪盤、二十一點等經典牌局</p></div></article>
-          <article class="cat-card"><div class="cat-num">3</div><div class="cat-ic has-image"><img src="image/index/sports games.webp" alt="體育投注"></div><div><h3>體育投注</h3><p>足球、籃球、電競等多種體育賽事即時投注選項比較</p></div></article>
-          <article class="cat-card"><div class="cat-num">4</div><div class="cat-ic has-image"><img src="image/index/table games.webp" alt="桌上遊戲"></div><div><h3>桌上遊戲</h3><p>策略型牌桌遊戲，適合偏好技巧與機率並重的玩家族群</p></div></article>
-          <article class="cat-card"><div class="cat-num">5</div><div class="cat-ic has-image"><img src="image/index/original game.webp" alt="原創遊戲"></div><div><h3>原創遊戲</h3><p>平台自製特色遊戲，通常具備更高的 RTP 與更低的邊際</p></div></article>
+          <article class="cat-card"><div class="cat-num">1</div><div class="cat-ic has-image"><img src="image/index/Slot machines.webp?v=2" alt="老虎機推薦"></div><div class="cat-body"><h3>老虎機推薦</h3><p>整理熱門線上老虎機排行，包含 Sweet Bonanza、Gates of Olympus、Sugar Rush 等高人氣 Slot 遊戲，適合喜歡主題玩法、免費旋轉與高倍率獎勵的玩家</p><a class="btn btn-sm cat-btn" href="https://slbrox.com.tw/games-slots/">查看老虎機推薦</a></div></article>
+          <article class="cat-card"><div class="cat-num">2</div><div class="cat-ic has-image"><img src="image/index/live entertainment.webp" alt="真人娛樂推薦"></div><div class="cat-body"><h3>真人娛樂推薦</h3><p>整理百家樂、21 點 Blackjack、輪盤 Roulette 與骰寶 Sic Bo 等真人荷官遊戲，快速比較 Stake、Rainbet、Shuffle 三大平台真人娛樂內容</p><a class="btn btn-sm cat-btn" href="live-casino-recommend.html">查看真人娛樂推薦</a></div></article>
+          <article class="cat-card"><div class="cat-num">3</div><div class="cat-ic has-image"><img src="image/index/sports games.webp" alt="體育投注推薦"></div><div class="cat-body"><h3>體育投注推薦</h3><p>整理 NBA 運彩、MLB 運彩、足球運彩與電競投注內容，快速比較 Stake、Rainbet、Shuffle 三大平台的體育投注分類與熱門賽事入口</p><a class="btn btn-sm cat-btn" href="sportsbook-recommend.html">查看體育投注推薦</a></div></article>
+          <article class="cat-card"><div class="cat-num">4</div><div class="cat-ic has-image"><img src="image/index/table games.webp" alt="桌上遊戲推薦"></div><div class="cat-body"><h3>桌上遊戲推薦</h3><p>整理輪盤、21 點 Blackjack、骰寶與撲克類桌上遊戲，適合喜歡經典賭場玩法、機率判斷與策略遊戲的玩家</p><a class="btn btn-sm cat-btn" href="table-games-recommend.html">查看桌上遊戲推薦</a></div></article>
+          <article class="cat-card"><div class="cat-num">5</div><div class="cat-ic has-image"><img src="image/index/original game.webp" alt="原創娛樂城遊戲推薦"></div><div class="cat-body"><h3>原創娛樂城遊戲推薦</h3><p>整理 Hilo、小雞過街、Mines、Crash、Dice、Plinko 等 Web3 原創娛樂城遊戲，快速比較 Stake、Rainbet、Shuffle 熱門原創玩法</p><a class="btn btn-sm cat-btn" href="original-games-recommend.html">查看原創遊戲推薦</a></div></article>
         </div>
       </div>
     </section>
@@ -1513,7 +1666,7 @@
     <section class="sec-pad" id="ranking">
       <div class="shell">
         <div class="rank-sec">
-          <div class="rk-head"><div><h2>今日排行榜</h2><p>為你整理最熱門的遊戲排行榜資訊</p></div><a class="btn btn-secondary btn-sm" href="#promotions">查看完整排行榜</a></div>
+          <div class="rk-head"><div><h2>本周熱門排行榜</h2><p>整理目前討論度較高的線上老虎機遊戲、原創遊戲，包含高人氣 Slot、經典玩法與熱門平台遊戲入口</p></div><a class="btn btn-secondary btn-sm" href="#promotions">查看完整排行榜</a></div>
           <table class="rk-tbl"><thead><tr><th class="rk-rank">排名</th><th>遊戲名稱</th><th>活躍人數</th><th>遊戲類型</th><th>立即遊玩</th></tr></thead><tbody>
             <tr><td class="rk-rank">01</td><td class="rk-game">Gate of Olympus</td><td>12,483 Players</td><td>老虎機</td><td><a class="rk-open" href="#faq" aria-label="立即遊玩"><svg viewBox="0 0 20 20" fill="none"><path d="M7 13L13 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M8 7H13V12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></td></tr>
             <tr><td class="rk-rank">02</td><td class="rk-game">Crazy Time</td><td>8,937 Players</td><td>真人遊戲</td><td><a class="rk-open" href="#faq" aria-label="立即遊玩"><svg viewBox="0 0 20 20" fill="none"><path d="M7 13L13 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M8 7H13V12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></td></tr>
@@ -1535,11 +1688,11 @@
     <!-- 6. 評選方法 -->
     <section class="sec-pad">
       <div class="shell">
-        <div class="sec-head" style="max-width:880px"><div><h2>晴天兄弟 如何評選娛樂城排行？</h2><p class="sec-lead">我們會從平台背景、遊戲體驗、優惠條款與出入金透明等面向，整理值得參考的線上娛樂城推薦名單</p></div></div>
+        <div class="sec-head" style="max-width:880px"><div><h2>晴天娛樂城推薦網如何評選娛樂城排行？</h2><p class="sec-lead">晴天娛樂城推薦網會從平台背景、遊戲種類、優惠活動、出入金體驗與整體使用感受進行比較，整理值得參考的線上娛樂城推薦名單，協助玩家快速了解不同平台的差異</p></div></div>
         <div class="feat-grid">
-          <article class="feat-card"><div class="feat-ic"><img src="image/index/safe.webp" alt="安全審查"></div><h3>平台安全與背景審查</h3><p>優先檢視線上娛樂城的品牌背景、帳戶安全機制、隱私保護與平台透明度，協助玩家避開資訊不足的平台</p><ul class="feat-tags"><li>牌照與營運資訊</li><li>帳戶安全機制</li><li>客服風險應對</li><li>平台信譽觀察</li></ul></article>
-          <article class="feat-card"><div class="feat-ic"><img src="image/index/credit card.webp" alt="出入金評估"></div><h3>優惠條款與出入金評估</h3><p>不只看首存優惠高低，也會比較洗碼條件、提款限制、支付方式與處理速度，確認優惠是否真的合理與實用</p><ul class="feat-tags"><li>返水與回饋比較</li><li>提款規則審查</li><li>支付方式多元性</li><li>處理速度評估</li></ul></article>
-          <article class="feat-card"><div class="feat-ic"><img src="image/index/game.webp" alt="遊戲體驗比較"></div><h3>遊戲種類與玩家體驗比較</h3><p>從老虎機、真人娛樂、原創遊戲到桌上遊戲，整理各平台的遊戲豐富度、介面流暢度與適合族群，幫助玩家快速判斷</p><ul class="feat-tags"><li>遊戲種類豐富度</li><li>介面流暢度</li><li>適合族群分析</li><li>RTP 透明度</li></ul></article>
+          <article class="feat-card"><div class="feat-ic"><img src="image/index/safe.webp" alt="平台背景與安全性"></div><h3>平台背景與安全性</h3><p>檢視平台品牌背景、帳號安全機制、網站透明度與使用者評價，協助玩家避開資訊不足或體驗不穩定的平台</p><ul class="feat-tags"><li>品牌背景</li><li>帳號安全</li><li>平台透明度</li><li>使用者評價</li></ul></article>
+          <article class="feat-card"><div class="feat-ic"><img src="image/index/credit card.webp" alt="優惠活動與出入金體驗"></div><h3>優惠活動與出入金體驗</h3><p>比較平台優惠活動、首儲回饋、提款規則、支付方式與處理速度，判斷活動條件是否清楚、出入金流程是否順暢</p><ul class="feat-tags"><li>首儲優惠</li><li>回饋條件</li><li>出入金速度</li><li>支付方式</li></ul></article>
+          <article class="feat-card"><div class="feat-ic"><img src="image/index/game.webp" alt="遊戲種類與玩家體驗"></div><h3>遊戲種類與玩家體驗</h3><p>整理各平台老虎機、真人娛樂、體育投注、桌上遊戲與原創遊戲內容，並比較介面操作、遊戲豐富度與新手使用體驗</p><ul class="feat-tags"><li>遊戲種類</li><li>操作介面</li><li>熱門玩法</li><li>新手體驗</li></ul></article>
         </div>
       </div>
     </section>
@@ -1553,6 +1706,25 @@
       <details class="faq-item"><summary>Q5：新手適合哪一種線上娛樂城？</summary><p>新手可以優先選擇介面清楚、客服回應快、活動規則透明的平台，並先從老虎機或桌上遊戲等門檻較低的類型開始。與其追高額獎勵，不如先確認提款與帳戶安全是否穩定。</p></details>
       <details class="faq-item"><summary>Q6：娛樂城優惠越高越好嗎？</summary><p>不一定。高額優惠如果伴隨複雜流水、提款上限或額外限制，實際價值反而可能偏低。比較線上娛樂城推薦時，建議把「是否能順利用到」放在比數字更前面。</p></details>
     </site-faq>
+
+    <!-- 8. 更多娛樂城推薦內容 — 底部內鏈 -->
+    <section class="sec-pad" id="more-links">
+      <div class="shell">
+        <div class="sec-head" style="max-width:880px"><div><h2>更多娛樂城推薦內容</h2><p class="sec-lead">想了解更多娛樂城平台、遊戲分類與優惠活動，可以從以下頁面繼續查看</p></div></div>
+        <div class="ml-grid">
+          <a class="ml-feature" href="register-guide-stake.html">
+            <div class="ml-feature-label">Stake 註冊教學</div>
+            <span class="ml-feature-arrow"><svg viewBox="0 0 24 24" fill="none"><path d="M7 17L17 7M17 7H9M17 7V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </a>
+          <div class="ml-links">
+            <a class="ml-link" href="https://slbrox.com.tw/games-slots/"><span>老虎機推薦</span><svg viewBox="0 0 24 24" fill="none"><path d="M7 17L17 7M17 7H9M17 7V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            <a class="ml-link" href="original-games-recommend.html"><span>原創娛樂城遊戲推薦</span><svg viewBox="0 0 24 24" fill="none"><path d="M7 17L17 7M17 7H9M17 7V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            <a class="ml-link" href="https://slbrox.com.tw/%e5%84%aa%e6%83%a0%e7%b8%bd%e8%a6%bd%e9%a0%81/"><span>娛樂城優惠活動</span><svg viewBox="0 0 24 24" fill="none"><path d="M7 17L17 7M17 7H9M17 7V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            <a class="ml-link" href="#faq"><span>客服與支援</span><svg viewBox="0 0 24 24" fill="none"><path d="M7 17L17 7M17 7H9M17 7V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </section>
 
   </main>
 
