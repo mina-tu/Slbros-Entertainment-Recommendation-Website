@@ -163,14 +163,9 @@
     .ccard:hover{transform:translateY(-4px);border-color:rgba(159,168,240,.42);box-shadow:var(--shadow-card-sm)}
     .ccard>*{position:relative;z-index:1}
     .cc-head{display:flex;align-items:center;gap:15px}
-    .cc-ic{width:52px;height:52px;flex:none;display:flex;align-items:center;justify-content:center;
-      color:#fff;background:var(--grad-purple);border:1px solid rgba(159,168,240,.35);box-shadow:0 10px 26px -10px rgba(118,86,215,.8)}
-    .cc-ic.is-line{background:linear-gradient(150deg,#1f6b3a 0%,#06C755 100%);border-color:rgba(6,199,85,.4);box-shadow:0 10px 26px -10px rgba(6,199,85,.6)}
-    .cc-ic.is-tg{background:linear-gradient(150deg,#1c5b86 0%,#229ED9 100%);border-color:rgba(34,158,217,.4);box-shadow:0 10px 26px -10px rgba(34,158,217,.6)}
-    .cc-ic svg{width:26px;height:26px}
-    .cc-name{font-size:21px;font-weight:700;color:var(--n800);letter-spacing:-.01em}
-    .cc-handle{margin-top:3px;font-size:13px;color:var(--pri-200);word-break:break-all;transition:color .15s}
-    .cc-handle:hover{color:var(--sec)}
+    .cc-ic{width:54px;height:54px;flex:none;display:flex;align-items:center;justify-content:center}
+    .cc-ic img{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 10px 22px rgba(0,0,0,.45))}
+    .cc-name{font-size:27px;font-weight:700;color:var(--n800);letter-spacing:-.01em}
     .cc-desc{font-size:15px;line-height:1.8;color:var(--n300)}
     .cc-list-label{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--n200)}
     .cc-list{display:flex;flex-direction:column;gap:11px}
@@ -288,12 +283,11 @@
           <!-- 客服卡片01 -->
           <article class="ccard">
             <div class="cc-head">
-              <div class="cc-ic is-line" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
+              <div class="cc-ic" aria-hidden="true">
+                <img src="image/shared/LINE_Icon.webp" alt="LINE" loading="lazy">
               </div>
               <div>
                 <div class="cc-name">LINE客服</div>
-                <a class="cc-handle" href="https://lin.ee/6El6LQT" target="_blank" rel="noopener noreferrer">https://lin.ee/6El6LQT</a>
               </div>
             </div>
             <p class="cc-desc">適合台灣玩家快速聯繫客服，詢問註冊教學、入金流程、優惠活動、遊戲無法開啟與VPN協助等問題</p>
@@ -314,12 +308,11 @@
           <!-- 客服卡片02 -->
           <article class="ccard">
             <div class="cc-head">
-              <div class="cc-ic is-tg" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+              <div class="cc-ic" aria-hidden="true">
+                <img src="image/shared/tg_Icon.webp" alt="Telegram" loading="lazy">
               </div>
               <div>
                 <div class="cc-name">Telegram客服</div>
-                <a class="cc-handle" href="https://t.me/sunluck_cs_bot" target="_blank" rel="noopener noreferrer">https://t.me/sunluck_cs_bot</a>
               </div>
             </div>
             <p class="cc-desc">適合需要即時聯繫、VIP協助或海外平台問題的玩家，可透過Telegram詢問娛樂城平台、入金、活動與遊戲限制相關問題</p>
