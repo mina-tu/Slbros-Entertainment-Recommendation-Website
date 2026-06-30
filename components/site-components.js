@@ -4,7 +4,7 @@
       return {
         ranking: "#promotions",
         news: "news-center.html",
-        guide: "casino-guide.html",
+        guide: "guides-register-deposit.html",
         gameGuide: "game-guides.html",
         vip: "#ranking",
       };
@@ -13,7 +13,7 @@
     return {
       ranking: "online-casino-recommendation.html",
       news: "news-center.html",
-      guide: "casino-guide.html",
+      guide: "guides-register-deposit.html",
       gameGuide: "game-guides.html",
       vip: "index.html#vip",
     };
@@ -46,7 +46,7 @@
       home: "index.html",
       ranking: "online-casino-recommendation.html",
       news: "news-center.html",
-      guide: "casino-guide.html",
+      guide: "guides-register-deposit.html",
       gameGuide: "game-guides.html",
       vip: isIndex ? "#vip" : "index.html#vip",
       promoAll: promo.all,
@@ -57,7 +57,7 @@
       games: "game-guides.html",
       criteria: isIndex ? "#criteria" : "index.html#criteria",
       faq: isIndex ? "#faq" : "index.html#faq",
-      helpCenter: "casino-guide.html",
+      helpCenter: "guides-register-deposit.html",
       terms: "disclaimer.html",
       privacy: "privacy-policy.html",
     };
