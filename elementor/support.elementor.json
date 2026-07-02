@@ -1,0 +1,763 @@
+{
+  "version": "0.4",
+  "title": "客服與支援",
+  "type": "page",
+  "page_settings": {
+    "background_background": "classic",
+    "background_color": "#0F1115"
+  },
+  "content": [
+    {
+      "id": "spcrumb",
+      "elType": "section",
+      "settings": {
+        "content_width": { "unit": "px", "size": 1240 },
+        "padding": { "unit": "px", "top": "18", "right": "20", "bottom": "0", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "spcrumbcol",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "spcrumbtx",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p><a href=\"/\" style=\"color:#A9B1C2\">首頁</a> <span style=\"color:#8F98AC\">›</span> <span style=\"color:#D9DEEA\">客服與支援</span></p>",
+                "text_color": "#8F98AC",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 13 }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sphero",
+      "elType": "section",
+      "settings": {
+        "content_width": { "unit": "px", "size": 1240 },
+        "background_background": "gradient",
+        "background_color": "#7656D7",
+        "background_color_b": "#16153C",
+        "background_gradient_type": "radial",
+        "background_gradient_position": "center bottom",
+        "padding": { "unit": "px", "top": "72", "right": "20", "bottom": "76", "left": "20", "isLinked": false },
+        "margin": { "unit": "px", "top": "16", "right": "0", "bottom": "0", "left": "0", "isLinked": false },
+        "border_border": "solid",
+        "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+        "border_color": "rgba(159,168,240,0.28)"
+      },
+      "elements": [
+        {
+          "id": "spherocol",
+          "elType": "column",
+          "settings": { "_column_size": 100, "_inline_size": null },
+          "elements": [
+            {
+              "id": "spheroh1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "客服與支援｜娛樂城註冊、入金、VPN與常見問題協助",
+                "header_size": "h1",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 34 },
+                "typography_font_weight": "700",
+                "typography_line_height": { "unit": "em", "size": 1.28 }
+              },
+              "elements": []
+            },
+            {
+              "id": "spherod",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>如果你在註冊、入金、優惠活動、遊戲載入或地區限制上遇到問題，可以透過客服與支援頁面快速聯繫客服協助處理</p>",
+                "text_color": "#E8ECF5",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 18 },
+                "typography_line_height": { "unit": "em", "size": 1.85 }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spintro",
+      "elType": "section",
+      "settings": {
+        "content_width": { "unit": "px", "size": 900 },
+        "padding": { "unit": "px", "top": "46", "right": "20", "bottom": "0", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "spintrocol",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "spintrotx",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>如果你在瀏覽晴天娛樂城推薦網時，對娛樂城平台、註冊教學、入金方式、優惠活動或遊戲分類有疑問，可以透過客服與支援頁面快速取得協助</p><p>部分娛樂城遊戲可能會因所在地區限制，導致老虎機、真人娛樂、原創遊戲或體育投注頁面無法正常開啟。若你遇到遊戲無法進入、平台提示地區限制，或真人娛樂無法載入等情況，也可以聯繫客服確認是否能索取免費VPN協助</p>",
+                "text_color": "#C3CAD8",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 17 },
+                "typography_line_height": { "unit": "em", "size": 1.85 }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spcontact",
+      "elType": "section",
+      "settings": {
+        "content_width": { "unit": "px", "size": 1240 },
+        "padding": { "unit": "px", "top": "56", "right": "20", "bottom": "56", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "spcontactcol",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "spcontacteb",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "聯繫客服",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 32 },
+                "typography_font_weight": "700"
+              },
+              "elements": []
+            },
+            {
+              "id": "spcontactd",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;max-width:760px;margin:0 auto\">如果你遇到註冊、入金、優惠活動、VPN或遊戲無法開啟等問題，可以透過以下方式聯繫客服。建議聯繫時簡單描述你遇到的狀況，例如使用的平台、問題頁面、錯誤提示或截圖，客服會比較快協助判斷</p>",
+                "text_color": "#A9B1C2",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 16 },
+                "typography_line_height": { "unit": "em", "size": 1.75 },
+                "_margin": { "unit": "px", "top": "14", "right": "0", "bottom": "34", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "spccinner",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "gap": "extended",
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "spcardline",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": 50,
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "#2E3444",
+                    "padding": { "unit": "px", "top": "34", "right": "32", "bottom": "34", "left": "32", "isLinked": false }
+                  },
+                  "elements": [
+                    {
+                      "id": "splineimg",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": { "url": "image/shared/LINE_Icon.webp", "id": "", "size": "" },
+                        "image_size": "full",
+                        "width": { "unit": "px", "size": 54 },
+                        "align": "left"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "splinename",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "LINE客服",
+                        "header_size": "h3",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_size": { "unit": "px", "size": 27 },
+                        "typography_font_weight": "700",
+                        "_margin": { "unit": "px", "top": "14", "right": "0", "bottom": "0", "left": "0", "isLinked": false }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "splinedesc",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>適合台灣玩家快速聯繫客服，詢問註冊教學、入金流程、優惠活動、遊戲無法開啟與VPN協助等問題</p>",
+                        "text_color": "#A9B1C2",
+                        "typography_typography": "custom",
+                        "typography_font_size": { "unit": "px", "size": 15 },
+                        "typography_line_height": { "unit": "em", "size": 1.8 }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "splinelbl",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "可協助項目",
+                        "header_size": "h6",
+                        "title_color": "#8F98AC",
+                        "typography_typography": "custom",
+                        "typography_font_size": { "unit": "px", "size": 12 },
+                        "typography_font_weight": "700",
+                        "typography_letter_spacing": { "unit": "px", "size": 1.2 },
+                        "_margin": { "unit": "px", "top": "18", "right": "0", "bottom": "10", "left": "0", "isLinked": false }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "splinelist",
+                      "elType": "widget",
+                      "widgetType": "icon-list",
+                      "settings": {
+                        "icon_list": [
+                          { "text": "娛樂城註冊問題", "selected_icon": { "value": "fas fa-check", "library": "fa-solid" }, "_id": "li0101" },
+                          { "text": "入金與儲值流程", "selected_icon": { "value": "fas fa-check", "library": "fa-solid" }, "_id": "li0102" },
+                          { "text": "優惠活動確認", "selected_icon": { "value": "fas fa-check", "library": "fa-solid" }, "_id": "li0103" },
+                          { "text": "老虎機或真人娛樂無法開啟", "selected_icon": { "value": "fas fa-check", "library": "fa-solid" }, "_id": "li0104" },
+                          { "text": "免費VPN協助確認", "selected_icon": { "value": "fas fa-check", "library": "fa-solid" }, "_id": "li0105" }
+                        ],
+                        "space_between": { "unit": "px", "size": 11 },
+                        "icon_color": "#A4F467",
+                        "icon_size": { "unit": "px", "size": 15 },
+                        "text_color": "#C3CAD8",
+                        "text_typography_typography": "custom",
+                        "text_typography_font_size": { "unit": "px", "size": 14 }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "splinebtn",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "聯繫LINE客服",
+                        "link": { "url": "https://lin.ee/6El6LQT", "is_external": "on", "nofollow": "" },
+                        "align": "stretch",
+                        "background_color": "#DEF243",
+                        "button_text_color": "#1B1C1C",
+                        "border_radius": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true },
+                        "typography_typography": "custom",
+                        "typography_font_weight": "700",
+                        "selected_icon": { "value": "fab fa-line", "library": "fa-brands" },
+                        "icon_align": "left",
+                        "_margin": { "unit": "px", "top": "20", "right": "0", "bottom": "0", "left": "0", "isLinked": false }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "spcardtg",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": 50,
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "#2E3444",
+                    "padding": { "unit": "px", "top": "34", "right": "32", "bottom": "34", "left": "32", "isLinked": false }
+                  },
+                  "elements": [
+                    {
+                      "id": "sptgimg",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": { "url": "image/shared/tg_Icon.webp", "id": "", "size": "" },
+                        "image_size": "full",
+                        "width": { "unit": "px", "size": 54 },
+                        "align": "left"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "sptgname",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Telegram客服",
+                        "header_size": "h3",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_size": { "unit": "px", "size": 27 },
+                        "typography_font_weight": "700",
+                        "_margin": { "unit": "px", "top": "14", "right": "0", "bottom": "0", "left": "0", "isLinked": false }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "sptgdesc",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>適合需要即時聯繫、VIP協助或海外平台問題的玩家，可透過Telegram詢問娛樂城平台、入金、活動與遊戲限制相關問題</p>",
+                        "text_color": "#A9B1C2",
+                        "typography_typography": "custom",
+                        "typography_font_size": { "unit": "px", "size": 15 },
+                        "typography_line_height": { "unit": "em", "size": 1.8 }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "sptglbl",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "可協助項目",
+                        "header_size": "h6",
+                        "title_color": "#8F98AC",
+                        "typography_typography": "custom",
+                        "typography_font_size": { "unit": "px", "size": 12 },
+                        "typography_font_weight": "700",
+                        "typography_letter_spacing": { "unit": "px", "size": 1.2 },
+                        "_margin": { "unit": "px", "top": "18", "right": "0", "bottom": "10", "left": "0", "isLinked": false }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "sptglist",
+                      "elType": "widget",
+                      "widgetType": "icon-list",
+                      "settings": {
+                        "icon_list": [
+                          { "text": "平台使用問題", "selected_icon": { "value": "fas fa-check", "library": "fa-solid" }, "_id": "li0201" },
+                          { "text": "VIP與活動協助", "selected_icon": { "value": "fas fa-check", "library": "fa-solid" }, "_id": "li0202" },
+                          { "text": "遊戲地區限制", "selected_icon": { "value": "fas fa-check", "library": "fa-solid" }, "_id": "li0203" },
+                          { "text": "真人娛樂載入異常", "selected_icon": { "value": "fas fa-check", "library": "fa-solid" }, "_id": "li0204" },
+                          { "text": "VPN節點協助確認", "selected_icon": { "value": "fas fa-check", "library": "fa-solid" }, "_id": "li0205" }
+                        ],
+                        "space_between": { "unit": "px", "size": 11 },
+                        "icon_color": "#A4F467",
+                        "icon_size": { "unit": "px", "size": 15 },
+                        "text_color": "#C3CAD8",
+                        "text_typography_typography": "custom",
+                        "text_typography_font_size": { "unit": "px", "size": 14 }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "sptgbtn",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "聯繫Telegram客服",
+                        "link": { "url": "https://t.me/sunluck_cs_bot", "is_external": "on", "nofollow": "" },
+                        "align": "stretch",
+                        "background_color": "#DEF243",
+                        "button_text_color": "#1B1C1C",
+                        "border_radius": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true },
+                        "typography_typography": "custom",
+                        "typography_font_weight": "700",
+                        "selected_icon": { "value": "fab fa-telegram-plane", "library": "fa-brands" },
+                        "icon_align": "left",
+                        "_margin": { "unit": "px", "top": "20", "right": "0", "bottom": "0", "left": "0", "isLinked": false }
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spfaq",
+      "elType": "section",
+      "settings": {
+        "content_width": { "unit": "px", "size": 900 },
+        "background_background": "classic",
+        "background_color": "#0F1115",
+        "padding": { "unit": "px", "top": "56", "right": "20", "bottom": "56", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "spfaqcol",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "spfaqh2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "常見問題",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 32 },
+                "typography_font_weight": "700",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "34", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "spfaqacc",
+              "elType": "widget",
+              "widgetType": "accordion",
+              "settings": {
+                "tabs": [
+                  { "tab_title": "遊戲打不開怎麼辦？", "tab_content": "<p>部分老虎機、真人娛樂、原創遊戲或體育投注頁面可能會因地區限制、網路環境或平台設定導致無法開啟。若遇到遊戲無法載入、畫面卡住或顯示所在地區不可用，可以聯繫客服確認是否需要VPN協助</p>", "_id": "spfq01" },
+                  { "tab_title": "可以索取免費VPN嗎？", "tab_content": "<p>如果你因地區限制無法遊玩老虎機、真人娛樂或部分娛樂城遊戲，可以聯繫客服確認是否能索取免費VPN協助。實際提供方式需依客服回覆與會員狀況為準</p>", "_id": "spfq02" },
+                  { "tab_title": "真人娛樂無法進入怎麼辦？", "tab_content": "<p>真人娛樂遊戲有時會因地區限制或平台規則導致無法開啟。若畫面顯示所在地區不可用，或遊戲一直無法載入，可以聯繫客服確認是否能使用VPN協助</p>", "_id": "spfq03" },
+                  { "tab_title": "註冊娛樂城帳號遇到問題怎麼辦？", "tab_content": "<p>如果你在註冊Stake、Rainbet、Shuffle等平台時遇到問題，可以先查看註冊教學頁面。若仍然無法完成註冊，可以聯繫客服協助確認流程</p>", "_id": "spfq04" },
+                  { "tab_title": "入金前需要注意什麼？", "tab_content": "<p>入金前建議先確認平台支援的幣種、鏈別、錢包地址與最低入金限制。加密貨幣轉帳一旦送出通常無法取消，因此操作前要再次確認地址與鏈別是否正確</p>", "_id": "spfq05" },
+                  { "tab_title": "優惠活動怎麼參加？", "tab_content": "<p>不同活動會有不同條件，例如首儲金額、活動時間、投注要求或領取方式。參加前建議先查看活動頁說明，若不確定規則，可以聯繫客服確認</p>", "_id": "spfq06" },
+                  { "tab_title": "不知道該選哪個娛樂城平台怎麼辦？", "tab_content": "<p>可以先依照自己的需求選擇。Stake適合想體驗完整Web3娛樂城與原創遊戲的玩家；Rainbet適合重視活動感與介面操作的玩家；Shuffle則適合想嘗試新興平台與快速操作體驗的玩家。若還是不確定，也可以聯繫客服協助介紹</p>", "_id": "spfq07" }
+                ],
+                "title_color": "#F4F7FF",
+                "tab_active_color": "#FFFFFF",
+                "content_color": "#A9B1C2",
+                "icon_color": "#B5A8F0",
+                "icon_active_color": "#1B1C1C",
+                "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                "border_color": "#2E3444",
+                "title_background": "#161922",
+                "title_typography_typography": "custom",
+                "title_typography_font_size": { "unit": "px", "size": 16 },
+                "title_typography_font_weight": "700",
+                "content_typography_typography": "custom",
+                "content_typography_font_size": { "unit": "px", "size": 15 },
+                "content_typography_line_height": { "unit": "em", "size": 1.8 },
+                "selected_icon": { "value": "fas fa-plus", "library": "fa-solid" },
+                "selected_active_icon": { "value": "fas fa-minus", "library": "fa-solid" }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spremind",
+      "elType": "section",
+      "settings": {
+        "content_width": { "unit": "px", "size": 1240 },
+        "padding": { "unit": "px", "top": "56", "right": "20", "bottom": "20", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "spremindcol",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "spremindh2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "客服與支援提醒",
+                "header_size": "h2",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 32 },
+                "typography_font_weight": "700",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "spremindbox",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": { "value": "fas fa-info-circle", "library": "fa-solid" },
+                "view": "default",
+                "position": "left",
+                "title_text": "",
+                "description_text": "晴天娛樂城推薦網主要提供娛樂城資訊整理、平台介紹、遊戲分類與優惠活動說明，並非娛樂城平台本身。本網站不經手玩家資金、不代收代付、不提供投注服務，也不保證第三方平台之遊戲結果或活動條件。<br><br>若涉及平台帳號、入金、出金、投注紀錄或活動資格，仍需依照各平台官方規則與客服回覆為準。使用任何娛樂城平台前，請自行確認所在地區法律規範，並量力而為。",
+                "primary_color": "#F0DB66",
+                "icon_size": { "unit": "px", "size": 22 },
+                "description_color": "#C3CAD8",
+                "content_vertical_alignment": "top",
+                "text_align": "left",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": { "unit": "px", "size": 14 },
+                "description_typography_line_height": { "unit": "em", "size": 1.85 },
+                "_background_background": "classic",
+                "_background_color": "#161922",
+                "_border_border": "solid",
+                "_border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "4", "isLinked": false },
+                "_border_color": "#F0DB66",
+                "_padding": { "unit": "px", "top": "30", "right": "36", "bottom": "30", "left": "36", "isLinked": false }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spintlk",
+      "elType": "section",
+      "settings": {
+        "content_width": { "unit": "px", "size": 1240 },
+        "background_background": "classic",
+        "background_color": "#0F1115",
+        "padding": { "unit": "px", "top": "56", "right": "20", "bottom": "60", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "spintlkcol",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "spintlkh2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "推薦閱讀",
+                "header_size": "h2",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 32 },
+                "typography_font_weight": "700",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "24", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "spilinner",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "gap": "extended",
+                "structure": "30"
+              },
+              "elements": [
+                {
+                  "id": "spilc1",
+                  "elType": "column",
+                  "settings": { "_column_size": 33, "_inline_size": 33.33 },
+                  "elements": [
+                    {
+                      "id": "spilb1",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "娛樂城推薦",
+                        "link": { "url": "online-casino-recommendation.html", "is_external": "", "nofollow": "" },
+                        "align": "stretch",
+                        "background_color": "#161922",
+                        "button_text_color": "#FFFFFF",
+                        "border_border": "solid",
+                        "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                        "border_color": "#2E3444",
+                        "border_radius": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true },
+                        "text_padding": { "unit": "px", "top": "20", "right": "22", "bottom": "20", "left": "22", "isLinked": false },
+                        "typography_typography": "custom",
+                        "typography_font_weight": "700",
+                        "selected_icon": { "value": "fas fa-arrow-right", "library": "fa-solid" },
+                        "icon_align": "right"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "spilc2",
+                  "elType": "column",
+                  "settings": { "_column_size": 33, "_inline_size": 33.33 },
+                  "elements": [
+                    {
+                      "id": "spilb2",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Stake註冊教學",
+                        "link": { "url": "register-guide-stake.html", "is_external": "", "nofollow": "" },
+                        "align": "stretch",
+                        "background_color": "#161922",
+                        "button_text_color": "#FFFFFF",
+                        "border_border": "solid",
+                        "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                        "border_color": "#2E3444",
+                        "border_radius": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true },
+                        "text_padding": { "unit": "px", "top": "20", "right": "22", "bottom": "20", "left": "22", "isLinked": false },
+                        "typography_typography": "custom",
+                        "typography_font_weight": "700",
+                        "selected_icon": { "value": "fas fa-arrow-right", "library": "fa-solid" },
+                        "icon_align": "right"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "spilc3",
+                  "elType": "column",
+                  "settings": { "_column_size": 33, "_inline_size": 33.33 },
+                  "elements": [
+                    {
+                      "id": "spilb3",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "老虎機推薦",
+                        "link": { "url": "slot-recommend.html", "is_external": "", "nofollow": "" },
+                        "align": "stretch",
+                        "background_color": "#161922",
+                        "button_text_color": "#FFFFFF",
+                        "border_border": "solid",
+                        "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                        "border_color": "#2E3444",
+                        "border_radius": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true },
+                        "text_padding": { "unit": "px", "top": "20", "right": "22", "bottom": "20", "left": "22", "isLinked": false },
+                        "typography_typography": "custom",
+                        "typography_font_weight": "700",
+                        "selected_icon": { "value": "fas fa-arrow-right", "library": "fa-solid" },
+                        "icon_align": "right"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "spilinner2",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "gap": "extended",
+                "structure": "30",
+                "margin": { "unit": "px", "top": "18", "right": "0", "bottom": "0", "left": "0", "isLinked": false }
+              },
+              "elements": [
+                {
+                  "id": "spilc4",
+                  "elType": "column",
+                  "settings": { "_column_size": 33, "_inline_size": 33.33 },
+                  "elements": [
+                    {
+                      "id": "spilb4",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "真人娛樂推薦",
+                        "link": { "url": "live-casino-recommend.html", "is_external": "", "nofollow": "" },
+                        "align": "stretch",
+                        "background_color": "#161922",
+                        "button_text_color": "#FFFFFF",
+                        "border_border": "solid",
+                        "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                        "border_color": "#2E3444",
+                        "border_radius": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true },
+                        "text_padding": { "unit": "px", "top": "20", "right": "22", "bottom": "20", "left": "22", "isLinked": false },
+                        "typography_typography": "custom",
+                        "typography_font_weight": "700",
+                        "selected_icon": { "value": "fas fa-arrow-right", "library": "fa-solid" },
+                        "icon_align": "right"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "spilc5",
+                  "elType": "column",
+                  "settings": { "_column_size": 33, "_inline_size": 33.33 },
+                  "elements": [
+                    {
+                      "id": "spilb5",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "原創娛樂城遊戲推薦",
+                        "link": { "url": "original-games-recommend.html", "is_external": "", "nofollow": "" },
+                        "align": "stretch",
+                        "background_color": "#161922",
+                        "button_text_color": "#FFFFFF",
+                        "border_border": "solid",
+                        "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                        "border_color": "#2E3444",
+                        "border_radius": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true },
+                        "text_padding": { "unit": "px", "top": "20", "right": "22", "bottom": "20", "left": "22", "isLinked": false },
+                        "typography_typography": "custom",
+                        "typography_font_weight": "700",
+                        "selected_icon": { "value": "fas fa-arrow-right", "library": "fa-solid" },
+                        "icon_align": "right"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "spilc6",
+                  "elType": "column",
+                  "settings": { "_column_size": 33, "_inline_size": 33.33 },
+                  "elements": [
+                    {
+                      "id": "spilb6",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "娛樂城優惠活動",
+                        "link": { "url": "promotions.html", "is_external": "", "nofollow": "" },
+                        "align": "stretch",
+                        "background_color": "#161922",
+                        "button_text_color": "#FFFFFF",
+                        "border_border": "solid",
+                        "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                        "border_color": "#2E3444",
+                        "border_radius": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true },
+                        "text_padding": { "unit": "px", "top": "20", "right": "22", "bottom": "20", "left": "22", "isLinked": false },
+                        "typography_typography": "custom",
+                        "typography_font_weight": "700",
+                        "selected_icon": { "value": "fas fa-arrow-right", "library": "fa-solid" },
+                        "icon_align": "right"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
