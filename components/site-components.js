@@ -220,8 +220,6 @@
         '      <a href="' + links.vip + '">VIP會員</a>' +
         '    </nav>' +
         '    <div class="hdr-icons">' +
-        '      <button class="hdr-ic hdr-search" aria-label="搜尋"><svg viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.8"/><path d="M20 20L16.8 16.8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>' +
-        '      <a class="hdr-login" href="#">會員登入</a>' +
         '      <button class="mob-menu hdr-ic" aria-label="開啟選單" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>' +
         '    </div>' +
         '  </div>' +
