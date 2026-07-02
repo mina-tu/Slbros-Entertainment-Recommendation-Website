@@ -436,22 +436,38 @@
 
     .pcard-foot {
       margin-top: auto;
-      padding-top: 16px;
+      padding-top: 18px;
       border-top: 1px solid var(--n150);
+    }
+
+    .pcard-btn {
       display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-
-    .pcard-foot .hl {
-      font-size: 16px;
-      line-height: 1.55;
-      color: var(--n700);
-    }
-
-    .pcard-foot .hl strong {
-      color: var(--pri-200);
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+      height: 46px;
+      background: #43269A;
+      color: #fff;
+      font-size: 15px;
       font-weight: 700;
+      line-height: 1;
+      border: none;
+      border-radius: 0;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background .15s;
+    }
+
+    .pcard-btn:hover {
+      background: #5A3BC0;
+    }
+
+    .pcard-btn.is-disabled {
+      background: var(--surface-muted);
+      color: var(--n300);
+      cursor: not-allowed;
+      pointer-events: none;
     }
 
     .pcard-status {
@@ -780,7 +796,7 @@
         </div>
         <div class="promo-grid">
 
-          <a class="pcard" href="stake-50usdt-bonus.html">
+          <article class="pcard">
             <div class="pcard-img">
               <img src="image/stake-50usdt-bonus/banner.webp" alt="Stake 50 USDT 迎新活動">
               <span class="pcard-pill">新手優惠</span>
@@ -790,12 +806,12 @@
               <h3>Stake 50 USDT 迎新活動</h3>
               <p class="pcard-desc">新玩家完成KYC驗證與IG互動任務並回傳資料，即可申請迎新獎勵</p>
               <div class="pcard-foot">
-                <p class="hl"><strong>活動亮點：</strong>完成任務送 50 USDT</p>
+                <a class="pcard-btn" href="stake-50usdt-bonus.html">了解更多 →</a>
               </div>
             </div>
-          </a>
+          </article>
 
-          <a class="pcard" href="stake-first-deposit.html">
+          <article class="pcard">
             <div class="pcard-img">
               <img src="image/promotions/Stake 首儲回饋活動.webp" alt="Stake 首儲回饋活動">
               <span class="pcard-pill">新手優惠</span>
@@ -805,10 +821,10 @@
               <h3>Stake 首儲回饋活動</h3>
               <p class="pcard-desc">新玩家首次儲值符合條件，即可獲得額外回饋獎勵</p>
               <div class="pcard-foot">
-                <p class="hl"><strong>活動亮點：</strong>首儲 50 美金送 25 美金</p>
+                <a class="pcard-btn" href="stake-first-deposit.html">了解更多 →</a>
               </div>
             </div>
-          </a>
+          </article>
 
           <article class="pcard">
             <div class="pcard-img">
@@ -820,7 +836,7 @@
               <h3>Bybit 儲值回饋活動</h3>
               <p class="pcard-desc">透過指定方式完成儲值，即可參與加密貨幣儲值回饋</p>
               <div class="pcard-foot">
-                <p class="hl"><strong>活動亮點：</strong>加密貨幣入金回饋</p>
+                <span class="pcard-btn is-disabled" aria-disabled="true">敬請期待</span>
               </div>
             </div>
           </article>
@@ -835,7 +851,7 @@
               <h3>晴天兄弟發財金活動</h3>
               <p class="pcard-desc">晴天兄弟限定活動，符合資格即可參與</p>
               <div class="pcard-foot">
-                <p class="hl"><strong>活動亮點：</strong>限時發財金</p>
+                <span class="pcard-btn is-disabled" aria-disabled="true">敬請期待</span>
               </div>
             </div>
           </article>
