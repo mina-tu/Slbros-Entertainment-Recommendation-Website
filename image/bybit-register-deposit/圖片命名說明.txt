@@ -1,0 +1,41 @@
+Bybit入金與註冊教學 — 圖片放置說明
+==================================================
+資料夾：image/bybit-register-deposit/
+
+把圖片依下列檔名放進這個資料夾，頁面會自動把佔位框換成真實截圖。
+（檔案不存在時頁面不會出現破圖，會顯示編號佔位框）
+
+【Banner】
+banner.webp          桌機版主視覺（建議 1920x620 以上）
+banner_phone.webp    手機版主視覺（建議 750x1000 以上，直式）
+
+【STEP 01 建立帳戶並驗證身分（KYC）】
+kyc-01.webp    前往Bybit官方註冊頁
+kyc-02.webp    填寫註冊資料並確認推薦碼 SLBROS
+kyc-03.webp    設定登入密碼並完成帳號建立
+kyc-04.webp    選擇身份證明文件
+kyc-05.webp    拍攝並上傳身份文件
+kyc-06.webp    等待KYC審核完成
+
+【STEP 02 Bybit入金與購買USDT】
+deposit-01.webp    點擊右上角「充值」
+deposit-02.webp    選擇「用TWD買幣」
+deposit-03.webp    輸入購買金額並選擇USDT
+deposit-04.webp    填寫支付資料
+deposit-05.webp    再次確認購買金額
+deposit-06.webp    確認買入USDT
+
+【STEP 03 Stake入金｜從Bybit提現USDT至Stake錢包】
+stake-01.webp    在Stake錢包點擊「存款」
+stake-02.webp    選擇幣種與網路
+stake-03.webp    回到Bybit點擊「提現」
+stake-04.webp    選擇「鏈上提幣」
+stake-05.webp    貼上地址、選擇網路並輸入金額
+stake-06.webp    等待轉帳完成
+
+--------------------------------------------------
+備註
+- 副檔名固定用 .webp（與站上 register-guide-stake 一致）。
+- 若手邊是 png/jpg，可先轉檔成 webp 再放入。
+- 步驟圖建議統一為手機截圖直式，寬度 768px 左右。
+- 註冊教學圖片可沿用：https://stakeasia.tw/bybit註冊教學/

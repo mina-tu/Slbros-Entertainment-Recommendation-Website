@@ -1,0 +1,4569 @@
+{
+  "content": [
+    {
+      "id": "thavds0",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_justify_content": "center",
+        "flex_align_items": "flex-start",
+        "min_height": {
+          "unit": "px",
+          "size": 700,
+          "sizes": []
+        },
+        "min_height_mobile": {
+          "unit": "vh",
+          "size": 82,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "20",
+          "bottom": "0",
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://slbrox.com.tw/image/stake-50usdt-bonus/banner.webp",
+          "id": "",
+          "size": ""
+        },
+        "background_image_mobile": {
+          "url": "https://slbrox.com.tw/image/stake-50usdt-bonus/banner-phone.webp",
+          "id": "",
+          "size": ""
+        },
+        "background_position": "center center",
+        "background_size": "cover",
+        "background_repeat": "no-repeat",
+        "background_overlay_background": "gradient",
+        "background_overlay_color": "rgba(0,0,0,0.15)",
+        "background_overlay_color_b": "rgba(0,0,0,0.55)",
+        "background_overlay_gradient_type": "linear",
+        "background_overlay_gradient_angle": {
+          "unit": "deg",
+          "size": 180,
+          "sizes": []
+        }
+      },
+      "elements": [
+        {
+          "id": "bzjemfx",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 14,
+              "column": "14",
+              "row": "14"
+            },
+            "flex_align_items": "flex-start",
+            "width": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            }
+          },
+          "elements": [
+            {
+              "id": "tg3kjtf",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span style=\"display:inline-block;padding:5px 12px;margin:0 8px 8px 0;font-size:12px;font-weight:700;letter-spacing:.05em;line-height:1;color:#1B1C1C;background:#DEF243;border:1px solid #DEF243\">進行中</span><span style=\"display:inline-block;padding:5px 12px;margin:0 8px 8px 0;font-size:12px;font-weight:700;letter-spacing:.05em;line-height:1;color:#ffffff;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.28)\">新手優惠</span><span style=\"display:inline-block;padding:5px 12px;margin:0 8px 8px 0;font-size:12px;font-weight:700;letter-spacing:.05em;line-height:1;color:#ffffff;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.28)\">迎新獎勵</span><span style=\"display:inline-block;padding:5px 12px;margin:0 8px 8px 0;font-size:12px;font-weight:700;letter-spacing:.05em;line-height:1;color:#ffffff;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.28)\">STAKE活動</span>",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "6",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "zssix3p",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Stake 50 USDT 迎新活動",
+                "header_size": "h1",
+                "align": "left",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Chiron Hei HK",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 50,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.1,
+                  "sizes": []
+                },
+                "typography_letter_spacing": {
+                  "unit": "em",
+                  "size": -0.02,
+                  "sizes": []
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 40,
+                  "sizes": []
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 26,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "age29dc",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "完成任務即可申請50 USDT迎新獎勵",
+                "header_size": "div",
+                "align": "left",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Chiron Hei HK",
+                "typography_font_weight": "600",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 23,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.28,
+                  "sizes": []
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "kh7rmzc",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>透過指定連結加入Stake，完成KYC驗證、IG互動任務與資料回傳即可申請</p>",
+                "text_color": "#FFFFFF",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_family": "Chiron Hei HK",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.75,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "pxcf9wb",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "_margin": {
+                  "unit": "px",
+                  "top": "14",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "id": "sgou15j",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "立即參加",
+                    "link": {
+                      "url": "https://stake.com/zh?c=sldrake&offer=sldrake",
+                      "is_external": "true",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "align": "left",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "text_padding": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "34",
+                      "bottom": "16",
+                      "left": "34",
+                      "isLinked": false
+                    },
+                    "button_text_color": "#1B1C1C",
+                    "background_color": "#DEF243",
+                    "hover_color": "#1B1C1C",
+                    "button_background_hover_color": "#E8FB5E",
+                    "button_box_shadow_box_shadow_type": "yes",
+                    "button_box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 18,
+                      "blur": 40,
+                      "spread": -14,
+                      "color": "rgba(222,242,67,0.45)"
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_family": "Chiron Hei HK",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 17,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.4,
+                      "sizes": []
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "j4zy9g7",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_align_items": "stretch",
+        "padding": {
+          "unit": "px",
+          "top": "72",
+          "right": "20",
+          "bottom": "72",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "48",
+          "right": "16",
+          "bottom": "48",
+          "left": "16",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#0F1115"
+      },
+      "elements": [
+        {
+          "id": "u1ad43k",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": {
+              "unit": "px",
+              "size": 1240,
+              "sizes": []
+            },
+            "boxed_width": {
+              "unit": "px",
+              "size": 1240,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 40,
+              "column": "0",
+              "row": "40"
+            },
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "9fotfal",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 16,
+                  "column": "0",
+                  "row": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "wemuzb5",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Stake 50 USDT迎新活動重點",
+                    "header_size": "h2",
+                    "align": "center",
+                    "title_color": "#FFFFFF",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Chiron Hei HK",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 34,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3,
+                      "sizes": []
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": -0.01,
+                      "sizes": []
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 30,
+                      "sizes": []
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "ysnjisa",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "column": "24",
+                  "row": "24"
+                },
+                "flex_justify_content": "center",
+                "flex_align_items": "stretch",
+                "flex_direction_mobile": "column"
+              },
+              "elements": [
+                {
+                  "id": "vock76i",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 8,
+                      "column": "8",
+                      "row": "8"
+                    },
+                    "flex_align_items": "flex-start",
+                    "padding": {
+                      "unit": "px",
+                      "top": "25",
+                      "right": "25",
+                      "bottom": "25",
+                      "left": "25",
+                      "isLinked": false
+                    },
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": false
+                    },
+                    "border_color": "#2E3444",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 23,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 47,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "b8uoyu9",
+                      "elType": "widget",
+                      "widgetType": "icon",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-gift",
+                          "library": "fa-solid"
+                        },
+                        "view": "stacked",
+                        "shape": "square",
+                        "primary_color": "#43269A",
+                        "secondary_color": "#FFFFFF",
+                        "size": {
+                          "unit": "px",
+                          "size": 22,
+                          "sizes": []
+                        },
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 11,
+                          "sizes": []
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "8",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "iu97j6m",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "獎勵內容",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "700",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.5,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "zjzbfdz",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>完成任務申請50 USDT迎新獎勵</p>",
+                        "text_color": "#C3CAD8",
+                        "align": "left",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "400",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.5,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "5s07pe0",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 8,
+                      "column": "8",
+                      "row": "8"
+                    },
+                    "flex_align_items": "flex-start",
+                    "padding": {
+                      "unit": "px",
+                      "top": "25",
+                      "right": "25",
+                      "bottom": "25",
+                      "left": "25",
+                      "isLinked": false
+                    },
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": false
+                    },
+                    "border_color": "#2E3444",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 23,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 47,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "9ngykt8",
+                      "elType": "widget",
+                      "widgetType": "icon",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-user",
+                          "library": "fa-solid"
+                        },
+                        "view": "stacked",
+                        "shape": "square",
+                        "primary_color": "#43269A",
+                        "secondary_color": "#FFFFFF",
+                        "size": {
+                          "unit": "px",
+                          "size": 22,
+                          "sizes": []
+                        },
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 11,
+                          "sizes": []
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "8",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "jfy8rxe",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "適合對象",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "700",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.5,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "wyehfcy",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>新玩家與未存款玩家</p>",
+                        "text_color": "#C3CAD8",
+                        "align": "left",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "400",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.5,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "h75q8qj",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 8,
+                      "column": "8",
+                      "row": "8"
+                    },
+                    "flex_align_items": "flex-start",
+                    "padding": {
+                      "unit": "px",
+                      "top": "25",
+                      "right": "25",
+                      "bottom": "25",
+                      "left": "25",
+                      "isLinked": false
+                    },
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": false
+                    },
+                    "border_color": "#2E3444",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 23,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 47,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "s896p53",
+                      "elType": "widget",
+                      "widgetType": "icon",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-bookmark",
+                          "library": "fa-solid"
+                        },
+                        "view": "stacked",
+                        "shape": "square",
+                        "primary_color": "#43269A",
+                        "secondary_color": "#FFFFFF",
+                        "size": {
+                          "unit": "px",
+                          "size": 22,
+                          "sizes": []
+                        },
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 11,
+                          "sizes": []
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "8",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "8n33p22",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "參加條件",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "700",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.5,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "a1t9t8j",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>透過指定連結並綁定推薦碼sldrake</p>",
+                        "text_color": "#C3CAD8",
+                        "align": "left",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "400",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.5,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "xsqpc5m",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 8,
+                      "column": "8",
+                      "row": "8"
+                    },
+                    "flex_align_items": "flex-start",
+                    "padding": {
+                      "unit": "px",
+                      "top": "25",
+                      "right": "25",
+                      "bottom": "25",
+                      "left": "25",
+                      "isLinked": false
+                    },
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": false
+                    },
+                    "border_color": "#2E3444",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 23,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 47,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "as12a65",
+                      "elType": "widget",
+                      "widgetType": "icon",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-clock",
+                          "library": "fa-solid"
+                        },
+                        "view": "stacked",
+                        "shape": "square",
+                        "primary_color": "#43269A",
+                        "secondary_color": "#FFFFFF",
+                        "size": {
+                          "unit": "px",
+                          "size": 22,
+                          "sizes": []
+                        },
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 11,
+                          "sizes": []
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "8",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "f0jhzw9",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "審核方式",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "700",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.5,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "fpvrmgm",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>客服依審核順序安排發放</p>",
+                        "text_color": "#C3CAD8",
+                        "align": "left",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "400",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.5,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "ezhc7kg",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_align_items": "stretch",
+        "padding": {
+          "unit": "px",
+          "top": "72",
+          "right": "20",
+          "bottom": "72",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "48",
+          "right": "16",
+          "bottom": "48",
+          "left": "16",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#0F1115"
+      },
+      "elements": [
+        {
+          "id": "i4uect4",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": {
+              "unit": "px",
+              "size": 1240,
+              "sizes": []
+            },
+            "boxed_width": {
+              "unit": "px",
+              "size": 1240,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 40,
+              "column": "0",
+              "row": "40"
+            },
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "fp7jka9",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 16,
+                  "column": "0",
+                  "row": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "o8vc36o",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Stake 50 USDT迎新活動說明",
+                    "header_size": "h2",
+                    "align": "center",
+                    "title_color": "#FFFFFF",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Chiron Hei HK",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 34,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3,
+                      "sizes": []
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": -0.01,
+                      "sizes": []
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 30,
+                      "sizes": []
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "573lhmm",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"max-width:820px;margin:0 auto;text-align:center\">Stake 50 USDT迎新活動針對新玩家與未存款玩家推出，透過本頁指定連結加入Stake，並完成帳號註冊、KYC身分驗證、IG互動任務與資料回傳後，即可依活動規則申請50 USDT迎新獎勵</p>",
+                    "text_color": "#D9DEEA",
+                    "align": "center",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Chiron Hei HK",
+                    "typography_font_weight": "400",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6,
+                      "sizes": []
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "v32nhz1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "參加資格",
+                "header_size": "h3",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Chiron Hei HK",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.4,
+                  "sizes": []
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "24",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "rv1o4vn",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "column": "24",
+                  "row": "24"
+                },
+                "flex_justify_content": "center",
+                "flex_align_items": "stretch",
+                "flex_direction_mobile": "column"
+              },
+              "elements": [
+                {
+                  "id": "7oblp0s",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 8,
+                      "column": "8",
+                      "row": "8"
+                    },
+                    "flex_align_items": "center",
+                    "padding": {
+                      "unit": "px",
+                      "top": "32",
+                      "right": "25",
+                      "bottom": "32",
+                      "left": "25",
+                      "isLinked": false
+                    },
+                    "background_background": "classic",
+                    "background_color": "#1E2230",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": false
+                    },
+                    "border_color": "#2E3444",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 31,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 47,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "jwofu7p",
+                      "elType": "widget",
+                      "widgetType": "icon",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-user",
+                          "library": "fa-solid"
+                        },
+                        "view": "stacked",
+                        "shape": "square",
+                        "primary_color": "#43269A",
+                        "secondary_color": "#FFFFFF",
+                        "size": {
+                          "unit": "px",
+                          "size": 26,
+                          "sizes": []
+                        },
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 11,
+                          "sizes": []
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "8",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "bue8vmd",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"text-align:center\">新註冊Stake帳號玩家</p>",
+                        "text_color": "#FFFFFF",
+                        "align": "center",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "tqgznl5",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 8,
+                      "column": "8",
+                      "row": "8"
+                    },
+                    "flex_align_items": "center",
+                    "padding": {
+                      "unit": "px",
+                      "top": "32",
+                      "right": "25",
+                      "bottom": "32",
+                      "left": "25",
+                      "isLinked": false
+                    },
+                    "background_background": "classic",
+                    "background_color": "#1E2230",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": false
+                    },
+                    "border_color": "#2E3444",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 31,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 47,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "16wa6q6",
+                      "elType": "widget",
+                      "widgetType": "icon",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-sign-in-alt",
+                          "library": "fa-solid"
+                        },
+                        "view": "stacked",
+                        "shape": "square",
+                        "primary_color": "#43269A",
+                        "secondary_color": "#FFFFFF",
+                        "size": {
+                          "unit": "px",
+                          "size": 26,
+                          "sizes": []
+                        },
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 11,
+                          "sizes": []
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "8",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "b5ut3c5",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"text-align:center\">新玩家或尚未完成存款玩家</p>",
+                        "text_color": "#FFFFFF",
+                        "align": "center",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "3lz3dpk",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 8,
+                      "column": "8",
+                      "row": "8"
+                    },
+                    "flex_align_items": "center",
+                    "padding": {
+                      "unit": "px",
+                      "top": "32",
+                      "right": "25",
+                      "bottom": "32",
+                      "left": "25",
+                      "isLinked": false
+                    },
+                    "background_background": "classic",
+                    "background_color": "#1E2230",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": false
+                    },
+                    "border_color": "#2E3444",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 31,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 47,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "yj88cf7",
+                      "elType": "widget",
+                      "widgetType": "icon",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-shield-alt",
+                          "library": "fa-solid"
+                        },
+                        "view": "stacked",
+                        "shape": "square",
+                        "primary_color": "#43269A",
+                        "secondary_color": "#FFFFFF",
+                        "size": {
+                          "unit": "px",
+                          "size": 26,
+                          "sizes": []
+                        },
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 11,
+                          "sizes": []
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "8",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "3rmowgl",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"text-align:center\">透過指定連結並成功綁定推薦碼sldrake</p>",
+                        "text_color": "#FFFFFF",
+                        "align": "center",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "npjv9pj",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_align_items": "stretch",
+        "padding": {
+          "unit": "px",
+          "top": "72",
+          "right": "20",
+          "bottom": "72",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "48",
+          "right": "16",
+          "bottom": "48",
+          "left": "16",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#0F1115"
+      },
+      "elements": [
+        {
+          "id": "5u2nc8p",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": {
+              "unit": "px",
+              "size": 1240,
+              "sizes": []
+            },
+            "boxed_width": {
+              "unit": "px",
+              "size": 1240,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 40,
+              "column": "0",
+              "row": "40"
+            },
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "z8g36kf",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 16,
+                  "column": "0",
+                  "row": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "fo44vjc",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "如何申請50 USDT迎新獎勵？",
+                    "header_size": "h2",
+                    "align": "center",
+                    "title_color": "#FFFFFF",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Chiron Hei HK",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 34,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3,
+                      "sizes": []
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": -0.01,
+                      "sizes": []
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 30,
+                      "sizes": []
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "jjhq509",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "column": "24",
+                  "row": "24"
+                },
+                "flex_justify_content": "space-between",
+                "flex_align_items": "stretch",
+                "flex_direction_mobile": "column"
+              },
+              "elements": [
+                {
+                  "id": "fjzlw4w",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 8,
+                      "column": "8",
+                      "row": "8"
+                    },
+                    "flex_align_items": "flex-start",
+                    "padding": {
+                      "unit": "px",
+                      "top": "25",
+                      "right": "25",
+                      "bottom": "25",
+                      "left": "25",
+                      "isLinked": false
+                    },
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": false
+                    },
+                    "border_color": "#2E3444",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 49,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 49,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "3i4q5qb",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "01",
+                        "header_size": "div",
+                        "align": "left",
+                        "title_color": "rgba(181,168,240,0.22)",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "800",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 40,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "zff483m",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "透過指定連結註冊Stake",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "700",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.45,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "4oyzqr1",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>點擊本頁註冊連結前往Stake，建立帳號並確認推薦碼 sldrake 已正確填入</p>",
+                        "text_color": "#C3CAD8",
+                        "align": "left",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "400",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.7,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "jvfudxq",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 8,
+                      "column": "8",
+                      "row": "8"
+                    },
+                    "flex_align_items": "flex-start",
+                    "padding": {
+                      "unit": "px",
+                      "top": "25",
+                      "right": "25",
+                      "bottom": "25",
+                      "left": "25",
+                      "isLinked": false
+                    },
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": false
+                    },
+                    "border_color": "#2E3444",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 49,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 49,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "c7vxexj",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "02",
+                        "header_size": "div",
+                        "align": "left",
+                        "title_color": "rgba(181,168,240,0.22)",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "800",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 40,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "ncovdvn",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "完成Stake KYC身分驗證",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "700",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.45,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "4p0rts1",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>進入Stake右上角大頭貼 → 設置 → 驗證，依照平台流程完成KYC身分驗證，並截圖保存驗證完成畫面</p>",
+                        "text_color": "#C3CAD8",
+                        "align": "left",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "400",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.7,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "nrp9wnw",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 8,
+                      "column": "8",
+                      "row": "8"
+                    },
+                    "flex_align_items": "flex-start",
+                    "padding": {
+                      "unit": "px",
+                      "top": "25",
+                      "right": "25",
+                      "bottom": "25",
+                      "left": "25",
+                      "isLinked": false
+                    },
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": false
+                    },
+                    "border_color": "#2E3444",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 49,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 49,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "zwtnf75",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "03",
+                        "header_size": "div",
+                        "align": "left",
+                        "title_color": "rgba(181,168,240,0.22)",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "800",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 40,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "sxs1qxc",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "完成IG互動任務",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "700",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.45,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "vmxwdyj",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>依照活動要求於IG Tag 2位好友，完成後請截圖保存，作為活動審核資料之一</p>",
+                        "text_color": "#C3CAD8",
+                        "align": "left",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "400",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.7,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "i6vabuq",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 8,
+                      "column": "8",
+                      "row": "8"
+                    },
+                    "flex_align_items": "flex-start",
+                    "padding": {
+                      "unit": "px",
+                      "top": "25",
+                      "right": "25",
+                      "bottom": "25",
+                      "left": "25",
+                      "isLinked": false
+                    },
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": false
+                    },
+                    "border_color": "#2E3444",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 49,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 49,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "jq6i1n3",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "04",
+                        "header_size": "div",
+                        "align": "left",
+                        "title_color": "rgba(181,168,240,0.22)",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "800",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 40,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "woaqsem",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "準備Stake帳號與收款資料",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "700",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.45,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "3f573mi",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>請準備Stake暱稱或註冊Email，以及Stake USDT（ERC20）存款地址</p>",
+                        "text_color": "#C3CAD8",
+                        "align": "left",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "400",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.7,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "uzdrkku",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 8,
+                      "column": "8",
+                      "row": "8"
+                    },
+                    "flex_align_items": "flex-start",
+                    "padding": {
+                      "unit": "px",
+                      "top": "25",
+                      "right": "25",
+                      "bottom": "25",
+                      "left": "25",
+                      "isLinked": false
+                    },
+                    "background_background": "classic",
+                    "background_color": "#161922",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": false
+                    },
+                    "border_color": "#2E3444",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "1arthca",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "05",
+                        "header_size": "div",
+                        "align": "left",
+                        "title_color": "rgba(181,168,240,0.22)",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "800",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 40,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "8v2k4zj",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "回傳資料等待審核",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "700",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.45,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "m2dsi7i",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>將完整資料回傳給活動客服後，客服會依照活動資格與資料正確性進行審核，確認無誤後將依照審核順序發放50 USDT獎勵</p>",
+                        "text_color": "#C3CAD8",
+                        "align": "left",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "400",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.7,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "rltblmz",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 14,
+                          "column": "14",
+                          "row": "14"
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "22",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "border_color": "#2E3444",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "10",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "7w7ljla",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<p>完成資料後，請透過客服回傳並等待審核</p>",
+                            "text_color": "#D9DEEA",
+                            "align": "left",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Chiron Hei HK",
+                            "typography_font_weight": "600",
+                            "typography_font_size": {
+                              "unit": "px",
+                              "size": 15,
+                              "sizes": []
+                            },
+                            "typography_line_height": {
+                              "unit": "em",
+                              "size": 1.5,
+                              "sizes": []
+                            }
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "yjfgao2",
+                          "elType": "container",
+                          "settings": {
+                            "content_width": "full",
+                            "flex_direction": "row",
+                            "flex_wrap": "wrap",
+                            "flex_gap": {
+                              "unit": "px",
+                              "size": 12,
+                              "column": "12",
+                              "row": "12"
+                            }
+                          },
+                          "elements": [
+                            {
+                              "id": "wazbogw",
+                              "elType": "widget",
+                              "widgetType": "button",
+                              "settings": {
+                                "text": "LINE客服回傳資料 →",
+                                "link": {
+                                  "url": "https://lin.ee/6El6LQT",
+                                  "is_external": "true",
+                                  "nofollow": "",
+                                  "custom_attributes": ""
+                                },
+                                "align": "left",
+                                "border_radius": {
+                                  "unit": "px",
+                                  "top": "0",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": true
+                                },
+                                "text_padding": {
+                                  "unit": "px",
+                                  "top": "14",
+                                  "right": "26",
+                                  "bottom": "14",
+                                  "left": "26",
+                                  "isLinked": false
+                                },
+                                "button_text_color": "#1B1C1C",
+                                "background_color": "#DEF243",
+                                "hover_color": "#1B1C1C",
+                                "button_background_hover_color": "#E8FB5E",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Chiron Hei HK",
+                                "typography_font_weight": "600",
+                                "typography_font_size": {
+                                  "unit": "px",
+                                  "size": 16,
+                                  "sizes": []
+                                },
+                                "typography_line_height": {
+                                  "unit": "em",
+                                  "size": 1.4,
+                                  "sizes": []
+                                }
+                              },
+                              "elements": []
+                            },
+                            {
+                              "id": "n261ku0",
+                              "elType": "widget",
+                              "widgetType": "button",
+                              "settings": {
+                                "text": "Telegram客服回傳資料 →",
+                                "link": {
+                                  "url": "https://t.me/sunluck_cs_bot",
+                                  "is_external": "true",
+                                  "nofollow": "",
+                                  "custom_attributes": ""
+                                },
+                                "align": "left",
+                                "border_radius": {
+                                  "unit": "px",
+                                  "top": "0",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": true
+                                },
+                                "text_padding": {
+                                  "unit": "px",
+                                  "top": "14",
+                                  "right": "26",
+                                  "bottom": "14",
+                                  "left": "26",
+                                  "isLinked": false
+                                },
+                                "button_text_color": "#FFFFFF",
+                                "background_color": "rgba(0,0,0,0)",
+                                "hover_color": "#FFFFFF",
+                                "button_background_hover_color": "rgba(118,86,215,0.18)",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Chiron Hei HK",
+                                "typography_font_weight": "600",
+                                "typography_font_size": {
+                                  "unit": "px",
+                                  "size": 16,
+                                  "sizes": []
+                                },
+                                "typography_line_height": {
+                                  "unit": "em",
+                                  "size": 1.4,
+                                  "sizes": []
+                                },
+                                "border_border": "solid",
+                                "border_width": {
+                                  "unit": "px",
+                                  "top": "2",
+                                  "right": "2",
+                                  "bottom": "2",
+                                  "left": "2",
+                                  "isLinked": false
+                                },
+                                "border_color": "#7656D7"
+                              },
+                              "elements": []
+                            }
+                          ],
+                          "isInner": true
+                        }
+                      ],
+                      "isInner": true
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "3sio1b3",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_align_items": "stretch",
+        "padding": {
+          "unit": "px",
+          "top": "72",
+          "right": "20",
+          "bottom": "72",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "48",
+          "right": "16",
+          "bottom": "48",
+          "left": "16",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#0F1115"
+      },
+      "elements": [
+        {
+          "id": "mwnxgq9",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": {
+              "unit": "px",
+              "size": 1240,
+              "sizes": []
+            },
+            "boxed_width": {
+              "unit": "px",
+              "size": 1240,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 40,
+              "column": "0",
+              "row": "40"
+            },
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "bwpib15",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 16,
+                  "column": "0",
+                  "row": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "i3eqm48",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Stake活動注意事項",
+                    "header_size": "h2",
+                    "align": "center",
+                    "title_color": "#FFFFFF",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Chiron Hei HK",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 34,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3,
+                      "sizes": []
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": -0.01,
+                      "sizes": []
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 30,
+                      "sizes": []
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "tmm3pdv",
+              "elType": "container",
+              "settings": {
+                "content_width": "boxed",
+                "width": {
+                  "unit": "px",
+                  "size": 880,
+                  "sizes": []
+                },
+                "boxed_width": {
+                  "unit": "px",
+                  "size": 880,
+                  "sizes": []
+                },
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 16,
+                  "column": "16",
+                  "row": "16"
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "34",
+                  "right": "32",
+                  "bottom": "34",
+                  "left": "32",
+                  "isLinked": false
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "20",
+                  "bottom": "26",
+                  "left": "20",
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#1E2230",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": false
+                },
+                "border_color": "#2E3444",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "48dzud9",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "row",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 16,
+                      "column": "16",
+                      "row": "16"
+                    },
+                    "flex_align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "09gfifg",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_justify_content": "center",
+                        "flex_align_items": "center",
+                        "width": {
+                          "unit": "px",
+                          "size": 28,
+                          "sizes": []
+                        },
+                        "min_height": {
+                          "unit": "px",
+                          "size": 28,
+                          "sizes": []
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "background_background": "classic",
+                        "background_color": "#43269A",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "_flex_grow": "0",
+                        "_flex_shrink": "0"
+                      },
+                      "elements": [
+                        {
+                          "id": "uv0jo8g",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "1",
+                            "header_size": "div",
+                            "align": "center",
+                            "title_color": "#FFFFFF",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Chiron Hei HK",
+                            "typography_font_weight": "700",
+                            "typography_font_size": {
+                              "unit": "px",
+                              "size": 14,
+                              "sizes": []
+                            },
+                            "typography_line_height": {
+                              "unit": "em",
+                              "size": 1,
+                              "sizes": []
+                            }
+                          },
+                          "elements": []
+                        }
+                      ],
+                      "isInner": true
+                    },
+                    {
+                      "id": "esycdhf",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>本活動需透過指定連結註冊，並確認推薦碼 sldrake 已成功綁定</p>",
+                        "text_color": "#F4F7FF",
+                        "align": "left",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "400",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.7,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "yzuznd0",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "row",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 16,
+                      "column": "16",
+                      "row": "16"
+                    },
+                    "flex_align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "swzs88w",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_justify_content": "center",
+                        "flex_align_items": "center",
+                        "width": {
+                          "unit": "px",
+                          "size": 28,
+                          "sizes": []
+                        },
+                        "min_height": {
+                          "unit": "px",
+                          "size": 28,
+                          "sizes": []
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "background_background": "classic",
+                        "background_color": "#43269A",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "_flex_grow": "0",
+                        "_flex_shrink": "0"
+                      },
+                      "elements": [
+                        {
+                          "id": "7r2vl7x",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "2",
+                            "header_size": "div",
+                            "align": "center",
+                            "title_color": "#FFFFFF",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Chiron Hei HK",
+                            "typography_font_weight": "700",
+                            "typography_font_size": {
+                              "unit": "px",
+                              "size": 14,
+                              "sizes": []
+                            },
+                            "typography_line_height": {
+                              "unit": "em",
+                              "size": 1,
+                              "sizes": []
+                            }
+                          },
+                          "elements": []
+                        }
+                      ],
+                      "isInner": true
+                    },
+                    {
+                      "id": "ewt6dtp",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>玩家需完成Stake KYC身分驗證，並依照活動要求回傳指定資料</p>",
+                        "text_color": "#F4F7FF",
+                        "align": "left",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "400",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.7,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "kutqhdn",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "row",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 16,
+                      "column": "16",
+                      "row": "16"
+                    },
+                    "flex_align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "yqtp2vy",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_justify_content": "center",
+                        "flex_align_items": "center",
+                        "width": {
+                          "unit": "px",
+                          "size": 28,
+                          "sizes": []
+                        },
+                        "min_height": {
+                          "unit": "px",
+                          "size": 28,
+                          "sizes": []
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "background_background": "classic",
+                        "background_color": "#43269A",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "_flex_grow": "0",
+                        "_flex_shrink": "0"
+                      },
+                      "elements": [
+                        {
+                          "id": "m8dd4vg",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "3",
+                            "header_size": "div",
+                            "align": "center",
+                            "title_color": "#FFFFFF",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Chiron Hei HK",
+                            "typography_font_weight": "700",
+                            "typography_font_size": {
+                              "unit": "px",
+                              "size": 14,
+                              "sizes": []
+                            },
+                            "typography_line_height": {
+                              "unit": "em",
+                              "size": 1,
+                              "sizes": []
+                            }
+                          },
+                          "elements": []
+                        }
+                      ],
+                      "isInner": true
+                    },
+                    {
+                      "id": "iwe7xtx",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>活動主要適用於新玩家或未存款玩家，實際資格依客服審核結果為準</p>",
+                        "text_color": "#F4F7FF",
+                        "align": "left",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "400",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.7,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "281y420",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "row",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 16,
+                      "column": "16",
+                      "row": "16"
+                    },
+                    "flex_align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "mtayx6c",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_justify_content": "center",
+                        "flex_align_items": "center",
+                        "width": {
+                          "unit": "px",
+                          "size": 28,
+                          "sizes": []
+                        },
+                        "min_height": {
+                          "unit": "px",
+                          "size": 28,
+                          "sizes": []
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "background_background": "classic",
+                        "background_color": "#43269A",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "_flex_grow": "0",
+                        "_flex_shrink": "0"
+                      },
+                      "elements": [
+                        {
+                          "id": "sfc5erq",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "4",
+                            "header_size": "div",
+                            "align": "center",
+                            "title_color": "#FFFFFF",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Chiron Hei HK",
+                            "typography_font_weight": "700",
+                            "typography_font_size": {
+                              "unit": "px",
+                              "size": 14,
+                              "sizes": []
+                            },
+                            "typography_line_height": {
+                              "unit": "em",
+                              "size": 1,
+                              "sizes": []
+                            }
+                          },
+                          "elements": []
+                        }
+                      ],
+                      "isInner": true
+                    },
+                    {
+                      "id": "ud16gt8",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>50 USDT獎勵將依照審核順序安排發放</p>",
+                        "text_color": "#F4F7FF",
+                        "align": "left",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "400",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.7,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "p0hsva3",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "row",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 16,
+                      "column": "16",
+                      "row": "16"
+                    },
+                    "flex_align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "vdp6r28",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_justify_content": "center",
+                        "flex_align_items": "center",
+                        "width": {
+                          "unit": "px",
+                          "size": 28,
+                          "sizes": []
+                        },
+                        "min_height": {
+                          "unit": "px",
+                          "size": 28,
+                          "sizes": []
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "background_background": "classic",
+                        "background_color": "#43269A",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "_flex_grow": "0",
+                        "_flex_shrink": "0"
+                      },
+                      "elements": [
+                        {
+                          "id": "vltnflz",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "5",
+                            "header_size": "div",
+                            "align": "center",
+                            "title_color": "#FFFFFF",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Chiron Hei HK",
+                            "typography_font_weight": "700",
+                            "typography_font_size": {
+                              "unit": "px",
+                              "size": 14,
+                              "sizes": []
+                            },
+                            "typography_line_height": {
+                              "unit": "em",
+                              "size": 1,
+                              "sizes": []
+                            }
+                          },
+                          "elements": []
+                        }
+                      ],
+                      "isInner": true
+                    },
+                    {
+                      "id": "m3lh2mt",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>若資料填寫錯誤、不完整或無法確認活動資格，可能會影響審核結果</p>",
+                        "text_color": "#F4F7FF",
+                        "align": "left",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "400",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.7,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "kzg5uwv",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "row",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 16,
+                      "column": "16",
+                      "row": "16"
+                    },
+                    "flex_align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "ctosy2q",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_justify_content": "center",
+                        "flex_align_items": "center",
+                        "width": {
+                          "unit": "px",
+                          "size": 28,
+                          "sizes": []
+                        },
+                        "min_height": {
+                          "unit": "px",
+                          "size": 28,
+                          "sizes": []
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "background_background": "classic",
+                        "background_color": "#43269A",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "_flex_grow": "0",
+                        "_flex_shrink": "0"
+                      },
+                      "elements": [
+                        {
+                          "id": "iflty6v",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "6",
+                            "header_size": "div",
+                            "align": "center",
+                            "title_color": "#FFFFFF",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Chiron Hei HK",
+                            "typography_font_weight": "700",
+                            "typography_font_size": {
+                              "unit": "px",
+                              "size": 14,
+                              "sizes": []
+                            },
+                            "typography_line_height": {
+                              "unit": "em",
+                              "size": 1,
+                              "sizes": []
+                            }
+                          },
+                          "elements": []
+                        }
+                      ],
+                      "isInner": true
+                    },
+                    {
+                      "id": "74zrmz7",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>活動內容、資格判定、審核標準與獎勵發放方式，依活動客服最終確認為準</p>",
+                        "text_color": "#F4F7FF",
+                        "align": "left",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "400",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.7,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "zr1n64g",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_align_items": "stretch",
+        "padding": {
+          "unit": "px",
+          "top": "72",
+          "right": "20",
+          "bottom": "72",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "48",
+          "right": "16",
+          "bottom": "48",
+          "left": "16",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#0F1115"
+      },
+      "elements": [
+        {
+          "id": "9muyo8t",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": {
+              "unit": "px",
+              "size": 1240,
+              "sizes": []
+            },
+            "boxed_width": {
+              "unit": "px",
+              "size": 1240,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 40,
+              "column": "0",
+              "row": "40"
+            },
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "zzavioq",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 16,
+                  "column": "0",
+                  "row": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "fcq8w2q",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Stake 50 USDT活動常見問題",
+                    "header_size": "h2",
+                    "align": "center",
+                    "title_color": "#FFFFFF",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Chiron Hei HK",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 34,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3,
+                      "sizes": []
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": -0.01,
+                      "sizes": []
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 30,
+                      "sizes": []
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "y08sznq",
+              "elType": "container",
+              "settings": {
+                "content_width": "boxed",
+                "width": {
+                  "unit": "px",
+                  "size": 880,
+                  "sizes": []
+                },
+                "boxed_width": {
+                  "unit": "px",
+                  "size": 880,
+                  "sizes": []
+                },
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "4m09w38",
+                  "elType": "widget",
+                  "widgetType": "accordion",
+                  "settings": {
+                    "tabs": [
+                      {
+                        "_id": "dryiq6q",
+                        "tab_title": "Stake推薦碼要填哪一組？",
+                        "tab_content": "<p>本次活動推薦碼為sldrake，透過本頁指定連結註冊時系統通常會自動帶入推薦碼，但仍建議送出註冊前再次確認推薦碼欄位是否正確</p>"
+                      },
+                      {
+                        "_id": "l1q3kon",
+                        "tab_title": "完成Stake註冊後就能直接領50 USDT嗎？",
+                        "tab_content": "<p>不是，玩家需完成Stake註冊、KYC身分驗證、IG互動任務，並回傳指定資料給活動客服，客服確認資料與活動資格後，才會依審核順序安排獎勵發放</p>"
+                      },
+                      {
+                        "_id": "y6270q8",
+                        "tab_title": "已經註冊Stake但還沒存款，可以參加嗎？",
+                        "tab_content": "<p>本活動主要開放給新玩家或未存款玩家，若已註冊但尚未存款，可依活動流程回傳資料，由活動客服確認是否符合資格</p>"
+                      },
+                      {
+                        "_id": "izfirm1",
+                        "tab_title": "Stake KYC驗證在哪裡完成？",
+                        "tab_content": "<p>進入Stake後點擊右上角大頭貼，前往設置中的驗證區塊，依平台流程完成KYC身分驗證即可</p>"
+                      },
+                      {
+                        "_id": "8hwlenq",
+                        "tab_title": "USDT地址要提供哪一種？",
+                        "tab_content": "<p>本活動需回傳Stake USDT（ERC20）存款地址，請確認地址類型正確，避免因地址錯誤影響獎勵發放</p>"
+                      },
+                      {
+                        "_id": "iuggyui",
+                        "tab_title": "50 USDT獎勵多久會發放？",
+                        "tab_content": "<p>資料確認無誤後，活動客服會依審核順序安排發放，實際發放時間可能依審核量、資料完整度與活動狀況而有所不同</p>"
+                      },
+                      {
+                        "_id": "jqu136x",
+                        "tab_title": "老玩家可以參加本次活動嗎？",
+                        "tab_content": "<p>本次活動主要針對新玩家與未存款玩家，若你已是Stake老玩家，是否符合資格需依客服審核結果為準，也可以持續關注後續其他Stake優惠活動</p>"
+                      }
+                    ],
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "title_color": "#FFFFFF",
+                    "tab_active_color": "#DEF243",
+                    "content_color": "#FFFFFF",
+                    "content_background_color": "#5534B0",
+                    "title_background": "#5534B0",
+                    "title_padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "24",
+                      "bottom": "18",
+                      "left": "24",
+                      "isLinked": false
+                    },
+                    "content_padding": {
+                      "unit": "px",
+                      "top": "4",
+                      "right": "24",
+                      "bottom": "20",
+                      "left": "24",
+                      "isLinked": false
+                    },
+                    "border_width": {
+                      "unit": "px",
+                      "size": 3,
+                      "sizes": []
+                    },
+                    "border_color": "#5534B0",
+                    "icon_color": "#DEF243",
+                    "icon_active_color": "#DEF243",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_family": "Chiron Hei HK",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "content_typography_typography": "custom",
+                    "content_typography_font_family": "Chiron Hei HK",
+                    "content_typography_font_size": {
+                      "unit": "px",
+                      "size": 15,
+                      "sizes": []
+                    },
+                    "content_typography_line_height": {
+                      "unit": "em",
+                      "size": 1.7,
+                      "sizes": []
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "woteoaz",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_align_items": "stretch",
+        "padding": {
+          "unit": "px",
+          "top": "72",
+          "right": "20",
+          "bottom": "72",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "48",
+          "right": "16",
+          "bottom": "48",
+          "left": "16",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#0F1115"
+      },
+      "elements": [
+        {
+          "id": "engcf2n",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": {
+              "unit": "px",
+              "size": 1240,
+              "sizes": []
+            },
+            "boxed_width": {
+              "unit": "px",
+              "size": 1240,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 40,
+              "column": "0",
+              "row": "40"
+            },
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "xw4pzyj",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_justify_content": "center",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 16,
+                  "column": "16",
+                  "row": "16"
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "56",
+                  "right": "32",
+                  "bottom": "56",
+                  "left": "32",
+                  "isLinked": false
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "40",
+                  "right": "22",
+                  "bottom": "40",
+                  "left": "22",
+                  "isLinked": false
+                },
+                "background_background": "gradient",
+                "background_color": "#1A1740",
+                "background_color_b": "#7656D7",
+                "background_gradient_type": "linear",
+                "background_gradient_angle": {
+                  "unit": "deg",
+                  "size": 150,
+                  "sizes": []
+                },
+                "background_color_stop": {
+                  "unit": "%",
+                  "size": 0,
+                  "sizes": []
+                },
+                "background_color_b_stop": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": false
+                },
+                "border_color": "#7656D7",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "3sgczg1",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "準備好領取50 USDT迎新獎勵了嗎？",
+                    "header_size": "h2",
+                    "align": "center",
+                    "title_color": "#FFFFFF",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Chiron Hei HK",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 34,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3,
+                      "sizes": []
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": -0.01,
+                      "sizes": []
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 30,
+                      "sizes": []
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "jq2rf5k",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"text-align:center\">透過指定連結加入Stake，綁定推薦碼sldrake並完成KYC與IG任務，立即申請專屬迎新獎勵</p>",
+                    "text_color": "rgba(255,255,255,0.9)",
+                    "align": "center",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Chiron Hei HK",
+                    "typography_font_weight": "400",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 17,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.7,
+                      "sizes": []
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "j3boon3",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "row",
+                    "flex_justify_content": "center",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "18od891",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "立即參加",
+                        "link": {
+                          "url": "https://stake.com/zh?c=sldrake&offer=sldrake",
+                          "is_external": "true",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "align": "left",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "text_padding": {
+                          "unit": "px",
+                          "top": "16",
+                          "right": "34",
+                          "bottom": "16",
+                          "left": "34",
+                          "isLinked": false
+                        },
+                        "button_text_color": "#1B1C1C",
+                        "background_color": "#DEF243",
+                        "hover_color": "#1B1C1C",
+                        "button_background_hover_color": "#E8FB5E",
+                        "button_box_shadow_box_shadow_type": "yes",
+                        "button_box_shadow_box_shadow": {
+                          "horizontal": 0,
+                          "vertical": 18,
+                          "blur": 40,
+                          "spread": -14,
+                          "color": "rgba(222,242,67,0.45)"
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 17,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.4,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "3x8mmxu",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_align_items": "stretch",
+        "padding": {
+          "unit": "px",
+          "top": "72",
+          "right": "20",
+          "bottom": "72",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "48",
+          "right": "16",
+          "bottom": "48",
+          "left": "16",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#0F1115"
+      },
+      "elements": [
+        {
+          "id": "7krdntb",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": {
+              "unit": "px",
+              "size": 1240,
+              "sizes": []
+            },
+            "boxed_width": {
+              "unit": "px",
+              "size": 1240,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 40,
+              "column": "0",
+              "row": "40"
+            },
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "8pn8avc",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 16,
+                  "column": "0",
+                  "row": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "xukkdxs",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "延伸閱讀",
+                    "header_size": "h2",
+                    "align": "center",
+                    "title_color": "#FFFFFF",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Chiron Hei HK",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 34,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3,
+                      "sizes": []
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": -0.01,
+                      "sizes": []
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 30,
+                      "sizes": []
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "rmkbl93",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "column": "24",
+                  "row": "24"
+                },
+                "flex_justify_content": "center",
+                "flex_align_items": "stretch",
+                "flex_direction_mobile": "column"
+              },
+              "elements": [
+                {
+                  "id": "ebx3fgb",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "row",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 16,
+                      "column": "16",
+                      "row": "16"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 31,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 47,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "26",
+                      "right": "25",
+                      "bottom": "26",
+                      "left": "25",
+                      "isLinked": false
+                    },
+                    "background_background": "classic",
+                    "background_color": "#1E2230",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": false
+                    },
+                    "border_color": "#2E3444",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "link": {
+                      "url": "https://slbrox.com.tw/stake-register/",
+                      "is_external": "",
+                      "nofollow": ""
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "1kp9si9",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Stake註冊教學",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "700",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 17,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.5,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "2xin8cm",
+                      "elType": "widget",
+                      "widgetType": "icon",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "view": "stacked",
+                        "shape": "square",
+                        "primary_color": "#43269A",
+                        "secondary_color": "#FFFFFF",
+                        "size": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 9,
+                          "sizes": []
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "8",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "jdlvaxf",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "row",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 16,
+                      "column": "16",
+                      "row": "16"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 31,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 47,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "26",
+                      "right": "25",
+                      "bottom": "26",
+                      "left": "25",
+                      "isLinked": false
+                    },
+                    "background_background": "classic",
+                    "background_color": "#1E2230",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": false
+                    },
+                    "border_color": "#2E3444",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "link": {
+                      "url": "https://slbrox.com.tw/games-slots/",
+                      "is_external": "",
+                      "nofollow": ""
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "ety1wi4",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "線上老虎機推薦",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "700",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 17,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.5,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "pgga4nh",
+                      "elType": "widget",
+                      "widgetType": "icon",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "view": "stacked",
+                        "shape": "square",
+                        "primary_color": "#43269A",
+                        "secondary_color": "#FFFFFF",
+                        "size": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 9,
+                          "sizes": []
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "8",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "zkz6bs1",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "row",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 16,
+                      "column": "16",
+                      "row": "16"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 31,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 47,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "26",
+                      "right": "25",
+                      "bottom": "26",
+                      "left": "25",
+                      "isLinked": false
+                    },
+                    "background_background": "classic",
+                    "background_color": "#1E2230",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": false
+                    },
+                    "border_color": "#2E3444",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "link": {
+                      "url": "https://slbrox.com.tw/games-original-games/",
+                      "is_external": "",
+                      "nofollow": ""
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "ano3ihd",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "原創娛樂城遊戲推薦",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Chiron Hei HK",
+                        "typography_font_weight": "700",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 17,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.5,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "udypp5x",
+                      "elType": "widget",
+                      "widgetType": "icon",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "view": "stacked",
+                        "shape": "square",
+                        "primary_color": "#43269A",
+                        "secondary_color": "#FFFFFF",
+                        "size": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 9,
+                          "sizes": []
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "8",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "page_settings": {
+    "background_background": "classic",
+    "background_color": "#0F1115",
+    "template": "elementor_canvas"
+  },
+  "version": "0.4",
+  "title": "Stake 50 USDT 迎新活動",
+  "type": "page"
+}
