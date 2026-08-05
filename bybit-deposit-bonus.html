@@ -11,7 +11,7 @@
   <meta property="og:title" content="Bybit儲值回饋｜新用戶首儲100USDT領20USDT活動教學">
   <meta property="og:description" content="晴天娛樂城推薦網整理Bybit儲值回饋活動，新用戶完成註冊、KYC驗證並於福利中心領取指定任務，首次儲值100USDT即可申請20USDT回饋，完整流程與注意事項一次看懂。">
   <meta property="og:url" content="/bybit-deposit-bonus/">
-  <meta property="og:image" content="image/bybit-deposit-bonus/banner.png">
+  <meta property="og:image" content="image/bybit-deposit-bonus/banner.webp">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
@@ -95,9 +95,11 @@
       background-size: cover;
       background-position: center;
     }
-    .hero.has-banner{background:url('image/bybit-deposit-bonus/banner.png') center/cover no-repeat}
+    .hero.has-banner{background:url('image/bybit-deposit-bonus/banner.webp') center/cover no-repeat}
     @media(max-width:767px){
-      .hero.has-banner{background-image:linear-gradient(180deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,.6) 55%,rgba(0,0,0,.85) 100%),url('image/bybit-deposit-bonus/banner_phone.png')}
+      /* 尚未提供手機版直式 banner 時，沿用桌機圖並加深漸層維持文字可讀性 */
+      .hero.has-banner{background-image:linear-gradient(180deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,.6) 55%,rgba(0,0,0,.85) 100%),url('image/bybit-deposit-bonus/banner.webp')}
+      .hero.has-banner-phone{background-image:linear-gradient(180deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,.6) 55%,rgba(0,0,0,.85) 100%),url('image/bybit-deposit-bonus/banner_phone.webp')}
     }
     .hero::before{
       content:'';position:absolute;inset:0;z-index:0;
@@ -545,7 +547,12 @@
       if (hero) {
         var probe = new Image();
         probe.onload = function () { hero.classList.add('has-banner'); };
-        probe.src = 'image/bybit-deposit-bonus/banner.png';
+        probe.src = 'image/bybit-deposit-bonus/banner.webp';
+
+        // 手機版直式 banner 為選用，存在時才覆蓋桌機圖
+        var probePhone = new Image();
+        probePhone.onload = function () { hero.classList.add('has-banner-phone'); };
+        probePhone.src = 'image/bybit-deposit-bonus/banner_phone.webp';
       }
 
       // ── Header solid-on-scroll ──
