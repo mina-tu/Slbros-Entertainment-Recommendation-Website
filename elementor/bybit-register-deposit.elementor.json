@@ -28,12 +28,12 @@
     },
     "background_background": "classic",
     "background_image": {
-     "url": "https://slbrox.com.tw/image/bybit-register-deposit/banner.png",
+     "url": "https://mina-tu.github.io/Slbros-Entertainment-Recommendation-Website/image/bybit-register-deposit/banner.png",
      "id": "",
      "size": ""
     },
     "background_image_mobile": {
-     "url": "https://slbrox.com.tw/image/bybit-register-deposit/banner_phone.png",
+     "url": "https://mina-tu.github.io/Slbros-Entertainment-Recommendation-Website/image/bybit-register-deposit/banner_phone.png",
      "id": "",
      "size": ""
     },
@@ -2615,7 +2615,7 @@
            "widgetType": "image",
            "settings": {
             "image": {
-             "url": "https://slbrox.com.tw/image/bybit-register-deposit/Bybit_sighup_new_01-664x1024.webp",
+             "url": "https://mina-tu.github.io/Slbros-Entertainment-Recommendation-Website/image/bybit-register-deposit/Bybit_sighup_new_01-664x1024.webp",
              "id": "",
              "size": "",
              "alt": "Bybit註冊步驟一：前往Bybit官方註冊頁"
@@ -2794,7 +2794,7 @@
            "widgetType": "image",
            "settings": {
             "image": {
-             "url": "https://slbrox.com.tw/image/bybit-register-deposit/Bybit_signup_02-1-664x1024.webp",
+             "url": "https://mina-tu.github.io/Slbros-Entertainment-Recommendation-Website/image/bybit-register-deposit/Bybit_signup_02-1-664x1024.webp",
              "id": "",
              "size": "",
              "alt": "Bybit註冊步驟二：填寫註冊資料並確認推薦碼SLBROS"
@@ -2973,7 +2973,7 @@
            "widgetType": "image",
            "settings": {
             "image": {
-             "url": "https://slbrox.com.tw/image/bybit-register-deposit/Bybit_signup_03-1-664x1024.webp",
+             "url": "https://mina-tu.github.io/Slbros-Entertainment-Recommendation-Website/image/bybit-register-deposit/Bybit_signup_03-1-664x1024.webp",
              "id": "",
              "size": "",
              "alt": "Bybit註冊步驟三：設定登入密碼並完成帳號建立"
@@ -3152,7 +3152,7 @@
            "widgetType": "image",
            "settings": {
             "image": {
-             "url": "https://slbrox.com.tw/image/bybit-register-deposit/Bybit_signup_04-1-664x1024.webp",
+             "url": "https://mina-tu.github.io/Slbros-Entertainment-Recommendation-Website/image/bybit-register-deposit/Bybit_signup_04-1-664x1024.webp",
              "id": "",
              "size": "",
              "alt": "Bybit KYC步驟四：選擇身份證明文件"
@@ -3331,7 +3331,7 @@
            "widgetType": "image",
            "settings": {
             "image": {
-             "url": "https://slbrox.com.tw/image/bybit-register-deposit/Bybit_signup_05-1-664x1024.webp",
+             "url": "https://mina-tu.github.io/Slbros-Entertainment-Recommendation-Website/image/bybit-register-deposit/Bybit_signup_05-1-664x1024.webp",
              "id": "",
              "size": "",
              "alt": "Bybit KYC步驟五：拍攝並上傳身份文件"
@@ -3510,7 +3510,7 @@
            "widgetType": "image",
            "settings": {
             "image": {
-             "url": "https://slbrox.com.tw/image/bybit-register-deposit/Bybit_signup_06-1-664x1024.webp",
+             "url": "https://mina-tu.github.io/Slbros-Entertainment-Recommendation-Website/image/bybit-register-deposit/Bybit_signup_06-1-664x1024.webp",
              "id": "",
              "size": "",
              "alt": "Bybit KYC步驟六：等待KYC審核完成"
@@ -3888,7 +3888,7 @@
            "widgetType": "image",
            "settings": {
             "image": {
-             "url": "https://slbrox.com.tw/image/bybit-register-deposit/Bybit_deposit_01-661x1024.webp",
+             "url": "https://mina-tu.github.io/Slbros-Entertainment-Recommendation-Website/image/bybit-register-deposit/Bybit_deposit_01-661x1024.webp",
              "id": "",
              "size": "",
              "alt": "Bybit入金步驟一：點擊右上角充值"
@@ -4067,7 +4067,7 @@
            "widgetType": "image",
            "settings": {
             "image": {
-             "url": "https://slbrox.com.tw/image/bybit-register-deposit/Bybit_deposit_02-1-661x1024.webp",
+             "url": "https://mina-tu.github.io/Slbros-Entertainment-Recommendation-Website/image/bybit-register-deposit/Bybit_deposit_02-1-661x1024.webp",
              "id": "",
              "size": "",
              "alt": "Bybit入金步驟二：選擇用TWD買幣"
@@ -4246,7 +4246,7 @@
            "widgetType": "image",
            "settings": {
             "image": {
-             "url": "https://slbrox.com.tw/image/bybit-register-deposit/Bybit_deposit_03-1-661x1024.webp",
+             "url": "https://mina-tu.github.io/Slbros-Entertainment-Recommendation-Website/image/bybit-register-deposit/Bybit_deposit_03-1-661x1024.webp",
              "id": "",
              "size": "",
              "alt": "Bybit入金步驟三：輸入購買金額並選擇USDT"
@@ -4425,7 +4425,7 @@
            "widgetType": "image",
            "settings": {
             "image": {
-             "url": "https://slbrox.com.tw/image/bybit-register-deposit/Bybit_deposit_04-1-552x1024.webp",
+             "url": "https://mina-tu.github.io/Slbros-Entertainment-Recommendation-Website/image/bybit-register-deposit/Bybit_deposit_04-1-552x1024.webp",
              "id": "",
              "size": "",
              "alt": "Bybit入金步驟四：填寫支付資料"
@@ -4604,7 +4604,7 @@
            "widgetType": "image",
            "settings": {
             "image": {
-             "url": "https://slbrox.com.tw/image/bybit-register-deposit/Bybit_deposit_05-1-552x1024.webp",
+             "url": "https://mina-tu.github.io/Slbros-Entertainment-Recommendation-Website/image/bybit-register-deposit/Bybit_deposit_05-1-552x1024.webp",
              "id": "",
              "size": "",
              "alt": "Bybit入金步驟五：再次確認購買金額"
@@ -4783,7 +4783,7 @@
            "widgetType": "image",
            "settings": {
             "image": {
-             "url": "https://slbrox.com.tw/image/bybit-register-deposit/Bybit_deposit_06-1-552x1024.webp",
+             "url": "https://mina-tu.github.io/Slbros-Entertainment-Recommendation-Website/image/bybit-register-deposit/Bybit_deposit_06-1-552x1024.webp",
              "id": "",
              "size": "",
              "alt": "Bybit入金步驟六：確認買入USDT"
@@ -5394,7 +5394,7 @@
            "widgetType": "image",
            "settings": {
             "image": {
-             "url": "https://slbrox.com.tw/image/bybit-register-deposit/Bybit_charge_00.webp",
+             "url": "https://mina-tu.github.io/Slbros-Entertainment-Recommendation-Website/image/bybit-register-deposit/Bybit_charge_00.webp",
              "id": "",
              "size": "",
              "alt": "Stake入金步驟一：在Stake錢包點擊存款"
@@ -5573,7 +5573,7 @@
            "widgetType": "image",
            "settings": {
             "image": {
-             "url": "https://slbrox.com.tw/image/bybit-register-deposit/Bybit_charge_00.webp",
+             "url": "https://mina-tu.github.io/Slbros-Entertainment-Recommendation-Website/image/bybit-register-deposit/Bybit_charge_00.webp",
              "id": "",
              "size": "",
              "alt": "Stake入金步驟二：選擇幣種USDT與網路BSC（BEP20）"
@@ -5752,7 +5752,7 @@
            "widgetType": "image",
            "settings": {
             "image": {
-             "url": "https://slbrox.com.tw/image/bybit-register-deposit/Bybit_charge_01-1.webp",
+             "url": "https://mina-tu.github.io/Slbros-Entertainment-Recommendation-Website/image/bybit-register-deposit/Bybit_charge_01-1.webp",
              "id": "",
              "size": "",
              "alt": "Stake入金步驟三：回到Bybit點擊提現"
@@ -5931,7 +5931,7 @@
            "widgetType": "image",
            "settings": {
             "image": {
-             "url": "https://slbrox.com.tw/image/bybit-register-deposit/Bybit_charge_02-1.webp",
+             "url": "https://mina-tu.github.io/Slbros-Entertainment-Recommendation-Website/image/bybit-register-deposit/Bybit_charge_02-1.webp",
              "id": "",
              "size": "",
              "alt": "Stake入金步驟四：選擇鏈上提幣"
@@ -6196,7 +6196,7 @@
            "widgetType": "image",
            "settings": {
             "image": {
-             "url": "https://slbrox.com.tw/image/bybit-register-deposit/Bybit_charge_03-1.webp",
+             "url": "https://mina-tu.github.io/Slbros-Entertainment-Recommendation-Website/image/bybit-register-deposit/Bybit_charge_03-1.webp",
              "id": "",
              "size": "",
              "alt": "Stake入金步驟五：貼上地址、選擇網路並輸入金額"
@@ -6375,7 +6375,7 @@
            "widgetType": "image",
            "settings": {
             "image": {
-             "url": "https://slbrox.com.tw/image/bybit-register-deposit/Bybit_charge_04-1.webp",
+             "url": "https://mina-tu.github.io/Slbros-Entertainment-Recommendation-Website/image/bybit-register-deposit/Bybit_charge_04-1.webp",
              "id": "",
              "size": "",
              "alt": "Stake入金步驟六：等待轉帳完成"
