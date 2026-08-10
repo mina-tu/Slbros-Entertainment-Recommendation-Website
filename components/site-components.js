@@ -6,7 +6,7 @@
         news: "news-center.html",
         guide: "guides-register-deposit.html",
         gameGuide: "game-guides.html",
-        vip: "#ranking",
+        texasPoker: "online-texas-poker.html",
       };
     }
 
@@ -15,7 +15,7 @@
       news: "news-center.html",
       guide: "guides-register-deposit.html",
       gameGuide: "game-guides.html",
-      vip: "index.html#vip",
+      texasPoker: "online-texas-poker.html",
     };
   }
 
@@ -217,7 +217,7 @@
         '          <a href="' + promo.limited + '">限時活動</a>' +
         '        </div>' +
         '      </div>' +
-        '      <a href="' + links.vip + '">VIP會員</a>' +
+        '      <a href="' + links.texasPoker + '" class="' + isActive(page, "texas-poker").trim() + '">線上德州撲克</a>' +
         '    </nav>' +
         '    <div class="hdr-icons">' +
         '      <button class="mob-menu hdr-ic" aria-label="開啟選單" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>' +
@@ -248,7 +248,7 @@
         '        <a href="' + promo.limited + '">限時活動</a>' +
         '      </div>' +
         '    </div>' +
-        '    <a href="' + links.vip + '">VIP會員</a>' +
+        '    <a href="' + links.texasPoker + '" class="' + isActive(page, "texas-poker").trim() + '">線上德州撲克</a>' +
         '  </nav>' +
         '  <div class="mob-overlay" aria-hidden="true"></div>' +
         '</header>';

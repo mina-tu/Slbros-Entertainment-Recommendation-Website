@@ -1,0 +1,3279 @@
+{
+ "content": [
+  {
+   "id": "otp00003",
+   "elType": "container",
+   "settings": {
+    "padding": {
+     "unit": "px",
+     "top": "84",
+     "right": "20",
+     "bottom": "84",
+     "left": "20",
+     "isLinked": false
+    },
+    "margin": {
+     "unit": "px",
+     "top": "16",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": false
+    },
+    "background_background": "classic",
+    "background_image": {
+     "url": "https://mina-tu.github.io/Slbros-Entertainment-Recommendation-Website/image/online-texas-poker/banner.webp",
+     "id": "",
+     "size": ""
+    },
+    "background_position": "center right",
+    "background_repeat": "no-repeat",
+    "background_size": "cover",
+    "background_overlay_background": "gradient",
+    "background_overlay_color": "#0B0D12",
+    "background_overlay_color_stop": {
+     "unit": "%",
+     "size": 0
+    },
+    "background_overlay_color_b": "rgba(15,17,21,0.1)",
+    "background_overlay_color_b_stop": {
+     "unit": "%",
+     "size": 100
+    },
+    "background_overlay_gradient_type": "linear",
+    "background_overlay_gradient_angle": {
+     "unit": "deg",
+     "size": 90
+    },
+    "background_overlay_opacity": {
+     "unit": "px",
+     "size": 1
+    },
+    "min_height": {
+     "unit": "px",
+     "size": 440
+    },
+    "flex_direction": "column",
+    "flex_justify_content": "center",
+    "flex_align_items": "flex-start",
+    "content_width": "boxed",
+    "boxed_width": {
+     "unit": "px",
+     "size": 1240
+    },
+    "custom_css": "@media(max-width:767px){selector{padding-top:56px;padding-bottom:48px;text-align:center;min-height:520px;background-image:url('https://mina-tu.github.io/Slbros-Entertainment-Recommendation-Website/image/online-texas-poker/banner_phone.webp');background-position:center top;align-items:center;justify-content:center;}}"
+   },
+   "elements": [
+    {
+     "id": "otp00000",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "線上德州撲克平台推薦｜玩法規則與四大平台比較",
+      "header_size": "h1",
+      "title_color": "#FFFFFF",
+      "typography_typography": "custom",
+      "typography_font_family": "Chiron Hei HK",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 27
+      },
+      "typography_font_weight": "700",
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.25
+      },
+      "custom_css": "selector .elementor-heading-title{text-shadow:0 2px 14px rgba(0,0,0,.55);letter-spacing:-.02em;}@media(max-width:767px){selector .elementor-heading-title{font-size:15px;line-height:1.35;text-align:center;white-space:nowrap;}}"
+     },
+     "elements": [],
+     "isInner": false
+    },
+    {
+     "id": "otp00001",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>整理 QQ Poker、CoinPoker、Natural8、GG撲克四大線上撲克平台，並介紹德州撲克玩法、規則與新手選平台重點，幫助玩家快速找到適合自己的線上德州撲克平台</p>",
+      "text_color": "#A9B1C2",
+      "typography_typography": "custom",
+      "typography_font_family": "Chiron Hei HK",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 18
+      },
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.85
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "18",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "custom_css": "selector{max-width:640px;}@media(max-width:767px){selector{font-size:12px;line-height:1.8;text-align:center;max-width:none;margin-left:auto;margin-right:auto;}}"
+     },
+     "elements": [],
+     "isInner": false
+    },
+    {
+     "id": "otp00002",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p style=\"margin:0\"><span style=\"display:inline-block;font-size:12px;font-weight:700;color:#B7F08A;background:rgba(164,244,103,.14);border:1px solid rgba(164,244,103,.3);padding:6px 12px;border-radius:999px;margin:0 10px 10px 0;white-space:nowrap\">德州撲克</span><span style=\"display:inline-block;font-size:12px;font-weight:700;color:#8FC0F0;background:rgba(62,127,196,.18);border:1px solid rgba(62,127,196,.34);padding:6px 12px;border-radius:999px;margin:0 10px 10px 0;white-space:nowrap\">平台比較</span><span style=\"display:inline-block;font-size:12px;font-weight:700;color:#B5A8F0;background:rgba(118,86,215,.16);border:1px solid rgba(118,86,215,.3);padding:6px 12px;border-radius:999px;margin:0 0 10px 0;white-space:nowrap\">新手教學</span></p>",
+      "text_color": "#B5A8F0",
+      "typography_typography": "custom",
+      "typography_font_family": "Chiron Hei HK",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 12
+      },
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "16",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "otp00006",
+   "elType": "container",
+   "settings": {
+    "padding": {
+     "unit": "px",
+     "top": "54",
+     "right": "20",
+     "bottom": "0",
+     "left": "20",
+     "isLinked": false
+    },
+    "background_background": "classic",
+    "background_color": "#0F1115",
+    "flex_direction": "column",
+    "content_width": "boxed",
+    "boxed_width": {
+     "unit": "px",
+     "size": 1240
+    }
+   },
+   "elements": [
+    {
+     "id": "otp00004",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>線上德州撲克是將傳統 Texas Hold&rsquo;em 德州撲克搬到線上平台的玩法，玩家可以透過手機或電腦參與現金桌、錦標賽、快速桌與不同級別的牌局</p>",
+      "text_color": "#C3CAD8",
+      "typography_typography": "custom",
+      "typography_font_family": "Chiron Hei HK",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 17
+      },
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.8
+      },
+      "align": "center",
+      "custom_css": "selector{max-width:820px;margin-left:auto;margin-right:auto;}@media(max-width:767px){selector{font-size:13px;}}"
+     },
+     "elements": [],
+     "isInner": false
+    },
+    {
+     "id": "otp00005",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>相較於一般娛樂城遊戲，德州撲克更重視牌力判斷、位置觀念、籌碼管理與對手行動分析，適合喜歡策略型遊戲的玩家</p>",
+      "text_color": "#C3CAD8",
+      "typography_typography": "custom",
+      "typography_font_family": "Chiron Hei HK",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 17
+      },
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.8
+      },
+      "align": "center",
+      "_margin": {
+       "unit": "px",
+       "top": "18",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "custom_css": "selector{max-width:820px;margin-left:auto;margin-right:auto;}@media(max-width:767px){selector{font-size:13px;}}"
+     },
+     "elements": [],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "otp0002f",
+   "elType": "container",
+   "settings": {
+    "padding": {
+     "unit": "px",
+     "top": "54",
+     "right": "20",
+     "bottom": "54",
+     "left": "20",
+     "isLinked": false
+    },
+    "background_background": "classic",
+    "background_color": "#0F1115",
+    "flex_direction": "column",
+    "content_width": "boxed",
+    "boxed_width": {
+     "unit": "px",
+     "size": 1240
+    },
+    "_element_id": "platforms"
+   },
+   "elements": [
+    {
+     "id": "otp00007",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "線上德州撲克平台比較",
+      "header_size": "h2",
+      "title_color": "#FFFFFF",
+      "typography_typography": "custom",
+      "typography_font_family": "Chiron Hei HK",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 32
+      },
+      "typography_font_weight": "700",
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.25
+      },
+      "align": "center",
+      "custom_css": "@media(max-width:767px){selector .elementor-heading-title{font-size:25px;line-height:1.3;}}"
+     },
+     "elements": [],
+     "isInner": false
+    },
+    {
+     "id": "otp00008",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>不同線上撲克平台的定位差異很大，有的偏向新手入門，有的主打加密貨幣，有的則以大型賽事與國際品牌為主。以下整理四個常見的線上德州撲克平台，比較各自的主要特色、適合玩家與推薦重點</p>",
+      "text_color": "#A9B1C2",
+      "typography_typography": "custom",
+      "typography_font_family": "Chiron Hei HK",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 18
+      },
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.8
+      },
+      "align": "center",
+      "_margin": {
+       "unit": "px",
+       "top": "14",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "custom_css": "selector{max-width:780px;margin-left:auto;margin-right:auto;}@media(max-width:767px){selector{font-size:13px;line-height:1.8;}}"
+     },
+     "elements": [],
+     "isInner": false
+    },
+    {
+     "id": "otp0002e",
+     "elType": "container",
+     "settings": {
+      "container_type": "grid",
+      "content_width": "full",
+      "grid_template_columns": {
+       "unit": "fr",
+       "size": 4
+      },
+      "grid_template_columns_tablet": {
+       "unit": "fr",
+       "size": 2
+      },
+      "grid_template_columns_mobile": {
+       "unit": "fr",
+       "size": 1
+      },
+      "grid_gap": {
+       "unit": "px",
+       "size": 18,
+       "column": "18",
+       "row": "18"
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "24",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "otp00011",
+       "elType": "container",
+       "settings": {
+        "flex_direction": "column",
+        "overflow": "hidden",
+        "background_background": "classic",
+        "background_color": "#161922",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": true
+        },
+        "border_color": "#2E3444"
+       },
+       "elements": [
+        {
+         "id": "otp0000b",
+         "elType": "container",
+         "settings": {
+          "flex_direction": "column",
+          "overflow": "hidden",
+          "background_background": "classic",
+          "background_color": "#0B0C11",
+          "padding": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": true
+          }
+         },
+         "elements": [
+          {
+           "id": "otp00009",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "新手友善",
+            "header_size": "h6",
+            "title_color": "#B5A8F0",
+            "typography_typography": "custom",
+            "typography_font_family": "Chiron Hei HK",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 11
+            },
+            "typography_font_weight": "700",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1
+            },
+            "_position": "absolute",
+            "_offset_orientation_h": "end",
+            "_offset_x_end": {
+             "unit": "px",
+             "size": 12
+            },
+            "_offset_orientation_v": "start",
+            "_offset_y": {
+             "unit": "px",
+             "size": 13
+            },
+            "_z_index": 5,
+            "_element_width": "initial",
+            "_padding": {
+             "unit": "px",
+             "top": "4",
+             "right": "10",
+             "bottom": "4",
+             "left": "10",
+             "isLinked": false
+            },
+            "_border_border": "solid",
+            "_border_width": {
+             "unit": "px",
+             "top": "1",
+             "right": "1",
+             "bottom": "1",
+             "left": "1",
+             "isLinked": true
+            },
+            "_border_color": "rgba(159,168,240,0.3)",
+            "_border_radius": {
+             "unit": "px",
+             "top": "999",
+             "right": "999",
+             "bottom": "999",
+             "left": "999",
+             "isLinked": true
+            },
+            "_background_background": "classic",
+            "_background_color": "rgba(15,17,21,0.7)"
+           },
+           "elements": [],
+           "isInner": false
+          },
+          {
+           "id": "otp0000a",
+           "elType": "widget",
+           "widgetType": "image",
+           "settings": {
+            "image": {
+             "url": "https://mina-tu.github.io/Slbros-Entertainment-Recommendation-Website/image/online-texas-poker/QQ%20poker.webp",
+             "id": "",
+             "size": ""
+            },
+            "image_size": "full",
+            "width": {
+             "unit": "%",
+             "size": 100
+            },
+            "custom_css": "selector img{width:100%;height:auto;display:block;}",
+            "alt_text": "QQ Poker"
+           },
+           "elements": [],
+           "isInner": false
+          }
+         ],
+         "isInner": false
+        },
+        {
+         "id": "otp00010",
+         "elType": "container",
+         "settings": {
+          "flex_direction": "column",
+          "flex_grow": "grow",
+          "flex_gap": {
+           "unit": "px",
+           "size": 11,
+           "column": "11",
+           "row": "11"
+          },
+          "padding": {
+           "unit": "px",
+           "top": "20",
+           "right": "20",
+           "bottom": "20",
+           "left": "20",
+           "isLinked": true
+          },
+          "background_background": "classic",
+          "background_color": "#161922"
+         },
+         "elements": [
+          {
+           "id": "otp0000c",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "QQ Poker",
+            "header_size": "h3",
+            "title_color": "#FFFFFF",
+            "typography_typography": "custom",
+            "typography_font_family": "Chiron Hei HK",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 18
+            },
+            "typography_font_weight": "700",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.3
+            }
+           },
+           "elements": [],
+           "isInner": false
+          },
+          {
+           "id": "otp0000d",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>操作直覺、介面單純，是第一次接觸線上德州撲克的玩家最容易上手的選擇。</p>",
+            "text_color": "#A9B1C2",
+            "typography_typography": "custom",
+            "typography_font_family": "Chiron Hei HK",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 14
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.7
+            }
+           },
+           "elements": [],
+           "isInner": false
+          },
+          {
+           "id": "otp0000e",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<div style=\"padding-top:14px;border-top:1px solid #2E3444\"><p style=\"margin:0 0 4px;font-size:11px;font-weight:500;color:#8F98AC\">適合玩家</p><p style=\"margin:0 0 14px;font-size:14px;font-weight:700;color:#F4F7FF;line-height:1.5\">第一次接觸線上德州撲克的新玩家</p><p style=\"margin:0 0 4px;font-size:11px;font-weight:500;color:#8F98AC\">推薦重點</p><p style=\"margin:0 ;font-size:14px;font-weight:700;color:#F4F7FF;line-height:1.5\">新手友善、操作簡單、入門門檻低</p></div>",
+            "text_color": "#C3CAD8",
+            "typography_typography": "custom",
+            "typography_font_family": "Chiron Hei HK",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 14
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.6
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "4",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [],
+           "isInner": false
+          },
+          {
+           "id": "otp0000f",
+           "elType": "widget",
+           "widgetType": "button",
+           "settings": {
+            "text": "立即加入 QQ Poker",
+            "link": {
+             "url": "https://tw.qqpk.poker/?shareCode=MGY5L8",
+             "is_external": "true",
+             "nofollow": ""
+            },
+            "align": "stretch",
+            "border_radius": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": true
+            },
+            "typography_typography": "custom",
+            "typography_font_family": "Chiron Hei HK",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 14
+            },
+            "background_color": "#DEF243",
+            "button_text_color": "#1B1C1C",
+            "button_hover_background_color": "#E8FB5E",
+            "button_hover_color": "#1B1C1C",
+            "selected_icon": {
+             "value": "",
+             "library": ""
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "14",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [],
+           "isInner": false
+          }
+         ],
+         "isInner": false
+        }
+       ],
+       "isInner": false
+      },
+      {
+       "id": "otp0001b",
+       "elType": "container",
+       "settings": {
+        "flex_direction": "column",
+        "overflow": "hidden",
+        "background_background": "classic",
+        "background_color": "#161922",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": true
+        },
+        "border_color": "#2E3444"
+       },
+       "elements": [
+        {
+         "id": "otp00014",
+         "elType": "container",
+         "settings": {
+          "flex_direction": "column",
+          "overflow": "hidden",
+          "background_background": "classic",
+          "background_color": "#0B0C11",
+          "padding": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": true
+          }
+         },
+         "elements": [
+          {
+           "id": "otp00012",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "加密貨幣",
+            "header_size": "h6",
+            "title_color": "#B5A8F0",
+            "typography_typography": "custom",
+            "typography_font_family": "Chiron Hei HK",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 11
+            },
+            "typography_font_weight": "700",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1
+            },
+            "_position": "absolute",
+            "_offset_orientation_h": "end",
+            "_offset_x_end": {
+             "unit": "px",
+             "size": 12
+            },
+            "_offset_orientation_v": "start",
+            "_offset_y": {
+             "unit": "px",
+             "size": 13
+            },
+            "_z_index": 5,
+            "_element_width": "initial",
+            "_padding": {
+             "unit": "px",
+             "top": "4",
+             "right": "10",
+             "bottom": "4",
+             "left": "10",
+             "isLinked": false
+            },
+            "_border_border": "solid",
+            "_border_width": {
+             "unit": "px",
+             "top": "1",
+             "right": "1",
+             "bottom": "1",
+             "left": "1",
+             "isLinked": true
+            },
+            "_border_color": "rgba(159,168,240,0.3)",
+            "_border_radius": {
+             "unit": "px",
+             "top": "999",
+             "right": "999",
+             "bottom": "999",
+             "left": "999",
+             "isLinked": true
+            },
+            "_background_background": "classic",
+            "_background_color": "rgba(15,17,21,0.7)"
+           },
+           "elements": [],
+           "isInner": false
+          },
+          {
+           "id": "otp00013",
+           "elType": "widget",
+           "widgetType": "image",
+           "settings": {
+            "image": {
+             "url": "https://mina-tu.github.io/Slbros-Entertainment-Recommendation-Website/image/online-texas-poker/coinpoker.webp",
+             "id": "",
+             "size": ""
+            },
+            "image_size": "full",
+            "width": {
+             "unit": "%",
+             "size": 100
+            },
+            "custom_css": "selector img{width:100%;height:auto;display:block;}",
+            "alt_text": "CoinPoker"
+           },
+           "elements": [],
+           "isInner": false
+          }
+         ],
+         "isInner": false
+        },
+        {
+         "id": "otp0001a",
+         "elType": "container",
+         "settings": {
+          "flex_direction": "column",
+          "flex_grow": "grow",
+          "flex_gap": {
+           "unit": "px",
+           "size": 11,
+           "column": "11",
+           "row": "11"
+          },
+          "padding": {
+           "unit": "px",
+           "top": "20",
+           "right": "20",
+           "bottom": "20",
+           "left": "20",
+           "isLinked": true
+          },
+          "background_background": "classic",
+          "background_color": "#161922"
+         },
+         "elements": [
+          {
+           "id": "otp00015",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "CoinPoker",
+            "header_size": "h3",
+            "title_color": "#FFFFFF",
+            "typography_typography": "custom",
+            "typography_font_family": "Chiron Hei HK",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 18
+            },
+            "typography_font_weight": "700",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.3
+            }
+           },
+           "elements": [],
+           "isInner": false
+          },
+          {
+           "id": "otp00016",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>支援加密貨幣與 USDT 入金，對習慣鏈上資金流的玩家來說流程相對熟悉。</p>",
+            "text_color": "#A9B1C2",
+            "typography_typography": "custom",
+            "typography_font_family": "Chiron Hei HK",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 14
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.7
+            }
+           },
+           "elements": [],
+           "isInner": false
+          },
+          {
+           "id": "otp00017",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<div style=\"padding-top:14px;border-top:1px solid #2E3444\"><p style=\"margin:0 0 4px;font-size:11px;font-weight:500;color:#8F98AC\">適合玩家</p><p style=\"margin:0 0 14px;font-size:14px;font-weight:700;color:#F4F7FF;line-height:1.5\">習慣使用加密貨幣入金的玩家</p><p style=\"margin:0 0 4px;font-size:11px;font-weight:500;color:#8F98AC\">推薦重點</p><p style=\"margin:0 ;font-size:14px;font-weight:700;color:#F4F7FF;line-height:1.5\">國際化、USDT 玩家友善</p></div>",
+            "text_color": "#C3CAD8",
+            "typography_typography": "custom",
+            "typography_font_family": "Chiron Hei HK",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 14
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.6
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "4",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [],
+           "isInner": false
+          },
+          {
+           "id": "otp00018",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<div style=\"padding:10px 14px;background:rgba(222,242,67,.1);border:1px solid rgba(222,242,67,.28);font-size:12px;font-weight:700;line-height:1.6;color:#D7E84A\">現在加入即刻享有 11 美金限量門票</div>",
+            "text_color": "#D7E84A",
+            "typography_typography": "custom",
+            "typography_font_family": "Chiron Hei HK",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 12
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.6
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "2",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [],
+           "isInner": false
+          },
+          {
+           "id": "otp00019",
+           "elType": "widget",
+           "widgetType": "button",
+           "settings": {
+            "text": "立即加入 CoinPoker",
+            "link": {
+             "url": "https://play.coinpoker.com/register?refer_by=c2xicm9z",
+             "is_external": "true",
+             "nofollow": ""
+            },
+            "align": "stretch",
+            "border_radius": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": true
+            },
+            "typography_typography": "custom",
+            "typography_font_family": "Chiron Hei HK",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 14
+            },
+            "background_color": "#DEF243",
+            "button_text_color": "#1B1C1C",
+            "button_hover_background_color": "#E8FB5E",
+            "button_hover_color": "#1B1C1C",
+            "selected_icon": {
+             "value": "",
+             "library": ""
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "14",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [],
+           "isInner": false
+          }
+         ],
+         "isInner": false
+        }
+       ],
+       "isInner": false
+      },
+      {
+       "id": "otp00024",
+       "elType": "container",
+       "settings": {
+        "flex_direction": "column",
+        "overflow": "hidden",
+        "background_background": "classic",
+        "background_color": "#161922",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": true
+        },
+        "border_color": "#2E3444"
+       },
+       "elements": [
+        {
+         "id": "otp0001e",
+         "elType": "container",
+         "settings": {
+          "flex_direction": "column",
+          "overflow": "hidden",
+          "background_background": "classic",
+          "background_color": "#0B0C11",
+          "padding": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": true
+          }
+         },
+         "elements": [
+          {
+           "id": "otp0001c",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "亞洲熱門",
+            "header_size": "h6",
+            "title_color": "#B5A8F0",
+            "typography_typography": "custom",
+            "typography_font_family": "Chiron Hei HK",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 11
+            },
+            "typography_font_weight": "700",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1
+            },
+            "_position": "absolute",
+            "_offset_orientation_h": "end",
+            "_offset_x_end": {
+             "unit": "px",
+             "size": 12
+            },
+            "_offset_orientation_v": "start",
+            "_offset_y": {
+             "unit": "px",
+             "size": 13
+            },
+            "_z_index": 5,
+            "_element_width": "initial",
+            "_padding": {
+             "unit": "px",
+             "top": "4",
+             "right": "10",
+             "bottom": "4",
+             "left": "10",
+             "isLinked": false
+            },
+            "_border_border": "solid",
+            "_border_width": {
+             "unit": "px",
+             "top": "1",
+             "right": "1",
+             "bottom": "1",
+             "left": "1",
+             "isLinked": true
+            },
+            "_border_color": "rgba(159,168,240,0.3)",
+            "_border_radius": {
+             "unit": "px",
+             "top": "999",
+             "right": "999",
+             "bottom": "999",
+             "left": "999",
+             "isLinked": true
+            },
+            "_background_background": "classic",
+            "_background_color": "rgba(15,17,21,0.7)"
+           },
+           "elements": [],
+           "isInner": false
+          },
+          {
+           "id": "otp0001d",
+           "elType": "widget",
+           "widgetType": "image",
+           "settings": {
+            "image": {
+             "url": "https://mina-tu.github.io/Slbros-Entertainment-Recommendation-Website/image/online-texas-poker/N8.webp",
+             "id": "",
+             "size": ""
+            },
+            "image_size": "full",
+            "width": {
+             "unit": "%",
+             "size": 100
+            },
+            "custom_css": "selector img{width:100%;height:auto;display:block;}",
+            "alt_text": "Natural8"
+           },
+           "elements": [],
+           "isInner": false
+          }
+         ],
+         "isInner": false
+        },
+        {
+         "id": "otp00023",
+         "elType": "container",
+         "settings": {
+          "flex_direction": "column",
+          "flex_grow": "grow",
+          "flex_gap": {
+           "unit": "px",
+           "size": 11,
+           "column": "11",
+           "row": "11"
+          },
+          "padding": {
+           "unit": "px",
+           "top": "20",
+           "right": "20",
+           "bottom": "20",
+           "left": "20",
+           "isLinked": true
+          },
+          "background_background": "classic",
+          "background_color": "#161922"
+         },
+         "elements": [
+          {
+           "id": "otp0001f",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Natural8",
+            "header_size": "h3",
+            "title_color": "#FFFFFF",
+            "typography_typography": "custom",
+            "typography_font_family": "Chiron Hei HK",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 18
+            },
+            "typography_font_weight": "700",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.3
+            }
+           },
+           "elements": [],
+           "isInner": false
+          },
+          {
+           "id": "otp00020",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>亞洲玩家熟悉度高、品牌搜尋量大，是找成熟線上撲克平台時常見的選項。</p>",
+            "text_color": "#A9B1C2",
+            "typography_typography": "custom",
+            "typography_font_family": "Chiron Hei HK",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 14
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.7
+            }
+           },
+           "elements": [],
+           "isInner": false
+          },
+          {
+           "id": "otp00021",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<div style=\"padding-top:14px;border-top:1px solid #2E3444\"><p style=\"margin:0 0 4px;font-size:11px;font-weight:500;color:#8F98AC\">適合玩家</p><p style=\"margin:0 0 14px;font-size:14px;font-weight:700;color:#F4F7FF;line-height:1.5\">想找成熟線上撲克平台的玩家</p><p style=\"margin:0 0 4px;font-size:11px;font-weight:500;color:#8F98AC\">推薦重點</p><p style=\"margin:0 ;font-size:14px;font-weight:700;color:#F4F7FF;line-height:1.5\">亞洲知名度高、玩家基礎大</p></div>",
+            "text_color": "#C3CAD8",
+            "typography_typography": "custom",
+            "typography_font_family": "Chiron Hei HK",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 14
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.6
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "4",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [],
+           "isInner": false
+          },
+          {
+           "id": "otp00022",
+           "elType": "widget",
+           "widgetType": "button",
+           "settings": {
+            "text": "立即加入 Natural8",
+            "link": {
+             "url": "https://www.natural8.com/sign-up?ref=slbros8",
+             "is_external": "true",
+             "nofollow": ""
+            },
+            "align": "stretch",
+            "border_radius": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": true
+            },
+            "typography_typography": "custom",
+            "typography_font_family": "Chiron Hei HK",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 14
+            },
+            "background_color": "#DEF243",
+            "button_text_color": "#1B1C1C",
+            "button_hover_background_color": "#E8FB5E",
+            "button_hover_color": "#1B1C1C",
+            "selected_icon": {
+             "value": "",
+             "library": ""
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "14",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [],
+           "isInner": false
+          }
+         ],
+         "isInner": false
+        }
+       ],
+       "isInner": false
+      },
+      {
+       "id": "otp0002d",
+       "elType": "container",
+       "settings": {
+        "flex_direction": "column",
+        "overflow": "hidden",
+        "background_background": "classic",
+        "background_color": "#161922",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": true
+        },
+        "border_color": "#2E3444"
+       },
+       "elements": [
+        {
+         "id": "otp00027",
+         "elType": "container",
+         "settings": {
+          "flex_direction": "column",
+          "overflow": "hidden",
+          "background_background": "classic",
+          "background_color": "#0B0C11",
+          "padding": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": true
+          }
+         },
+         "elements": [
+          {
+           "id": "otp00025",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "國際品牌",
+            "header_size": "h6",
+            "title_color": "#B5A8F0",
+            "typography_typography": "custom",
+            "typography_font_family": "Chiron Hei HK",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 11
+            },
+            "typography_font_weight": "700",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1
+            },
+            "_position": "absolute",
+            "_offset_orientation_h": "end",
+            "_offset_x_end": {
+             "unit": "px",
+             "size": 12
+            },
+            "_offset_orientation_v": "start",
+            "_offset_y": {
+             "unit": "px",
+             "size": 13
+            },
+            "_z_index": 5,
+            "_element_width": "initial",
+            "_padding": {
+             "unit": "px",
+             "top": "4",
+             "right": "10",
+             "bottom": "4",
+             "left": "10",
+             "isLinked": false
+            },
+            "_border_border": "solid",
+            "_border_width": {
+             "unit": "px",
+             "top": "1",
+             "right": "1",
+             "bottom": "1",
+             "left": "1",
+             "isLinked": true
+            },
+            "_border_color": "rgba(159,168,240,0.3)",
+            "_border_radius": {
+             "unit": "px",
+             "top": "999",
+             "right": "999",
+             "bottom": "999",
+             "left": "999",
+             "isLinked": true
+            },
+            "_background_background": "classic",
+            "_background_color": "rgba(15,17,21,0.7)"
+           },
+           "elements": [],
+           "isInner": false
+          },
+          {
+           "id": "otp00026",
+           "elType": "widget",
+           "widgetType": "image",
+           "settings": {
+            "image": {
+             "url": "https://mina-tu.github.io/Slbros-Entertainment-Recommendation-Website/image/online-texas-poker/GG%20poker.webp",
+             "id": "",
+             "size": ""
+            },
+            "image_size": "full",
+            "width": {
+             "unit": "%",
+             "size": 100
+            },
+            "custom_css": "selector img{width:100%;height:auto;display:block;}",
+            "alt_text": "GG撲克 / GGPoker"
+           },
+           "elements": [],
+           "isInner": false
+          }
+         ],
+         "isInner": false
+        },
+        {
+         "id": "otp0002c",
+         "elType": "container",
+         "settings": {
+          "flex_direction": "column",
+          "flex_grow": "grow",
+          "flex_gap": {
+           "unit": "px",
+           "size": 11,
+           "column": "11",
+           "row": "11"
+          },
+          "padding": {
+           "unit": "px",
+           "top": "20",
+           "right": "20",
+           "bottom": "20",
+           "left": "20",
+           "isLinked": true
+          },
+          "background_background": "classic",
+          "background_color": "#161922"
+         },
+         "elements": [
+          {
+           "id": "otp00028",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "GG撲克 / GGPoker",
+            "header_size": "h3",
+            "title_color": "#FFFFFF",
+            "typography_typography": "custom",
+            "typography_font_family": "Chiron Hei HK",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 18
+            },
+            "typography_font_weight": "700",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.3
+            }
+           },
+           "elements": [],
+           "isInner": false
+          },
+          {
+           "id": "otp00029",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>全球知名撲克品牌，賽事資源多，適合重視大型賽事與國際品牌的玩家。</p>",
+            "text_color": "#A9B1C2",
+            "typography_typography": "custom",
+            "typography_font_family": "Chiron Hei HK",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 14
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.7
+            }
+           },
+           "elements": [],
+           "isInner": false
+          },
+          {
+           "id": "otp0002a",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<div style=\"padding-top:14px;border-top:1px solid #2E3444\"><p style=\"margin:0 0 4px;font-size:11px;font-weight:500;color:#8F98AC\">適合玩家</p><p style=\"margin:0 0 14px;font-size:14px;font-weight:700;color:#F4F7FF;line-height:1.5\">重視大型賽事與國際品牌的玩家</p><p style=\"margin:0 0 4px;font-size:11px;font-weight:500;color:#8F98AC\">推薦重點</p><p style=\"margin:0 ;font-size:14px;font-weight:700;color:#F4F7FF;line-height:1.5\">品牌知名度高、賽事資源多</p></div>",
+            "text_color": "#C3CAD8",
+            "typography_typography": "custom",
+            "typography_font_family": "Chiron Hei HK",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 14
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.6
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "4",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [],
+           "isInner": false
+          },
+          {
+           "id": "otp0002b",
+           "elType": "widget",
+           "widgetType": "button",
+           "settings": {
+            "text": "立即加入 GG撲克",
+            "link": {
+             "url": "http://ggpuke888.com/allen",
+             "is_external": "true",
+             "nofollow": ""
+            },
+            "align": "stretch",
+            "border_radius": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": true
+            },
+            "typography_typography": "custom",
+            "typography_font_family": "Chiron Hei HK",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 14
+            },
+            "background_color": "#DEF243",
+            "button_text_color": "#1B1C1C",
+            "button_hover_background_color": "#E8FB5E",
+            "button_hover_color": "#1B1C1C",
+            "selected_icon": {
+             "value": "",
+             "library": ""
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "14",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [],
+           "isInner": false
+          }
+         ],
+         "isInner": false
+        }
+       ],
+       "isInner": false
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "otp00043",
+   "elType": "container",
+   "settings": {
+    "padding": {
+     "unit": "px",
+     "top": "54",
+     "right": "20",
+     "bottom": "54",
+     "left": "20",
+     "isLinked": false
+    },
+    "background_background": "classic",
+    "background_color": "#0F1115",
+    "flex_direction": "column",
+    "content_width": "boxed",
+    "boxed_width": {
+     "unit": "px",
+     "size": 1240
+    },
+    "_element_id": "plays"
+   },
+   "elements": [
+    {
+     "id": "otp00030",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "線上撲克常見玩法",
+      "header_size": "h2",
+      "title_color": "#FFFFFF",
+      "typography_typography": "custom",
+      "typography_font_family": "Chiron Hei HK",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 32
+      },
+      "typography_font_weight": "700",
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.25
+      },
+      "align": "center",
+      "custom_css": "@media(max-width:767px){selector .elementor-heading-title{font-size:25px;line-height:1.3;}}"
+     },
+     "elements": [],
+     "isInner": false
+    },
+    {
+     "id": "otp00031",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>除了最主流的德州撲克之外，線上撲克平台通常還會提供短牌、奧馬哈與錦標賽等不同玩法，節奏與難度各有差異</p>",
+      "text_color": "#A9B1C2",
+      "typography_typography": "custom",
+      "typography_font_family": "Chiron Hei HK",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 18
+      },
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.8
+      },
+      "align": "center",
+      "_margin": {
+       "unit": "px",
+       "top": "14",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "custom_css": "selector{max-width:780px;margin-left:auto;margin-right:auto;}@media(max-width:767px){selector{font-size:13px;line-height:1.8;}}"
+     },
+     "elements": [],
+     "isInner": false
+    },
+    {
+     "id": "otp00042",
+     "elType": "container",
+     "settings": {
+      "container_type": "grid",
+      "content_width": "full",
+      "grid_template_columns": {
+       "unit": "fr",
+       "size": 4
+      },
+      "grid_template_columns_tablet": {
+       "unit": "fr",
+       "size": 2
+      },
+      "grid_template_columns_mobile": {
+       "unit": "fr",
+       "size": 1
+      },
+      "grid_gap": {
+       "unit": "px",
+       "size": 18,
+       "column": "18",
+       "row": "18"
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "24",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "otp00035",
+       "elType": "container",
+       "settings": {
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#161922",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": true
+        },
+        "border_color": "#2E3444",
+        "padding": {
+         "unit": "px",
+         "top": "26",
+         "right": "26",
+         "bottom": "26",
+         "left": "26",
+         "isLinked": true
+        }
+       },
+       "elements": [
+        {
+         "id": "otp00032",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://mina-tu.github.io/Slbros-Entertainment-Recommendation-Website/image/online-texas-poker/game-texas-holdem.png",
+           "id": "",
+           "size": ""
+          },
+          "image_size": "full",
+          "align": "center",
+          "alt_text": "德州撲克 Texas Hold'em",
+          "custom_css": "selector img{max-height:180px;width:auto;filter:drop-shadow(0 20px 26px rgba(0,0,0,.55));}",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "16",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": [],
+         "isInner": false
+        },
+        {
+         "id": "otp00033",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "德州撲克 Texas Hold'em",
+          "header_size": "h3",
+          "title_color": "#FFFFFF",
+          "typography_typography": "custom",
+          "typography_font_family": "Chiron Hei HK",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 16
+          },
+          "typography_font_weight": "700",
+          "typography_line_height": {
+           "unit": "em",
+           "size": 1.35
+          }
+         },
+         "elements": [],
+         "isInner": false
+        },
+        {
+         "id": "otp00034",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p>最主流的撲克玩法，包含現金桌、錦標賽與快速桌，也是多數平台的核心牌局。</p>",
+          "text_color": "#A9B1C2",
+          "typography_typography": "custom",
+          "typography_font_family": "Chiron Hei HK",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 14
+          },
+          "typography_line_height": {
+           "unit": "em",
+           "size": 1.75
+          },
+          "_margin": {
+           "unit": "px",
+           "top": "9",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": [],
+         "isInner": false
+        }
+       ],
+       "isInner": false
+      },
+      {
+       "id": "otp00039",
+       "elType": "container",
+       "settings": {
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#161922",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": true
+        },
+        "border_color": "#2E3444",
+        "padding": {
+         "unit": "px",
+         "top": "26",
+         "right": "26",
+         "bottom": "26",
+         "left": "26",
+         "isLinked": true
+        }
+       },
+       "elements": [
+        {
+         "id": "otp00036",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://mina-tu.github.io/Slbros-Entertainment-Recommendation-Website/image/online-texas-poker/game-short-deck.png",
+           "id": "",
+           "size": ""
+          },
+          "image_size": "full",
+          "align": "center",
+          "alt_text": "短牌撲克 Short Deck",
+          "custom_css": "selector img{max-height:180px;width:auto;filter:drop-shadow(0 20px 26px rgba(0,0,0,.55));}",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "16",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": [],
+         "isInner": false
+        },
+        {
+         "id": "otp00037",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "短牌撲克 Short Deck",
+          "header_size": "h3",
+          "title_color": "#FFFFFF",
+          "typography_typography": "custom",
+          "typography_font_family": "Chiron Hei HK",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 16
+          },
+          "typography_font_weight": "700",
+          "typography_line_height": {
+           "unit": "em",
+           "size": 1.35
+          }
+         },
+         "elements": [],
+         "isInner": false
+        },
+        {
+         "id": "otp00038",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p>移除 2 到 5 的牌組，節奏更快，強牌出現頻率更高，牌局變化更激烈。</p>",
+          "text_color": "#A9B1C2",
+          "typography_typography": "custom",
+          "typography_font_family": "Chiron Hei HK",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 14
+          },
+          "typography_line_height": {
+           "unit": "em",
+           "size": 1.75
+          },
+          "_margin": {
+           "unit": "px",
+           "top": "9",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": [],
+         "isInner": false
+        }
+       ],
+       "isInner": false
+      },
+      {
+       "id": "otp0003d",
+       "elType": "container",
+       "settings": {
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#161922",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": true
+        },
+        "border_color": "#2E3444",
+        "padding": {
+         "unit": "px",
+         "top": "26",
+         "right": "26",
+         "bottom": "26",
+         "left": "26",
+         "isLinked": true
+        }
+       },
+       "elements": [
+        {
+         "id": "otp0003a",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://mina-tu.github.io/Slbros-Entertainment-Recommendation-Website/image/online-texas-poker/game-Omaha.png",
+           "id": "",
+           "size": ""
+          },
+          "image_size": "full",
+          "align": "center",
+          "alt_text": "奧馬哈撲克 PLO",
+          "custom_css": "selector img{max-height:180px;width:auto;filter:drop-shadow(0 20px 26px rgba(0,0,0,.55));}",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "16",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": [],
+         "isInner": false
+        },
+        {
+         "id": "otp0003b",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "奧馬哈撲克 PLO",
+          "header_size": "h3",
+          "title_color": "#FFFFFF",
+          "typography_typography": "custom",
+          "typography_font_family": "Chiron Hei HK",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 16
+          },
+          "typography_font_weight": "700",
+          "typography_line_height": {
+           "unit": "em",
+           "size": 1.35
+          }
+         },
+         "elements": [],
+         "isInner": false
+        },
+        {
+         "id": "otp0003c",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p>玩家手牌更多，組合變化大，讀牌與計算難度提高，適合進階玩家。</p>",
+          "text_color": "#A9B1C2",
+          "typography_typography": "custom",
+          "typography_font_family": "Chiron Hei HK",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 14
+          },
+          "typography_line_height": {
+           "unit": "em",
+           "size": 1.75
+          },
+          "_margin": {
+           "unit": "px",
+           "top": "9",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": [],
+         "isInner": false
+        }
+       ],
+       "isInner": false
+      },
+      {
+       "id": "otp00041",
+       "elType": "container",
+       "settings": {
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#161922",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": true
+        },
+        "border_color": "#2E3444",
+        "padding": {
+         "unit": "px",
+         "top": "26",
+         "right": "26",
+         "bottom": "26",
+         "left": "26",
+         "isLinked": true
+        }
+       },
+       "elements": [
+        {
+         "id": "otp0003e",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://mina-tu.github.io/Slbros-Entertainment-Recommendation-Website/image/online-texas-poker/game-highstakes.png",
+           "id": "",
+           "size": ""
+          },
+          "image_size": "full",
+          "align": "center",
+          "alt_text": "錦標賽 Tournament",
+          "custom_css": "selector img{max-height:180px;width:auto;filter:drop-shadow(0 20px 26px rgba(0,0,0,.55));}",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "16",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": [],
+         "isInner": false
+        },
+        {
+         "id": "otp0003f",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "錦標賽 Tournament",
+          "header_size": "h3",
+          "title_color": "#FFFFFF",
+          "typography_typography": "custom",
+          "typography_font_family": "Chiron Hei HK",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 16
+          },
+          "typography_font_weight": "700",
+          "typography_line_height": {
+           "unit": "em",
+           "size": 1.35
+          }
+         },
+         "elements": [],
+         "isInner": false
+        },
+        {
+         "id": "otp00040",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p>固定買入、多人競爭排名，籌碼與盲注結構隨時間變化，適合喜歡賽事型玩法的玩家。</p>",
+          "text_color": "#A9B1C2",
+          "typography_typography": "custom",
+          "typography_font_family": "Chiron Hei HK",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 14
+          },
+          "typography_line_height": {
+           "unit": "em",
+           "size": 1.75
+          },
+          "_margin": {
+           "unit": "px",
+           "top": "9",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": [],
+         "isInner": false
+        }
+       ],
+       "isInner": false
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "otp0004f",
+   "elType": "container",
+   "settings": {
+    "padding": {
+     "unit": "px",
+     "top": "54",
+     "right": "20",
+     "bottom": "54",
+     "left": "20",
+     "isLinked": false
+    },
+    "background_background": "classic",
+    "background_color": "#0F1115",
+    "flex_direction": "column",
+    "content_width": "boxed",
+    "boxed_width": {
+     "unit": "px",
+     "size": 1240
+    },
+    "_element_id": "choose"
+   },
+   "elements": [
+    {
+     "id": "otp00044",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "新手怎麼選線上德州撲克平台？",
+      "header_size": "h2",
+      "title_color": "#FFFFFF",
+      "typography_typography": "custom",
+      "typography_font_family": "Chiron Hei HK",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 32
+      },
+      "typography_font_weight": "700",
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.25
+      },
+      "custom_css": "@media(max-width:767px){selector .elementor-heading-title{font-size:25px;line-height:1.3;}}"
+     },
+     "elements": [],
+     "isInner": false
+    },
+    {
+     "id": "otp00045",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>選平台前先想清楚兩件事：自己習慣的入金方式，以及想玩的牌局類型。方向確定後，再從介面、玩家數與賽事資源去比較</p>",
+      "text_color": "#A9B1C2",
+      "typography_typography": "custom",
+      "typography_font_family": "Chiron Hei HK",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 18
+      },
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.8
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "14",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "custom_css": "selector{max-width:780px;}@media(max-width:767px){selector{font-size:13px;line-height:1.8;}}"
+     },
+     "elements": [],
+     "isInner": false
+    },
+    {
+     "id": "otp0004e",
+     "elType": "container",
+     "settings": {
+      "container_type": "grid",
+      "content_width": "full",
+      "grid_template_columns": {
+       "unit": "fr",
+       "size": 2
+      },
+      "grid_template_columns_tablet": {
+       "unit": "fr",
+       "size": 1
+      },
+      "grid_template_columns_mobile": {
+       "unit": "fr",
+       "size": 1
+      },
+      "grid_gap": {
+       "unit": "px",
+       "size": 24,
+       "column": "24",
+       "row": "24"
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "24",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "otp00049",
+       "elType": "container",
+       "settings": {
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#161922",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": true
+        },
+        "border_color": "#2E3444",
+        "padding": {
+         "unit": "px",
+         "top": "30",
+         "right": "30",
+         "bottom": "30",
+         "left": "30",
+         "isLinked": true
+        },
+        "flex_gap": {
+         "unit": "px",
+         "size": 16,
+         "column": "16",
+         "row": "16"
+        }
+       },
+       "elements": [
+        {
+         "id": "otp00046",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "依入金方式與上手難度選擇",
+          "header_size": "h3",
+          "title_color": "#FFFFFF",
+          "typography_typography": "custom",
+          "typography_font_family": "Chiron Hei HK",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 18
+          },
+          "typography_font_weight": "700",
+          "typography_line_height": {
+           "unit": "em",
+           "size": 1.35
+          }
+         },
+         "elements": [],
+         "isInner": false
+        },
+        {
+         "id": "otp00047",
+         "elType": "widget",
+         "widgetType": "icon-box",
+         "settings": {
+          "selected_icon": {
+           "value": "fas fa-check",
+           "library": "fa-solid"
+          },
+          "title_text": "第一次玩，先挑介面單純的平台",
+          "description_text": "剛開始接觸線上德州撲克時，介面與操作流程的順暢度比獎勵更重要。QQ Poker 這類操作直覺、入門門檻低的平台，比較容易讓新手先把規則熟悉起來",
+          "position": "left",
+          "primary_color": "#B5A8F0",
+          "icon_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "title_color": "#FFFFFF",
+          "description_color": "#A9B1C2",
+          "title_typography_typography": "custom",
+          "title_typography_font_family": "Chiron Hei HK",
+          "title_typography_font_size": {
+           "unit": "px",
+           "size": 14
+          },
+          "title_typography_font_weight": "700",
+          "description_typography_typography": "custom",
+          "description_typography_font_family": "Chiron Hei HK",
+          "description_typography_font_size": {
+           "unit": "px",
+           "size": 13
+          },
+          "description_typography_line_height": {
+           "unit": "em",
+           "size": 1.7
+          },
+          "content_vertical_alignment": "top"
+         },
+         "elements": [],
+         "isInner": false
+        },
+        {
+         "id": "otp00048",
+         "elType": "widget",
+         "widgetType": "icon-box",
+         "settings": {
+          "selected_icon": {
+           "value": "fas fa-check",
+           "library": "fa-solid"
+          },
+          "title_text": "習慣加密貨幣就找支援 USDT 的平台",
+          "description_text": "如果原本就習慣使用 USDT 或其他加密貨幣，選擇 CoinPoker 這類偏向加密貨幣玩家的平台，資金進出流程會比較熟悉。實際支援幣種仍需依各平台規則為準",
+          "position": "left",
+          "primary_color": "#B5A8F0",
+          "icon_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "title_color": "#FFFFFF",
+          "description_color": "#A9B1C2",
+          "title_typography_typography": "custom",
+          "title_typography_font_family": "Chiron Hei HK",
+          "title_typography_font_size": {
+           "unit": "px",
+           "size": 14
+          },
+          "title_typography_font_weight": "700",
+          "description_typography_typography": "custom",
+          "description_typography_font_family": "Chiron Hei HK",
+          "description_typography_font_size": {
+           "unit": "px",
+           "size": 13
+          },
+          "description_typography_line_height": {
+           "unit": "em",
+           "size": 1.7
+          },
+          "content_vertical_alignment": "top"
+         },
+         "elements": [],
+         "isInner": false
+        }
+       ],
+       "isInner": false
+      },
+      {
+       "id": "otp0004d",
+       "elType": "container",
+       "settings": {
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#161922",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": true
+        },
+        "border_color": "#2E3444",
+        "padding": {
+         "unit": "px",
+         "top": "30",
+         "right": "30",
+         "bottom": "30",
+         "left": "30",
+         "isLinked": true
+        },
+        "flex_gap": {
+         "unit": "px",
+         "size": 16,
+         "column": "16",
+         "row": "16"
+        }
+       },
+       "elements": [
+        {
+         "id": "otp0004a",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "依牌局類型與玩家規模選擇",
+          "header_size": "h3",
+          "title_color": "#FFFFFF",
+          "typography_typography": "custom",
+          "typography_font_family": "Chiron Hei HK",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 18
+          },
+          "typography_font_weight": "700",
+          "typography_line_height": {
+           "unit": "em",
+           "size": 1.35
+          }
+         },
+         "elements": [],
+         "isInner": false
+        },
+        {
+         "id": "otp0004b",
+         "elType": "widget",
+         "widgetType": "icon-box",
+         "settings": {
+          "selected_icon": {
+           "value": "fas fa-check",
+           "library": "fa-solid"
+          },
+          "title_text": "想要穩定開桌就看玩家基礎",
+          "description_text": "玩家人數會直接影響開桌速度與牌局選擇。Natural8 在亞洲玩家間熟悉度較高、玩家基礎較大，想找成熟平台時是常見的比較對象",
+          "position": "left",
+          "primary_color": "#B5A8F0",
+          "icon_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "title_color": "#FFFFFF",
+          "description_color": "#A9B1C2",
+          "title_typography_typography": "custom",
+          "title_typography_font_family": "Chiron Hei HK",
+          "title_typography_font_size": {
+           "unit": "px",
+           "size": 14
+          },
+          "title_typography_font_weight": "700",
+          "description_typography_typography": "custom",
+          "description_typography_font_family": "Chiron Hei HK",
+          "description_typography_font_size": {
+           "unit": "px",
+           "size": 13
+          },
+          "description_typography_line_height": {
+           "unit": "em",
+           "size": 1.7
+          },
+          "content_vertical_alignment": "top"
+         },
+         "elements": [],
+         "isInner": false
+        },
+        {
+         "id": "otp0004c",
+         "elType": "widget",
+         "widgetType": "icon-box",
+         "settings": {
+          "selected_icon": {
+           "value": "fas fa-check",
+           "library": "fa-solid"
+          },
+          "title_text": "想打大型賽事就看賽事資源",
+          "description_text": "如果目標是錦標賽與大型系列賽，平台的賽事密度與獎池規模就是重點。GG撲克屬於全球知名撲克品牌，賽事資源相對豐富",
+          "position": "left",
+          "primary_color": "#B5A8F0",
+          "icon_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "title_color": "#FFFFFF",
+          "description_color": "#A9B1C2",
+          "title_typography_typography": "custom",
+          "title_typography_font_family": "Chiron Hei HK",
+          "title_typography_font_size": {
+           "unit": "px",
+           "size": 14
+          },
+          "title_typography_font_weight": "700",
+          "description_typography_typography": "custom",
+          "description_typography_font_family": "Chiron Hei HK",
+          "description_typography_font_size": {
+           "unit": "px",
+           "size": 13
+          },
+          "description_typography_line_height": {
+           "unit": "em",
+           "size": 1.7
+          },
+          "content_vertical_alignment": "top"
+         },
+         "elements": [],
+         "isInner": false
+        }
+       ],
+       "isInner": false
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "otp00053",
+   "elType": "container",
+   "settings": {
+    "padding": {
+     "unit": "px",
+     "top": "54",
+     "right": "20",
+     "bottom": "54",
+     "left": "20",
+     "isLinked": false
+    },
+    "background_background": "classic",
+    "background_color": "#0F1115",
+    "flex_direction": "column",
+    "content_width": "boxed",
+    "boxed_width": {
+     "unit": "px",
+     "size": 1240
+    },
+    "_element_id": "vs-casino"
+   },
+   "elements": [
+    {
+     "id": "otp00052",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "線上德州撲克和一般娛樂城遊戲有什麼不同？",
+      "header_size": "h2",
+      "title_color": "#FFFFFF",
+      "typography_typography": "custom",
+      "typography_font_family": "Chiron Hei HK",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 32
+      },
+      "typography_font_weight": "700",
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.25
+      },
+      "align": "center",
+      "custom_css": "@media(max-width:767px){selector .elementor-heading-title{font-size:25px;line-height:1.3;}}"
+     },
+     "elements": [],
+     "isInner": false
+    },
+    {
+     "id": "otp00051",
+     "elType": "container",
+     "settings": {
+      "flex_direction": "column",
+      "background_background": "classic",
+      "background_color": "#161922",
+      "border_border": "solid",
+      "border_width": {
+       "unit": "px",
+       "top": "1",
+       "right": "1",
+       "bottom": "1",
+       "left": "3",
+       "isLinked": false
+      },
+      "border_color": "#2E3444",
+      "padding": {
+       "unit": "px",
+       "top": "30",
+       "right": "32",
+       "bottom": "30",
+       "left": "32",
+       "isLinked": false
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "24",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "custom_css": "selector{max-width:880px;margin-left:auto;margin-right:auto;width:100%;border-left-color:#7656D7;}"
+     },
+     "elements": [
+      {
+       "id": "otp00050",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p style=\"margin:0 0 16px\">一般娛樂城遊戲，例如老虎機、輪盤或骰寶，玩家對局的對象是遊戲本身或莊家，結果主要由機率決定</p><p style=\"margin:0 0 16px\">德州撲克則是玩家與玩家之間的策略遊戲。同樣的一手牌，在不同位置、不同對手、不同籌碼深度下會有完全不同的打法，因此更重視判斷、心理與長期策略</p><p style=\"margin:0\">如果你想先了解娛樂城中的電子撲克與其他經典桌面玩法，可以前往<a href=\"table-games-recommend.html\" style=\"color:#B5A8F0;font-weight:700\">桌上遊戲推薦</a>頁；本頁則聚焦在玩家對玩家的線上德州撲克平台</p>",
+        "text_color": "#A9B1C2",
+        "typography_typography": "custom",
+        "typography_font_family": "Chiron Hei HK",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 15
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.85
+        }
+       },
+       "elements": [],
+       "isInner": false
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "otp00056",
+   "elType": "container",
+   "settings": {
+    "padding": {
+     "unit": "px",
+     "top": "54",
+     "right": "20",
+     "bottom": "54",
+     "left": "20",
+     "isLinked": false
+    },
+    "background_background": "classic",
+    "background_color": "#0F1115",
+    "flex_direction": "column",
+    "content_width": "boxed",
+    "boxed_width": {
+     "unit": "px",
+     "size": 1240
+    },
+    "_element_id": "faq"
+   },
+   "elements": [
+    {
+     "id": "otp00055",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "線上德州撲克常見問題",
+      "header_size": "h2",
+      "title_color": "#FFFFFF",
+      "typography_typography": "custom",
+      "typography_font_family": "Chiron Hei HK",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 32
+      },
+      "typography_font_weight": "700",
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.25
+      },
+      "align": "center",
+      "custom_css": "@media(max-width:767px){selector .elementor-heading-title{font-size:25px;line-height:1.3;}}"
+     },
+     "elements": [],
+     "isInner": false
+    },
+    {
+     "id": "otp00054",
+     "elType": "widget",
+     "widgetType": "accordion",
+     "settings": {
+      "tabs": [
+       {
+        "_id": "otpfaq1",
+        "tab_title": "線上德州撲克推薦哪一個平台？",
+        "tab_content": "<p>新手可先從 QQ Poker 或 CoinPoker 開始比較；如果重視亞洲玩家熟悉度，可查看 Natural8；如果重視國際品牌與大型賽事，可查看 GG撲克</p>"
+       },
+       {
+        "_id": "otpfaq2",
+        "tab_title": "德州撲克玩法難嗎？",
+        "tab_content": "<p>基本規則不難，但要穩定進步需要理解牌型、位置、下注節奏、起手牌範圍與資金管理</p>"
+       },
+       {
+        "_id": "otpfaq3",
+        "tab_title": "線上德州撲克和一般娛樂城遊戲有什麼不同？",
+        "tab_content": "<p>德州撲克是玩家與玩家之間的策略遊戲，不是單純和莊家對局，因此更重視判斷、心理與策略</p>"
+       },
+       {
+        "_id": "otpfaq4",
+        "tab_title": "線上德州撲克平台可以用 USDT 嗎？",
+        "tab_content": "<p>部分平台支援 USDT 或加密貨幣入金，例如 CoinPoker 較偏向加密貨幣玩家，實際仍需依各平台規則為準</p>"
+       },
+       {
+        "_id": "otpfaq5",
+        "tab_title": "新手適合直接玩現金桌嗎？",
+        "tab_content": "<p>新手建議先了解規則與小額桌，再慢慢熟悉下注節奏與對手行為，避免一開始就進入高額桌</p>"
+       }
+      ],
+      "title_color": "#FFFFFF",
+      "tab_active_color": "#FFFFFF",
+      "content_color": "#A9B1C2",
+      "icon_color": "#1B1C1C",
+      "icon_active_color": "#1B1C1C",
+      "border_width": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "border_color": "#2E3444",
+      "title_typography_typography": "custom",
+      "title_typography_font_family": "Chiron Hei HK",
+      "title_typography_font_size": {
+       "unit": "px",
+       "size": 16
+      },
+      "title_typography_font_weight": "700",
+      "content_typography_typography": "custom",
+      "content_typography_font_family": "Chiron Hei HK",
+      "content_typography_font_size": {
+       "unit": "px",
+       "size": 15
+      },
+      "content_typography_line_height": {
+       "unit": "em",
+       "size": 1.8
+      },
+      "selected_icon": {
+       "value": "fas fa-plus",
+       "library": "fa-solid"
+      },
+      "selected_active_icon": {
+       "value": "fas fa-minus",
+       "library": "fa-solid"
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "24",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "custom_css": "selector{max-width:880px;margin-left:auto;margin-right:auto;}selector .elementor-accordion-item{border:1px solid #2E3444;border-radius:0;overflow:hidden;margin-bottom:14px;background:#161922;transition:border-color .2s;}selector .elementor-accordion-item:hover{border-color:rgba(159,168,240,.35);}selector .elementor-tab-title{display:flex;align-items:center;gap:16px;padding:18px 22px;border:0;}selector .elementor-accordion-title{flex:1;color:#FFFFFF;}selector .elementor-accordion-icon{order:2;margin:0 0 0 auto;width:30px;height:30px;border-radius:50%;background:#DEF243;display:flex;align-items:center;justify-content:center;flex-shrink:0;padding:0;}selector .elementor-accordion-icon i{color:#1B1C1C;}selector .elementor-accordion-icon svg{fill:#1B1C1C;width:14px;height:14px;}selector .elementor-tab-content{padding:0 22px 20px;color:#A9B1C2;border:0;}"
+     },
+     "elements": [],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "otp0005b",
+   "elType": "container",
+   "settings": {
+    "padding": {
+     "unit": "px",
+     "top": "54",
+     "right": "20",
+     "bottom": "54",
+     "left": "20",
+     "isLinked": false
+    },
+    "background_background": "classic",
+    "background_color": "#0F1115",
+    "flex_direction": "column",
+    "content_width": "boxed",
+    "boxed_width": {
+     "unit": "px",
+     "size": 1240
+    },
+    "_element_id": "cta"
+   },
+   "elements": [
+    {
+     "id": "otp0005a",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "選擇適合你的線上撲克平台",
+      "header_size": "h2",
+      "title_color": "#FFFFFF",
+      "typography_typography": "custom",
+      "typography_font_family": "Chiron Hei HK",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 32
+      },
+      "typography_font_weight": "700",
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.25
+      },
+      "align": "center",
+      "custom_css": "@media(max-width:767px){selector .elementor-heading-title{font-size:25px;line-height:1.3;}}"
+     },
+     "elements": [],
+     "isInner": false
+    },
+    {
+     "id": "otp00059",
+     "elType": "container",
+     "settings": {
+      "flex_direction": "column",
+      "flex_align_items": "center",
+      "background_background": "classic",
+      "background_color": "#161922",
+      "border_border": "solid",
+      "border_width": {
+       "unit": "px",
+       "top": "1",
+       "right": "1",
+       "bottom": "1",
+       "left": "3",
+       "isLinked": false
+      },
+      "border_color": "#2E3444",
+      "padding": {
+       "unit": "px",
+       "top": "34",
+       "right": "32",
+       "bottom": "34",
+       "left": "32",
+       "isLinked": false
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "24",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "custom_css": "selector{max-width:880px;margin-left:auto;margin-right:auto;width:100%;border-left-color:#DEF243;}"
+     },
+     "elements": [
+      {
+       "id": "otp00057",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p style=\"margin:0 0 14px;text-align:center\">想開始體驗線上德州撲克？你可以先從四大品牌比較開始，依照自己的需求選擇適合的平台</p><p style=\"margin:0;text-align:center\">如果你是新手，建議先查看 QQ Poker 與 CoinPoker；如果你想了解更多亞洲玩家熟悉的平台，也可以比較 Natural8 與 GG撲克</p>",
+        "text_color": "#A9B1C2",
+        "typography_typography": "custom",
+        "typography_font_family": "Chiron Hei HK",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 15
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.85
+        }
+       },
+       "elements": [],
+       "isInner": false
+      },
+      {
+       "id": "otp00058",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "查看平台推薦 →",
+        "link": {
+         "url": "#platforms",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "align": "center",
+        "border_radius": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Chiron Hei HK",
+        "typography_font_weight": "700",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 14
+        },
+        "background_color": "#DEF243",
+        "button_text_color": "#1B1C1C",
+        "button_hover_background_color": "#E8FB5E",
+        "button_hover_color": "#1B1C1C",
+        "selected_icon": {
+         "value": "",
+         "library": ""
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "24",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": [],
+       "isInner": false
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "otp00067",
+   "elType": "container",
+   "settings": {
+    "padding": {
+     "unit": "px",
+     "top": "54",
+     "right": "20",
+     "bottom": "54",
+     "left": "20",
+     "isLinked": false
+    },
+    "background_background": "classic",
+    "background_color": "#0F1115",
+    "flex_direction": "column",
+    "content_width": "boxed",
+    "boxed_width": {
+     "unit": "px",
+     "size": 1240
+    },
+    "_element_id": "internal"
+   },
+   "elements": [
+    {
+     "id": "otp0005c",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "探索更多遊戲與娛樂城推薦",
+      "header_size": "h2",
+      "title_color": "#FFFFFF",
+      "typography_typography": "custom",
+      "typography_font_family": "Chiron Hei HK",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 32
+      },
+      "typography_font_weight": "700",
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.25
+      },
+      "custom_css": "@media(max-width:767px){selector .elementor-heading-title{font-size:25px;line-height:1.3;}}"
+     },
+     "elements": [],
+     "isInner": false
+    },
+    {
+     "id": "otp0005d",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>看完線上德州撲克，再深入了解其他遊戲類型、平台評測與優惠活動，找到最適合你的玩法</p>",
+      "text_color": "#A9B1C2",
+      "typography_typography": "custom",
+      "typography_font_family": "Chiron Hei HK",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 18
+      },
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.8
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "14",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "custom_css": "selector{max-width:780px;}@media(max-width:767px){selector{font-size:13px;line-height:1.8;}}"
+     },
+     "elements": [],
+     "isInner": false
+    },
+    {
+     "id": "otp00066",
+     "elType": "container",
+     "settings": {
+      "container_type": "grid",
+      "content_width": "full",
+      "grid_template_columns": {
+       "unit": "fr",
+       "size": 2
+      },
+      "grid_template_columns_tablet": {
+       "unit": "fr",
+       "size": 2
+      },
+      "grid_template_columns_mobile": {
+       "unit": "fr",
+       "size": 1
+      },
+      "grid_gap": {
+       "unit": "px",
+       "size": 18,
+       "column": "18",
+       "row": "18"
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "24",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "otp0005f",
+       "elType": "container",
+       "settings": {
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#161922",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": true
+        },
+        "border_color": "#2E3444",
+        "padding": {
+         "unit": "px",
+         "top": "18",
+         "right": "18",
+         "bottom": "22",
+         "left": "18",
+         "isLinked": false
+        }
+       },
+       "elements": [
+        {
+         "id": "otp0005e",
+         "elType": "widget",
+         "widgetType": "icon-box",
+         "settings": {
+          "selected_icon": {
+           "value": "fas fa-arrow-up-right-from-square",
+           "library": "fa-solid"
+          },
+          "title_text": "桌上遊戲推薦",
+          "description_text": "輪盤、21點、骰寶與撲克遊戲排行",
+          "position": "left",
+          "primary_color": "#B5A8F0",
+          "icon_size": {
+           "unit": "px",
+           "size": 16
+          },
+          "title_color": "#FFFFFF",
+          "description_color": "#A9B1C2",
+          "title_typography_typography": "custom",
+          "title_typography_font_family": "Chiron Hei HK",
+          "title_typography_font_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "title_typography_font_weight": "700",
+          "description_typography_typography": "custom",
+          "description_typography_font_family": "Chiron Hei HK",
+          "description_typography_font_size": {
+           "unit": "px",
+           "size": 13
+          },
+          "description_typography_line_height": {
+           "unit": "em",
+           "size": 1.6
+          },
+          "link": {
+           "url": "table-games-recommend.html",
+           "is_external": "",
+           "nofollow": ""
+          },
+          "content_vertical_alignment": "middle"
+         },
+         "elements": [],
+         "isInner": false
+        }
+       ],
+       "isInner": false
+      },
+      {
+       "id": "otp00061",
+       "elType": "container",
+       "settings": {
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#161922",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": true
+        },
+        "border_color": "#2E3444",
+        "padding": {
+         "unit": "px",
+         "top": "18",
+         "right": "18",
+         "bottom": "22",
+         "left": "18",
+         "isLinked": false
+        }
+       },
+       "elements": [
+        {
+         "id": "otp00060",
+         "elType": "widget",
+         "widgetType": "icon-box",
+         "settings": {
+          "selected_icon": {
+           "value": "fas fa-arrow-up-right-from-square",
+           "library": "fa-solid"
+          },
+          "title_text": "真人娛樂推薦",
+          "description_text": "真人荷官直播遊戲與平台比較",
+          "position": "left",
+          "primary_color": "#B5A8F0",
+          "icon_size": {
+           "unit": "px",
+           "size": 16
+          },
+          "title_color": "#FFFFFF",
+          "description_color": "#A9B1C2",
+          "title_typography_typography": "custom",
+          "title_typography_font_family": "Chiron Hei HK",
+          "title_typography_font_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "title_typography_font_weight": "700",
+          "description_typography_typography": "custom",
+          "description_typography_font_family": "Chiron Hei HK",
+          "description_typography_font_size": {
+           "unit": "px",
+           "size": 13
+          },
+          "description_typography_line_height": {
+           "unit": "em",
+           "size": 1.6
+          },
+          "link": {
+           "url": "live-casino-recommend.html",
+           "is_external": "",
+           "nofollow": ""
+          },
+          "content_vertical_alignment": "middle"
+         },
+         "elements": [],
+         "isInner": false
+        }
+       ],
+       "isInner": false
+      },
+      {
+       "id": "otp00063",
+       "elType": "container",
+       "settings": {
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#161922",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": true
+        },
+        "border_color": "#2E3444",
+        "padding": {
+         "unit": "px",
+         "top": "18",
+         "right": "18",
+         "bottom": "22",
+         "left": "18",
+         "isLinked": false
+        }
+       },
+       "elements": [
+        {
+         "id": "otp00062",
+         "elType": "widget",
+         "widgetType": "icon-box",
+         "settings": {
+          "selected_icon": {
+           "value": "fas fa-arrow-up-right-from-square",
+           "library": "fa-solid"
+          },
+          "title_text": "娛樂城推薦",
+          "description_text": "熱門娛樂城平台完整評測比較",
+          "position": "left",
+          "primary_color": "#B5A8F0",
+          "icon_size": {
+           "unit": "px",
+           "size": 16
+          },
+          "title_color": "#FFFFFF",
+          "description_color": "#A9B1C2",
+          "title_typography_typography": "custom",
+          "title_typography_font_family": "Chiron Hei HK",
+          "title_typography_font_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "title_typography_font_weight": "700",
+          "description_typography_typography": "custom",
+          "description_typography_font_family": "Chiron Hei HK",
+          "description_typography_font_size": {
+           "unit": "px",
+           "size": 13
+          },
+          "description_typography_line_height": {
+           "unit": "em",
+           "size": 1.6
+          },
+          "link": {
+           "url": "online-casino-recommendation.html",
+           "is_external": "",
+           "nofollow": ""
+          },
+          "content_vertical_alignment": "middle"
+         },
+         "elements": [],
+         "isInner": false
+        }
+       ],
+       "isInner": false
+      },
+      {
+       "id": "otp00065",
+       "elType": "container",
+       "settings": {
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#161922",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": true
+        },
+        "border_color": "#2E3444",
+        "padding": {
+         "unit": "px",
+         "top": "18",
+         "right": "18",
+         "bottom": "22",
+         "left": "18",
+         "isLinked": false
+        }
+       },
+       "elements": [
+        {
+         "id": "otp00064",
+         "elType": "widget",
+         "widgetType": "icon-box",
+         "settings": {
+          "selected_icon": {
+           "value": "fas fa-arrow-up-right-from-square",
+           "library": "fa-solid"
+          },
+          "title_text": "娛樂城優惠活動",
+          "description_text": "新手禮、儲值回饋與限時優惠總覽",
+          "position": "left",
+          "primary_color": "#B5A8F0",
+          "icon_size": {
+           "unit": "px",
+           "size": 16
+          },
+          "title_color": "#FFFFFF",
+          "description_color": "#A9B1C2",
+          "title_typography_typography": "custom",
+          "title_typography_font_family": "Chiron Hei HK",
+          "title_typography_font_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "title_typography_font_weight": "700",
+          "description_typography_typography": "custom",
+          "description_typography_font_family": "Chiron Hei HK",
+          "description_typography_font_size": {
+           "unit": "px",
+           "size": 13
+          },
+          "description_typography_line_height": {
+           "unit": "em",
+           "size": 1.6
+          },
+          "link": {
+           "url": "promotions.html",
+           "is_external": "",
+           "nofollow": ""
+          },
+          "content_vertical_alignment": "middle"
+         },
+         "elements": [],
+         "isInner": false
+        }
+       ],
+       "isInner": false
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": {
+  "background_background": "classic",
+  "background_color": "#0F1115",
+  "background_image": {
+   "url": "",
+   "id": "",
+   "size": ""
+  },
+  "background_video_fallback": {
+   "url": "",
+   "id": "",
+   "size": ""
+  },
+  "background_slideshow_gallery": []
+ },
+ "version": "0.4",
+ "title": "線上德州撲克平台推薦",
+ "type": "page"
+}
