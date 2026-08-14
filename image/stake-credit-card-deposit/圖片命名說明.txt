@@ -1,0 +1,26 @@
+Stake信用卡儲值教學 — 圖片放置說明
+==================================================
+資料夾：image/stake-credit-card-deposit/
+
+目前頁面實際引用的檔名如下（已放置完成）。
+
+【Banner】
+banner.webp              桌機版主視覺        1920x620
+banner_phone.webp        手機版主視覺        750x1000（4:5 直式）
+
+【儲值步驟 STEP 01–08】（皆為 768x1326 手機直式截圖）
+stake刷卡_ss_step1.webp    進入Stake錢包並選擇購買加密貨幣
+stake刷卡_ss_step2.webp    選擇支付提供商（Swapped.com / MoonPay）
+stake刷卡_ss_step3.webp    確認國家與付款方式（Taiwan / VISA / Apple Pay / Google Pay）
+stake刷卡_ss_step4.webp    輸入Email接收驗證碼
+stake刷卡_ss_step5.webp    填寫基本付款資料（Your information）
+stake刷卡_ss_step6.webp    確認購買資訊（Summary）
+stake刷卡_ss_step7.webp    等待交易處理（Processing your order）
+stake刷卡_ss_step8.webp    確認訂單完成（Order completed）
+
+--------------------------------------------------
+備註
+- HTML 內的 src 使用 percent-encoding（stake%E5%88%B7%E5%8D%A1_ss_stepN.webp），
+  這是中文檔名的標準寫法，直接改檔名時記得同步更新 HTML。
+- 若之後把檔案換成 .png，頁面會自動 fallback 抓同名 .png。
+- 攻略總覽頁（guides-register-deposit.html）的卡片封面抓的是同一張 banner.webp。
