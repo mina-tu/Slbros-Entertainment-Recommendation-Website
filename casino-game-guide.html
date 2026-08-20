@@ -1,0 +1,621 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>娛樂城遊戲指南｜老虎機攻略、原創遊戲與桌上遊戲教學｜晴天娛樂城推薦網</title>
+  <meta name="description" content="晴天娛樂城推薦網整理娛樂城遊戲指南，包含老虎機攻略、原創遊戲玩法與桌上遊戲教學，帶你快速了解熱門娛樂城遊戲規則、倍率機制與新手入門重點。">
+  <meta name="keywords" content="娛樂城遊戲,老虎機攻略,娛樂城攻略,娛樂城遊戲推薦,踩地雷遊戲,Stake Mines,Chicken Road,Dice遊戲,Limbo遊戲,百家樂教學,21點玩法,輪盤教學,Stake遊戲">
+  <link rel="canonical" href="/casino-game-guide/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="zh_TW">
+  <meta property="og:site_name" content="晴天娛樂城推薦網">
+  <meta property="og:title" content="娛樂城遊戲指南｜老虎機攻略、原創遊戲與桌上遊戲教學">
+  <meta property="og:description" content="整理熱門娛樂城遊戲玩法，包含老虎機攻略、原創遊戲指南與桌上遊戲教學，幫助新手快速了解遊戲規則、倍率機制與入門重點。">
+  <meta property="og:url" content="/casino-game-guide/">
+  <meta property="og:image" content="image/casino-game-guide/banner.webp">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- LCP：hero 背景圖先行預載（依裝置只載一張） -->
+  <link rel="preload" as="image" href="image/casino-game-guide/banner.webp" media="(min-width:761px)">
+  <link rel="preload" as="image" href="image/casino-game-guide/banner-phone.webp" media="(max-width:760px)">
+
+  <!-- 字體：提前建立連線，縮短 webfont 取得時間、降低字體切換造成的位移（CLS）。webfont 本身已採用 font-display:swap -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+  <link href="https://cdn.jsdelivr.net/npm/chiron-hei-hk-webfont@2.6.9/index.css" rel="stylesheet">
+  <style>
+    /* ============================================================
+       娛樂城遊戲指南總覽頁 /casino-game-guide/
+       延續站內視覺：Chiron Hei HK / 深色科技感 / 紫綠點綴 / 直角
+       本頁定位：三大遊戲類型的入口總覽（老虎機 / 原創遊戲 / 桌上遊戲）
+       ============================================================ */
+    :root{
+      --pri-700:#43269A;--pri-500:#7656D7;--pri-300:#9FC9FF;--pri-200:#B5A8F0;
+      --sec:#DEF243;--purple-900:#3A0661;
+      --n50:#161922;--n100:#222633;--n150:#2E3444;--n200:#8F98AC;--n300:#A9B1C2;
+      --n400:#C3CAD8;--n500:#D9DEEA;--n600:#E8ECF5;--n700:#F4F7FF;--n800:#FFFFFF;
+      --surface-muted:#1E2230;--success:#A4F467;
+      /* 後備字體採用度量相近的 CJK 黑體，降低 webfont 載入後切換時的回流位移 */
+      --ff:'Chiron Hei HK','PingFang TC','Microsoft JhengHei','Noto Sans TC',sans-serif;
+      --r-full:999px;
+      --fs-hero:clamp(30px,4.4vw,50px);--fs-h2:clamp(25px,3.1vw,34px);--fs-h3:20px;
+      --fs-lead:18px;--fs-body:16px;--fs-sm:14px;--fs-xs:12px;
+      --lh-tight:1.2;--lh-heading:1.3;--lh-body:1.7;
+      --ease:cubic-bezier(.4,0,.2,1);--dur:.25s;--lift:-4px;
+      --shadow-card:0 24px 60px -18px rgba(0,0,0,.6);
+      --shadow-card-sm:0 18px 40px -16px rgba(0,0,0,.5);
+      --grad-purple:linear-gradient(150deg,#1A1740 0%,#43269A 52%,#7656D7 100%);
+      --grad-bloom:radial-gradient(125% 130% at 50% 118%,#7656D7 0%,#43269A 42%,#16153C 100%);
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    [hidden]{display:none!important}
+    html{scroll-behavior:smooth}
+    body{background:#0F1115;color:var(--n500);font-family:var(--ff);-webkit-font-smoothing:antialiased;min-width:320px}
+    a{color:inherit;text-decoration:none}img,svg{display:block}button{font:inherit}
+    .shell{width:min(calc(100% - 40px),1240px);margin:0 auto}
+
+    /* ── CLS：為 JS 注入的共用元件預留高度，避免渲染後把內容往下推 ── */
+    site-navbar{display:block;min-height:72px}
+    site-footer{display:block;min-height:300px}
+
+    /* ── A11y：跳到主要內容（鍵盤聚焦時才出現）── */
+    .skip-link{position:fixed;left:16px;top:-80px;z-index:200;background:var(--sec);color:#1B1C1C;font-weight:700;
+      padding:12px 20px;text-decoration:none;transition:top .2s var(--ease)}
+    .skip-link:focus{top:14px}
+
+    /* ── A11y：清楚一致的鍵盤焦點狀態 ── */
+    :focus-visible{outline:3px solid var(--sec);outline-offset:3px;border-radius:2px}
+
+    /* ── A11y：尊重「減少動態」偏好 ── */
+    @media(prefers-reduced-motion:reduce){
+      html{scroll-behavior:auto}
+      *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
+      .gcard:hover,.cmp:hover,.btn:hover{transform:none}
+      .reveal{opacity:1!important;transform:none!important}
+    }
+
+    /* ── Buttons ── */
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;
+      font-family:var(--ff);height:46px;padding:10px 26px;font-size:16px;font-weight:700;line-height:22px;
+      border:none;border-radius:0;background:var(--sec);color:#1B1C1C;transition:background .15s,transform .15s,box-shadow .15s}
+    .btn:hover{background:#E8FB5E;transform:translateY(-2px)}
+    .btn svg{width:16px;height:16px;transition:transform .15s}
+    .btn:hover svg{transform:translateX(3px)}
+    .btn-ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.45)}
+    .btn-ghost:hover{background:rgba(255,255,255,.08);border-color:#fff}
+    .btn-outline{background:transparent;color:var(--pri-200);border:1px solid rgba(159,168,240,.42)}
+    .btn-outline:hover{background:rgba(118,86,215,.14);border-color:var(--pri-200);color:#fff}
+    .btn-sm{height:38px;padding:8px 18px;font-size:14px}
+    .btn-lg{height:60px;padding:14px 40px;font-size:18px;box-shadow:0 14px 34px -12px rgba(222,242,67,.55)}
+    .btn-lg svg{width:19px;height:19px}
+    .btn-lg:hover{box-shadow:0 18px 42px -12px rgba(222,242,67,.7)}
+
+    /* ── Section frame ── */
+    .sec{padding:54px 0}
+    @media(min-width:768px){.sec{padding:76px 0}}
+    .sec-alt{background:#0B0D12}
+    .sec-head{margin-bottom:34px}
+    .sec-head.center{text-align:center}
+    .h2{font-size:var(--fs-h2);font-weight:700;line-height:var(--lh-heading);color:var(--n800);letter-spacing:-.01em}
+    /* 靠左區塊的說明文字撐滿容器寬度；置中區塊才收窄行寬 */
+    .sec-desc{margin-top:16px;font-size:var(--fs-lead);line-height:1.85;color:var(--n300)}
+    .sec-desc + .sec-desc{margin-top:14px}
+    .sec-head.center .sec-desc{max-width:880px;margin-left:auto;margin-right:auto}
+
+    /* ── Category tag（沿用站內語意色）── */
+    .tag{display:inline-flex;align-items:center;font-size:12px;font-weight:700;line-height:1;
+      padding:6px 12px;border-radius:var(--r-full);letter-spacing:.02em;
+      background:rgba(118,86,215,.16);color:var(--pri-200);border:1px solid rgba(118,86,215,.3)}
+    .tag.is-slot{background:rgba(164,244,103,.14);color:#B7F08A;border-color:rgba(164,244,103,.3)}
+    .tag.is-original{background:rgba(62,127,196,.18);color:#8FC0F0;border-color:rgba(62,127,196,.34)}
+    .tag.is-table{background:rgba(155,63,176,.18);color:#D89BE6;border-color:rgba(155,63,176,.34)}
+    .tag.is-promo{background:rgba(222,242,67,.14);color:#D7E84A;border-color:rgba(222,242,67,.3)}
+
+    /* ════ HEADER（共用 site-navbar 元件所需的基礎樣式）════ */
+    .hdr{position:sticky;top:0;z-index:50;background:transparent;border-bottom:1px solid rgba(255,255,255,.14);
+      transition:background-color .25s var(--ease),backdrop-filter .25s var(--ease),border-color .25s var(--ease)}
+    .hdr.is-solid{background:rgba(15,17,21,.86);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom-color:rgba(255,255,255,.10)}
+    .hdr-in{display:flex;align-items:center;justify-content:space-between;height:72px;gap:24px}
+    .brand{font-weight:800;font-size:20px;color:#fff;letter-spacing:-.02em;white-space:nowrap}
+    .nav{display:flex;align-items:center;gap:4px}
+    .nav a{position:relative;padding:10px 16px;font-size:15px;font-weight:500;color:rgba(255,255,255,.82);white-space:nowrap;transition:color .15s}
+    .nav a::after{content:'';position:absolute;left:16px;right:16px;bottom:4px;height:2px;background:var(--sec);transform:scaleX(0);transform-origin:center;transition:transform .2s var(--ease)}
+    .nav a:hover,.nav a.active{color:#fff}
+    .nav a:hover::after,.nav a.active::after{transform:scaleX(1)}
+    .hdr-icons{display:flex;align-items:center;gap:14px}
+    .hdr-ic{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;color:#fff;background:none;border:none;cursor:pointer;transition:color .15s}
+    .hdr-ic:hover{color:var(--sec)}
+    .hdr-ic svg{width:20px;height:20px}
+    .nav-dd{position:relative;display:flex}
+    .nav-dd-trigger{display:inline-flex;align-items:center;gap:6px}
+    .nav-dd-caret{width:11px;height:11px;flex-shrink:0;transition:transform .2s}
+    .nav-dd:hover .nav-dd-caret,.nav-dd:focus-within .nav-dd-caret{transform:rotate(180deg)}
+    .nav-dd-menu{position:absolute;top:calc(100% + 12px);left:50%;transform:translateX(-50%) translateY(6px);min-width:184px;background:var(--n50);border:1px solid var(--n150);box-shadow:0 18px 40px -12px rgba(15,6,28,.4);padding:6px;display:flex;flex-direction:column;gap:2px;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .18s ease,transform .18s ease;z-index:60}
+    .nav-dd-menu::before{content:'';position:absolute;left:0;right:0;top:-12px;height:12px}
+    .nav-dd:hover .nav-dd-menu,.nav-dd:focus-within .nav-dd-menu{opacity:1;visibility:visible;pointer-events:auto;transform:translateX(-50%) translateY(0)}
+    .nav-dd-menu a{padding:10px 16px;font-size:14px;font-weight:500;color:var(--n500);white-space:nowrap;transition:background .15s,color .15s}
+    .nav-dd-menu a::after{display:none}
+    .nav-dd-menu a:hover{background:var(--surface-muted);color:var(--pri-200)}
+    .nav-dd-menu .nav-dd-all{margin-top:5px;padding-top:11px;border-top:1px solid var(--n150);color:var(--pri-200);font-weight:700}
+
+    /* ════ HERO BANNER（背景視覺圖 + 暗色 scrim）════ */
+    .hero{position:relative;margin-top:-72px;padding:196px 0 120px;min-height:660px;display:flex;align-items:center;overflow:hidden;
+      background:#0F1115}
+    /* 背景圖：桌機橫式；scrim 由上而下加深，確保標題文字對比足夠 */
+    .hero::before{content:'';position:absolute;inset:0;z-index:0;pointer-events:none;
+      background:linear-gradient(180deg,rgba(11,13,18,.7) 0%,rgba(13,12,26,.4) 30%,rgba(15,17,21,.2) 58%,rgba(15,17,21,.68) 86%,#0F1115 100%),
+                 url('image/casino-game-guide/banner.webp') center 42%/cover no-repeat}
+    /* 底部再融一次頁面背景色，避免與下一區塊出現硬邊 */
+    .hero::after{content:'';position:absolute;left:0;right:0;bottom:0;height:34%;z-index:0;pointer-events:none;
+      background:linear-gradient(180deg,transparent 0%,rgba(15,17,21,.5) 62%,#0F1115 100%)}
+    .hero-wrap{position:relative;z-index:2;max-width:900px;text-align:center;margin:0 auto}
+    .hero h1{font-size:var(--fs-hero);font-weight:700;line-height:var(--lh-tight);color:#fff;letter-spacing:-.02em;
+      text-shadow:0 2px 10px rgba(6,4,16,.85),0 4px 32px rgba(6,4,16,.6)}
+    /* 第二行副標：比主標小 10px、字重降一階 */
+    .hero h1 .accent{display:block;margin-top:10px;font-size:calc(var(--fs-hero) - 10px);font-weight:600;color:#fff}
+    .hero-sub{margin:24px auto 0;max-width:720px;font-size:var(--fs-lead);line-height:1.85;color:#fff;
+      text-shadow:0 2px 10px rgba(6,4,16,.8),0 4px 26px rgba(6,4,16,.55)}
+    /* 進場動畫：載入時依序淡入上浮 */
+    .hero-wrap>*{opacity:0;transform:translateY(18px);animation:rise .7s var(--ease) forwards}
+    .hero h1{animation-delay:.08s}
+    .hero-sub{animation-delay:.22s}
+    @keyframes rise{to{opacity:1;transform:translateY(0)}}
+
+    /* ════ INTRO 頁面介紹（純文字、行寬收窄）════ */
+    .intro{padding:56px 0}
+    @media(min-width:768px){.intro{padding:74px 0}}
+    .intro-inner{width:min(calc(100% - 40px),860px);margin:0 auto}
+    .intro h2{font-size:var(--fs-h2);font-weight:700;line-height:var(--lh-heading);color:var(--n800);letter-spacing:-.01em;
+      padding-bottom:22px;margin-bottom:26px;border-bottom:1px solid var(--n150)}
+    .intro p{font-size:var(--fs-lead);line-height:1.9;color:var(--n400)}
+    .intro p + p{margin-top:20px}
+    .intro strong{color:var(--n700);font-weight:700}
+    /* 三大類型關鍵字：以淺紫色標示 */
+    .intro strong.hl{color:var(--pri-200)}
+
+    /* ════ 遊戲卡片網格（三大類型共用；16:9 封面圖 + 文字區）════ */
+    .gcard-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    .gcard{position:relative;display:flex;flex-direction:column;overflow:hidden;
+      background:linear-gradient(160deg,#1A1D2A 0%,var(--n50) 62%);border:1px solid var(--n150);
+      transition:transform var(--dur) var(--ease),box-shadow var(--dur) var(--ease),border-color var(--dur) var(--ease)}
+    .gcard:hover{transform:translateY(var(--lift));box-shadow:var(--shadow-card-sm);border-color:rgba(159,168,240,.34)}
+    /* 封面圖：固定 16:9，避免載入前後版面位移（CLS） */
+    .gcard-media{position:relative;aspect-ratio:16/9;overflow:hidden;background:#12141D;border-bottom:1px solid var(--n150)}
+    .gcard-media img{width:100%;height:100%;object-fit:cover;transition:transform .55s var(--ease)}
+    .gcard:hover .gcard-media img{transform:scale(1.06)}
+    /* 圖片下緣淡出，讓卡片與圖銜接自然 */
+    .gcard-media::after{content:'';position:absolute;left:0;right:0;bottom:0;height:52%;pointer-events:none;
+      background:linear-gradient(180deg,transparent 0%,rgba(15,17,21,.55) 100%)}
+    .gcard-media .tag{position:absolute;left:14px;top:14px;z-index:2;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+    .gcard-body{display:flex;flex-direction:column;flex:1;padding:22px 24px 24px}
+    .gcard h3{font-size:var(--fs-h3);font-weight:700;line-height:1.4;color:var(--n800);letter-spacing:-.01em}
+    .gcard:hover h3{color:var(--pri-200)}
+    .gcard p{margin-top:12px;font-size:15px;line-height:1.85;color:var(--n300);flex:1}
+    .gcard .btn{margin-top:22px;align-self:flex-start}
+
+    /* ════ 指南 vs 推薦 左右對比 ════ */
+    .cmp-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+    .cmp{position:relative;display:flex;flex-direction:column;overflow:hidden;padding:34px 32px;
+      background:var(--n50);border:1px solid var(--n150);
+      transition:transform var(--dur) var(--ease),box-shadow var(--dur) var(--ease),border-color var(--dur) var(--ease)}
+    .cmp::before{content:'';position:absolute;inset:0;z-index:0;opacity:.55;pointer-events:none;
+      background:radial-gradient(115% 78% at 50% 0%,rgba(118,86,215,.34) 0%,transparent 62%)}
+    .cmp.is-rec::before{background:radial-gradient(115% 78% at 50% 0%,rgba(222,242,67,.16) 0%,transparent 62%)}
+    .cmp>*{position:relative;z-index:1}
+    .cmp:hover{transform:translateY(var(--lift));box-shadow:var(--shadow-card-sm);border-color:rgba(159,168,240,.34)}
+    .cmp.is-rec:hover{border-color:rgba(222,242,67,.4)}
+    .cmp h3{margin-top:16px;font-size:22px;font-weight:700;line-height:1.4;color:var(--n800);letter-spacing:-.01em}
+    .cmp p{margin-top:14px;font-size:15px;line-height:1.9;color:var(--n300)}
+    .cmp-list{margin-top:20px;display:flex;flex-direction:column;gap:11px}
+    .cmp-list li{position:relative;list-style:none;padding-left:24px;font-size:15px;line-height:1.65;color:var(--n400)}
+    .cmp-list li::before{content:'';position:absolute;left:0;top:8px;width:8px;height:8px;background:var(--pri-500);transform:rotate(45deg)}
+    .cmp.is-rec .cmp-list li::before{background:var(--sec)}
+    .cmp-sum{margin-top:24px;padding-top:18px;border-top:1px solid var(--n150);font-size:15px;font-weight:700;color:var(--n700)}
+    .cmp-sum span{color:var(--pri-200)}
+    .cmp.is-rec .cmp-sum span{color:var(--sec)}
+
+    /* ════ FAQ（accordion；預設展開第一題）════ */
+    .faq-wrap{max-width:880px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
+    .faq{background:var(--n50);border:1px solid var(--n150);transition:border-color .2s}
+    .faq[open]{border-color:rgba(159,168,240,.34)}
+    .faq summary{list-style:none;cursor:pointer;padding:22px 26px;display:flex;align-items:center;justify-content:space-between;gap:16px;
+      font-size:16px;font-weight:700;color:var(--n700)}
+    .faq summary::-webkit-details-marker{display:none}
+    .faq-icon{flex-shrink:0;width:26px;height:26px;border:1px solid var(--n150);display:flex;align-items:center;justify-content:center;color:var(--pri-200);transition:transform .25s,background .2s}
+    .faq[open] .faq-icon{transform:rotate(45deg);background:var(--sec);color:#1B1C1C;border-color:var(--sec)}
+    .faq-icon svg{width:14px;height:14px}
+    .faq-body{padding:0 26px 24px;font-size:15px;line-height:1.85;color:var(--n300)}
+
+    /* ════ 底部 CTA ════ */
+    .final{position:relative;overflow:hidden;padding:74px 0 80px;background:var(--grad-bloom)}
+    .final::before{content:'';position:absolute;inset:0;z-index:0;pointer-events:none;opacity:.4;
+      background-image:radial-gradient(rgba(255,255,255,.18) 1px,transparent 1px);background-size:32px 32px;
+      -webkit-mask-image:radial-gradient(80% 80% at 50% 40%,#000 0%,transparent 76%);mask-image:radial-gradient(80% 80% at 50% 40%,#000 0%,transparent 76%)}
+    .final-in{position:relative;z-index:1;text-align:center;max-width:820px;margin:0 auto}
+    .final h2{font-size:var(--fs-h2);font-weight:700;line-height:var(--lh-heading);color:#fff;letter-spacing:-.01em}
+    .final p{margin:18px auto 0;max-width:640px;font-size:var(--fs-lead);line-height:1.85;color:rgba(255,255,255,.82)}
+    .final-links{margin-top:32px;display:flex;flex-wrap:wrap;gap:14px;justify-content:center}
+    .final-main{margin-top:26px;padding-top:28px;border-top:1px solid rgba(255,255,255,.16);display:flex;flex-direction:column;align-items:center;gap:12px}
+    .final-note{font-size:13px;color:rgba(255,255,255,.6);letter-spacing:.02em}
+
+    /* ── 進場捲動揭示 ── */
+    .reveal{opacity:0;transform:translateY(22px);transition:opacity .6s var(--ease),transform .6s var(--ease)}
+    .reveal.is-in{opacity:1;transform:none}
+
+    /* ════ FOOTER（與站內其他頁一致）════ */
+    .ft{background:#0B0C11;padding:56px 0 36px;color:#fff;border-top:1px solid var(--n150)}
+    .ft-inner{display:grid;gap:38px}
+    .ft-brand h2{font-size:24px;font-weight:700;margin-bottom:10px}
+    .ft-brand p{color:var(--n300);font-size:14px;line-height:1.7;max-width:560px}
+    .ft-links{display:grid;grid-template-columns:repeat(6,1fr);gap:24px;padding-top:34px;border-top:1px solid rgba(255,255,255,.08)}
+    .ft-col h3{font-size:16px;font-weight:500;color:#B5A8F0;margin-bottom:14px;text-transform:uppercase;letter-spacing:.1em}
+    .ft-col ul{list-style:none;display:flex;flex-direction:column;gap:9px}
+    .ft-col a{color:var(--n300);font-size:14px;transition:color .15s}
+    .ft-col a:hover{color:var(--sec)}
+    .ft-bot{padding-top:26px;border-top:1px solid rgba(255,255,255,.08);display:flex;flex-wrap:wrap;gap:10px 24px;justify-content:space-between;align-items:center;font-size:13px;color:var(--n200)}
+
+    /* ════ RESPONSIVE ════ */
+    @media(min-width:768px){.ft-inner{grid-template-columns:1fr}}
+    @media(max-width:980px){
+      .gcard-grid{grid-template-columns:repeat(2,1fr)}
+      .cmp-grid{grid-template-columns:1fr}
+      .ft-links{grid-template-columns:repeat(3,1fr)}
+    }
+    @media(max-width:760px){
+      /* 手機改用直式 banner */
+      .hero{min-height:560px;padding:146px 0 92px}
+      .hero::before{background:linear-gradient(180deg,rgba(11,13,18,.66) 0%,rgba(13,12,26,.32) 28%,rgba(15,17,21,.14) 60%,rgba(15,17,21,.64) 88%,#0F1115 100%),
+                 url('image/casino-game-guide/banner-phone.webp') center 46%/cover no-repeat}
+      .gcard-grid{grid-template-columns:1fr}
+      .cmp{padding:28px 24px}
+      .final{padding:60px 0 66px}
+      .final-links{flex-direction:column;align-items:stretch}
+      .final-links .btn{width:100%}
+      .btn-lg{width:100%;padding:14px 20px;font-size:17px}
+      .ft-links{grid-template-columns:repeat(2,1fr)}
+    }
+  </style>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">跳到主要內容</a>
+
+  <!-- ════════ HEADER（共用 site-navbar 元件）════════ -->
+  <site-navbar page="game-guide"></site-navbar>
+
+  <main id="main">
+
+  <!-- ════════ HERO BANNER ════════ -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="shell hero-wrap">
+      <h1 id="hero-title">娛樂城遊戲指南<span class="accent">老虎機攻略、原創遊戲與桌上遊戲教學</span></h1>
+      <p class="hero-sub">整理熱門娛樂城遊戲玩法，包含老虎機攻略、原創遊戲指南與桌上遊戲教學，幫助新手快速了解遊戲規則、倍率機制與入門重點</p>
+    </div>
+  </section>
+
+  <!-- ════════ 第二區：頁面介紹 ════════ -->
+  <section class="intro" aria-labelledby="overview-title">
+    <div class="intro-inner">
+      <h2 id="overview-title">娛樂城遊戲指南總覽</h2>
+      <p>娛樂城遊戲種類很多，從老虎機、原創遊戲到桌上遊戲，每一種玩法的節奏、規則與風險都不太一樣。<strong>晴天娛樂城推薦網</strong>整理熱門娛樂城遊戲指南，幫助新手先了解遊戲玩法，再依照自己的喜好選擇適合的平台與遊戲類型</p>
+      <p>本頁會先整理<strong class="hl">老虎機攻略</strong>、<strong class="hl">原創遊戲指南</strong>與<strong class="hl">桌上遊戲教學</strong>三大類型，後續也會陸續補上更多單款遊戲攻略與玩法解析</p>
+    </div>
+  </section>
+
+  <!-- ════════ 第三區：老虎機遊戲攻略 ════════ -->
+  <section class="sec sec-alt" id="slots" aria-labelledby="slots-title">
+    <div class="shell">
+      <div class="sec-head">
+        <h2 class="h2" id="slots-title">老虎機遊戲攻略</h2>
+        <p class="sec-desc">老虎機是娛樂城遊戲中最常見的類型之一，玩法直覺、節奏快速，但不同遊戲在 RTP、波動率、最高倍數與免費旋轉機制上都不一樣。新手可以先從熱門老虎機攻略開始，了解遊戲商、倍率特色與獎勵機制，再決定要玩哪一款</p>
+      </div>
+
+      <div class="gcard-grid">
+        <article class="gcard reveal">
+          <div class="gcard-media">
+            <img src="image/casino-game-guide/sweet-bonanza.webp" alt="Sweet Bonanza 老虎機遊戲畫面" width="800" height="450" loading="lazy" decoding="async">
+            <span class="tag is-slot">老虎機</span>
+          </div>
+          <div class="gcard-body">
+            <h3>Sweet Bonanza 攻略</h3>
+            <p>糖果主題老虎機，主打免費旋轉與隨機倍數機制，適合想了解高人氣 Slot 玩法的新手</p>
+            <!-- TODO：單款攻略頁上線後替換 href -->
+            <a class="btn btn-sm" href="#" aria-label="查看 Sweet Bonanza 攻略">查看攻略<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </article>
+
+        <article class="gcard reveal">
+          <div class="gcard-media">
+            <img src="image/casino-game-guide/gates-of-olympus.webp" alt="Gates of Olympus 老虎機遊戲畫面" width="800" height="450" loading="lazy" decoding="async">
+            <span class="tag is-slot">老虎機</span>
+          </div>
+          <div class="gcard-body">
+            <h3>Gates of Olympus 攻略</h3>
+            <p>希臘神話主題老虎機，特色是隨機倍數與高波動玩法，是許多玩家討論度很高的熱門遊戲</p>
+            <!-- TODO：單款攻略頁上線後替換 href -->
+            <a class="btn btn-sm" href="#" aria-label="查看 Gates of Olympus 攻略">查看攻略<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </article>
+
+        <article class="gcard reveal">
+          <div class="gcard-media">
+            <img src="image/casino-game-guide/sugar-rush.webp" alt="Sugar Rush 老虎機遊戲畫面" width="800" height="450" loading="lazy" decoding="async">
+            <span class="tag is-slot">老虎機</span>
+          </div>
+          <div class="gcard-body">
+            <h3>Sugar Rush 攻略</h3>
+            <p>以連鎖消除與倍數累積為核心的老虎機，適合想研究倍率區域與免費旋轉機制的玩家</p>
+            <!-- TODO：單款攻略頁上線後替換 href -->
+            <a class="btn btn-sm" href="#" aria-label="查看 Sugar Rush 攻略">查看攻略<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ 第四區：原創遊戲指南 ════════ -->
+  <section class="sec" id="original" aria-labelledby="original-title">
+    <div class="shell">
+      <div class="sec-head">
+        <h2 class="h2" id="original-title">原創遊戲指南</h2>
+        <p class="sec-desc">原創遊戲是 Web3 娛樂城很常見的特色玩法，規則通常比老虎機更簡單，節奏也更快。常見類型包含 Mines 踩地雷、Crash 飛機、Dice 骰子、Limbo 倍率與 Plinko 彈珠遊戲。這類遊戲重點在倍率變化與出手時機，適合先了解規則後再開始</p>
+      </div>
+
+      <div class="gcard-grid">
+        <article class="gcard reveal">
+          <div class="gcard-media">
+            <img src="image/casino-game-guide/mines.webp" alt="Mines 踩地雷原創遊戲畫面" width="800" height="450" loading="lazy" decoding="async">
+            <span class="tag is-original">原創遊戲</span>
+          </div>
+          <div class="gcard-body">
+            <h3>Mines 踩地雷攻略</h3>
+            <p>Mines 是熱門原創遊戲之一，玩家需要在格子中避開地雷，安全翻開越多格，倍率通常越高</p>
+            <a class="btn btn-sm" href="original-games-recommend.html" aria-label="查看 Mines 踩地雷攻略">查看攻略<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </article>
+
+        <article class="gcard reveal">
+          <div class="gcard-media">
+            <img src="image/casino-game-guide/crash.webp" alt="Crash 飛機原創遊戲畫面" width="800" height="450" loading="lazy" decoding="async">
+            <span class="tag is-original">原創遊戲</span>
+          </div>
+          <div class="gcard-body">
+            <h3>Crash 飛機玩法</h3>
+            <p>Crash 遊戲會隨時間提升倍率，玩家需要在爆掉前提早出金，是節奏很快的倍率型遊戲</p>
+            <a class="btn btn-sm" href="original-games-recommend.html" aria-label="查看 Crash 飛機玩法">查看攻略<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </article>
+
+        <article class="gcard reveal">
+          <div class="gcard-media">
+            <img src="image/casino-game-guide/chicken.webp" alt="Chicken Road 小雞過街原創遊戲畫面" width="800" height="450" loading="lazy" decoding="async">
+            <span class="tag is-original">原創遊戲</span>
+          </div>
+          <div class="gcard-body">
+            <h3>Chicken Road / 小雞過街玩法</h3>
+            <p>小雞過街是近年討論度很高的原創遊戲玩法，玩家需要控制風險與倍率，適合喜歡短局數遊戲的玩家</p>
+            <!-- TODO：單款攻略頁上線後替換 href -->
+            <a class="btn btn-sm" href="#" aria-label="查看 Chicken Road 小雞過街玩法">查看攻略<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ 第五區：桌上遊戲教學 ════════ -->
+  <section class="sec sec-alt" id="table" aria-labelledby="table-title">
+    <div class="shell">
+      <div class="sec-head">
+        <h2 class="h2" id="table-title">桌上遊戲教學</h2>
+        <p class="sec-desc">桌上遊戲偏向經典賭場玩法，常見類型包含輪盤、21點、百家樂與撲克類遊戲。相較於老虎機，桌上遊戲更重視規則理解、下注方式與策略判斷，適合想玩經典遊戲或想研究玩法邏輯的玩家</p>
+      </div>
+
+      <div class="gcard-grid">
+        <article class="gcard reveal">
+          <div class="gcard-media">
+            <img src="image/casino-game-guide/baccarat.webp" alt="百家樂桌上遊戲畫面" width="800" height="450" loading="lazy" decoding="async">
+            <span class="tag is-table">桌上遊戲</span>
+          </div>
+          <div class="gcard-body">
+            <h3>百家樂教學</h3>
+            <p>百家樂是新手最常接觸的真人與桌上遊戲之一，玩法核心是判斷莊家或閒家哪一方點數接近 9 點</p>
+            <a class="btn btn-sm" href="live-casino-recommend.html#baccarat" aria-label="查看百家樂教學">查看教學<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </article>
+
+        <article class="gcard reveal">
+          <div class="gcard-media">
+            <img src="image/casino-game-guide/blackjack.webp" alt="21點 Blackjack 桌上遊戲畫面" width="800" height="450" loading="lazy" decoding="async">
+            <span class="tag is-table">桌上遊戲</span>
+          </div>
+          <div class="gcard-body">
+            <h3>21點 Blackjack 玩法</h3>
+            <p>21點需要判斷是否要牌、停牌或分牌，比百家樂更需要基本策略與風險判斷</p>
+            <a class="btn btn-sm" href="table-games-recommend.html#blackjack" aria-label="查看 21點 Blackjack 玩法教學">查看教學<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </article>
+
+        <article class="gcard reveal">
+          <div class="gcard-media">
+            <img src="image/casino-game-guide/roulette.webp" alt="輪盤桌上遊戲畫面" width="800" height="450" loading="lazy" decoding="async">
+            <span class="tag is-table">桌上遊戲</span>
+          </div>
+          <div class="gcard-body">
+            <h3>輪盤玩法教學</h3>
+            <p>輪盤是經典桌上遊戲，玩家可依照顏色、單雙、大小或號碼區域下注，玩法選擇多元</p>
+            <a class="btn btn-sm" href="table-games-recommend.html#roulette" aria-label="查看輪盤玩法教學">查看教學<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ 第六區：遊戲指南 vs 遊戲推薦 ════════ -->
+  <section class="sec" id="vs" aria-labelledby="vs-title">
+    <div class="shell">
+      <div class="sec-head center">
+        <h2 class="h2" id="vs-title">遊戲指南和遊戲推薦有什麼不同？</h2>
+        <p class="sec-desc">兩者的用途不一樣：一個幫你把玩法看懂，一個幫你把遊戲挑好。先看指南建立基本認知，再看推薦挑平台，順序會更順</p>
+      </div>
+
+      <div class="cmp-grid">
+        <div class="cmp reveal">
+          <span class="tag">遊戲指南</span>
+          <h3>看規則、學玩法、了解機制</h3>
+          <p>遊戲指南主要是介紹玩法規則、倍率機制、操作方式與新手注意事項，適合還不熟悉遊戲的玩家閱讀</p>
+          <ul class="cmp-list">
+            <li>遊戲規則與勝負判定方式</li>
+            <li>倍率、賠率與獎勵機制說明</li>
+            <li>介面操作與新手常見誤區</li>
+          </ul>
+          <p class="cmp-sum">適合對象：<span>還不知道這款遊戲怎麼玩的人</span></p>
+        </div>
+
+        <div class="cmp is-rec reveal">
+          <span class="tag is-promo">遊戲推薦</span>
+          <h3>看排行、挑平台、找熱門遊戲</h3>
+          <p>遊戲推薦則是整理不同平台上的熱門遊戲與排行，適合已經知道自己想玩哪一類遊戲，想快速比較 Stake、Rainbet、Shuffle 等平台遊戲內容的玩家</p>
+          <ul class="cmp-list">
+            <li>熱門遊戲排行與人氣整理</li>
+            <li>各平台遊戲庫與特色比較</li>
+            <li>依遊戲類型快速找到入口</li>
+          </ul>
+          <p class="cmp-sum">適合對象：<span>已經知道想玩什麼、要挑平台的人</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ 第七區：FAQ 常見問題 ════════ -->
+  <section class="sec sec-alt" id="faq" aria-labelledby="faq-title">
+    <div class="shell">
+      <div class="sec-head center">
+        <h2 class="h2" id="faq-title">娛樂城遊戲指南常見問題</h2>
+      </div>
+
+      <div class="faq-wrap">
+        <details class="faq" open>
+          <summary>新手適合先看哪一類遊戲？<span class="faq-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></summary>
+          <div class="faq-body">新手可以先從老虎機、Mines 踩地雷或百家樂開始，這幾類遊戲規則相對直覺，比較容易快速理解基本玩法</div>
+        </details>
+        <details class="faq">
+          <summary>老虎機攻略會介紹哪些內容？<span class="faq-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></summary>
+          <div class="faq-body">老虎機攻略通常會整理遊戲主題、RTP、波動率、最高倍數、免費旋轉與特殊玩法，幫助玩家了解不同老虎機的差異</div>
+        </details>
+        <details class="faq">
+          <summary>原創遊戲是什麼？<span class="faq-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></summary>
+          <div class="faq-body">原創遊戲是 Web3 娛樂城常見的特色玩法，例如 Mines、Crash、Dice、Limbo、Plinko 等，通常規則簡單、節奏快速、倍率變化明顯</div>
+        </details>
+        <details class="faq">
+          <summary>桌上遊戲跟真人娛樂一樣嗎？<span class="faq-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></summary>
+          <div class="faq-body">不完全一樣。桌上遊戲偏向經典規則與策略玩法，真人娛樂則是透過真人荷官直播呈現。兩者可能有相同遊戲，例如百家樂、21點與輪盤，但體驗方式不同</div>
+        </details>
+        <details class="faq">
+          <summary>遊戲指南會介紹 Stake、Rainbet、Shuffle 嗎？<span class="faq-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></summary>
+          <div class="faq-body">會。遊戲指南會先介紹玩法規則，文章內再補充該遊戲可在哪些平台遊玩，例如 Stake、Rainbet、Shuffle</div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ 底部 CTA ════════ -->
+  <section class="final" aria-labelledby="final-title">
+    <div class="shell final-in">
+      <h2 id="final-title">想找更多熱門娛樂城遊戲？</h2>
+      <p>如果你已經了解基本玩法，可以進一步查看各類遊戲推薦頁，快速比較熱門遊戲與適合平台</p>
+      <div class="final-links">
+        <a class="btn btn-ghost" href="https://slbrox.com.tw/games-slots/">查看老虎機推薦<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <a class="btn btn-ghost" href="https://slbrox.com.tw/games-original-games/">查看原創遊戲推薦<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+      <div class="final-main">
+        <a class="btn btn-lg" href="https://stake.com/zh?offer=slbroseo&amp;tab=register&amp;modal=auth&amp;c=slbroseo" target="_blank" rel="noopener noreferrer sponsored">立即註冊 Stake 領取更多優惠<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <span class="final-note">18+ 請理性娛樂，本站僅提供資訊整理，不經營博弈服務</span>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- ════════ FOOTER（共用 site-footer 元件）════════ -->
+  <site-footer page="game-guide"></site-footer>
+
+  <!-- ════════ 結構化資料：FAQ / 麵包屑 ════════ -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {"@type":"Question","name":"新手適合先看哪一類遊戲？","acceptedAnswer":{"@type":"Answer","text":"新手可以先從老虎機、Mines 踩地雷或百家樂開始，這幾類遊戲規則相對直覺，比較容易快速理解基本玩法。"}},
+      {"@type":"Question","name":"老虎機攻略會介紹哪些內容？","acceptedAnswer":{"@type":"Answer","text":"老虎機攻略通常會整理遊戲主題、RTP、波動率、最高倍數、免費旋轉與特殊玩法，幫助玩家了解不同老虎機的差異。"}},
+      {"@type":"Question","name":"原創遊戲是什麼？","acceptedAnswer":{"@type":"Answer","text":"原創遊戲是 Web3 娛樂城常見的特色玩法，例如 Mines、Crash、Dice、Limbo、Plinko 等，通常規則簡單、節奏快速、倍率變化明顯。"}},
+      {"@type":"Question","name":"桌上遊戲跟真人娛樂一樣嗎？","acceptedAnswer":{"@type":"Answer","text":"不完全一樣。桌上遊戲偏向經典規則與策略玩法，真人娛樂則是透過真人荷官直播呈現。兩者可能有相同遊戲，例如百家樂、21點與輪盤，但體驗方式不同。"}},
+      {"@type":"Question","name":"遊戲指南會介紹 Stake、Rainbet、Shuffle 嗎？","acceptedAnswer":{"@type":"Answer","text":"會。遊戲指南會先介紹玩法規則，文章內再補充該遊戲可在哪些平台遊玩，例如 Stake、Rainbet、Shuffle。"}}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"BreadcrumbList",
+    "itemListElement":[
+      {"@type":"ListItem","position":1,"name":"首頁","item":"/"},
+      {"@type":"ListItem","position":2,"name":"娛樂城遊戲指南","item":"/casino-game-guide/"}
+    ]
+  }
+  </script>
+
+  <!-- 共用導覽列 / 頁尾元件腳本（含手機選單互動） -->
+  <script src="components/site-components.js"></script>
+  <script>
+    (function(){
+      // ── 導覽列 sticky：捲過 hero 後切換為實心背景 ──
+      var header=document.querySelector('.hdr');
+      var hero=document.querySelector('.hero');
+      if(header&&hero){
+        function sync(){
+          var heroBottom=hero.offsetTop+hero.offsetHeight;
+          header.classList.toggle('is-solid',window.scrollY>=(heroBottom-header.offsetHeight));
+        }
+        sync();
+        window.addEventListener('scroll',sync,{passive:true});
+        window.addEventListener('resize',sync);
+      }
+    })();
+
+
+    // ── 進場捲動揭示（含 reduced-motion 保護；逐項微延遲）──
+    (function(){
+      var items=document.querySelectorAll('.reveal');
+      if(!items.length) return;
+      var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+      if(reduce||!('IntersectionObserver' in window)){
+        items.forEach(function(el){el.classList.add('is-in');});
+        return;
+      }
+      var io=new IntersectionObserver(function(entries){
+        entries.forEach(function(en){
+          if(en.isIntersecting){
+            var el=en.target;
+            var sibs=Array.prototype.slice.call(el.parentNode.children).filter(function(n){return n.classList&&n.classList.contains('reveal');});
+            el.style.transitionDelay=(Math.min(sibs.indexOf(el),5)*70)+'ms';
+            el.classList.add('is-in');
+            io.unobserve(el);
+          }
+        });
+      },{rootMargin:'0px 0px -10% 0px',threshold:.12});
+      items.forEach(function(el){io.observe(el);});
+    })();
+
+    // ── A11y：純裝飾性 icon 一律對輔助技術隱藏 ──
+    (function(){
+      document.querySelectorAll('svg:not([aria-hidden])').forEach(function(s){
+        s.setAttribute('aria-hidden','true');
+        s.setAttribute('focusable','false');
+      });
+    })();
+  </script>
+</body>
+</html>
