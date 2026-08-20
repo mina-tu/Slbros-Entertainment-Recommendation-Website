@@ -5,7 +5,7 @@
         ranking: "#promotions",
         news: "news-center.html",
         guide: "guides-register-deposit.html",
-        gameGuide: "game-guides.html",
+        gameGuide: "casino-game-guide.html",
         texasPoker: "online-texas-poker.html",
       };
     }
@@ -14,7 +14,7 @@
       ranking: "online-casino-recommendation.html",
       news: "news-center.html",
       guide: "guides-register-deposit.html",
-      gameGuide: "game-guides.html",
+      gameGuide: "casino-game-guide.html",
       texasPoker: "online-texas-poker.html",
     };
   }
@@ -47,14 +47,14 @@
       ranking: "online-casino-recommendation.html",
       news: "news-center.html",
       guide: "guides-register-deposit.html",
-      gameGuide: "game-guides.html",
+      gameGuide: "casino-game-guide.html",
       vip: isIndex ? "#vip" : "index.html#vip",
       promoAll: promo.all,
       promoNewbie: promo.newbie,
       promoDeposit: promo.deposit,
       promoVip: promo.vip,
       promoLimited: promo.limited,
-      games: "game-guides.html",
+      games: "casino-game-guide.html",
       criteria: isIndex ? "#criteria" : "index.html#criteria",
       faq: isIndex ? "#faq" : "index.html#faq",
       helpCenter: "guides-register-deposit.html",
